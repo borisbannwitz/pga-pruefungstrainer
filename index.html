@@ -80,14 +80,15 @@ $('reviewOnly').onclick=()=>{reviewOnly=!reviewOnly;$('reviewOnly').setAttribute
 $('back').onclick=()=>{$('app').classList.add('hidden');$('start').classList.remove('hidden')};
 $('tabLearn').onclick=()=>showTab('learn');$('tabQuiz').onclick=()=>{showTab('quiz');$('quizCard').classList.add('hidden')};$('tabExam').onclick=()=>{showTab('exam');updateExamScope();};
 document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>choose(b.dataset.cat));
-function startQuiz(){if(!RULES.length)return;quiz=[...RULES].sort(()=>Math.random()-.5).slice(0,Math.min(10,RULES.length));qi=0;score=0;$('quizCard').classList.remove('hidden');renderQuiz();}
+function startQuiz(){const uniqueRules=uniqueQuestions(RULES);if(!uniqueRules.length)return;quiz=shuffle(uniqueRules).slice(0,Math.min(10,uniqueRules.length));qi=0;score=0;$('quizCard').classList.remove('hidden');renderQuiz();}
 function renderQuiz(){answered=false;let q=quiz[qi];$('quizCount').textContent='Frage '+(qi+1)+' von '+quiz.length+' · bisher '+score+' richtig';$('quizQuestion').textContent=q.question;$('options').innerHTML='';$('feedback').classList.remove('show');$('quizNext').classList.add('hidden');q.options.forEach((o,i)=>{let b=document.createElement('button');b.className='opt';b.textContent=String.fromCharCode(65+i)+') '+o;b.onclick=()=>answerQuiz(i,b);$('options').append(b)})}
 function answerQuiz(i,btn){if(answered)return;answered=true;let q=quiz[qi];if(i===q.correct){score++;if(progress[String(q.number)]!=='review')progress[String(q.number)]='known';}else{progress[String(q.number)]='review';}save();refreshStats();[...$('options').children].forEach((b,j)=>{if(j===q.correct)b.classList.add('correct');else if(j===i)b.classList.add('wrong');b.disabled=true});$('feedback').textContent=(i===q.correct?'Richtig. ':'Leider falsch. Richtige Antwort: '+q.options[q.correct]+'. ')+q.explanation+' Quelle: '+q.source;$('feedback').classList.add('show');$('quizNext').classList.remove('hidden');}
 $('startQuiz').onclick=startQuiz;$('quizNext').onclick=()=>{qi++;if(qi<quiz.length)renderQuiz();else{$('quizCount').textContent='Test abgeschlossen: '+score+' von '+quiz.length+' richtig ('+Math.round(score/quiz.length*100)+' %)';quizHistory.unshift({date:new Date().toISOString(),category:category,correct:score,total:quiz.length});quizHistory=quizHistory.slice(0,30);localStorage.setItem('pgaTrainerQuizHistoryV1',JSON.stringify(quizHistory));$('quizQuestion').textContent='Gut gemacht!';$('options').innerHTML='';$('feedback').classList.remove('show');$('quizNext').classList.add('hidden')}};
 
 // 45-question practice exam. PGA distractors are explicitly provisional and not official.
 let examQuestions=[], examAnswers={}, examIndex=0, examSeconds=3600, examInterval=null, examSubmitted=false;
-function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
+function shuffle(a){const out=[...a];for(let i=out.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[out[i],out[j]]=[out[j],out[i]]}return out}
+function uniqueQuestions(items){const seen=new Set();return items.filter(q=>{const key=String(q.question||'').normalize('NFKC').toLocaleLowerCase('de-DE').replace(/[^\p{L}\p{N}]+/gu,' ').trim();if(!key||seen.has(key))return false;seen.add(key);return true})}
 function makePgaChoice(q){
   if(q.options && q.optionsValidated===true){
     return {...q, explanation:q.explanation||q.answer, source:q.source||('PGA-Golftechnik · Originalfrage '+q.number)};
@@ -106,7 +107,7 @@ function makePgaChoice(q){
 }
 function buildExamSet(){
   if(category==='rules') return null;
-  const pgaSet=shuffle(PGA).slice(0,category==='both'?25:45).map(makePgaChoice);
+  const pgaSet=shuffle(uniqueQuestions(PGA)).slice(0,category==='both'?25:45).map(makePgaChoice);
   if(category==='both') return shuffle([...pgaSet,...shuffle(RULES).slice(0,20)]);
   return shuffle(pgaSet);
 }
@@ -179,4 +180,7 @@ $('examAgain').onclick=()=>{$('examResult').classList.add('hidden');$('examIntro
 
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 </script></body></html>
+
+
+
 
