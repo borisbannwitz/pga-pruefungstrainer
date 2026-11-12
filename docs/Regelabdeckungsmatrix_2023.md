@@ -1,18 +1,18 @@
 # Abdeckungsmatrix – Offizielle Golfregeln 2023
 
-Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 1.6 und der lokalen Fragenliste `rules.json`.
+Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 1.7 und der lokalen Fragenliste `rules.json`.
 
 ## Umfang und bisherige Fragen
 
 | Bestandteil | Einträge im PDF | Direkt mit Frage verknüpft | Nur verwandte Regelzweig-Frage | Keine Frage zugeordnet |
 |---|---:|---:|---:|---:|
 | Regelüberschriften (x.y und Buchstaben-Unterabschnitte) | 336 | 123 | 189 | 24 |
-| Nummerierte Absätze wie 1.3b(1) | 185 | 15 | 138 | 32 |
+| Nummerierte Absätze wie 1.3b(1) | 185 | 47 | 138 | 0 |
 | Definitionen | 74 | 74 | 0 | 0 |
-| **Gesamt** | **595** | **212** | **327** | **56** |
+| **Gesamt** | **595** | **244** | **327** | **24** |
 
-Die PDF-Auswertung enthält 107 Überschriften im Format x.y, 229 Buchstaben-Unterabschnitte, 185 ausdrücklich nummerierte Klammer-Absätze und 74 Definitionen: **595 Matrixzeilen**. In der App liegen **202 Fragen**: 127 Regel-/Änderungsfragen sowie 74 Einzeldefinitionsfragen und eine zusätzliche Frage zur Definitionsänderung „Erleichterungsbereich“.
-Von den 185 nummerierten Klammer-Absätzen sind **15 direkt verknüpft**, **138 nur über einen verwandten Abschnitt bzw. eine Elternregel angesprochen** und **32 ohne zugeordneten Regelzweig-Verweis**.
+Die PDF-Auswertung enthält 107 Überschriften im Format x.y, 229 Buchstaben-Unterabschnitte, 185 ausdrücklich nummerierte Klammer-Absätze und 74 Definitionen: **595 Matrixzeilen**. In der App liegen **234 Fragen**: 159 Regel-/Änderungsfragen sowie 74 Einzeldefinitionsfragen und eine zusätzliche Frage zur Definitionsänderung „Erleichterungsbereich“.
+Von den 185 nummerierten Klammer-Absätzen sind **47 direkt verknüpft**, **138 nur über einen verwandten Abschnitt bzw. eine Elternregel angesprochen** und **0 ohne zugeordneten Regelzweig-Verweis**. Die 32 zuvor offenen Unterpunkte wurden als Fragen R203–R234 ergänzt.
 
 „Direkt verknüpft“ bedeutet: Die genaue Kennung steht in der Fragenzuordnung oder in Quelle/Fragentext. Eine verwandte Frage nennt nur eine Eltern- oder Kindregel und zählt daher nicht als genaue Unterpunkt-Zuordnung. Der Status prüft Kennungen und Zuordnungen, nicht die fachliche Vollständigkeit der Antwort.
 
@@ -65,16 +65,16 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 3.2a(4) | 34 | Nummerierter Absatz (4) · 3.2a | Verlängerung eines geteilten Lochspiels. | — | — | R22 (3.2a) | Nur im Regelzweig |
 | 3.2a(5) | 34 | Nummerierter Absatz (5) · 3.2a | Wann ein Ergebnis endgültig ist. | — | — | R22 (3.2a) | Nur im Regelzweig |
 | 3.2b | 35 | Buchstaben-Unterabschnitt · 3.2 | Schenken | — | — | — | Keine Frage zugeordnet |
-| 3.2b(1) | 35 | Nummerierter Absatz (1) · 3.2b | Spieler darf Schlag, Loch oder Lochspiel schenken. | — | — | — | Keine Frage zugeordnet |
-| 3.2b(2) | 35 | Nummerierter Absatz (2) · 3.2b | Wie geschenkt wird. | — | — | — | Keine Frage zugeordnet |
+| 3.2b(1) | 35 | Nummerierter Absatz (1) · 3.2b | Spieler darf Schlag, Loch oder Lochspiel schenken. | — | R203 — Wann darf ein Spieler seinem Gegner den nächsten Schlag schenken? | — | Direkt verknüpft |
+| 3.2b(2) | 35 | Nummerierter Absatz (2) · 3.2b | Wie geschenkt wird. | — | R204 — Wann ist ein Schenken im Lochspiel eindeutig wirksam und kann es zurückgenommen werden? | — | Direkt verknüpft |
 | 3.2c | 36 | Buchstaben-Unterabschnitt · 3.2 | Anwendung der Handicaps in Netto-Lochspielen | — | — | — | Keine Frage zugeordnet |
-| 3.2c(1) | 36 | Nummerierter Absatz (1) · 3.2c | Handicaps mitteilen. | — | — | — | Keine Frage zugeordnet |
-| 3.2c(2) | 36 | Nummerierter Absatz (2) · 3.2c | Löcher, an denen Handicapschläge angerechnet werden. | — | — | — | Keine Frage zugeordnet |
+| 3.2c(1) | 36 | Nummerierter Absatz (1) · 3.2c | Handicaps mitteilen. | — | R205 — Ein Spieler teilt ein zu hohes Handicap mit. Er berichtigt es nicht rechtzeitig, und dadurch erhält er zu viele Handicap-Schläge. Was gilt? | — | Direkt verknüpft |
+| 3.2c(2) | 36 | Nummerierter Absatz (2) · 3.2c | Löcher, an denen Handicapschläge angerechnet werden. | — | R206 — Wer ist im Netto-Lochspiel dafür verantwortlich zu wissen, an welchen Löchern Handicap-Schläge gewährt oder erhalten werden? | — | Direkt verknüpft |
 | 3.2d | 36 | Buchstaben-Unterabschnitt · 3.2 | Verantwortlichkeiten von Spieler und Gegner | — | — | — | Keine Frage zugeordnet |
-| 3.2d(1) | 36 | Nummerierter Absatz (1) · 3.2d | Gegner Schlagzahl mitteilen. | — | — | — | Keine Frage zugeordnet |
-| 3.2d(2) | 37 | Nummerierter Absatz (2) · 3.2d | Dem Gegner Strafe mitteilen. | — | — | — | Keine Frage zugeordnet |
-| 3.2d(3) | 38 | Nummerierter Absatz (3) · 3.2d | Kenntnis über den Spielstand im Lochspiel. | — | — | — | Keine Frage zugeordnet |
-| 3.2d(4) | 38 | Nummerierter Absatz (4) · 3.2d | Eigene Rechte und Interessen schützen. | — | — | — | Keine Frage zugeordnet |
+| 3.2d(1) | 36 | Nummerierter Absatz (1) · 3.2d | Gegner Schlagzahl mitteilen. | — | R207 — Der Gegner fragt während eines Lochs nach der bisherigen Schlagzahl. Was muss der Spieler mitteilen? | — | Direkt verknüpft |
+| 3.2d(2) | 37 | Nummerierter Absatz (2) · 3.2d | Dem Gegner Strafe mitteilen. | — | R208 — Ein Spieler hat sich im Lochspiel eine Strafe zugezogen. Wann muss er den Gegner darüber informieren? | — | Direkt verknüpft |
+| 3.2d(3) | 38 | Nummerierter Absatz (3) · 3.2d | Kenntnis über den Spielstand im Lochspiel. | — | R209 — Beide Spieler haben sich versehentlich auf einen falschen Spielstand geeinigt. Bis wann können sie ihn grundsätzlich berichtigen? | — | Direkt verknüpft |
+| 3.2d(4) | 38 | Nummerierter Absatz (4) · 3.2d | Eigene Rechte und Interessen schützen. | — | R210 — Ein Spieler weiß, dass sein Gegner eine Strafe verwirkt hat. Was darf er tun? | — | Direkt verknüpft |
 | 3.3 | 39 | Hauptabschnitt · Regel 3 | Zählspiel | 🟠 enthält: 3.3b(4) | R2 — Wer gewinnt im Zählspiel grundsätzlich?<br>R48 — Wer ist im Zählspiel für die Handicap-Schläge und die Ermittlung des Nettoergebnisses verantwortlich? | — | Direkt verknüpft |
 | 3.3a | 39 | Buchstaben-Unterabschnitt · 3.3 | Gewinner im Zählspiel | — | — | R2 (3.3)<br>R48 (3.3) | Nur im Regelzweig |
 | 3.3b | 39 | Buchstaben-Unterabschnitt · 3.3 | Ergebnisse im Zählspiel | 🟠 enthält: 3.3b(4) | — | R2 (3.3)<br>R48 (3.3, 3.3b(4)) | Nur im Regelzweig |
@@ -132,9 +132,9 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 5.6 | 60 | Hauptabschnitt · Regel 5 | Unangemessene Verzögerung; zügiges Spiel | — | — | R3 (5.6a) | Nur im Regelzweig |
 | 5.6a | 60 | Buchstaben-Unterabschnitt · 5.6 | Unangemessene Verzögerung des Spiels | — | R3 — Wie lange darf ein Ball grundsätzlich gesucht werden? | — | Direkt verknüpft |
 | 5.6b | 60 | Buchstaben-Unterabschnitt · 5.6 | Zügiges Spiel | — | — | — | Keine Frage zugeordnet |
-| 5.6b(1) | 60 | Nummerierter Absatz (1) · 5.6b | Empfehlungen zur Spielgeschwindigkeit. | — | — | — | Keine Frage zugeordnet |
-| 5.6b(2) | 61 | Nummerierter Absatz (2) · 5.6b | Außerhalb der Reihenfolge spielen, um Zeit zu sparen. | — | — | — | Keine Frage zugeordnet |
-| 5.6b(3) | 61 | Nummerierter Absatz (3) · 5.6b | Richtlinien der Spielleitung für zügiges Spiel | — | — | — | Keine Frage zugeordnet |
+| 5.6b(1) | 60 | Nummerierter Absatz (1) · 5.6b | Empfehlungen zur Spielgeschwindigkeit. | — | R211 — Welche Zeit empfiehlt Regel 5.6b(1) für die Ausführung eines Schlags, sobald der Spieler ungestört spielen kann? | — | Direkt verknüpft |
+| 5.6b(2) | 61 | Nummerierter Absatz (2) · 5.6b | Außerhalb der Reihenfolge spielen, um Zeit zu sparen. | — | R212 — Welche Aussage zum Spielen außerhalb der Reihenfolge, um Zeit zu sparen, stimmt? | — | Direkt verknüpft |
+| 5.6b(3) | 61 | Nummerierter Absatz (3) · 5.6b | Richtlinien der Spielleitung für zügiges Spiel | — | R213 — Was sollte die Spielleitung tun, um zügiges Spiel zu fördern und durchzusetzen? | — | Direkt verknüpft |
 | 5.7 | 61 | Hauptabschnitt · Regel 5 | Unterbrechung des Spiels; Wiederaufnahme des Spiels | — | R153 — Wann müssen Spieler das Spiel sofort unterbrechen? | — | Direkt verknüpft |
 | 5.7a | 61 | Buchstaben-Unterabschnitt · 5.7 | Wann Spieler das Spiel unterbrechen dürfen oder müssen | — | — | R153 (5.7) | Nur im Regelzweig |
 | 5.7b | 62 | Buchstaben-Unterabschnitt · 5.7 | Pflichten der Spieler bei Unterbrechung des Spiels durch die Spielleitung | — | — | R153 (5.7) | Nur im Regelzweig |
@@ -155,11 +155,11 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 6.2a | 66 | Buchstaben-Unterabschnitt · 6.2 | Wann Regeln für den Abschlag gelten | — | — | — | Keine Frage zugeordnet |
 | 6.2b | 66 | Buchstaben-Unterabschnitt · 6.2 | Regeln für den Abschlag | — | — | R4 (6.2b(1)) | Nur im Regelzweig |
 | 6.2b(1) | 66 | Nummerierter Absatz (1) · 6.2b | Wann der Ball innerhalb des Abschlags liegt. | — | R4 — Wo muss ein Ball beim Spielen vom Abschlag gespielt werden? | — | Direkt verknüpft |
-| 6.2b(2) | 67 | Nummerierter Absatz (2) · 6.2b | Der Ball darf aufgeteet oder vom Boden gespielt werden. | — | — | — | Keine Frage zugeordnet |
-| 6.2b(3) | 68 | Nummerierter Absatz (3) · 6.2b | Bestimmte Bedingungen auf dem Abschlag dürfen verbessert werden. | — | — | — | Keine Frage zugeordnet |
-| 6.2b(4) | 68 | Nummerierter Absatz (4) · 6.2b | Einschränkung, Abschlagmarkierungen zu versetzen, wenn vom Abschlag gespielt wird. | — | — | — | Keine Frage zugeordnet |
-| 6.2b(5) | 68 | Nummerierter Absatz (5) · 6.2b | Ball bis zum Schlag nicht im Spiel. | — | — | — | Keine Frage zugeordnet |
-| 6.2b(6) | 69 | Nummerierter Absatz (6) · 6.2b | Wenn Ball im Spiel innerhalb des Abschlags liegt. | — | — | — | Keine Frage zugeordnet |
+| 6.2b(2) | 67 | Nummerierter Absatz (2) · 6.2b | Der Ball darf aufgeteet oder vom Boden gespielt werden. | — | R214 — Von wo darf ein Ball beim Spielen vom Abschlag gespielt werden? | — | Direkt verknüpft |
+| 6.2b(3) | 68 | Nummerierter Absatz (3) · 6.2b | Bestimmte Bedingungen auf dem Abschlag dürfen verbessert werden. | — | R215 — Welche Handlung darf ein Spieler vor dem Schlag auf dem Abschlag vornehmen? | — | Direkt verknüpft |
+| 6.2b(4) | 68 | Nummerierter Absatz (4) · 6.2b | Einschränkung, Abschlagmarkierungen zu versetzen, wenn vom Abschlag gespielt wird. | — | R216 — Ein Spieler versetzt eine Abschlagmarkierung, um die Bedingungen für seinen Schlag zu verbessern. Was ist die Folge? | — | Direkt verknüpft |
+| 6.2b(5) | 68 | Nummerierter Absatz (5) · 6.2b | Ball bis zum Schlag nicht im Spiel. | — | R217 — Ein aufgeteeter Ball fällt vor dem Schlag vom Tee. Was darf der Spieler tun? | — | Direkt verknüpft |
+| 6.2b(6) | 69 | Nummerierter Absatz (6) · 6.2b | Wenn Ball im Spiel innerhalb des Abschlags liegt. | — | R218 — Ein Spieler schlägt am Abschlag am Ball vorbei; der Ball bleibt im Spiel und liegt noch im Abschlag. Was darf er tun? | — | Direkt verknüpft |
 | 6.3 | 69 | Hauptabschnitt · Regel 6 | Beim Spielen eines Lochs benutzter Ball | 🟠 enthält: 6.3b(3) | R50 — Welche Strafe gilt 2023, wenn ein Spieler regelwidrig einen neuen Ball einsetzt, obwohl der ursprüngliche Ball weiterzuspielen wäre? | R27 (6.3c) | Direkt verknüpft |
 | 6.3a | 69 | Buchstaben-Unterabschnitt · 6.3 | Einlochen mit demselben Ball, der vom Abschlag gespielt wurde | — | — | R50 (6.3) | Nur im Regelzweig |
 | 6.3b | 69 | Buchstaben-Unterabschnitt · 6.3 | Einsetzen eines anderen Balls, während Loch gespielt wird | 🟠 enthält: 6.3b(3) | — | R50 (6.3, 6.3b(3)) | Nur im Regelzweig |
@@ -172,15 +172,15 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 6.3d | 72 | Buchstaben-Unterabschnitt · 6.3 | Wann ein Spieler mehr als einen Ball gleichzeitig spielen darf | — | — | R50 (6.3) | Nur im Regelzweig |
 | 6.4 | 72 | Hauptabschnitt · Regel 6 | Spielfolge beim Spielen des Lochs | — | — | R5 (6.4b) | Nur im Regelzweig |
 | 6.4a | 72 | Buchstaben-Unterabschnitt · 6.4 | Lochspiel | — | — | — | Keine Frage zugeordnet |
-| 6.4a(1) | 72 | Nummerierter Absatz (1) · 6.4a | Spielfolge. | — | — | — | Keine Frage zugeordnet |
-| 6.4a(2) | 73 | Nummerierter Absatz (2) · 6.4a | Gegner darf außerhalb der Reihe gespielten Schlag des Spielers für ungültig erklären. | — | — | — | Keine Frage zugeordnet |
+| 6.4a(1) | 72 | Nummerierter Absatz (1) · 6.4a | Spielfolge. | — | R219 — Ein Loch im Lochspiel wird geteilt. Wer hat am nächsten Abschlag die Ehre? | — | Direkt verknüpft |
+| 6.4a(2) | 73 | Nummerierter Absatz (2) · 6.4a | Gegner darf außerhalb der Reihe gespielten Schlag des Spielers für ungültig erklären. | — | R220 — Ein Spieler schlägt im Lochspiel, obwohl der Gegner an der Reihe war. Was darf der Gegner tun? | — | Direkt verknüpft |
 | 6.4b | 73 | Buchstaben-Unterabschnitt · 6.4 | Zählspiel | — | R5 — Wer spielt im Zählspiel normalerweise zuerst? | — | Direkt verknüpft |
 | 6.4b(1) | 73 | Nummerierter Absatz (1) · 6.4b | Normale Spielfolge. | — | — | R5 (6.4b) | Nur im Regelzweig |
 | 6.4b(2) | 74 | Nummerierter Absatz (2) · 6.4b | Spielen außer der Reihe in sicherheits- und verantwortungsbewusster Weise („Ready Golf“). | — | — | R5 (6.4b) | Nur im Regelzweig |
 | 6.4c | 74 | Buchstaben-Unterabschnitt · 6.4 | Spielen eines provisorischen Balls oder anderen Balls vom Abschlag | — | — | — | Keine Frage zugeordnet |
 | 6.4d | 75 | Buchstaben-Unterabschnitt · 6.4 | Wenn Spieler Erleichterung außerhalb des Abschlags in Anspruch nimmt oder einen provisorischen Ball außerhalb des Abschlags spielen möchte | — | — | — | Keine Frage zugeordnet |
-| 6.4d(1) | 75 | Nummerierter Absatz (1) · 6.4d | Erleichterung in Anspruch nehmen, um einen Ball von anderer Stelle zu spielen, als der, an der er liegt. | — | — | — | Keine Frage zugeordnet |
-| 6.4d(2) | 75 | Nummerierter Absatz (2) · 6.4d | Provisorischen Ball spielen. | — | — | — | Keine Frage zugeordnet |
+| 6.4d(1) | 75 | Nummerierter Absatz (1) · 6.4d | Erleichterung in Anspruch nehmen, um einen Ball von anderer Stelle zu spielen, als der, an der er liegt. | — | R221 — Ein Spieler darf seinen Ball spielen, wie er liegt, oder Erleichterung nehmen. Woran richtet sich seine Spielfolge, wenn er sich für Erleichterung entscheidet? | — | Direkt verknüpft |
+| 6.4d(2) | 75 | Nummerierter Absatz (2) · 6.4d | Provisorischen Ball spielen. | — | R222 — Wann muss ein Spieler einen provisorischen Ball außerhalb des Abschlags spielen? | — | Direkt verknüpft |
 | 6.5 | 76 | Hauptabschnitt · Regel 6 | Beenden eines Lochs | — | R155 — Wann ist ein Loch im normalen Zählspiel beendet? | — | Direkt verknüpft |
 | 7.1 | 78 | Hauptabschnitt · Regel 7 | Wie Ball redlich gesucht wird | — | R6 — Was ist beim redlichen Suchen eines Balls erlaubt? | — | Direkt verknüpft |
 | 7.1a | 78 | Buchstaben-Unterabschnitt · 7.1 | Spieler darf angemessen handeln, um Ball zu finden und zu identifizieren | — | — | R6 (7.1) | Nur im Regelzweig |
@@ -271,13 +271,13 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 13.1c(1) | 117 | Nummerierter Absatz (1) · 13.1c | Sand und loses Erdreich entfernen. | — | — | R13 (13.1c)<br>R33 (13.1c) | Nur im Regelzweig |
 | 13.1c(2) | 117 | Nummerierter Absatz (2) · 13.1c | Schäden ausbessern. | — | — | R13 (13.1c)<br>R33 (13.1c) | Nur im Regelzweig |
 | 13.1d | 118 | Buchstaben-Unterabschnitt · 13.1 | Wenn Ball oder Ballmarker sich auf dem Grün bewegen | — | — | — | Keine Frage zugeordnet |
-| 13.1d(1) | 118 | Nummerierter Absatz (1) · 13.1d | Keine Strafe für versehentliches Bewegen des Balls. | — | — | — | Keine Frage zugeordnet |
-| 13.1d(2) | 118 | Nummerierter Absatz (2) · 13.1d | Wann durch Naturkräfte bewegter Ball zurückzulegen ist. | — | — | — | Keine Frage zugeordnet |
+| 13.1d(1) | 118 | Nummerierter Absatz (1) · 13.1d | Keine Strafe für versehentliches Bewegen des Balls. | — | R223 — Ein Spieler bewegt den Ballmarker eines Spielers auf dem Grün versehentlich. Was gilt? | — | Direkt verknüpft |
+| 13.1d(2) | 118 | Nummerierter Absatz (2) · 13.1d | Wann durch Naturkräfte bewegter Ball zurückzulegen ist. | — | R224 — Naturkräfte bewegen einen Ball auf dem Grün. Wann muss er an die ursprüngliche Stelle zurückgelegt werden? | — | Direkt verknüpft |
 | 13.1e | 118 | Buchstaben-Unterabschnitt · 13.1 | Kein absichtliches Prüfen der Grüns | — | — | — | Keine Frage zugeordnet |
 | 13.1f | 119 | Buchstaben-Unterabschnitt · 13.1 | Von einem falschen Grün muss Erleichterung in Anspruch genommen werden | — | — | — | Keine Frage zugeordnet |
-| 13.1f(1) | 119 | Nummerierter Absatz (1) · 13.1f | Beeinträchtigung durch ein falsches Grün. | — | — | — | Keine Frage zugeordnet |
-| 13.1f(2) | 119 | Nummerierter Absatz (2) · 13.1f | Erleichterung muss in Anspruch genommen werden. | — | — | — | Keine Frage zugeordnet |
-| 13.1f(3) | 119 | Nummerierter Absatz (3) · 13.1f | Keine Erleichterung, wenn sie offensichtlich unangemessen ist. | — | — | — | Keine Frage zugeordnet |
+| 13.1f(1) | 119 | Nummerierter Absatz (1) · 13.1f | Beeinträchtigung durch ein falsches Grün. | — | R225 — Wann liegt eine Beeinträchtigung durch ein falsches Grün vor? | — | Direkt verknüpft |
+| 13.1f(2) | 119 | Nummerierter Absatz (2) · 13.1f | Erleichterung muss in Anspruch genommen werden. | — | R226 — Der Ball oder der Stand wird durch ein falsches Grün beeinträchtigt. Wie muss der Spieler vorgehen? | — | Direkt verknüpft |
+| 13.1f(3) | 119 | Nummerierter Absatz (3) · 13.1f | Keine Erleichterung, wenn sie offensichtlich unangemessen ist. | — | R227 — Wann gibt es keine Erleichterung wegen eines falschen Grüns? | — | Direkt verknüpft |
 | 13.2 | 121 | Hauptabschnitt · Regel 13 | Flaggenstockk | — | — | R12 (13.2a) | Nur im Regelzweig |
 | 13.2a | 121 | Buchstaben-Unterabschnitt · 13.2 | Flaggenstock im Loch belassen | — | R12 — Darf der Spieler auf dem Grün den Flaggenstock beim Schlag im Loch lassen? | — | Direkt verknüpft |
 | 13.2a(1) | 121 | Nummerierter Absatz (1) · 13.2a | Spieler darf den Flaggenstock im Loch belassen. | — | — | R12 (13.2a) | Nur im Regelzweig |
@@ -285,8 +285,8 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 13.2a(3) | 121 | Nummerierter Absatz (3) · 13.2a | Einschränkung für den Spieler beim Bewegen oder Entfernen des Flaggenstocks im Loch, während ein Ball in Bewegung ist. | — | — | R12 (13.2a) | Nur im Regelzweig |
 | 13.2a(4) | 122 | Nummerierter Absatz (4) · 13.2a | Einschränkungen für andere Spieler beim Bewegen oder Entfernen des Flaggenstocks, wenn der Spieler sich entschieden hat, diesen im Loch zu belassen. | — | — | R12 (13.2a) | Nur im Regelzweig |
 | 13.2b | 122 | Buchstaben-Unterabschnitt · 13.2 | Flaggenstock aus Loch entfernen | — | — | — | Keine Frage zugeordnet |
-| 13.2b(1) | 122 | Nummerierter Absatz (1) · 13.2b | Spieler darf den Flaggenstock aus dem Loch entfernen lassen. | — | — | — | Keine Frage zugeordnet |
-| 13.2b(2) | 123 | Nummerierter Absatz (2) · 13.2b | Was zu tun ist, wenn Ball den Flaggenstock oder die Person, die ihn bedient, trifft. | — | — | — | Keine Frage zugeordnet |
+| 13.2b(1) | 122 | Nummerierter Absatz (1) · 13.2b | Spieler darf den Flaggenstock aus dem Loch entfernen lassen. | — | R228 — Wie kann ein Spieler entscheiden, den Schlag mit entferntem Flaggenstock auszuführen? | — | Direkt verknüpft |
+| 13.2b(2) | 123 | Nummerierter Absatz (2) · 13.2b | Was zu tun ist, wenn Ball den Flaggenstock oder die Person, die ihn bedient, trifft. | — | R229 — Der Ball trifft versehentlich den entfernten Flaggenstock oder die Person, die ihn bedient. Was gilt? | — | Direkt verknüpft |
 | 13.2c | 124 | Buchstaben-Unterabschnitt · 13.2 | Ball ruht am Flaggenstock im Loch | — | — | — | Keine Frage zugeordnet |
 | 13.3 | 125 | Hauptabschnitt · Regel 13 | Ball ragt über den Lochrand hinaus | — | R171 — Der Ball hängt über dem Lochrand. Wie lange darf der Spieler zunächst warten? | — | Direkt verknüpft |
 | 13.3a | 125 | Buchstaben-Unterabschnitt · 13.3 | Wartezeit, um festzustellen, ob ein über den Lochrand hinausragender Ball ins Loch fallen wird | — | — | R171 (13.3) | Nur im Regelzweig |
@@ -422,10 +422,10 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 20.1b(3) | 196 | Nummerierter Absatz (3) · 20.1b | Regelentscheidung verlangt, nachdem Ergebnis des Lochspiels feststeht. | — | — | R41 (20.1b) | Nur im Regelzweig |
 | 20.1b(4) | 196 | Nummerierter Absatz (4) · 20.1b | Kein Recht, zwei Bälle zu spielen. | — | — | R41 (20.1b) | Nur im Regelzweig |
 | 20.1c | 196 | Buchstaben-Unterabschnitt · 20.1 | Regelfälle im Zählspiel | — | — | R40 (20.1c(3)) | Nur im Regelzweig |
-| 20.1c(1) | 196 | Nummerierter Absatz (1) · 20.1c | Kein Recht, Regelfälle durch Absprache zu entscheiden. | — | — | — | Keine Frage zugeordnet |
-| 20.1c(2) | 196 | Nummerierter Absatz (2) · 20.1c | Spieler sollten die anderen Spieler im Teilnehmerfeld schützen. | — | — | — | Keine Frage zugeordnet |
+| 20.1c(1) | 196 | Nummerierter Absatz (1) · 20.1c | Kein Recht, Regelfälle durch Absprache zu entscheiden. | — | R230 — Die Spieler im Zählspiel sind sich über die Anwendung einer Regel einig, aber ein Referee ist nicht erreichbar. Was gilt? | — | Direkt verknüpft |
+| 20.1c(2) | 196 | Nummerierter Absatz (2) · 20.1c | Spieler sollten die anderen Spieler im Teilnehmerfeld schützen. | — | R231 — Ein Spieler glaubt, ein anderer Spieler habe einen Regelverstoß begangen, bemerkt ihn aber nicht. Was sollte er tun? | — | Direkt verknüpft |
 | 20.1c(3) | 197 | Nummerierter Absatz (3) · 20.1c | Spielen zweier Bälle bei Zweifeln, wie vorzugehen ist. | — | R40 — Ein Spieler im Zählspiel ist unsicher, wie eine Regel anzuwenden ist. Welche Möglichkeit sieht die Regel vor? | — | Direkt verknüpft |
-| 20.1c(4) | 197 | Nummerierter Absatz (4) · 20.1c | Entscheidung der Spielleitung über das Lochergebnis. | — | — | — | Keine Frage zugeordnet |
+| 20.1c(4) | 197 | Nummerierter Absatz (4) · 20.1c | Entscheidung der Spielleitung über das Lochergebnis. | — | R232 — Ein Spieler spielt im Zählspiel zwei Bälle. Die gewählte Vorgehensweise für den ausgewählten Ball war nicht erlaubt, die Vorgehensweise für den anderen Ball aber schon. Welches Ergebnis zählt? | — | Direkt verknüpft |
 | 20.2 | 198 | Hauptabschnitt · Regel 20 | Entscheidungen zu Regelfällen | — | R184 — Worauf beruht die Entscheidung in einem Regelfall? | — | Direkt verknüpft |
 | 20.2a | 198 | Buchstaben-Unterabschnitt · 20.2 | Entscheidungen eines Referees | — | — | R184 (20.2) | Nur im Regelzweig |
 | 20.2b | 198 | Buchstaben-Unterabschnitt · 20.2 | Entscheidungen der Spielleitung | — | — | R184 (20.2) | Nur im Regelzweig |
@@ -479,8 +479,8 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 23.2 | 216 | Hauptabschnitt · Regel 23 | Zählweise im Vierball | — | — | R44 (23.2a) | Nur im Regelzweig |
 | 23.2a | 216 | Buchstaben-Unterabschnitt · 23.2 | Ergebnis der Partei für Loch im Lochspiel oder Zählspiel | — | R44 — Wie wird das Ergebnis einer Seite an einem Loch im Four-Ball grundsätzlich bestimmt? | — | Direkt verknüpft |
 | 23.2b | 217 | Buchstaben-Unterabschnitt · 23.2 | Scorekarte der Partei im Zählspiel | — | — | — | Keine Frage zugeordnet |
-| 23.2b(1) | 217 | Nummerierter Absatz (1) · 23.2b | Verantwortlichkeit der Partei. | — | — | — | Keine Frage zugeordnet |
-| 23.2b(2) | 217 | Nummerierter Absatz (2) · 23.2b | Verantwortlichkeit der Spielleitung. | — | — | — | Keine Frage zugeordnet |
+| 23.2b(1) | 217 | Nummerierter Absatz (1) · 23.2b | Verantwortlichkeit der Partei. | — | R233 — Welche Anforderung gilt für die Scorekarte einer Partei im Vierball-Zählspiel? | — | Direkt verknüpft |
+| 23.2b(2) | 217 | Nummerierter Absatz (2) · 23.2b | Verantwortlichkeit der Spielleitung. | — | R234 — Beide Partner tragen im Vierball-Zählspiel unterschiedliche Ergebnisse für ein Loch ein. Welches Ergebnis zählt für die Partei? | — | Direkt verknüpft |
 | 23.2c | 217 | Buchstaben-Unterabschnitt · 23.2 | Wann Regel 11.2 im Vierball nicht gilt | — | — | — | Keine Frage zugeordnet |
 | 23.3 | 218 | Hauptabschnitt · Regel 23 | Wann die Runde beginnt und endet; wann ein Loch beendet ist | — | R193 — Wann ist ein Loch im Vierball grundsätzlich beendet? | — | Direkt verknüpft |
 | 23.3a | 218 | Buchstaben-Unterabschnitt · 23.3 | Wann die Runde beginnt | — | — | R193 (23.3) | Nur im Regelzweig |
