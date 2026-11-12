@@ -1,8 +1,8 @@
 # Matrix der nummerierten Unterpunkte
 
-Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md). Fragezuordnungen aus der App-Version 2.3.
+Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md). Fragezuordnungen aus der App-Version 2.4.
 
-**185 Unterpunkte:** 59 direkt verknüpft, 126 nur im Regelzweig, 0 ohne zugeordneten Regelverweis.
+**185 Unterpunkte:** 70 direkt verknüpft, 115 nur im Regelzweig, 0 ohne zugeordneten Regelverweis.
 
 „Nur im Regelzweig“ bedeutet: Eine über- oder untergeordnete Regel kommt in einer vorhandenen Frage vor; die genaue Unterpunkt-Kennung ist dort nicht direkt zugeordnet.
 
@@ -10,19 +10,19 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 |---|---:|---|---|---|---|---|---|
 | 1.3b(1) | 26 | Nummerierter Absatz (1) · 1.3b | Verantwortung des Spielers für die Anwendung der Regeln | — | — | R47 (1.3) | Nur im Regelzweig |
 | 1.3b(2) | 26 | Nummerierter Absatz (2) · 1.3b | Zustimmung zur „angemessenen Einschätzung“ des Spielers beim Bestimmen eines Orts zur Anwendung der Regeln. | — | — | R47 (1.3) | Nur im Regelzweig |
-| 1.3c(1) | 27 | Nummerierter Absatz (1) · 1.3c | Handlungen, die Strafen nach sich ziehen. | — | — | R47 (1.3) | Nur im Regelzweig |
-| 1.3c(2) | 27 | Nummerierter Absatz (2) · 1.3c | Strafmaß. | — | — | R47 (1.3) | Nur im Regelzweig |
-| 1.3c(3) | 27 | Nummerierter Absatz (3) · 1.3c | Keine Ermessensfreiheit zum Abändern von Strafen. | — | — | R47 (1.3) | Nur im Regelzweig |
+| 1.3c(1) | 27 | Nummerierter Absatz (1) · 1.3c | Handlungen, die Strafen nach sich ziehen. | — | R247 — Wessen Verhalten kann bei einem Regelverstoß grundsätzlich zu einer Strafe für den Spieler führen? | R47 (1.3) | Direkt verknüpft |
+| 1.3c(2) | 27 | Nummerierter Absatz (2) · 1.3c | Strafmaß. | — | R248 — Welche drei Strafstufen sehen die Golfregeln grundsätzlich vor? | R47 (1.3) | Direkt verknüpft |
+| 1.3c(3) | 27 | Nummerierter Absatz (3) · 1.3c | Keine Ermessensfreiheit zum Abändern von Strafen. | — | R249 — Dürfen Spieler oder Spielleitung vereinbaren, eine von den Regeln vorgesehene Strafe nicht anzuwenden? | R47 (1.3) | Direkt verknüpft |
 | 1.3c(4) | 28 | Nummerierter Absatz (4) · 1.3c | Anwendung von Strafen bei mehrfachem Regelverstoß. | 🟠 S. 18 · Mehrere Regelverstöße und Anwendung von Strafen | R47 — Was wurde bei der Anwendung von Strafen für mehrere Regelverstöße geändert? | — | Direkt verknüpft |
 | 3.1a(1) | 32 | Nummerierter Absatz (1) · 3.1a | Lochspiel oder Zählspiel | — | — | R147 (3.1) | Nur im Regelzweig |
 | 3.1a(2) | 32 | Nummerierter Absatz (2) · 3.1a | Andere Formen des Zählspiels. | — | — | R147 (3.1) | Nur im Regelzweig |
 | 3.1c(1) | 33 | Nummerierter Absatz (1) · 3.1c | Brutto-Turniere. | — | — | R147 (3.1) | Nur im Regelzweig |
 | 3.1c(2) | 33 | Nummerierter Absatz (2) · 3.1c | Netto-Turniere. | — | — | R147 (3.1) | Nur im Regelzweig |
-| 3.2a(1) | 33 | Nummerierter Absatz (1) · 3.2a | Ein Loch gewinnen. | — | — | R22 (3.2a) | Nur im Regelzweig |
+| 3.2a(1) | 33 | Nummerierter Absatz (1) · 3.2a | Ein Loch gewinnen. | — | R250 — Wie kann ein Spieler im Lochspiel ein Loch gewinnen? | R22 (3.2a) | Direkt verknüpft |
 | 3.2a(2) | 34 | Nummerierter Absatz (2) · 3.2a | Loch teilen. | — | — | R22 (3.2a) | Nur im Regelzweig |
 | 3.2a(3) | 34 | Nummerierter Absatz (3) · 3.2a | Lochspiel gewinnen. | — | — | R22 (3.2a) | Nur im Regelzweig |
 | 3.2a(4) | 34 | Nummerierter Absatz (4) · 3.2a | Verlängerung eines geteilten Lochspiels. | — | — | R22 (3.2a) | Nur im Regelzweig |
-| 3.2a(5) | 34 | Nummerierter Absatz (5) · 3.2a | Wann ein Ergebnis endgültig ist. | — | — | R22 (3.2a) | Nur im Regelzweig |
+| 3.2a(5) | 34 | Nummerierter Absatz (5) · 3.2a | Wann ein Ergebnis endgültig ist. | — | R251 — Wann ist das Ergebnis eines Lochspiels grundsätzlich endgültig? | R22 (3.2a) | Direkt verknüpft |
 | 3.2b(1) | 35 | Nummerierter Absatz (1) · 3.2b | Spieler darf Schlag, Loch oder Lochspiel schenken. | — | R203 — Wann darf ein Spieler seinem Gegner den nächsten Schlag schenken? | — | Direkt verknüpft |
 | 3.2b(2) | 35 | Nummerierter Absatz (2) · 3.2b | Wie geschenkt wird. | — | R204 — Wann ist ein Schenken im Lochspiel eindeutig wirksam und kann es zurückgenommen werden? | — | Direkt verknüpft |
 | 3.2c(1) | 36 | Nummerierter Absatz (1) · 3.2c | Handicaps mitteilen. | — | R205 — Ein Spieler teilt ein zu hohes Handicap mit. Er berichtigt es nicht rechtzeitig, und dadurch erhält er zu viele Handicap-Schläge. Was gilt? | — | Direkt verknüpft |
@@ -38,7 +38,7 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 4.1a(1) | 43 | Nummerierter Absatz (1) · 4.1a | Zugelassene Schläger. | — | — | R49 (4.1) | Nur im Regelzweig |
 | 4.1a(2) | 44 | Nummerierter Absatz (2) · 4.1a | Benutzung oder Instandsetzung oder Ersatz eines während der Runde beschädigten Schlägers. | 🟠 S. 18 · Beschädigter Schläger während der Runde | R24 — Ein Schläger wird während der Runde versehentlich beschädigt. Was darf der Spieler grundsätzlich tun?<br>R49 — Ein Schläger wird während der Runde versehentlich beschädigt. Wann darf der Spieler ihn ersetzen? | — | Direkt verknüpft |
 | 4.1a(3) | 44 | Nummerierter Absatz (3) · 4.1a | Absichtliche Veränderungen der Spieleigenschaften eines Schlägers während der Runde. | — | — | R49 (4.1) | Nur im Regelzweig |
-| 4.1b(1) | 45 | Nummerierter Absatz (1) · 4.1b | Höchstzahl von 14 Schlägern. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
+| 4.1b(1) | 45 | Nummerierter Absatz (1) · 4.1b | Höchstzahl von 14 Schlägern. | — | R252 — Wie viele Schläger darf ein Spieler während einer Runde höchstens mitführen? | R23 (4.1b)<br>R49 (4.1) | Direkt verknüpft |
 | 4.1b(2) | 46 | Nummerierter Absatz (2) · 4.1b | Kein gemeinsames Benutzen von Schlägern. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
 | 4.1b(3) | 46 | Nummerierter Absatz (3) · 4.1b | Kein Ersatz verlorener Schläger. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
 | 4.1b(4) | 46 | Nummerierter Absatz (4) · 4.1b | Einschränkungen beim Hinzufügen oder Austauschen von Schlägern. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
@@ -66,7 +66,7 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 5.7d(1) | 64 | Nummerierter Absatz (1) · 5.7d | Ball aufnehmen bei Spielunterbrechung oder bevor das Spiel fortgesetzt wird. | — | — | R153 (5.7) | Nur im Regelzweig |
 | 5.7d(2) | 64 | Nummerierter Absatz (2) · 5.7d | Was zu tun ist, wenn der Ball oder der Ballmarker während einer Spielunterbrechung bewegt wird. | — | — | R153 (5.7) | Nur im Regelzweig |
 | 6.1b(1) | 65 | Nummerierter Absatz (1) · 6.1b | Lochspiel. | — | — | R154 (6.1) | Nur im Regelzweig |
-| 6.1b(2) | 66 | Nummerierter Absatz (2) · 6.1b | Zählspiel. | — | — | R154 (6.1) | Nur im Regelzweig |
+| 6.1b(2) | 66 | Nummerierter Absatz (2) · 6.1b | Zählspiel. | — | R253 — Ein Spieler beginnt ein Loch im Zählspiel mit einem Schlag von außerhalb des Abschlags. Was muss er grundsätzlich tun? | R154 (6.1) | Direkt verknüpft |
 | 6.2b(1) | 66 | Nummerierter Absatz (1) · 6.2b | Wann der Ball innerhalb des Abschlags liegt. | — | R4 — Wo muss ein Ball beim Spielen vom Abschlag gespielt werden? | — | Direkt verknüpft |
 | 6.2b(2) | 67 | Nummerierter Absatz (2) · 6.2b | Der Ball darf aufgeteet oder vom Boden gespielt werden. | — | R214 — Von wo darf ein Ball beim Spielen vom Abschlag gespielt werden? | — | Direkt verknüpft |
 | 6.2b(3) | 68 | Nummerierter Absatz (3) · 6.2b | Bestimmte Bedingungen auf dem Abschlag dürfen verbessert werden. | — | R215 — Welche Handlung darf ein Spieler vor dem Schlag auf dem Abschlag vornehmen? | — | Direkt verknüpft |
@@ -120,10 +120,10 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 13.2a(4) | 122 | Nummerierter Absatz (4) · 13.2a | Einschränkungen für andere Spieler beim Bewegen oder Entfernen des Flaggenstocks, wenn der Spieler sich entschieden hat, diesen im Loch zu belassen. | — | — | R12 (13.2a) | Nur im Regelzweig |
 | 13.2b(1) | 122 | Nummerierter Absatz (1) · 13.2b | Spieler darf den Flaggenstock aus dem Loch entfernen lassen. | — | R228 — Wie kann ein Spieler entscheiden, den Schlag mit entferntem Flaggenstock auszuführen? | — | Direkt verknüpft |
 | 13.2b(2) | 123 | Nummerierter Absatz (2) · 13.2b | Was zu tun ist, wenn Ball den Flaggenstock oder die Person, die ihn bedient, trifft. | — | R229 — Der Ball trifft versehentlich den entfernten Flaggenstock oder die Person, die ihn bedient. Was gilt? | — | Direkt verknüpft |
-| 14.2b(1) | 130 | Nummerierter Absatz (1) · 14.2b | Wer Ball zurücklegen darf. | — | — | R172 (14.2) | Nur im Regelzweig |
-| 14.2b(2) | 130 | Nummerierter Absatz (2) · 14.2b | Wie Ball zurückzulegen ist. | — | — | R172 (14.2) | Nur im Regelzweig |
-| 14.2d(1) | 131 | Nummerierter Absatz (1) · 14.2d | Ball im Sand. | — | — | R172 (14.2) | Nur im Regelzweig |
-| 14.2d(2) | 131 | Nummerierter Absatz (2) · 14.2d | Ball an anderer Stelle, nicht im Sand. | — | — | R172 (14.2) | Nur im Regelzweig |
+| 14.2b(1) | 130 | Nummerierter Absatz (1) · 14.2b | Wer Ball zurücklegen darf. | — | R254 — Wer darf einen Ball nach den Regeln grundsätzlich zurücklegen? | R172 (14.2) | Direkt verknüpft |
+| 14.2b(2) | 130 | Nummerierter Absatz (2) · 14.2b | Wie Ball zurückzulegen ist. | — | R255 — Wie muss ein Ball zurückgelegt werden, damit er an der Stelle liegen bleibt? | R172 (14.2) | Direkt verknüpft |
+| 14.2d(1) | 131 | Nummerierter Absatz (1) · 14.2d | Ball im Sand. | — | R256 — Ein Ball muss im Sand an seine Stelle zurückgelegt werden. Was muss der Spieler grundsätzlich tun? | R172 (14.2) | Direkt verknüpft |
+| 14.2d(2) | 131 | Nummerierter Absatz (2) · 14.2d | Ball an anderer Stelle, nicht im Sand. | — | R257 — Wie muss die ursprüngliche Lage eines Balls außerhalb von Sand grundsätzlich wiederhergestellt werden? | R172 (14.2) | Direkt verknüpft |
 | 14.3b(1) | 133 | Nummerierter Absatz (1) · 14.3b | Spieler muss den Ball droppen. | — | R14 — Aus welcher Höhe muss ein Ball beim Droppen grundsätzlich fallengelassen werden? | R15 (14.3)<br>R62 (14.3) | Direkt verknüpft |
 | 14.3b(2) | 133 | Nummerierter Absatz (2) · 14.3b | Ball muss aus Kniehöhe senkrecht nach unten gedroppt werden, ohne Spieler oder Ausrüstung zu berühren. | — | R244 — Wie muss ein Ball nach Regel 14.3b(2) gedroppt werden? | R15 (14.3)<br>R62 (14.3) | Direkt verknüpft |
 | 14.3b(3) | 135 | Nummerierter Absatz (3) · 14.3b | Ball muss im Erleichterungsbereich (oder auf der Linie) gedroppt werden. | 🟠 S. 19 · Drop auf der Bezugslinie | R62 — Wo muss der Spieler beim Zurück-auf-der-Linie-Verfahren den Ball droppen? | R15 (14.3) | Direkt verknüpft |
