@@ -1,6 +1,6 @@
 PGA-PRÜFUNGSTRAINER – WEB-VERSION
 
-Diese statische Web-App enthält dieselben Web-Inhalte wie das Android-Projekt: HTML, JavaScript sowie die lokalen PGA- und Regelfragen. Sie benötigt keinen Servercode. Der Offline-Cache und das Web-App-Manifest sind enthalten.
+Version 1.4: Diese statische Web-App enthält 166 PGA-Golftechnikfragen und 68 Regelfragen, darunter 22 markierte Ergänzungen zu den 2023-Änderungen. Sie benötigt keinen Servercode. Offline-Cache und Web-App-Manifest sind enthalten. Die R&A-Quizseite ist englischsprachig; die Links zu offiziellen Golfregeln und Definitionen führen zur deutschen Fassung.
 
 VERÖFFENTLICHUNG
 Lade den gesamten Inhalt dieses Ordners in ein statisches HTTPS-Webhosting hoch. Die Startseite ist index.html. Danach kann die Adresse auf einem iPhone in Safari geöffnet und über „Teilen“ > „Zum Home-Bildschirm“ hinzugefügt werden.
