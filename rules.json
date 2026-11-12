@@ -994,6 +994,1264 @@
     "source": "Änderungen zu „Schlag zählt nicht“ · Buchseite 19",
     "coverageId": "11.1b",
     "changed2023": true
+  },
+  {
+    "number": "R69",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Rechteckiger Startbereich des Lochs: zwei Schlägerlängen tief, begrenzt durch die Abschlagmarkierungen.",
+    "options": [
+      "Falscher Ort",
+      "Spiellinie",
+      "Abschlag",
+      "Zeitweiliges Wasser"
+    ],
+    "correct": 2,
+    "explanation": "„Abschlag“ bezeichnet: Rechteckiger Startbereich des Lochs: zwei Schlägerlängen tief, begrenzt durch die Abschlagmarkierungen.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Abschlag“, Buchseite 240",
+    "coverageId": "D:Abschlag",
+    "definitionTerm": "Abschlag",
+    "changed2023": false
+  },
+  {
+    "number": "R70",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Bereich außerhalb der von der Spielleitung festgelegten Platzgrenze.",
+    "options": [
+      "Erleichterungsbereich",
+      "Aus",
+      "Abschlag",
+      "Bunker"
+    ],
+    "correct": 1,
+    "explanation": "„Aus“ bezeichnet: Bereich außerhalb der von der Spielleitung festgelegten Platzgrenze.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Aus“, Buchseite 240",
+    "coverageId": "D:Aus",
+    "definitionTerm": "Aus",
+    "changed2023": false
+  },
+  {
+    "number": "R71",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Künstlicher Gegenstand, der die Ausgrenze festlegt oder anzeigt; dafür gibt es keine straflose Erleichterung.",
+    "options": [
+      "Ausmarkierung",
+      "Ausrüstungsregeln",
+      "Bestandteil des Platzes",
+      "Schlägerlänge"
+    ],
+    "correct": 0,
+    "explanation": "„Ausmarkierung“ bezeichnet: Künstlicher Gegenstand, der die Ausgrenze festlegt oder anzeigt; dafür gibt es keine straflose Erleichterung.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Ausmarkierung“, Buchseite 241",
+    "coverageId": "D:Ausmarkierung",
+    "definitionTerm": "Ausmarkierung",
+    "changed2023": false
+  },
+  {
+    "number": "R72",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Dinge, die Spieler oder Caddie benutzen, tragen, halten oder mitführen.",
+    "options": [
+      "Bewegliches Hemmnis",
+      "Ausmarkierung",
+      "Lose hinderliche Naturstoffe",
+      "Ausrüstung"
+    ],
+    "correct": 3,
+    "explanation": "„Ausrüstung“ bezeichnet: Dinge, die Spieler oder Caddie benutzen, tragen, halten oder mitführen.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Ausrüstung“, Buchseite 241",
+    "coverageId": "D:Ausrüstung",
+    "definitionTerm": "Ausrüstung",
+    "changed2023": false
+  },
+  {
+    "number": "R73",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Vorschriften für Schläger, Bälle und andere Ausrüstung, die während der Runde verwendet wird.",
+    "options": [
+      "Bestandteil des Platzes",
+      "Unbewegliches Hemmnis",
+      "Ausrüstungsregeln",
+      "Hemmnis"
+    ],
+    "correct": 2,
+    "explanation": "„Ausrüstungsregeln“ bezeichnet: Vorschriften für Schläger, Bälle und andere Ausrüstung, die während der Runde verwendet wird.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Ausrüstungsregeln“, Buchseite 241",
+    "coverageId": "D:Ausrüstungsregeln",
+    "definitionTerm": "Ausrüstungsregeln",
+    "changed2023": false
+  },
+  {
+    "number": "R74",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Personen, Tiere und Gegenstände außerhalb des Spielers, seines Caddies, Partners oder Gegners sowie außerhalb der Naturkräfte, die Ball, Ausrüstung oder Platz beeinflussen können.",
+    "options": [
+      "Gegner",
+      "Äußere Einflüsse",
+      "Beratung",
+      "Caddie"
+    ],
+    "correct": 1,
+    "explanation": "„Äußere Einflüsse“ bezeichnet: Personen, Tiere und Gegenstände außerhalb des Spielers, seines Caddies, Partners oder Gegners sowie außerhalb der Naturkräfte, die Ball, Ausrüstung oder Platz beeinflussen können.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Äußere Einflüsse“, Buchseite 241",
+    "coverageId": "D:Äußere Einflüsse",
+    "definitionTerm": "Äußere Einflüsse",
+    "changed2023": false
+  },
+  {
+    "number": "R75",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Kleiner künstlicher Gegenstand, der die Stelle eines aufgenommenen, noch nicht zurückgelegten Balls markiert.",
+    "options": [
+      "Ballmarker",
+      "Unbewegliches Hemmnis",
+      "Bestandteil des Platzes",
+      "Flaggenstock"
+    ],
+    "correct": 0,
+    "explanation": "„Ballmarker“ bezeichnet: Kleiner künstlicher Gegenstand, der die Stelle eines aufgenommenen, noch nicht zurückgelegten Balls markiert.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Ballmarker“, Buchseite 242",
+    "coverageId": "D:Ballmarker",
+    "definitionTerm": "Ballmarker",
+    "changed2023": false
+  },
+  {
+    "number": "R76",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Dazu zählen Balllage, Stand- und Schwungraum, Spiellinie und der Erleichterungsbereich, in den der Ball gedroppt oder gelegt wird.",
+    "options": [
+      "Punkt der größtmöglichen verfügbaren Erleichterung",
+      "Spiellinie",
+      "Falscher Ort",
+      "Bedingungen, die den Schlag beeinflussen"
+    ],
+    "correct": 3,
+    "explanation": "„Bedingungen, die den Schlag beeinflussen“ bezeichnet: Dazu zählen Balllage, Stand- und Schwungraum, Spiellinie und der Erleichterungsbereich, in den der Ball gedroppt oder gelegt wird.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Bedingungen, die den Schlag beeinflussen“, Buchseite 242",
+    "coverageId": "D:Bedingungen, die den Schlag beeinflussen",
+    "definitionTerm": "Bedingungen, die den Schlag beeinflussen",
+    "changed2023": false
+  },
+  {
+    "number": "R77",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Beweismaß: eindeutiger Beleg oder mindestens 95-prozentige Wahrscheinlichkeit aufgrund aller angemessen verfügbaren Informationen.",
+    "options": [
+      "Verbessern",
+      "Schwerwiegender Verstoß",
+      "Bekannt oder so gut wie sicher",
+      "Naturkräfte"
+    ],
+    "correct": 2,
+    "explanation": "„Bekannt oder so gut wie sicher“ bezeichnet: Beweismaß: eindeutiger Beleg oder mindestens 95-prozentige Wahrscheinlichkeit aufgrund aller angemessen verfügbaren Informationen.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Bekannt oder so gut wie sicher“, Buchseite 242",
+    "coverageId": "D:Bekannt oder so gut wie sicher",
+    "definitionTerm": "Bekannt oder so gut wie sicher",
+    "changed2023": false
+  },
+  {
+    "number": "R78",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Äußerung oder Handlung mit dem Ziel, Schlägerwahl, Schlag oder Spielweise eines Spielers zu beeinflussen; öffentliche Informationen und Regeln zählen nicht dazu.",
+    "options": [
+      "Zähler",
+      "Beratung",
+      "Gegner",
+      "Tier"
+    ],
+    "correct": 1,
+    "explanation": "„Beratung“ bezeichnet: Äußerung oder Handlung mit dem Ziel, Schlägerwahl, Schlag oder Spielweise eines Spielers zu beeinflussen; öffentliche Informationen und Regeln zählen nicht dazu.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Beratung“, Buchseite 243",
+    "coverageId": "D:Beratung",
+    "definitionTerm": "Beratung",
+    "changed2023": false
+  },
+  {
+    "number": "R79",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Die fünf Platzbereiche: Gelände, aktueller Abschlag, Penalty Areas, Bunker und aktuelles Grün.",
+    "options": [
+      "Bereiche des Platzes",
+      "Tierloch",
+      "Spiellinie",
+      "Falsches Grün"
+    ],
+    "correct": 0,
+    "explanation": "„Bereiche des Platzes“ bezeichnet: Die fünf Platzbereiche: Gelände, aktueller Abschlag, Penalty Areas, Bunker und aktuelles Grün.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Bereiche des Platzes“, Buchseite 243",
+    "coverageId": "D:Bereiche des Platzes",
+    "definitionTerm": "Bereiche des Platzes",
+    "changed2023": false
+  },
+  {
+    "number": "R80",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Künstlicher Gegenstand, den die Spielleitung als Teil der Herausforderung ansieht und von dem es keine straflose Erleichterung gibt.",
+    "options": [
+      "Tee",
+      "Lose hinderliche Naturstoffe",
+      "Ausrüstungsregeln",
+      "Bestandteil des Platzes"
+    ],
+    "correct": 3,
+    "explanation": "„Bestandteil des Platzes“ bezeichnet: Künstlicher Gegenstand, den die Spielleitung als Teil der Herausforderung ansieht und von dem es keine straflose Erleichterung gibt.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Bestandteil des Platzes“, Buchseite 243",
+    "coverageId": "D:Bestandteil des Platzes",
+    "definitionTerm": "Bestandteil des Platzes",
+    "changed2023": false
+  },
+  {
+    "number": "R81",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Künstlicher Gegenstand, der ohne übermäßigen Aufwand und ohne Schäden bewegt werden kann.",
+    "options": [
+      "Ausrüstungsregeln",
+      "Ausmarkierung",
+      "Bewegliches Hemmnis",
+      "Tee"
+    ],
+    "correct": 2,
+    "explanation": "„Bewegliches Hemmnis“ bezeichnet: Künstlicher Gegenstand, der ohne übermäßigen Aufwand und ohne Schäden bewegt werden kann.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Bewegliches Hemmnis“, Buchseite 244",
+    "coverageId": "D:Bewegliches Hemmnis",
+    "definitionTerm": "Bewegliches Hemmnis",
+    "changed2023": false
+  },
+  {
+    "number": "R82",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Ein ruhender Ball verlässt seine Stelle und kommt sichtbar an einer anderen Stelle zur Ruhe.",
+    "options": [
+      "Droppen",
+      "Bewegt",
+      "Markieren",
+      "Provisorischer Ball"
+    ],
+    "correct": 1,
+    "explanation": "„Bewegt“ bezeichnet: Ein ruhender Ball verlässt seine Stelle und kommt sichtbar an einer anderen Stelle zur Ruhe.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Bewegt“, Buchseite 244",
+    "coverageId": "D:Bewegt",
+    "definitionTerm": "Bewegt",
+    "changed2023": false
+  },
+  {
+    "number": "R83",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Platzbereich, den die Spielleitung als auszubessernden Boden festgelegt hat, markiert oder anderweitig.",
+    "options": [
+      "Boden in Ausbesserung",
+      "Punkt der größtmöglichen verfügbaren Erleichterung",
+      "Platz",
+      "Aus"
+    ],
+    "correct": 0,
+    "explanation": "„Boden in Ausbesserung“ bezeichnet: Platzbereich, den die Spielleitung als auszubessernden Boden festgelegt hat, markiert oder anderweitig.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Boden in Ausbesserung“, Buchseite 244",
+    "coverageId": "D:Boden in Ausbesserung",
+    "definitionTerm": "Boden in Ausbesserung",
+    "changed2023": false
+  },
+  {
+    "number": "R84",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Besonders vorbereitete Sandfläche, meist eine Vertiefung; die Bunkerkante selbst gehört nicht dazu.",
+    "options": [
+      "Aus",
+      "Tierloch",
+      "Gelände",
+      "Bunker"
+    ],
+    "correct": 3,
+    "explanation": "„Bunker“ bezeichnet: Besonders vorbereitete Sandfläche, meist eine Vertiefung; die Bunkerkante selbst gehört nicht dazu.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Bunker“, Buchseite 245",
+    "coverageId": "D:Bunker",
+    "definitionTerm": "Bunker",
+    "changed2023": false
+  },
+  {
+    "number": "R85",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Person, die den Spieler unterstützt, etwa durch Tragen oder Handhaben der Schläger und zulässige Beratung.",
+    "options": [
+      "Tier",
+      "Beratung",
+      "Caddie",
+      "Spielleitung"
+    ],
+    "correct": 2,
+    "explanation": "„Caddie“ bezeichnet: Person, die den Spieler unterstützt, etwa durch Tragen oder Handhaben der Schläger und zulässige Beratung.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Caddie“, Buchseite 246",
+    "coverageId": "D:Caddie",
+    "definitionTerm": "Caddie",
+    "changed2023": false
+  },
+  {
+    "number": "R86",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Lochspielform mit drei Spielern: Jeder spielt gleichzeitig ein eigenes Match gegen die beiden anderen.",
+    "options": [
+      "Ehre",
+      "Dreiball",
+      "Scorekarte",
+      "Partei"
+    ],
+    "correct": 1,
+    "explanation": "„Dreiball“ bezeichnet: Lochspielform mit drei Spielern: Jeder spielt gleichzeitig ein eigenes Match gegen die beiden anderen.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Dreiball“, Buchseite 246",
+    "coverageId": "D:Dreiball",
+    "definitionTerm": "Dreiball",
+    "changed2023": false
+  },
+  {
+    "number": "R87",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Ball aus der Hand loslassen, damit er durch die Luft fällt und ins Spiel kommt.",
+    "options": [
+      "Droppen",
+      "Eingelocht",
+      "Schlag und Distanzverlust",
+      "Bewegt"
+    ],
+    "correct": 0,
+    "explanation": "„Droppen“ bezeichnet: Ball aus der Hand loslassen, damit er durch die Luft fällt und ins Spiel kommt.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Droppen“, Buchseite 247",
+    "coverageId": "D:Droppen",
+    "definitionTerm": "Droppen",
+    "changed2023": false
+  },
+  {
+    "number": "R88",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Recht, als Erster vom Abschlag zu spielen.",
+    "options": [
+      "Scorekarte",
+      "Vierer",
+      "Stableford",
+      "Ehre"
+    ],
+    "correct": 3,
+    "explanation": "„Ehre“ bezeichnet: Recht, als Erster vom Abschlag zu spielen.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Ehre“, Buchseite 247",
+    "coverageId": "D:Ehre",
+    "definitionTerm": "Ehre",
+    "changed2023": false
+  },
+  {
+    "number": "R89",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Ball liegt nach seinem Schlag in seinem eigenen Einschlagloch und teilweise unter der Bodenoberfläche.",
+    "options": [
+      "Markieren",
+      "Bewegt",
+      "Eingebettet",
+      "Falscher Ball"
+    ],
+    "correct": 2,
+    "explanation": "„Eingebettet“ bezeichnet: Ball liegt nach seinem Schlag in seinem eigenen Einschlagloch und teilweise unter der Bodenoberfläche.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Eingebettet“, Buchseite 247",
+    "coverageId": "D:Eingebettet",
+    "definitionTerm": "Eingebettet",
+    "changed2023": false
+  },
+  {
+    "number": "R90",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Ball ist nach einem Schlag im Loch zur Ruhe gekommen und liegt vollständig unter der Grünoberfläche.",
+    "options": [
+      "Im Spiel",
+      "Eingelocht",
+      "Droppen",
+      "Markieren"
+    ],
+    "correct": 1,
+    "explanation": "„Eingelocht“ bezeichnet: Ball ist nach einem Schlag im Loch zur Ruhe gekommen und liegt vollständig unter der Grünoberfläche.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Eingelocht“, Buchseite 247",
+    "coverageId": "D:Eingelocht",
+    "definitionTerm": "Eingelocht",
+    "changed2023": false
+  },
+  {
+    "number": "R91",
+    "section": "Definitionen A–E",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Bereich, in den ein Ball bei Erleichterung gedroppt werden muss; Größe und Lage hängen vom angewendeten Verfahren ab.",
+    "options": [
+      "Erleichterungsbereich",
+      "Ungewöhnliche Platzverhältnisse",
+      "Tierloch",
+      "Spiellinie"
+    ],
+    "correct": 0,
+    "explanation": "„Erleichterungsbereich“ bezeichnet: Bereich, in den ein Ball bei Erleichterung gedroppt werden muss; Größe und Lage hängen vom angewendeten Verfahren ab.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Erleichterungsbereich“, Buchseite 247",
+    "coverageId": "D:Erleichterungsbereich",
+    "definitionTerm": "Erleichterungsbereich",
+    "changed2023": true
+  },
+  {
+    "number": "R92",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Jeder Ball, der weder der Ball des Spielers im Spiel noch ein zulässiger provisorischer Ball ist.",
+    "options": [
+      "Neu eingesetzter Ball",
+      "Eingelocht",
+      "Provisorischer Ball",
+      "Falscher Ball"
+    ],
+    "correct": 3,
+    "explanation": "„Falscher Ball“ bezeichnet: Jeder Ball, der weder der Ball des Spielers im Spiel noch ein zulässiger provisorischer Ball ist.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Falscher Ball“, Buchseite 249",
+    "coverageId": "D:Falscher Ball",
+    "definitionTerm": "Falscher Ball",
+    "changed2023": false
+  },
+  {
+    "number": "R93",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Stelle, von der der Spieler den Ball nach den Regeln weder spielen muss noch spielen darf.",
+    "options": [
+      "Spiellinie",
+      "Falsches Grün",
+      "Falscher Ort",
+      "Zeitweiliges Wasser"
+    ],
+    "correct": 2,
+    "explanation": "„Falscher Ort“ bezeichnet: Stelle, von der der Spieler den Ball nach den Regeln weder spielen muss noch spielen darf.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Falscher Ort“, Buchseite 249",
+    "coverageId": "D:Falscher Ort",
+    "definitionTerm": "Falscher Ort",
+    "changed2023": false
+  },
+  {
+    "number": "R94",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Jedes Grün außer dem Grün des gerade gespielten Lochs.",
+    "options": [
+      "Bereiche des Platzes",
+      "Falsches Grün",
+      "Abschlag",
+      "Penalty Area"
+    ],
+    "correct": 1,
+    "explanation": "„Falsches Grün“ bezeichnet: Jedes Grün außer dem Grün des gerade gespielten Lochs.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Falsches Grün“, Buchseite 250",
+    "coverageId": "D:Falsches Grün",
+    "definitionTerm": "Falsches Grün",
+    "changed2023": false
+  },
+  {
+    "number": "R95",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Von der Spielleitung bereitgestellte bewegliche Stange im Loch, die dessen Lage anzeigt, einschließlich befestigter Bestandteile.",
+    "options": [
+      "Flaggenstock",
+      "Schlägerlänge",
+      "Bewegliches Hemmnis",
+      "Ausrüstungsregeln"
+    ],
+    "correct": 0,
+    "explanation": "„Flaggenstock“ bezeichnet: Von der Spielleitung bereitgestellte bewegliche Stange im Loch, die dessen Lage anzeigt, einschließlich befestigter Bestandteile.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Flaggenstock“, Buchseite 250",
+    "coverageId": "D:Flaggenstock",
+    "definitionTerm": "Flaggenstock",
+    "changed2023": false
+  },
+  {
+    "number": "R96",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Person, gegen die ein Spieler im Lochspiel antritt.",
+    "options": [
+      "Referee",
+      "Äußere Einflüsse",
+      "Beratung",
+      "Gegner"
+    ],
+    "correct": 3,
+    "explanation": "„Gegner“ bezeichnet: Person, gegen die ein Spieler im Lochspiel antritt.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Gegner“, Buchseite 250",
+    "coverageId": "D:Gegner",
+    "definitionTerm": "Gegner",
+    "changed2023": false
+  },
+  {
+    "number": "R97",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Gesamter Platz außer dem aktuellen Abschlag, Penalty Areas, Bunkern und dem aktuellen Grün.",
+    "options": [
+      "Spielverbotszone",
+      "Abschlag",
+      "Gelände",
+      "Bedingungen, die den Schlag beeinflussen"
+    ],
+    "correct": 2,
+    "explanation": "„Gelände“ bezeichnet: Gesamter Platz außer dem aktuellen Abschlag, Penalty Areas, Bunkern und dem aktuellen Grün.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Gelände“, Buchseite 250",
+    "coverageId": "D:Gelände",
+    "definitionTerm": "Gelände",
+    "changed2023": false
+  },
+  {
+    "number": "R98",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Zum Putten hergerichtete oder von der Spielleitung als Grün bestimmte Fläche des gerade gespielten Lochs.",
+    "options": [
+      "Falsches Grün",
+      "Grün",
+      "Bunker",
+      "Penalty Area"
+    ],
+    "correct": 1,
+    "explanation": "„Grün“ bezeichnet: Zum Putten hergerichtete oder von der Spielleitung als Grün bestimmte Fläche des gerade gespielten Lochs.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Grün“, Buchseite 250",
+    "coverageId": "D:Grün",
+    "definitionTerm": "Grün",
+    "changed2023": false
+  },
+  {
+    "number": "R99",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Lochverlust im Lochspiel oder zwei Strafschläge im Zählspiel.",
+    "options": [
+      "Grundstrafe",
+      "Naturkräfte",
+      "Schwerwiegender Verstoß",
+      "Verbessern"
+    ],
+    "correct": 0,
+    "explanation": "„Grundstrafe“ bezeichnet: Lochverlust im Lochspiel oder zwei Strafschläge im Zählspiel.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Grundstrafe“, Buchseite 251",
+    "coverageId": "D:Grundstrafe",
+    "definitionTerm": "Grundstrafe",
+    "changed2023": false
+  },
+  {
+    "number": "R100",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Künstlicher Gegenstand außer einem Bestandteil des Platzes oder einer Ausmarkierung.",
+    "options": [
+      "Lose hinderliche Naturstoffe",
+      "Bestandteil des Platzes",
+      "Ballmarker",
+      "Hemmnis"
+    ],
+    "correct": 3,
+    "explanation": "„Hemmnis“ bezeichnet: Künstlicher Gegenstand außer einem Bestandteil des Platzes oder einer Ausmarkierung.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Hemmnis“, Buchseite 251",
+    "coverageId": "D:Hemmnis",
+    "definitionTerm": "Hemmnis",
+    "changed2023": false
+  },
+  {
+    "number": "R101",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Status des Balls, der auf dem Platz zum Spielen des aktuellen Lochs verwendet wird.",
+    "options": [
+      "Falscher Ball",
+      "Neu eingesetzter Ball",
+      "Im Spiel",
+      "Eingebettet"
+    ],
+    "correct": 2,
+    "explanation": "„Im Spiel“ bezeichnet: Status des Balls, der auf dem Platz zum Spielen des aktuellen Lochs verwendet wird.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Im Spiel“, Buchseite 252",
+    "coverageId": "D:Im Spiel",
+    "definitionTerm": "Im Spiel",
+    "changed2023": false
+  },
+  {
+    "number": "R102",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Stelle des Balls sowie wachsende oder befestigte Naturgegenstände, unbewegliche Hemmnisse, Platzbestandteile oder Ausmarkierungen, die ihn berühren oder direkt daneben liegen.",
+    "options": [
+      "Spiellinie",
+      "Lage",
+      "Boden in Ausbesserung",
+      "Penalty Area"
+    ],
+    "correct": 1,
+    "explanation": "„Lage“ bezeichnet: Stelle des Balls sowie wachsende oder befestigte Naturgegenstände, unbewegliche Hemmnisse, Platzbestandteile oder Ausmarkierungen, die ihn berühren oder direkt daneben liegen.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Lage“, Buchseite 253",
+    "coverageId": "D:Lage",
+    "definitionTerm": "Lage",
+    "changed2023": false
+  },
+  {
+    "number": "R103",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Endpunkt des Lochs auf dem Grün, in den der Ball gespielt wird; es hat vorgeschriebene Maße.",
+    "options": [
+      "Loch",
+      "Spiellinie",
+      "Lage",
+      "Zeitweiliges Wasser"
+    ],
+    "correct": 0,
+    "explanation": "„Loch“ bezeichnet: Endpunkt des Lochs auf dem Grün, in den der Ball gespielt wird; es hat vorgeschriebene Maße.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Loch“, Buchseite 253",
+    "coverageId": "D:Loch",
+    "definitionTerm": "Loch",
+    "changed2023": false
+  },
+  {
+    "number": "R104",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Spielform, in der Spieler oder Parteien Loch für Loch direkt gegeneinander antreten.",
+    "options": [
+      "Zählspiel",
+      "Partei",
+      "Vierball",
+      "Lochspiel"
+    ],
+    "correct": 3,
+    "explanation": "„Lochspiel“ bezeichnet: Spielform, in der Spieler oder Parteien Loch für Loch direkt gegeneinander antreten.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Lochspiel“, Buchseite 253",
+    "coverageId": "D:Lochspiel",
+    "definitionTerm": "Lochspiel",
+    "changed2023": false
+  },
+  {
+    "number": "R105",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Unbefestigte natürliche Gegenstände wie Steine, Blätter, Zweige, tote Tiere oder kleine Tiere und deren Ausscheidungen.",
+    "options": [
+      "Ausrüstung",
+      "Unbewegliches Hemmnis",
+      "Lose hinderliche Naturstoffe",
+      "Schlägerlänge"
+    ],
+    "correct": 2,
+    "explanation": "„Lose hinderliche Naturstoffe“ bezeichnet: Unbefestigte natürliche Gegenstände wie Steine, Blätter, Zweige, tote Tiere oder kleine Tiere und deren Ausscheidungen.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Lose hinderliche Naturstoffe“, Buchseite 253",
+    "coverageId": "D:Lose hinderliche Naturstoffe",
+    "definitionTerm": "Lose hinderliche Naturstoffe",
+    "changed2023": false
+  },
+  {
+    "number": "R106",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Stelle eines ruhenden Balls mit einem Ballmarker kennzeichnen oder den Schläger dazu unmittelbar dahinter oder daneben halten.",
+    "options": [
+      "Eingelocht",
+      "Markieren",
+      "Neu eingesetzter Ball",
+      "Provisorischer Ball"
+    ],
+    "correct": 1,
+    "explanation": "„Markieren“ bezeichnet: Stelle eines ruhenden Balls mit einem Ballmarker kennzeichnen oder den Schläger dazu unmittelbar dahinter oder daneben halten.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Markieren“, Buchseite 254",
+    "coverageId": "D:Markieren",
+    "definitionTerm": "Markieren",
+    "changed2023": false
+  },
+  {
+    "number": "R107",
+    "section": "Definitionen F–M",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Zählspielform mit einer von der Spielleitung festgelegten Höchstzahl je Loch; dabei zählen gespielte Schläge und Strafschläge.",
+    "options": [
+      "Maximum Score",
+      "Ehre",
+      "Vierball",
+      "Zählspiel"
+    ],
+    "correct": 0,
+    "explanation": "„Maximum Score“ bezeichnet: Zählspielform mit einer von der Spielleitung festgelegten Höchstzahl je Loch; dabei zählen gespielte Schläge und Strafschläge.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Maximum Score“, Buchseite 254",
+    "coverageId": "D:Maximum Score",
+    "definitionTerm": "Maximum Score",
+    "changed2023": false
+  },
+  {
+    "number": "R108",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Nächstgelegener Bezugspunkt, an dem für den beabsichtigten Schlag keine Behinderung durch den betreffenden Zustand besteht.",
+    "options": [
+      "Abschlag",
+      "Falscher Ort",
+      "Gelände",
+      "Nächstgelegener Punkt der vollständigen Erleichterung"
+    ],
+    "correct": 3,
+    "explanation": "„Nächstgelegener Punkt der vollständigen Erleichterung“ bezeichnet: Nächstgelegener Bezugspunkt, an dem für den beabsichtigten Schlag keine Behinderung durch den betreffenden Zustand besteht.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Nächstgelegener Punkt der vollständigen Erleichterung“, Buchseite 254",
+    "coverageId": "D:Nächstgelegener Punkt der vollständigen Erleichterung",
+    "definitionTerm": "Nächstgelegener Punkt der vollständigen Erleichterung",
+    "changed2023": false
+  },
+  {
+    "number": "R109",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Einwirkungen der Natur, etwa Wind, Wasser oder Schwerkraft.",
+    "options": [
+      "Schwerwiegender Verstoß",
+      "Bekannt oder so gut wie sicher",
+      "Naturkräfte",
+      "Verbessern"
+    ],
+    "correct": 2,
+    "explanation": "„Naturkräfte“ bezeichnet: Einwirkungen der Natur, etwa Wind, Wasser oder Schwerkraft.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Naturkräfte“, Buchseite 255",
+    "coverageId": "D:Naturkräfte",
+    "definitionTerm": "Naturkräfte",
+    "changed2023": false
+  },
+  {
+    "number": "R110",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Anderer Ball, der den bisherigen Ball im Spiel ersetzt und dadurch zum Ball im Spiel wird.",
+    "options": [
+      "Droppen",
+      "Neu eingesetzter Ball",
+      "Markieren",
+      "Falscher Ball"
+    ],
+    "correct": 1,
+    "explanation": "„Neu eingesetzter Ball“ bezeichnet: Anderer Ball, der den bisherigen Ball im Spiel ersetzt und dadurch zum Ball im Spiel wird.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Neu eingesetzter Ball“, Buchseite 256",
+    "coverageId": "D:Neu eingesetzter Ball",
+    "definitionTerm": "Neu eingesetzter Ball",
+    "changed2023": false
+  },
+  {
+    "number": "R111",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Zählspielform, bei der jedes Loch gegen einen vorgegebenen Par- oder Bogeywert gewonnen, verloren oder geteilt wird.",
+    "options": [
+      "Par/Bogey",
+      "Vierer",
+      "Ehre",
+      "Runde"
+    ],
+    "correct": 0,
+    "explanation": "„Par/Bogey“ bezeichnet: Zählspielform, bei der jedes Loch gegen einen vorgegebenen Par- oder Bogeywert gewonnen, verloren oder geteilt wird.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Par/Bogey“, Buchseite 256",
+    "coverageId": "D:Par/Bogey",
+    "definitionTerm": "Par/Bogey",
+    "changed2023": false
+  },
+  {
+    "number": "R112",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Zwei oder mehr Partner, die gemeinsam als Seite im Lochspiel oder Zählspiel antreten.",
+    "options": [
+      "Maximum Score",
+      "Ehre",
+      "Dreiball",
+      "Partei"
+    ],
+    "correct": 3,
+    "explanation": "„Partei“ bezeichnet: Zwei oder mehr Partner, die gemeinsam als Seite im Lochspiel oder Zählspiel antreten.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Partei“, Buchseite 256",
+    "coverageId": "D:Partei",
+    "definitionTerm": "Partei",
+    "changed2023": false
+  },
+  {
+    "number": "R113",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Spieler, der mit einem anderen Spieler gemeinsam eine Partei bildet.",
+    "options": [
+      "Tier",
+      "Referee",
+      "Partner",
+      "Spielleitung"
+    ],
+    "correct": 2,
+    "explanation": "„Partner“ bezeichnet: Spieler, der mit einem anderen Spieler gemeinsam eine Partei bildet.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Partner“, Buchseite 256",
+    "coverageId": "D:Partner",
+    "definitionTerm": "Partner",
+    "changed2023": false
+  },
+  {
+    "number": "R114",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Von der Spielleitung bestimmter Platzbereich, aus dem der Spieler mit Strafschlag Erleichterung nehmen darf.",
+    "options": [
+      "Boden in Ausbesserung",
+      "Penalty Area",
+      "Falscher Ort",
+      "Platz"
+    ],
+    "correct": 1,
+    "explanation": "„Penalty Area“ bezeichnet: Von der Spielleitung bestimmter Platzbereich, aus dem der Spieler mit Strafschlag Erleichterung nehmen darf.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Penalty Area“, Buchseite 257",
+    "coverageId": "D:Penalty Area",
+    "definitionTerm": "Penalty Area",
+    "changed2023": false
+  },
+  {
+    "number": "R115",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Gesamter Spielbereich innerhalb der von der Spielleitung festgelegten Platzgrenzen.",
+    "options": [
+      "Platz",
+      "Aus",
+      "Nächstgelegener Punkt der vollständigen Erleichterung",
+      "Spielverbotszone"
+    ],
+    "correct": 0,
+    "explanation": "„Platz“ bezeichnet: Gesamter Spielbereich innerhalb der von der Spielleitung festgelegten Platzgrenzen.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Platz“, Buchseite 258",
+    "coverageId": "D:Platz",
+    "definitionTerm": "Platz",
+    "changed2023": false
+  },
+  {
+    "number": "R116",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Zusätzlicher Ball für den Fall, dass der eben gespielte Ball möglicherweise im Aus oder außerhalb einer Penalty Area verloren ist.",
+    "options": [
+      "Falscher Ball",
+      "Im Spiel",
+      "Eingebettet",
+      "Provisorischer Ball"
+    ],
+    "correct": 3,
+    "explanation": "„Provisorischer Ball“ bezeichnet: Zusätzlicher Ball für den Fall, dass der eben gespielte Ball möglicherweise im Aus oder außerhalb einer Penalty Area verloren ist.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Provisorischer Ball“, Buchseite 258",
+    "coverageId": "D:Provisorischer Ball",
+    "definitionTerm": "Provisorischer Ball",
+    "changed2023": false
+  },
+  {
+    "number": "R117",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Bezugspunkt für Erleichterung im Bunker oder auf dem Grün, wenn kein nächstgelegener Punkt vollständiger Erleichterung verfügbar ist.",
+    "options": [
+      "Gelände",
+      "Falsches Grün",
+      "Punkt der größtmöglichen verfügbaren Erleichterung",
+      "Aus"
+    ],
+    "correct": 2,
+    "explanation": "„Punkt der größtmöglichen verfügbaren Erleichterung“ bezeichnet: Bezugspunkt für Erleichterung im Bunker oder auf dem Grün, wenn kein nächstgelegener Punkt vollständiger Erleichterung verfügbar ist.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Punkt der größtmöglichen verfügbaren Erleichterung“, Buchseite 258",
+    "coverageId": "D:Punkt der größtmöglichen verfügbaren Erleichterung",
+    "definitionTerm": "Punkt der größtmöglichen verfügbaren Erleichterung",
+    "changed2023": false
+  },
+  {
+    "number": "R118",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Von der Spielleitung eingesetzter Offizieller, der Tatsachen entscheidet und die Regeln anwendet.",
+    "options": [
+      "Tier",
+      "Referee",
+      "Caddie",
+      "Äußere Einflüsse"
+    ],
+    "correct": 1,
+    "explanation": "„Referee“ bezeichnet: Von der Spielleitung eingesetzter Offizieller, der Tatsachen entscheidet und die Regeln anwendet.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Referee“, Buchseite 259",
+    "coverageId": "D:Referee",
+    "definitionTerm": "Referee",
+    "changed2023": false
+  },
+  {
+    "number": "R119",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Bis zu 18 Löcher, die in der von der Spielleitung festgelegten Reihenfolge gespielt werden.",
+    "options": [
+      "Runde",
+      "Scorekarte",
+      "Par/Bogey",
+      "Stableford"
+    ],
+    "correct": 0,
+    "explanation": "„Runde“ bezeichnet: Bis zu 18 Löcher, die in der von der Spielleitung festgelegten Reihenfolge gespielt werden.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Runde“, Buchseite 260",
+    "coverageId": "D:Runde",
+    "definitionTerm": "Runde",
+    "changed2023": false
+  },
+  {
+    "number": "R120",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Vorwärtsbewegung des Schlägers mit der Absicht, den Ball zu treffen.",
+    "options": [
+      "Provisorischer Ball",
+      "Droppen",
+      "Im Spiel",
+      "Schlag"
+    ],
+    "correct": 3,
+    "explanation": "„Schlag“ bezeichnet: Vorwärtsbewegung des Schlägers mit der Absicht, den Ball zu treffen.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Schlag“, Buchseite 260",
+    "coverageId": "D:Schlag",
+    "definitionTerm": "Schlag",
+    "changed2023": false
+  },
+  {
+    "number": "R121",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Erleichterungsverfahren mit Strafschlag, bei dem der Spieler erneut von der Stelle des vorherigen Schlags spielt.",
+    "options": [
+      "Neu eingesetzter Ball",
+      "Bewegt",
+      "Schlag und Distanzverlust",
+      "Schlag"
+    ],
+    "correct": 2,
+    "explanation": "„Schlag und Distanzverlust“ bezeichnet: Erleichterungsverfahren mit Strafschlag, bei dem der Spieler erneut von der Stelle des vorherigen Schlags spielt.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Schlag und Distanzverlust“, Buchseite 260",
+    "coverageId": "D:Schlag und Distanzverlust",
+    "definitionTerm": "Schlag und Distanzverlust",
+    "changed2023": false
+  },
+  {
+    "number": "R122",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Länge des längsten Schlägers des Spielers außer dem Putter; sie dient als Maßeinheit für Erleichterungsbereiche.",
+    "options": [
+      "Unbewegliches Hemmnis",
+      "Schlägerlänge",
+      "Bewegliches Hemmnis",
+      "Ausrüstungsregeln"
+    ],
+    "correct": 1,
+    "explanation": "„Schlägerlänge“ bezeichnet: Länge des längsten Schlägers des Spielers außer dem Putter; sie dient als Maßeinheit für Erleichterungsbereiche.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Schlägerlänge“, Buchseite 261",
+    "coverageId": "D:Schlägerlänge",
+    "definitionTerm": "Schlägerlänge",
+    "changed2023": false
+  },
+  {
+    "number": "R123",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Spielen vom falschen Ort im Zählspiel, wenn dadurch ein erheblicher möglicher Vorteil entsteht.",
+    "options": [
+      "Schwerwiegender Verstoß",
+      "Bekannt oder so gut wie sicher",
+      "Naturkräfte",
+      "Grundstrafe"
+    ],
+    "correct": 0,
+    "explanation": "„Schwerwiegender Verstoß“ bezeichnet: Spielen vom falschen Ort im Zählspiel, wenn dadurch ein erheblicher möglicher Vorteil entsteht.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Schwerwiegender Verstoß“, Buchseite 261",
+    "coverageId": "D:Schwerwiegender Verstoß",
+    "definitionTerm": "Schwerwiegender Verstoß",
+    "changed2023": false
+  },
+  {
+    "number": "R124",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Von der Spielleitung genehmigtes Papier- oder Digitaldokument zur Erfassung der Loch-Ergebnisse im Zählspiel.",
+    "options": [
+      "Lochspiel",
+      "Dreiball",
+      "Partei",
+      "Scorekarte"
+    ],
+    "correct": 3,
+    "explanation": "„Scorekarte“ bezeichnet: Von der Spielleitung genehmigtes Papier- oder Digitaldokument zur Erfassung der Loch-Ergebnisse im Zählspiel.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Scorekarte“, Buchseite 261",
+    "coverageId": "D:Scorekarte",
+    "definitionTerm": "Scorekarte",
+    "changed2023": false
+  },
+  {
+    "number": "R125",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Person oder Gruppe, die für Turnier oder Platz verantwortlich ist.",
+    "options": [
+      "Äußere Einflüsse",
+      "Caddie",
+      "Spielleitung",
+      "Gegner"
+    ],
+    "correct": 2,
+    "explanation": "„Spielleitung“ bezeichnet: Person oder Gruppe, die für Turnier oder Platz verantwortlich ist.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Spielleitung“, Buchseite 262",
+    "coverageId": "D:Spielleitung",
+    "definitionTerm": "Spielleitung",
+    "changed2023": false
+  },
+  {
+    "number": "R126",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Vom Spieler beabsichtigter Weg des Balls nach dem Schlag, einschließlich eines angemessenen Bereichs darüber und daneben.",
+    "options": [
+      "Tierloch",
+      "Spiellinie",
+      "Bereiche des Platzes",
+      "Loch"
+    ],
+    "correct": 1,
+    "explanation": "„Spiellinie“ bezeichnet: Vom Spieler beabsichtigter Weg des Balls nach dem Schlag, einschließlich eines angemessenen Bereichs darüber und daneben.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Spiellinie“, Buchseite 262",
+    "coverageId": "D:Spiellinie",
+    "definitionTerm": "Spiellinie",
+    "changed2023": false
+  },
+  {
+    "number": "R127",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Platzbereich, in dem die Spielleitung das Spielen untersagt hat; er gehört zu einer Penalty Area oder ungewöhnlichen Platzverhältnissen.",
+    "options": [
+      "Spielverbotszone",
+      "Spiellinie",
+      "Platz",
+      "Nächstgelegener Punkt der vollständigen Erleichterung"
+    ],
+    "correct": 0,
+    "explanation": "„Spielverbotszone“ bezeichnet: Platzbereich, in dem die Spielleitung das Spielen untersagt hat; er gehört zu einer Penalty Area oder ungewöhnlichen Platzverhältnissen.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Spielverbotszone“, Buchseite 262",
+    "coverageId": "D:Spielverbotszone",
+    "definitionTerm": "Spielverbotszone",
+    "changed2023": false
+  },
+  {
+    "number": "R128",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Zählspielform mit Punkten je Loch, die vom Ergebnis im Verhältnis zu einem festgelegten Zielwert abhängen.",
+    "options": [
+      "Ehre",
+      "Vierer",
+      "Runde",
+      "Stableford"
+    ],
+    "correct": 3,
+    "explanation": "„Stableford“ bezeichnet: Zählspielform mit Punkten je Loch, die vom Ergebnis im Verhältnis zu einem festgelegten Zielwert abhängen.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Stableford“, Buchseite 262",
+    "coverageId": "D:Stableford",
+    "definitionTerm": "Stableford",
+    "changed2023": false
+  },
+  {
+    "number": "R129",
+    "section": "Definitionen N–S",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Position von Füßen und Körper bei Vorbereitung und Ausführung eines Schlags.",
+    "options": [
+      "Referee",
+      "Partner",
+      "Stand",
+      "Beratung"
+    ],
+    "correct": 2,
+    "explanation": "„Stand“ bezeichnet: Position von Füßen und Körper bei Vorbereitung und Ausführung eines Schlags.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Stand“, Buchseite 263",
+    "coverageId": "D:Stand",
+    "definitionTerm": "Stand",
+    "changed2023": false
+  },
+  {
+    "number": "R130",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Gegenstand, der den Ball für den Abschlag vom Boden anhebt und höchstens vier Zoll lang ist.",
+    "options": [
+      "Schlägerlänge",
+      "Tee",
+      "Hemmnis",
+      "Bewegliches Hemmnis"
+    ],
+    "correct": 1,
+    "explanation": "„Tee“ bezeichnet: Gegenstand, der den Ball für den Abschlag vom Boden anhebt und höchstens vier Zoll lang ist.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Tee“, Buchseite 263",
+    "coverageId": "D:Tee",
+    "definitionTerm": "Tee",
+    "changed2023": false
+  },
+  {
+    "number": "R131",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Lebewesen außer Menschen, einschließlich Wirbeltieren und wirbellosen Tieren.",
+    "options": [
+      "Tier",
+      "Caddie",
+      "Gegner",
+      "Stand"
+    ],
+    "correct": 0,
+    "explanation": "„Tier“ bezeichnet: Lebewesen außer Menschen, einschließlich Wirbeltieren und wirbellosen Tieren.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Tier“, Buchseite 263",
+    "coverageId": "D:Tier",
+    "definitionTerm": "Tier",
+    "changed2023": false
+  },
+  {
+    "number": "R132",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Von einem Tier gegrabenes Loch samt herausgelöstem Material und erkennbaren Spuren, aber ohne bloße Fußabdrücke.",
+    "options": [
+      "Bereiche des Platzes",
+      "Grün",
+      "Penalty Area",
+      "Tierloch"
+    ],
+    "correct": 3,
+    "explanation": "„Tierloch“ bezeichnet: Von einem Tier gegrabenes Loch samt herausgelöstem Material und erkennbaren Spuren, aber ohne bloße Fußabdrücke.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Tierloch“, Buchseite 263",
+    "coverageId": "D:Tierloch",
+    "definitionTerm": "Tierloch",
+    "changed2023": false
+  },
+  {
+    "number": "R133",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Künstlicher Gegenstand, der sich nicht ohne übermäßigen Aufwand oder Schäden bewegen lässt und kein bewegliches Hemmnis ist.",
+    "options": [
+      "Schlägerlänge",
+      "Ausrüstung",
+      "Unbewegliches Hemmnis",
+      "Bewegliches Hemmnis"
+    ],
+    "correct": 2,
+    "explanation": "„Unbewegliches Hemmnis“ bezeichnet: Künstlicher Gegenstand, der sich nicht ohne übermäßigen Aufwand oder Schäden bewegen lässt und kein bewegliches Hemmnis ist.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Unbewegliches Hemmnis“, Buchseite 263",
+    "coverageId": "D:Unbewegliches Hemmnis",
+    "definitionTerm": "Unbewegliches Hemmnis",
+    "changed2023": false
+  },
+  {
+    "number": "R134",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Einer von vier Fällen: Tierloch, Boden in Ausbesserung, unbewegliches Hemmnis oder zeitweiliges Wasser.",
+    "options": [
+      "Zeitweiliges Wasser",
+      "Ungewöhnliche Platzverhältnisse",
+      "Nächstgelegener Punkt der vollständigen Erleichterung",
+      "Platz"
+    ],
+    "correct": 1,
+    "explanation": "„Ungewöhnliche Platzverhältnisse“ bezeichnet: Einer von vier Fällen: Tierloch, Boden in Ausbesserung, unbewegliches Hemmnis oder zeitweiliges Wasser.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Ungewöhnliche Platzverhältnisse“, Buchseite 264",
+    "coverageId": "D:Ungewöhnliche Platzverhältnisse",
+    "definitionTerm": "Ungewöhnliche Platzverhältnisse",
+    "changed2023": false
+  },
+  {
+    "number": "R135",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Bedingungen oder andere Platzgegebenheiten so verändern, dass möglicherweise ein Vorteil für den Schlag entsteht.",
+    "options": [
+      "Verbessern",
+      "Schwerwiegender Verstoß",
+      "Naturkräfte",
+      "Bekannt oder so gut wie sicher"
+    ],
+    "correct": 0,
+    "explanation": "„Verbessern“ bezeichnet: Bedingungen oder andere Platzgegebenheiten so verändern, dass möglicherweise ein Vorteil für den Schlag entsteht.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Verbessern“, Buchseite 264",
+    "coverageId": "D:Verbessern",
+    "definitionTerm": "Verbessern",
+    "changed2023": false
+  },
+  {
+    "number": "R136",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Ein Ball gilt grundsätzlich als verloren, wenn er nicht innerhalb von drei Minuten ab Beginn der Suche gefunden wird.",
+    "options": [
+      "Bewegt",
+      "Droppen",
+      "Eingelocht",
+      "Verloren"
+    ],
+    "correct": 3,
+    "explanation": "„Verloren“ bezeichnet: Ein Ball gilt grundsätzlich als verloren, wenn er nicht innerhalb von drei Minuten ab Beginn der Suche gefunden wird.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Verloren“, Buchseite 264",
+    "coverageId": "D:Verloren",
+    "definitionTerm": "Verloren",
+    "changed2023": false
+  },
+  {
+    "number": "R137",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Spielform für zwei Partner pro Partei, in der jeder den eigenen Ball spielt und grundsätzlich das bessere Loch-Ergebnis zählt.",
+    "options": [
+      "Dreiball",
+      "Scorekarte",
+      "Vierball",
+      "Vierer"
+    ],
+    "correct": 2,
+    "explanation": "„Vierball“ bezeichnet: Spielform für zwei Partner pro Partei, in der jeder den eigenen Ball spielt und grundsätzlich das bessere Loch-Ergebnis zählt.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Vierball“, Buchseite 264",
+    "coverageId": "D:Vierball",
+    "definitionTerm": "Vierball",
+    "changed2023": false
+  },
+  {
+    "number": "R138",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Spielform, in der zwei Partner einen Ball abwechselnd spielen; auch die Abschläge wechseln ab.",
+    "options": [
+      "Scorekarte",
+      "Vierer",
+      "Vierball",
+      "Lochspiel"
+    ],
+    "correct": 1,
+    "explanation": "„Vierer“ bezeichnet: Spielform, in der zwei Partner einen Ball abwechselnd spielen; auch die Abschläge wechseln ab.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Vierer“, Buchseite 265",
+    "coverageId": "D:Vierer",
+    "definitionTerm": "Vierer",
+    "changed2023": false
+  },
+  {
+    "number": "R139",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Im Zählspiel verantwortliche Person, die Ergebnisse des Spielers einträgt und bestätigt.",
+    "options": [
+      "Zähler",
+      "Caddie",
+      "Beratung",
+      "Referee"
+    ],
+    "correct": 0,
+    "explanation": "„Zähler“ bezeichnet: Im Zählspiel verantwortliche Person, die Ergebnisse des Spielers einträgt und bestätigt.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Zähler“, Buchseite 265",
+    "coverageId": "D:Zähler",
+    "definitionTerm": "Zähler",
+    "changed2023": false
+  },
+  {
+    "number": "R140",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Spielform, in der Spieler oder Parteien gegen alle anderen antreten; in der Standardform zählt die Gesamtschlagzahl.",
+    "options": [
+      "Ehre",
+      "Scorekarte",
+      "Lochspiel",
+      "Zählspiel"
+    ],
+    "correct": 3,
+    "explanation": "„Zählspiel“ bezeichnet: Spielform, in der Spieler oder Parteien gegen alle anderen antreten; in der Standardform zählt die Gesamtschlagzahl.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Zählspiel“, Buchseite 265",
+    "coverageId": "D:Zählspiel",
+    "definitionTerm": "Zählspiel",
+    "changed2023": false
+  },
+  {
+    "number": "R141",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Vorübergehende Wasseransammlung auf der Oberfläche außerhalb einer Penalty Area; Tau und Reif zählen nicht dazu.",
+    "options": [
+      "Spielverbotszone",
+      "Grün",
+      "Zeitweiliges Wasser",
+      "Falsches Grün"
+    ],
+    "correct": 2,
+    "explanation": "„Zeitweiliges Wasser“ bezeichnet: Vorübergehende Wasseransammlung auf der Oberfläche außerhalb einer Penalty Area; Tau und Reif zählen nicht dazu.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Zeitweiliges Wasser“, Buchseite 265",
+    "coverageId": "D:Zeitweiliges Wasser",
+    "definitionTerm": "Zeitweiliges Wasser",
+    "changed2023": false
+  },
+  {
+    "number": "R142",
+    "section": "Definitionen T–Z",
+    "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Ball von Hand an der vorgeschriebenen Stelle platzieren und loslassen, damit er wieder im Spiel ist.",
+    "options": [
+      "Provisorischer Ball",
+      "Zurücklegen",
+      "Eingebettet",
+      "Schlag und Distanzverlust"
+    ],
+    "correct": 1,
+    "explanation": "„Zurücklegen“ bezeichnet: Ball von Hand an der vorgeschriebenen Stelle platzieren und loslassen, damit er wieder im Spiel ist.",
+    "source": "DGV, Offizielle Golfregeln 2023 · Definition „Zurücklegen“, Buchseite 266",
+    "coverageId": "D:Zurücklegen",
+    "definitionTerm": "Zurücklegen",
+    "changed2023": false
   }
 ]
 
