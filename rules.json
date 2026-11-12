@@ -648,12 +648,12 @@
     "section": "Änderungen 2023 · Regel 1.3c(4)",
     "question": "Was wurde bei der Anwendung von Strafen für mehrere Regelverstöße geändert?",
     "options": [
-      "Ob Verstöße zusammenhängen, entscheidet seltener über zusätzliche Strafen; dadurch fallen Mehrfachstrafen in weniger Fällen an",
-      "Jeder Verstoß führt jetzt immer zu zwei Strafschlägen",
       "Bei mehreren Verstößen wird stets nur die schwerste Strafe aufgehoben",
-      "Mehrere Verstöße führen automatisch zur Disqualifikation"
+      "Mehrere Verstöße führen automatisch zur Disqualifikation",
+      "Ob Verstöße zusammenhängen, entscheidet seltener über zusätzliche Strafen; dadurch fallen Mehrfachstrafen in weniger Fällen an",
+      "Jeder Verstoß führt jetzt immer zu zwei Strafschlägen"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Die Änderung nimmt die Frage, ob Verstöße zusammenhängen, aus der bisherigen Abgrenzung heraus. In weniger Fällen werden deshalb mehrere Strafen angewendet.",
     "source": "Regel 1.3c(4) · Änderung 2023, Buchseite 18",
     "coverageId": "1.3",
@@ -664,10 +664,10 @@
     "section": "Änderungen 2023 · Regel 3.3b(4)",
     "question": "Wer ist im Zählspiel für die Handicap-Schläge und die Ermittlung des Nettoergebnisses verantwortlich?",
     "options": [
-      "Der Spieler muss beides auf der Scorekarte eintragen",
-      "Die Spielleitung berechnet die Handicap-Schläge und das darauf beruhende Nettoergebnis",
       "Der Zähler entscheidet nach der Runde",
-      "Der Spieler und der Zähler teilen sich die Berechnungspflicht"
+      "Die Spielleitung berechnet die Handicap-Schläge und das darauf beruhende Nettoergebnis",
+      "Der Spieler und der Zähler teilen sich die Berechnungspflicht",
+      "Der Spieler muss beides auf der Scorekarte eintragen"
     ],
     "correct": 1,
     "explanation": "Seit der Änderung muss der Spieler sein Handicap nicht mehr auf der Scorekarte ausweisen. Die Spielleitung berechnet die Handicap-Schläge und ermittelt daraus das Nettoergebnis.",
@@ -680,12 +680,12 @@
     "section": "Änderungen 2023 · Regel 4.1a(2)",
     "question": "Ein Schläger wird während der Runde versehentlich beschädigt. Wann darf der Spieler ihn ersetzen?",
     "options": [
-      "Immer, sobald die Schlagfläche beschädigt ist",
       "Wenn die Beschädigung nicht durch Missbrauch verursacht wurde und die Regelbedingungen erfüllt sind",
       "Nur mit Zustimmung des Gegners",
-      "Niemals während derselben Runde"
+      "Niemals während derselben Runde",
+      "Immer, sobald die Schlagfläche beschädigt ist"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Die 2023-Änderung erlaubt unter den Regelbedingungen den Ersatz eines während der Runde beschädigten Schlägers, sofern der Schläger nicht missbräuchlich beschädigt wurde.",
     "source": "Regel 4.1a(2) · Änderung 2023, Buchseite 18",
     "coverageId": "4.1",
@@ -696,12 +696,12 @@
     "section": "Änderungen 2023 · Regel 6.3b(3)",
     "question": "Welche Strafe gilt 2023, wenn ein Spieler regelwidrig einen neuen Ball einsetzt, obwohl der ursprüngliche Ball weiterzuspielen wäre?",
     "options": [
+      "Disqualifikation",
       "Keine Strafe",
-      "Ein Strafschlag",
       "Die Grundstrafe",
-      "Disqualifikation"
+      "Ein Strafschlag"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Die Strafe für das Spielen eines regelwidrig neu eingesetzten Balls wurde von der Grundstrafe auf einen Strafschlag reduziert.",
     "source": "Regel 6.3b(3) · Änderung 2023, Buchseite 18",
     "coverageId": "6.3",
@@ -712,12 +712,12 @@
     "section": "Änderungen 2023 · Regel 9.3",
     "question": "Der Ball bewegt sich durch Naturkräfte, nachdem er gedroppt, gelegt oder zurückgelegt wurde, und kommt in einem anderen Platzbereich oder im Aus zur Ruhe. Was gilt nach der neuen Ausnahme?",
     "options": [
-      "Der Ball wird von seiner neuen Stelle gespielt",
-      "Der Ball muss an seine ursprüngliche Stelle zurückgelegt werden",
       "Der Spieler muss mit Schlag und Distanzverlust weiterspielen",
-      "Der Spieler darf zwischen Zurücklegen und Droppen wählen"
+      "Der Spieler darf zwischen Zurücklegen und Droppen wählen",
+      "Der Ball muss an seine ursprüngliche Stelle zurückgelegt werden",
+      "Der Ball wird von seiner neuen Stelle gespielt"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Nach der neuen Ausnahme muss der Ball zurückgelegt werden, wenn Naturkräfte ihn nach dem Droppen, Legen oder Zurücklegen in einen anderen Platzbereich oder ins Aus bewegen.",
     "source": "Regel 9.3 · Änderung 2023, Buchseite 18",
     "coverageId": "9.3",
@@ -728,12 +728,12 @@
     "section": "Änderungen 2023 · Regel 10.2b(1)–(2)",
     "question": "Ein Caddie legt einen Gegenstand auf den Boden, um die Spiellinie des Spielers zu zeigen. Der Gegenstand wird vor dem Schlag entfernt. Welche Aussage trifft zu?",
     "options": [
-      "Das ist erlaubt, weil der Caddie den Gegenstand gelegt hat",
       "Das ist erlaubt, wenn der Gegenstand vor dem Schlag entfernt wird",
       "Das Legen als Ausrichtungshilfe ist verboten; das spätere Entfernen beseitigt den Verstoß nicht",
-      "Es ist nur im Lochspiel verboten"
+      "Es ist nur im Lochspiel verboten",
+      "Das ist erlaubt, weil der Caddie den Gegenstand gelegt hat"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Caddie und andere Personen dürfen keinen Gegenstand auf den Boden legen, um mit Spiellinie oder Richtungsinformation zu helfen. Das Entfernen vor dem Schlag verhindert die Strafe nicht.",
     "source": "Regel 10.2b(1)–(2) · Änderung 2023, Buchseiten 18–19",
     "coverageId": "10.2",
@@ -744,12 +744,12 @@
     "section": "Änderungen 2023 · Regel 11.1b(2)",
     "question": "Ein vom Grün gespielter Ball trifft versehentlich ein Insekt, den Spieler oder den Schläger, mit dem der Schlag ausgeführt wurde. Was gilt grundsätzlich?",
     "options": [
-      "Der Schlag muss wiederholt werden",
       "Der Ball wird gespielt, wie er liegt; der Schlag wird nicht wiederholt",
       "Der Spieler erhält die Grundstrafe",
+      "Der Schlag muss wiederholt werden",
       "Der Ball muss an die Stelle des Schlags zurückgelegt werden"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Die Änderung stellt klar: Trifft ein vom Grün gespielter Ball versehentlich ein Insekt, den Spieler oder den beim Schlag verwendeten Schläger, wird der Ball gespielt, wie er liegt.",
     "source": "Regel 11.1b(2) · Änderung 2023, Buchseite 19",
     "coverageId": "11.1",
@@ -760,12 +760,12 @@
     "section": "Änderungen 2023 · Regel 21.1c",
     "question": "Wie werden bestimmte Strafen im Stableford angewendet, etwa für zu viele Schläger, verspäteten Start oder unangemessene Verzögerung?",
     "options": [
-      "Sie werden wie im Zählspiel dem Ergebnis am betroffenen Loch zugerechnet",
+      "Sie werden nur im Lochspiel berücksichtigt",
       "Sie ziehen stets dieselbe Zahl Stableford-Punkte von der Gesamtsumme ab",
       "Sie führen immer zur Disqualifikation",
-      "Sie werden nur im Lochspiel berücksichtigt"
+      "Sie werden wie im Zählspiel dem Ergebnis am betroffenen Loch zugerechnet"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Die Änderung stellt klar, dass diese Strafen wie im normalen Zählspiel auf das Loch angewendet werden.",
     "source": "Regel 21.1c · Änderung 2023, Buchseite 19",
     "coverageId": "21.1",
@@ -776,12 +776,12 @@
     "section": "Änderungen 2023 · Regel 21.3c",
     "question": "Was wurde bei Strafen im Par-/Bogey-Zählspiel klargestellt?",
     "options": [
-      "Bestimmte Strafen werden wie im normalen Zählspiel auf das Loch angewendet",
       "Strafen dürfen nur vom Gegner vergeben werden",
-      "Jede Strafe wird in Stableford-Punkte umgerechnet",
-      "Verspäteter Start ist straflos"
+      "Verspäteter Start ist straflos",
+      "Bestimmte Strafen werden wie im normalen Zählspiel auf das Loch angewendet",
+      "Jede Strafe wird in Stableford-Punkte umgerechnet"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Regel 21.3c erhielt dieselbe Klarstellung wie Stableford: bestimmte Strafen zu Schlägern, Startzeit und Verzögerung werden wie im Zählspiel auf das Loch angewendet.",
     "source": "Regel 21.3c · Änderung 2023, Buchseite 19",
     "coverageId": "21.3",
@@ -792,12 +792,12 @@
     "section": "Änderungen 2023 · Regel 25.1",
     "question": "Für welche Wettspielformen gelten die Regeländerungen für Spieler mit Behinderungen nach Regel 25?",
     "options": [
-      "Nur für Zählspiel",
       "Nur für Lochspiel",
       "Für alle Turniere und Spielformen, soweit die jeweilige Anpassung anwendbar ist",
+      "Nur für Zählspiel",
       "Nur für nicht handicapwirksame Runden"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Mit der Einführung von Regel 25 gelten ihre Anpassungen in allen Turnieren und Spielformen.",
     "source": "Regel 25.1 · Änderung 2023, Buchseite 19",
     "coverageId": "25.1",
@@ -809,8 +809,8 @@
     "question": "Welche Spielergruppe behandelt Regel 25.2?",
     "options": [
       "Blinde Spieler",
-      "Spieler mit Amputation",
       "Spieler mit intellektueller Beeinträchtigung",
+      "Spieler mit Amputation",
       "Spieler mit eingeschränkter Beweglichkeit"
     ],
     "correct": 0,
@@ -825,11 +825,11 @@
     "question": "Welche Spielergruppe behandelt Regel 25.3?",
     "options": [
       "Blinde Spieler",
-      "Spieler mit Amputation",
       "Spieler, die Mobilitätshilfen benutzen",
-      "Spieler mit intellektueller Beeinträchtigung"
+      "Spieler mit intellektueller Beeinträchtigung",
+      "Spieler mit Amputation"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Regel 25.3 enthält die Anpassungen für Spieler mit Amputation.",
     "source": "Regel 25.3 · Änderung 2023, Buchseite 19",
     "coverageId": "25.3",
@@ -840,10 +840,10 @@
     "section": "Änderungen 2023 · Regel 25.4",
     "question": "Welche Spielergruppe behandelt Regel 25.4?",
     "options": [
-      "Spieler mit Amputation",
       "Blinde Spieler",
+      "Spieler mit intellektueller Beeinträchtigung",
       "Spieler, die Mobilitätshilfen benutzen",
-      "Spieler mit intellektueller Beeinträchtigung"
+      "Spieler mit Amputation"
     ],
     "correct": 2,
     "explanation": "Regel 25.4 enthält Anpassungen für Spieler, die Mobilitätshilfen benutzen.",
@@ -856,12 +856,12 @@
     "section": "Änderungen 2023 · Regel 25.5",
     "question": "Welche Spielergruppe behandelt Regel 25.5?",
     "options": [
+      "Spieler, die Mobilitätshilfen benutzen",
       "Spieler mit intellektueller Beeinträchtigung",
-      "Blinde Spieler",
       "Spieler mit Amputation",
-      "Spieler, die Mobilitätshilfen benutzen"
+      "Blinde Spieler"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Regel 25.5 enthält die Anpassungen für Spieler mit intellektueller Beeinträchtigung.",
     "source": "Regel 25.5 · Änderung 2023, Buchseite 19",
     "coverageId": "25.5",
@@ -872,12 +872,12 @@
     "section": "Änderungen 2023 · Regel 25.6",
     "question": "Worauf bezieht sich Regel 25.6?",
     "options": [
-      "Ausschließlich auf blinde Spieler",
       "Auf allgemeine Bestimmungen, die für alle von Regel 25 erfassten Kategorien gelten",
-      "Nur auf Spieler mit Amputation",
-      "Auf die Berechnung des Handicaps"
+      "Ausschließlich auf blinde Spieler",
+      "Auf die Berechnung des Handicaps",
+      "Nur auf Spieler mit Amputation"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Regel 25.6 enthält allgemeine Bestimmungen für alle von Regel 25 erfassten Kategorien.",
     "source": "Regel 25.6 · Änderung 2023, Buchseite 19",
     "coverageId": "25.6",
@@ -888,12 +888,12 @@
     "section": "Änderungen 2023 · Regel 14.3b(3)",
     "question": "Wo muss der Spieler beim Zurück-auf-der-Linie-Verfahren den Ball droppen?",
     "options": [
-      "Innerhalb einer Schlägerlänge seitlich neben der Linie",
-      "Auf der Bezugslinie; der erste Bodenkontakt nach dem Drop bestimmt den Erleichterungsbereich",
+      "Auf der ursprünglichen Ballstelle",
       "Immer genau an der Stelle, an der die Linie endet",
-      "Auf der ursprünglichen Ballstelle"
+      "Innerhalb einer Schlägerlänge seitlich neben der Linie",
+      "Auf der Bezugslinie; der erste Bodenkontakt nach dem Drop bestimmt den Erleichterungsbereich"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Der Ball muss auf der Bezugslinie gedroppt werden. Die Stelle, an der er nach dem Drop zuerst den Boden berührt, legt den Erleichterungsbereich von einer Schlägerlänge in alle Richtungen fest.",
     "source": "Regel 14.3b(3) · Änderung 2023, Buchseite 19",
     "coverageId": "14.3",
@@ -904,12 +904,12 @@
     "section": "Änderungen 2023 · Regel 16.1c(2)",
     "question": "Bei Erleichterung auf der Bezugslinie nach Regel 16.1c: Was bestimmt die zulässige Stelle für den Drop?",
     "options": [
-      "Der Ball wird auf der Linie gedroppt; sein erster Bodenkontakt bestimmt den Erleichterungsbereich",
+      "Der Spieler darf überall innerhalb zweier Schlägerlängen droppen",
       "Der Ball muss außerhalb des Platzes gedroppt werden",
-      "Es darf nur am nächstgelegenen Punkt gedroppt werden",
-      "Der Spieler darf überall innerhalb zweier Schlägerlängen droppen"
+      "Der Ball wird auf der Linie gedroppt; sein erster Bodenkontakt bestimmt den Erleichterungsbereich",
+      "Es darf nur am nächstgelegenen Punkt gedroppt werden"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Die 2023-Änderung vereinheitlicht das Zurück-auf-der-Linie-Verfahren: Der Drop erfolgt auf der Bezugslinie; vom ersten Bodenkontakt wird der Erleichterungsbereich bestimmt.",
     "source": "Regel 16.1c(2) · Änderung 2023, Buchseite 19",
     "coverageId": "16.1",
@@ -920,12 +920,12 @@
     "section": "Änderungen 2023 · Regel 17.1d(2)",
     "question": "Was gilt beim Zurück-auf-der-Linie-Verfahren für eine Penalty Area?",
     "options": [
+      "Der Spieler legt den Erleichterungsbereich vor dem Drop vollständig selbst fest",
       "Der Spieler muss auf der Bezugslinie droppen; der erste Bodenkontakt legt den Erleichterungsbereich fest",
-      "Der Spieler darf immer seitlich innerhalb einer Schlägerlänge droppen",
       "Der Ball muss auf dem Grün gedroppt werden",
-      "Der Spieler legt den Erleichterungsbereich vor dem Drop vollständig selbst fest"
+      "Der Spieler darf immer seitlich innerhalb einer Schlägerlänge droppen"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Auch nach Regel 17.1d(2) muss auf der Bezugslinie gedroppt werden. Der erste Bodenkontakt nach dem Drop bildet den Bezug für den Erleichterungsbereich.",
     "source": "Regel 17.1d(2) · Änderung 2023, Buchseite 19",
     "coverageId": "17.1",
@@ -937,9 +937,9 @@
     "question": "Was ist bei Erleichterung auf der Bezugslinie für einen unspielbaren Ball nach Regel 19.2b zu beachten?",
     "options": [
       "Der Ball wird auf der Bezugslinie gedroppt; der erste Bodenkontakt bestimmt den Erleichterungsbereich",
-      "Der Ball muss neben dem ursprünglichen Ball gedroppt werden",
       "Der Spieler darf den Ball nur auf der ursprünglichen Linie zurücklegen",
-      "Der Ball wird ohne Bezug zum Erleichterungsbereich beliebig platziert"
+      "Der Ball wird ohne Bezug zum Erleichterungsbereich beliebig platziert",
+      "Der Ball muss neben dem ursprünglichen Ball gedroppt werden"
     ],
     "correct": 0,
     "explanation": "Das geänderte Verfahren verlangt den Drop auf der Bezugslinie. Der Punkt, an dem der Ball zuerst den Boden berührt, bestimmt den Erleichterungsbereich.",
@@ -952,12 +952,12 @@
     "section": "Änderungen 2023 · Regel 19.3",
     "question": "Was wurde bei der Erleichterung auf der Bezugslinie für einen unspielbaren Ball im Bunker vereinheitlicht?",
     "options": [
-      "Der Ball wird auf der Bezugslinie gedroppt; der erste Bodenkontakt bestimmt den Erleichterungsbereich",
       "Der Ball muss immer außerhalb des Bunkers gedroppt werden",
+      "Es gibt keine Erleichterung mit Bezugslinie mehr",
       "Der Ball darf nur an der Bunkerkante platziert werden",
-      "Es gibt keine Erleichterung mit Bezugslinie mehr"
+      "Der Ball wird auf der Bezugslinie gedroppt; der erste Bodenkontakt bestimmt den Erleichterungsbereich"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Auch dieses Verfahren folgt der geänderten Vorgehensweise: Drop auf der Bezugslinie, Erleichterungsbereich ab dem ersten Bodenkontakt. Die zusätzlichen Strafschläge für Erleichterung außerhalb des Bunkers bleiben davon unberührt.",
     "source": "Regel 19.3 · Änderung 2023, Buchseite 19",
     "coverageId": "19.3",
@@ -968,12 +968,12 @@
     "section": "Änderungen 2023 · Definition Erleichterungsbereich",
     "question": "Wie entsteht beim Zurück-auf-der-Linie-Verfahren der Erleichterungsbereich?",
     "options": [
-      "Er wird vom Punkt aus gemessen, an dem der gedroppte Ball die Bezugslinie zuerst berührt, und reicht eine Schlägerlänge in alle Richtungen",
+      "Er wird ausschließlich durch den nächstgelegenen Punkt bestimmt",
       "Er ist immer ein Kreis mit zwei Schlägerlängen um den ursprünglichen Ball",
-      "Er entspricht dem gesamten Bereich zwischen Ball und Loch",
-      "Er wird ausschließlich durch den nächstgelegenen Punkt bestimmt"
+      "Er wird vom Punkt aus gemessen, an dem der gedroppte Ball die Bezugslinie zuerst berührt, und reicht eine Schlägerlänge in alle Richtungen",
+      "Er entspricht dem gesamten Bereich zwischen Ball und Loch"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Bei diesem Verfahren wird auf der Bezugslinie gedroppt. Der Punkt des ersten Bodenkontakts bildet den Ausgangspunkt für einen Erleichterungsbereich von einer Schlägerlänge in alle Richtungen.",
     "source": "Definition Erleichterungsbereich · Änderung 2023, Buchseite 19",
     "coverageId": "D:Erleichterungsbereich",
@@ -984,12 +984,12 @@
     "section": "Änderungen 2023 · Schlag wiederholen",
     "question": "Wenn eine Regel verlangt, dass ein Schlag wiederholt wird, der Spieler das aber versäumt: Welche Folge wurde 2023 klargestellt?",
     "options": [
+      "Das Versäumnis ist straflos",
       "Das Versäumnis bleibt ein Regelverstoß, führt aber nicht mehr allein deshalb zur Disqualifikation",
       "Der Schlag gilt immer als wiederholt",
-      "Der Spieler erhält automatisch zwei Strafschläge und muss das Loch wiederholen",
-      "Das Versäumnis ist straflos"
+      "Der Spieler erhält automatisch zwei Strafschläge und muss das Loch wiederholen"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Die Änderung stellt klar, dass das Versäumnis, einen Schlag zu wiederholen, wenn dies gefordert ist, weiterhin gegen die betreffende Regel verstößt, aber nicht mehr zur Disqualifikation führt.",
     "source": "Änderungen zu „Schlag zählt nicht“ · Buchseite 19",
     "coverageId": "11.1b",
