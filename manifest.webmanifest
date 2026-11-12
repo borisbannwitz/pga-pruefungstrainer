@@ -1,0 +1,19 @@
+{
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "any",
+      "src": "./icon.svg",
+      "type": "image/svg+xml"
+    }
+  ],
+  "short_name": "PGA Trainer",
+  "name": "PGA Prüfungstrainer",
+  "scope": "./",
+  "display": "standalone",
+  "start_url": "./index.html",
+  "lang": "de",
+  "background_color": "#f3f5f2",
+  "theme_color": "#10251f"
+}
+

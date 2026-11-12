@@ -1,0 +1,282 @@
+[
+  {
+    "number": "R1",
+    "section": "Regel 1 – Grundlagen",
+    "question": "Was ist das grundlegende Ziel des Golfspiels?",
+    "options": [
+      "Den Ball mit möglichst wenigen Schlägen vom Abschlag ins Loch spielen",
+      "Den Ball möglichst weit vom Abschlag schlagen",
+      "Jedes Loch mit genau drei Schlägen beenden",
+      "Den Ball immer auf dem Fairway halten"
+    ],
+    "correct": 0,
+    "explanation": "Golf wird gespielt, indem ein Ball mit einem Schläger durch einen oder mehrere Schläge vom Abschlag ins Loch gespielt wird.",
+    "source": "Regel 1.1 · PDF S. 24"
+  },
+  {
+    "number": "R2",
+    "section": "Regel 3 – Zählspiel",
+    "question": "Wer gewinnt im Zählspiel grundsätzlich?",
+    "options": [
+      "Der Spieler mit den meisten gewonnenen Löchern",
+      "Der Spieler mit der niedrigsten Gesamtzahl an Schlägen",
+      "Der Spieler mit dem niedrigsten Handicap",
+      "Der Spieler mit den meisten Birdies"
+    ],
+    "correct": 1,
+    "explanation": "Im Zählspiel zählt jeder Spieler seine Schläge; die niedrigste Schlagzahl gewinnt (vorbehaltlich der Turnierbedingungen).",
+    "source": "Regel 3.3 · PDF S. 39"
+  },
+  {
+    "number": "R3",
+    "section": "Regel 5 – Runde",
+    "question": "Wie lange darf ein Ball grundsätzlich gesucht werden?",
+    "options": [
+      "Zwei Minuten",
+      "Drei Minuten",
+      "Fünf Minuten",
+      "Bis die Spielgruppe weiterzieht"
+    ],
+    "correct": 1,
+    "explanation": "Die Suchzeit beträgt drei Minuten, nachdem der Spieler oder sein Caddie mit der Suche begonnen hat.",
+    "source": "Regel 5.6a / Regel 18.2a · PDF S. 60 und 181"
+  },
+  {
+    "number": "R4",
+    "section": "Regel 6 – Abschlag",
+    "question": "Wo muss ein Ball beim Spielen vom Abschlag gespielt werden?",
+    "options": [
+      "Beliebig weit hinter den Abschlagmarkierungen",
+      "Innerhalb des Abschlags, höchstens zwei Schlägerlängen hinter der Linie der Abschlagmarkierungen",
+      "Nur genau auf Höhe der Abschlagmarkierungen",
+      "Bis zu zwei Schlägerlängen vor den Abschlagmarkierungen"
+    ],
+    "correct": 1,
+    "explanation": "Der Ball muss innerhalb des Abschlags gespielt werden. Er darf bis zu zwei Schlägerlängen hinter der Linie der Abschlagmarkierungen liegen.",
+    "source": "Regel 6.2b(1) · PDF S. 66"
+  },
+  {
+    "number": "R5",
+    "section": "Regel 6 – Reihenfolge",
+    "question": "Wer spielt im Zählspiel normalerweise zuerst?",
+    "options": [
+      "Der Spieler mit dem höchsten Handicap",
+      "Der Spieler, dessen Ball am weitesten vom Loch entfernt ist",
+      "Immer der Spieler, der das vorherige Loch gewonnen hat",
+      "Der Spieler mit dem ältesten Schläger"
+    ],
+    "correct": 1,
+    "explanation": "Im Zählspiel soll grundsätzlich der Spieler spielen, dessen Ball am weitesten vom Loch entfernt ist. Ready Golf ist unter sicheren Umständen möglich.",
+    "source": "Regel 6.4b · PDF S. 73"
+  },
+  {
+    "number": "R6",
+    "section": "Regel 7 – Ballsuche",
+    "question": "Was ist beim redlichen Suchen eines Balls erlaubt?",
+    "options": [
+      "Gras niederdrücken, um besser sehen zu können, auch wenn dadurch die Lage verbessert wird",
+      "Sand oder Wasser bewegen, soweit dies beim redlichen Suchen unvermeidbar ist",
+      "Den Ball mit dem Schläger aus dem Rough herausziehen",
+      "Die Spiellinie absichtlich freiräumen"
+    ],
+    "correct": 1,
+    "explanation": "Beim redlichen Suchen dürfen Handlungen vorgenommen werden, die beim Suchen angemessen sind. Dabei verursachte Verbesserungen sind unter den Regel-Ausnahmen straflos; absichtliches Verbessern ist nicht erlaubt.",
+    "source": "Regel 7.1 · PDF S. 78"
+  },
+  {
+    "number": "R7",
+    "section": "Regel 8 – Platz spielen",
+    "question": "Was ist der Grundsatz der Regel 8?",
+    "options": [
+      "Der Spieler darf die Lage seines Balls verbessern, wenn er dadurch Zeit spart",
+      "Der Platz ist grundsätzlich so zu spielen, wie er vorgefunden wird",
+      "Vor jedem Schlag darf der Spieler lose Hindernisse entfernen und den Boden glätten",
+      "Der Spieler darf die Spiellinie beliebig markieren"
+    ],
+    "correct": 1,
+    "explanation": "Der Spieler muss grundsätzlich die Bedingungen beeinflussen, die den Schlag beeinflussen, nicht verbessern; es gelten die ausdrücklich geregelten Ausnahmen.",
+    "source": "Regel 8.1 · PDF S. 81"
+  },
+  {
+    "number": "R8",
+    "section": "Regel 9 – Ball in Ruhe",
+    "question": "Ein Ball in Ruhe wird durch Naturkräfte bewegt. Was gilt grundsätzlich?",
+    "options": [
+      "Der Ball muss immer an seine ursprüngliche Stelle zurückgelegt werden",
+      "Der Ball wird grundsätzlich von seiner neuen Stelle gespielt",
+      "Es fällt automatisch ein Strafschlag an",
+      "Der Spieler muss immer einen neuen Ball einsetzen"
+    ],
+    "correct": 1,
+    "explanation": "Wird ein Ball in Ruhe durch Naturkräfte bewegt, wird er grundsätzlich von seiner neuen Stelle gespielt; besondere Ausnahmen können ein Zurücklegen verlangen.",
+    "source": "Regel 9.3 · PDF S. 90"
+  },
+  {
+    "number": "R9",
+    "section": "Regel 10 – Beratung",
+    "question": "Welche Aussage zur Beratung ist im Einzel-Zählspiel richtig?",
+    "options": [
+      "Ein Spieler darf jeden anderen Spieler nach der Schlägerwahl fragen",
+      "Ein Spieler darf während der Runde nur seinen Caddie um Beratung bitten",
+      "Beratung ist jederzeit uneingeschränkt erlaubt",
+      "Ein Spieler darf dem Mitbewerber immer die Spiellinie zeigen"
+    ],
+    "correct": 1,
+    "explanation": "Ein Spieler darf während der Runde Beratung nur von seinem Caddie einholen; Ausnahmen und weitere Einzelheiten regelt Regel 10.2.",
+    "source": "Regel 10.2a · PDF S. 97"
+  },
+  {
+    "number": "R10",
+    "section": "Regel 11 – Ball in Bewegung",
+    "question": "Ein in Bewegung befindlicher Ball trifft versehentlich den Spieler selbst. Was gilt grundsätzlich?",
+    "options": [
+      "Der Spieler erhält immer zwei Strafschläge",
+      "Es fällt grundsätzlich keine Strafe an; der Ball wird gespielt, wie er liegt",
+      "Der Schlag muss immer wiederholt werden",
+      "Der Ball muss an die ursprüngliche Stelle zurückgelegt werden"
+    ],
+    "correct": 1,
+    "explanation": "Bei versehentlichem Treffen des eigenen Spielers oder Caddies fällt grundsätzlich keine Strafe an; der Ball wird gespielt, wie er liegt, sofern keine Ausnahme greift.",
+    "source": "Regel 11.1 · PDF S. 104"
+  },
+  {
+    "number": "R11",
+    "section": "Regel 12 – Bunker",
+    "question": "Was darf ein Spieler grundsätzlich nicht tun, bevor er einen Ball im Bunker spielt?",
+    "options": [
+      "Den Schläger in der Nähe des Balls abstellen, ohne den Sand zu berühren",
+      "Den Sand unmittelbar vor oder hinter dem Ball mit dem Schläger berühren",
+      "Einen Rechen außerhalb der Spiellinie benutzen",
+      "Lose hinderliche Naturstoffe entfernen"
+    ],
+    "correct": 1,
+    "explanation": "Vor dem Schlag darf der Spieler den Sand im Bunker nicht absichtlich mit Hand, Schläger oder anderem Gegenstand berühren, um den nächsten Schlag zu testen oder die Lage zu verbessern; Regel 12.2 enthält Ausnahmen.",
+    "source": "Regel 12.2b · PDF S. 113"
+  },
+  {
+    "number": "R12",
+    "section": "Regel 13 – Grün",
+    "question": "Darf der Spieler auf dem Grün den Flaggenstock beim Schlag im Loch lassen?",
+    "options": [
+      "Nein, das ist immer verboten",
+      "Ja",
+      "Nur im Zählspiel",
+      "Nur wenn der Ball außerhalb des Grüns liegt"
+    ],
+    "correct": 1,
+    "explanation": "Der Spieler darf entscheiden, ob der Flaggenstock im Loch bleibt oder entfernt wird, wenn er vom Grün spielt.",
+    "source": "Regel 13.2a · PDF S. 121"
+  },
+  {
+    "number": "R13",
+    "section": "Regel 13 – Grün",
+    "question": "Was darf ein Spieler auf dem Grün grundsätzlich ausbessern?",
+    "options": [
+      "Nur Pitchmarken",
+      "Pitchmarken und Schäden durch frühere Lochpositionen sowie bestimmte andere Schäden",
+      "Auch natürliche Unebenheiten und Wachstumsrichtungen des Grases",
+      "Jede Unebenheit, die die Puttlinie stört"
+    ],
+    "correct": 1,
+    "explanation": "Regel 13.1c erlaubt das Ausbessern bestimmter Schäden auf dem Grün, darunter Pitchmarken und Schäden durch frühere Lochpositionen. Nicht jede natürliche Unebenheit darf verändert werden.",
+    "source": "Regel 13.1c · PDF S. 119"
+  },
+  {
+    "number": "R14",
+    "section": "Regel 14 – Droppen",
+    "question": "Aus welcher Höhe muss ein Ball beim Droppen grundsätzlich fallengelassen werden?",
+    "options": [
+      "Aus Schulterhöhe",
+      "Aus Kniehöhe",
+      "Aus Hüfthöhe",
+      "Aus beliebiger Höhe"
+    ],
+    "correct": 1,
+    "explanation": "Der Ball muss aus Kniehöhe fallengelassen werden, während der Spieler steht.",
+    "source": "Regel 14.3b(1) · PDF S. 133"
+  },
+  {
+    "number": "R15",
+    "section": "Regel 14 – Erleichterungsbereich",
+    "question": "Wie groß ist der Erleichterungsbereich bei der üblichen Erleichterung innerhalb einer Schlägerlänge?",
+    "options": [
+      "Eine Schlägerlänge vom Bezugspunkt",
+      "Zwei Schlägerlängen vom Bezugspunkt",
+      "Eine Putterlänge",
+      "Beliebig groß, solange der Ball nicht näher zum Loch liegt"
+    ],
+    "correct": 0,
+    "explanation": "Wenn die Regel einen Erleichterungsbereich von einer Schlägerlänge vorsieht, wird dieser vom Bezugspunkt aus gemessen und darf nicht näher zum Loch liegen.",
+    "source": "Regel 14.3 / jeweilige Erleichterungsregel · PDF S. 133 ff."
+  },
+  {
+    "number": "R16",
+    "section": "Regel 16 – Ungewöhnliche Platzverhältnisse",
+    "question": "Welche der folgenden Situationen ist typischerweise ein ungewöhnliches Platzverhältnis?",
+    "options": [
+      "Ein normaler Divot im Fairway",
+      " zeitweiliges Wasser",
+      "Ein normaler Sandbunker",
+      "Ein natürliches Gefälle des Geländes"
+    ],
+    "correct": 1,
+    "explanation": "Ungewöhnliche Platzverhältnisse umfassen unter anderem zeitweiliges Wasser, Boden in Ausbesserung und bestimmte Tierlöcher sowie unbewegliche Hemmnisse.",
+    "source": "Regel 16.1 · PDF S. 155"
+  },
+  {
+    "number": "R17",
+    "section": "Regel 17 – Penalty Area",
+    "question": "Welche Erleichterungsmöglichkeit besteht bei einer roten Penalty Area grundsätzlich zusätzlich zur Erleichterung mit Schlag und Distanzverlust?",
+    "options": [
+      "Seitliche Erleichterung innerhalb von zwei Schlägerlängen vom Bezugspunkt",
+      "Kostenlose Erleichterung auf der gegenüberliegenden Seite",
+      "Erleichterung immer auf der Spiellinie zurück",
+      "Keine Erleichterung möglich"
+    ],
+    "correct": 0,
+    "explanation": "Bei einer roten Penalty Area besteht zusätzlich die Möglichkeit der seitlichen Erleichterung innerhalb von zwei Schlägerlängen vom Bezugspunkt, jeweils mit einem Strafschlag.",
+    "source": "Regel 17.1d · PDF S. 172"
+  },
+  {
+    "number": "R18",
+    "section": "Regel 18 – Ball verloren / Aus",
+    "question": "Was ist grundsätzlich zu tun, wenn ein Ball verloren oder im Aus ist?",
+    "options": [
+      "Mit einem Strafschlag von der Stelle des vorigen Schlags weiterspielen",
+      "Den Ball straflos neben der vermuteten Stelle droppen",
+      "Einen Ball an der Stelle des letzten Sichtkontakts legen",
+      "Das Loch wird automatisch verloren"
+    ],
+    "correct": 0,
+    "explanation": "Grundsätzlich ist Erleichterung mit Schlag und Distanzverlust in Anspruch zu nehmen: ein Strafschlag und Spielen von der Stelle des vorigen Schlags.",
+    "source": "Regel 18.2b · PDF S. 181"
+  },
+  {
+    "number": "R19",
+    "section": "Regel 18 – Provisorischer Ball",
+    "question": "Wann darf ein provisorischer Ball gespielt werden?",
+    "options": [
+      "Wenn der ursprüngliche Ball möglicherweise in einer Penalty Area liegt",
+      "Wenn der ursprüngliche Ball außerhalb einer Penalty Area verloren oder im Aus sein könnte",
+      "Bei jedem schlechten Schlag",
+      "Nur wenn der Mitspieler zustimmt"
+    ],
+    "correct": 1,
+    "explanation": "Ein provisorischer Ball ist zulässig, wenn der ursprüngliche Ball außerhalb einer Penalty Area verloren oder im Aus sein könnte. Bei möglicher Lage in einer Penalty Area ist er nicht zulässig.",
+    "source": "Regel 18.3a · PDF S. 183"
+  },
+  {
+    "number": "R20",
+    "section": "Regel 19 – Unspielbarer Ball",
+    "question": "Darf ein Spieler seinen Ball für unspielbar erklären, wenn er in einer Penalty Area liegt?",
+    "options": [
+      "Ja, mit einem Strafschlag",
+      "Ja, aber nur im roten Bereich",
+      "Nein",
+      "Nur im Zählspiel"
+    ],
+    "correct": 2,
+    "explanation": "Regel 19 gilt nicht für einen Ball in einer Penalty Area. Dort muss der Spieler die Erleichterungsmöglichkeiten nach Regel 17 nutzen.",
+    "source": "Regel 19.1 · PDF S. 187"
+  }
+]

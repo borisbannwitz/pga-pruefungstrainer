@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#10251f"><meta name="description" content="PGA Prüfungstrainer – Golftechnik und Golfregeln"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="PGA Trainer"><link rel="apple-touch-icon" href="icon.svg"><title>PGA Prüfungstrainer</title>
+<style>
+:root{--bg:#f3f5f2;--card:#fff;--ink:#17231e;--muted:#65736c;--green:#174b38;--pale:#dcebe3;--line:#dce3de;--amber:#fff2d5;--red:#fbe6e4}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}header{background:#10251f;color:white;padding:22px 18px}header .sub{font-size:11px;letter-spacing:.13em;opacity:.75}h1{font-size:24px;margin:5px 0}header p{margin:0;color:#d5e3db;font-size:13px}.wrap{max-width:760px;margin:auto;padding:16px 14px 36px}.panel,.qcard,.stat,.choice{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:15px}.grid{display:grid;grid-template-columns:1fr;gap:10px}.choice{display:block;width:100%;text-align:left;color:var(--ink);font:inherit;padding:17px;cursor:pointer}.choice strong{display:block;font-size:17px;margin:5px 0}.choice small,.muted{color:var(--muted);font-size:12px;line-height:1.5}.choice .ico{font-size:25px}.btn{border:0;border-radius:10px;padding:12px 14px;font:600 14px system-ui;cursor:pointer}.primary{background:var(--green);color:white}.secondary{background:#e8ede9;color:var(--ink)}.good{background:#e2f2e7;color:#165b35}.bad{background:var(--amber);color:#78500b}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.toolbar input,.toolbar select{flex:1;min-width:130px;border:1px solid var(--line);border-radius:10px;padding:11px;background:white;font:inherit}.item{display:block;width:100%;text-align:left;background:white;border:1px solid var(--line);border-radius:11px;padding:12px;margin:7px 0;color:var(--ink);font:inherit}.item b{display:block;font-size:14px}.item small{color:var(--muted)}.question{font-size:19px;font-weight:650;line-height:1.4;margin:18px 0}.answer{display:none;background:#f2f7f3;border-left:4px solid var(--green);padding:13px;border-radius:8px;line-height:1.5;white-space:pre-wrap}.answer.show{display:block}.tag{display:inline-block;background:var(--pale);color:var(--green);border-radius:99px;padding:4px 9px;font-size:11px}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px}.hidden{display:none!important}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:13px}.stat b{font-size:20px;display:block}.stat span{font-size:11px;color:var(--muted)}.progress{height:7px;background:#e6ece8;border-radius:9px;overflow:hidden;margin:10px 0}.progress i{display:block;height:100%;background:var(--green);width:0}.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);border-radius:10px;background:white;padding:13px;margin:8px 0;font:inherit;color:var(--ink)}.opt.selected{border:2px solid var(--green);background:var(--pale)}.opt.correct{border:2px solid #26834a;background:#e5f4e9}.opt.wrong{border:2px solid #bb5a4d;background:#fbe6e4}.footer{text-align:center;font-size:11px;color:var(--muted);margin:25px 0}@media(min-width:560px){.grid{grid-template-columns:repeat(3,1fr)}}
+</style></head><body>
+<header><div class="sub">LERNEN · WIEDERHOLEN · PRÜFEN</div><h1>PGA Prüfungstrainer</h1><p style="font-size:11px;opacity:.7;margin-top:5px">Entwicklungsstand 0.2</p><p>Golftechnik und offizielle Golfregeln · lokal auf deinem Gerät</p></header>
+<main class="wrap">
+<section id="start">
+ <div class="panel"><b>Wähle deinen Trainingsbereich</b><p class="muted">Du kannst jederzeit zurückwechseln. Dein Lernfortschritt wird auf diesem Gerät gespeichert.</p></div>
+ <div class="grid" style="margin-top:12px">
+  <button class="choice" data-cat="pga"><span class="ico">🎓</span><strong>Nur PGA / Golftechnik</strong><small>166 geprüfte Fragen aus deiner PGA-Zusammenstellung</small></button>
+  <button class="choice" data-cat="rules"><span class="ico">⛳</span><strong>Nur Golfregeln</strong><small>Regelfragen mit Single-Choice-Antworten und Regelverweisen</small></button>
+  <button class="choice" data-cat="both"><span class="ico">📚</span><strong>PGA + Golfregeln</strong><small>Beide Lernbereiche in einer gemeinsamen Übersicht</small></button>
+ </div>
+ <p class="muted">Hinweis: Die Regelfragen dieser ersten Version sind ein Startbestand. Die Prüfungssimulation mit 45 Fragen wird erst freigeschaltet, wenn der dafür vorgesehene Fragenbestand fachlich geprüft und vollständig ist.</p>
+</section>
+<section id="app" class="hidden">
+ <div class="actions" style="margin:0 0 12px"><button class="btn secondary" id="back">← Bereich wechseln</button><span class="tag" id="catLabel"></span></div>
+ <div class="stats"><div class="stat"><b id="count">0</b><span>Fragen im Bereich</span></div><div class="stat"><b id="known">0</b><span>Sicher</span></div><div class="stat"><b id="review">0</b><span>Wiederholen</span></div></div><p class="muted" id="historyInfo">Dein Lernstand und deine letzten Kurztests bleiben lokal auf diesem Gerät gespeichert.</p>
+ <div class="actions"><button class="btn primary" id="tabLearn">Lernmodus</button><button class="btn secondary" id="tabQuiz">Regelfragen testen</button><button class="btn secondary" id="tabExam">Prüfungssimulation</button></div>
+ <section id="learnView">
+  <div class="toolbar"><input id="search" placeholder="Frage oder Begriff suchen"><select id="topic"><option value="">Alle Themen</option></select><button class="btn secondary" id="reviewOnly" aria-pressed="false">↻ Nur Wiederholungsfragen</button></div>
+  <div id="list"></div>
+ </section>
+ <section id="studyView" class="hidden">
+  <div class="muted" id="position"></div><div class="tag" id="sourceTag"></div>
+  <article class="qcard"><div class="question" id="question"></div><div class="answer" id="answer"></div>
+   <div class="actions"><button class="btn primary" id="reveal">Antwort anzeigen</button><button class="btn secondary" id="prev">Zurück</button><button class="btn secondary" id="next">Weiter</button></div>
+   <div class="actions hidden" id="rate"><button class="btn good" id="markKnown">✓ Kann ich</button><button class="btn bad" id="markReview">↻ Wiederholen</button></div>
+  </article><p class="muted" id="sourceNote"></p><button class="btn secondary" id="toList">← Fragenübersicht</button>
+ </section>
+ <section id="quizView" class="hidden"><div class="panel"><b>Regelfragen – Kurztest</b><p class="muted">Single Choice · 10 zufällig ausgewählte Regelfragen. Nach jeder Antwort erhältst du die Erklärung und den Regelverweis.</p><button class="btn primary" id="startQuiz">Test starten</button></div><div id="quizCard" class="qcard hidden"><div class="muted" id="quizCount"></div><div class="question" id="quizQuestion"></div><div id="options"></div><div class="answer" id="feedback"></div><button class="btn primary hidden" id="quizNext">Nächste Frage</button></div></section>
+ <section id="examView" class="hidden">
+  <div class="panel" id="examIntro">
+   <b>45-Fragen-Trainingssimulation</b>
+   <p class="muted">60 Minuten · Single Choice · keine Hilfen während der Bearbeitung. Bei den PGA-Fragen sind die Antwortoptionen je nach Frage fachlich unterschiedlich weit geprüft. Der geprüfte Status wird kenntlich gemacht; ungeprüfte Optionen bleiben ausdrücklich vorläufig.</p>
+   <p class="muted" id="examScope"></p>
+   <button class="btn primary" id="startExam">Prüfung starten</button>
+  </div>
+  <div class="qcard hidden" id="examCard">
+   <div class="actions" style="justify-content:space-between"><span class="tag" id="examPosition">Frage 1/45</span><b id="examTimer" aria-live="off">60:00</b></div>
+   <div class="progress"><i id="examProgress"></i></div>
+   <div class="question" id="examQuestion"></div><div id="examOptions"></div>
+   <div class="actions"><button class="btn secondary" id="examPrev">Zurück</button><button class="btn primary" id="examNext">Weiter</button><button class="btn bad" id="finishExam">Prüfung abgeben</button></div>
+   <p class="muted">Du kannst Antworten ändern. Die Auswertung erscheint erst nach Abgabe.</p>
+  </div>
+  <div class="qcard hidden" id="examResult">
+   <b>Dein Prüfungsergebnis</b><div class="stats" style="margin-top:12px"><div class="stat"><b id="examCorrect">0</b><span>Richtig</span></div><div class="stat"><b id="examWrong">0</b><span>Falsch</span></div><div class="stat"><b id="examPercent">0%</b><span>Trefferquote</span></div></div>
+   <p id="examSummary"></p><div id="examMistakes"></div>
+   <button class="btn primary" id="examAgain">Neue Prüfung</button>
+  </div>
+ </section>
+</section>
+<footer class="footer">PGA-Fragen: deine geprüfte Zusammenstellung (166 Fragen). Golfregeln: Offizielle Golfregeln, DGV, gültig ab Januar 2023. Lernstand wird lokal gespeichert.</footer>
+</main>
+<script src="questions.js"></script>
+<script>
+const PGA=window.PGA_QUESTIONS||[], RULES=[{"number": "R1", "section": "Regel 1 – Grundlagen", "question": "Was ist das grundlegende Ziel des Golfspiels?", "options": ["Den Ball mit möglichst wenigen Schlägen vom Abschlag ins Loch spielen", "Den Ball möglichst weit vom Abschlag schlagen", "Jedes Loch mit genau drei Schlägen beenden", "Den Ball immer auf dem Fairway halten"], "correct": 0, "explanation": "Golf wird gespielt, indem ein Ball mit einem Schläger durch einen oder mehrere Schläge vom Abschlag ins Loch gespielt wird.", "source": "Regel 1.1 · PDF S. 24"}, {"number": "R2", "section": "Regel 3 – Zählspiel", "question": "Wer gewinnt im Zählspiel grundsätzlich?", "options": ["Der Spieler mit den meisten gewonnenen Löchern", "Der Spieler mit der niedrigsten Gesamtzahl an Schlägen", "Der Spieler mit dem niedrigsten Handicap", "Der Spieler mit den meisten Birdies"], "correct": 1, "explanation": "Im Zählspiel zählt jeder Spieler seine Schläge; die niedrigste Schlagzahl gewinnt (vorbehaltlich der Turnierbedingungen).", "source": "Regel 3.3 · PDF S. 39"}, {"number": "R3", "section": "Regel 5 – Runde", "question": "Wie lange darf ein Ball grundsätzlich gesucht werden?", "options": ["Zwei Minuten", "Drei Minuten", "Fünf Minuten", "Bis die Spielgruppe weiterzieht"], "correct": 1, "explanation": "Die Suchzeit beträgt drei Minuten, nachdem der Spieler oder sein Caddie mit der Suche begonnen hat.", "source": "Regel 5.6a / Regel 18.2a · PDF S. 60 und 181"}, {"number": "R4", "section": "Regel 6 – Abschlag", "question": "Wo muss ein Ball beim Spielen vom Abschlag gespielt werden?", "options": ["Beliebig weit hinter den Abschlagmarkierungen", "Innerhalb des Abschlags, höchstens zwei Schlägerlängen hinter der Linie der Abschlagmarkierungen", "Nur genau auf Höhe der Abschlagmarkierungen", "Bis zu zwei Schlägerlängen vor den Abschlagmarkierungen"], "correct": 1, "explanation": "Der Ball muss innerhalb des Abschlags gespielt werden. Er darf bis zu zwei Schlägerlängen hinter der Linie der Abschlagmarkierungen liegen.", "source": "Regel 6.2b(1) · PDF S. 66"}, {"number": "R5", "section": "Regel 6 – Reihenfolge", "question": "Wer spielt im Zählspiel normalerweise zuerst?", "options": ["Der Spieler mit dem höchsten Handicap", "Der Spieler, dessen Ball am weitesten vom Loch entfernt ist", "Immer der Spieler, der das vorherige Loch gewonnen hat", "Der Spieler mit dem ältesten Schläger"], "correct": 1, "explanation": "Im Zählspiel soll grundsätzlich der Spieler spielen, dessen Ball am weitesten vom Loch entfernt ist. Ready Golf ist unter sicheren Umständen möglich.", "source": "Regel 6.4b · PDF S. 73"}, {"number": "R6", "section": "Regel 7 – Ballsuche", "question": "Was ist beim redlichen Suchen eines Balls erlaubt?", "options": ["Gras niederdrücken, um besser sehen zu können, auch wenn dadurch die Lage verbessert wird", "Sand oder Wasser bewegen, soweit dies beim redlichen Suchen unvermeidbar ist", "Den Ball mit dem Schläger aus dem Rough herausziehen", "Die Spiellinie absichtlich freiräumen"], "correct": 1, "explanation": "Beim redlichen Suchen dürfen Handlungen vorgenommen werden, die beim Suchen angemessen sind. Dabei verursachte Verbesserungen sind unter den Regel-Ausnahmen straflos; absichtliches Verbessern ist nicht erlaubt.", "source": "Regel 7.1 · PDF S. 78"}, {"number": "R7", "section": "Regel 8 – Platz spielen", "question": "Was ist der Grundsatz der Regel 8?", "options": ["Der Spieler darf die Lage seines Balls verbessern, wenn er dadurch Zeit spart", "Der Platz ist grundsätzlich so zu spielen, wie er vorgefunden wird", "Vor jedem Schlag darf der Spieler lose Hindernisse entfernen und den Boden glätten", "Der Spieler darf die Spiellinie beliebig markieren"], "correct": 1, "explanation": "Der Spieler muss grundsätzlich die Bedingungen beeinflussen, die den Schlag beeinflussen, nicht verbessern; es gelten die ausdrücklich geregelten Ausnahmen.", "source": "Regel 8.1 · PDF S. 81"}, {"number": "R8", "section": "Regel 9 – Ball in Ruhe", "question": "Ein Ball in Ruhe wird durch Naturkräfte bewegt. Was gilt grundsätzlich?", "options": ["Der Ball muss immer an seine ursprüngliche Stelle zurückgelegt werden", "Der Ball wird grundsätzlich von seiner neuen Stelle gespielt", "Es fällt automatisch ein Strafschlag an", "Der Spieler muss immer einen neuen Ball einsetzen"], "correct": 1, "explanation": "Wird ein Ball in Ruhe durch Naturkräfte bewegt, wird er grundsätzlich von seiner neuen Stelle gespielt; besondere Ausnahmen können ein Zurücklegen verlangen.", "source": "Regel 9.3 · PDF S. 90"}, {"number": "R9", "section": "Regel 10 – Beratung", "question": "Welche Aussage zur Beratung ist im Einzel-Zählspiel richtig?", "options": ["Ein Spieler darf jeden anderen Spieler nach der Schlägerwahl fragen", "Ein Spieler darf während der Runde nur seinen Caddie um Beratung bitten", "Beratung ist jederzeit uneingeschränkt erlaubt", "Ein Spieler darf dem Mitbewerber immer die Spiellinie zeigen"], "correct": 1, "explanation": "Ein Spieler darf während der Runde Beratung nur von seinem Caddie einholen; Ausnahmen und weitere Einzelheiten regelt Regel 10.2.", "source": "Regel 10.2a · PDF S. 97"}, {"number": "R10", "section": "Regel 11 – Ball in Bewegung", "question": "Ein in Bewegung befindlicher Ball trifft versehentlich den Spieler selbst. Was gilt grundsätzlich?", "options": ["Der Spieler erhält immer zwei Strafschläge", "Es fällt grundsätzlich keine Strafe an; der Ball wird gespielt, wie er liegt", "Der Schlag muss immer wiederholt werden", "Der Ball muss an die ursprüngliche Stelle zurückgelegt werden"], "correct": 1, "explanation": "Bei versehentlichem Treffen des eigenen Spielers oder Caddies fällt grundsätzlich keine Strafe an; der Ball wird gespielt, wie er liegt, sofern keine Ausnahme greift.", "source": "Regel 11.1 · PDF S. 104"}, {"number": "R11", "section": "Regel 12 – Bunker", "question": "Was darf ein Spieler grundsätzlich nicht tun, bevor er einen Ball im Bunker spielt?", "options": ["Den Schläger in der Nähe des Balls abstellen, ohne den Sand zu berühren", "Den Sand unmittelbar vor oder hinter dem Ball mit dem Schläger berühren", "Einen Rechen außerhalb der Spiellinie benutzen", "Lose hinderliche Naturstoffe entfernen"], "correct": 1, "explanation": "Vor dem Schlag darf der Spieler den Sand im Bunker nicht absichtlich mit Hand, Schläger oder anderem Gegenstand berühren, um den nächsten Schlag zu testen oder die Lage zu verbessern; Regel 12.2 enthält Ausnahmen.", "source": "Regel 12.2b · PDF S. 113"}, {"number": "R12", "section": "Regel 13 – Grün", "question": "Darf der Spieler auf dem Grün den Flaggenstock beim Schlag im Loch lassen?", "options": ["Nein, das ist immer verboten", "Ja", "Nur im Zählspiel", "Nur wenn der Ball außerhalb des Grüns liegt"], "correct": 1, "explanation": "Der Spieler darf entscheiden, ob der Flaggenstock im Loch bleibt oder entfernt wird, wenn er vom Grün spielt.", "source": "Regel 13.2a · PDF S. 121"}, {"number": "R13", "section": "Regel 13 – Grün", "question": "Was darf ein Spieler auf dem Grün grundsätzlich ausbessern?", "options": ["Nur Pitchmarken", "Pitchmarken und Schäden durch frühere Lochpositionen sowie bestimmte andere Schäden", "Auch natürliche Unebenheiten und Wachstumsrichtungen des Grases", "Jede Unebenheit, die die Puttlinie stört"], "correct": 1, "explanation": "Regel 13.1c erlaubt das Ausbessern bestimmter Schäden auf dem Grün, darunter Pitchmarken und Schäden durch frühere Lochpositionen. Nicht jede natürliche Unebenheit darf verändert werden.", "source": "Regel 13.1c · PDF S. 119"}, {"number": "R14", "section": "Regel 14 – Droppen", "question": "Aus welcher Höhe muss ein Ball beim Droppen grundsätzlich fallengelassen werden?", "options": ["Aus Schulterhöhe", "Aus Kniehöhe", "Aus Hüfthöhe", "Aus beliebiger Höhe"], "correct": 1, "explanation": "Der Ball muss aus Kniehöhe fallengelassen werden, während der Spieler steht.", "source": "Regel 14.3b(1) · PDF S. 133"}, {"number": "R15", "section": "Regel 14 – Erleichterungsbereich", "question": "Wie groß ist der Erleichterungsbereich bei der üblichen Erleichterung innerhalb einer Schlägerlänge?", "options": ["Eine Schlägerlänge vom Bezugspunkt", "Zwei Schlägerlängen vom Bezugspunkt", "Eine Putterlänge", "Beliebig groß, solange der Ball nicht näher zum Loch liegt"], "correct": 0, "explanation": "Wenn die Regel einen Erleichterungsbereich von einer Schlägerlänge vorsieht, wird dieser vom Bezugspunkt aus gemessen und darf nicht näher zum Loch liegen.", "source": "Regel 14.3 / jeweilige Erleichterungsregel · PDF S. 133 ff."}, {"number": "R16", "section": "Regel 16 – Ungewöhnliche Platzverhältnisse", "question": "Welche der folgenden Situationen ist typischerweise ein ungewöhnliches Platzverhältnis?", "options": ["Ein normaler Divot im Fairway", " zeitweiliges Wasser", "Ein normaler Sandbunker", "Ein natürliches Gefälle des Geländes"], "correct": 1, "explanation": "Ungewöhnliche Platzverhältnisse umfassen unter anderem zeitweiliges Wasser, Boden in Ausbesserung und bestimmte Tierlöcher sowie unbewegliche Hemmnisse.", "source": "Regel 16.1 · PDF S. 155"}, {"number": "R17", "section": "Regel 17 – Penalty Area", "question": "Welche Erleichterungsmöglichkeit besteht bei einer roten Penalty Area grundsätzlich zusätzlich zur Erleichterung mit Schlag und Distanzverlust?", "options": ["Seitliche Erleichterung innerhalb von zwei Schlägerlängen vom Bezugspunkt", "Kostenlose Erleichterung auf der gegenüberliegenden Seite", "Erleichterung immer auf der Spiellinie zurück", "Keine Erleichterung möglich"], "correct": 0, "explanation": "Bei einer roten Penalty Area besteht zusätzlich die Möglichkeit der seitlichen Erleichterung innerhalb von zwei Schlägerlängen vom Bezugspunkt, jeweils mit einem Strafschlag.", "source": "Regel 17.1d · PDF S. 172"}, {"number": "R18", "section": "Regel 18 – Ball verloren / Aus", "question": "Was ist grundsätzlich zu tun, wenn ein Ball verloren oder im Aus ist?", "options": ["Mit einem Strafschlag von der Stelle des vorigen Schlags weiterspielen", "Den Ball straflos neben der vermuteten Stelle droppen", "Einen Ball an der Stelle des letzten Sichtkontakts legen", "Das Loch wird automatisch verloren"], "correct": 0, "explanation": "Grundsätzlich ist Erleichterung mit Schlag und Distanzverlust in Anspruch zu nehmen: ein Strafschlag und Spielen von der Stelle des vorigen Schlags.", "source": "Regel 18.2b · PDF S. 181"}, {"number": "R19", "section": "Regel 18 – Provisorischer Ball", "question": "Wann darf ein provisorischer Ball gespielt werden?", "options": ["Wenn der ursprüngliche Ball möglicherweise in einer Penalty Area liegt", "Wenn der ursprüngliche Ball außerhalb einer Penalty Area verloren oder im Aus sein könnte", "Bei jedem schlechten Schlag", "Nur wenn der Mitspieler zustimmt"], "correct": 1, "explanation": "Ein provisorischer Ball ist zulässig, wenn der ursprüngliche Ball außerhalb einer Penalty Area verloren oder im Aus sein könnte. Bei möglicher Lage in einer Penalty Area ist er nicht zulässig.", "source": "Regel 18.3a · PDF S. 183"}, {"number": "R20", "section": "Regel 19 – Unspielbarer Ball", "question": "Darf ein Spieler seinen Ball für unspielbar erklären, wenn er in einer Penalty Area liegt?", "options": ["Ja, mit einem Strafschlag", "Ja, aber nur im roten Bereich", "Nein", "Nur im Zählspiel"], "correct": 2, "explanation": "Regel 19 gilt nicht für einen Ball in einer Penalty Area. Dort muss der Spieler die Erleichterungsmöglichkeiten nach Regel 17 nutzen.", "source": "Regel 19.1 · PDF S. 187"}];
+const $=id=>document.getElementById(id);
+let category='pga',pool=[],pos=0,current=null,quiz=[],qi=0,score=0,answered=false;
+let progress=JSON.parse(localStorage.getItem('pgaTrainerProgressV2')||'{}');
+let reviewOnly=false;
+let quizHistory=JSON.parse(localStorage.getItem('pgaTrainerQuizHistoryV1')||'[]');
+const save=()=>localStorage.setItem('pgaTrainerProgressV2',JSON.stringify(progress));
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function sourceOf(q){if(q.optionsValidated)return 'PGA-Golftechnik · Antwortoptionen redaktionell erstellt · Originalfrage '+q.number;if(q.options)return 'Golfregeln 2023 · '+q.source;return 'PGA-Golftechnik · Originalfrage '+q.number+' · Antwortoptionen im Prüfungsmodus noch vorläufig';}
+function choose(c){category=c;$('start').classList.add('hidden');$('app').classList.remove('hidden');$('catLabel').textContent=c==='pga'?'Nur PGA / Golftechnik':c==='rules'?'Nur Golfregeln':'PGA + Golfregeln';pool=c==='pga'?PGA:c==='rules'?RULES:[...PGA,...RULES];$('count').textContent=pool.length;refreshStats();$('topic').innerHTML='<option value="">Alle Themen</option>';[...new Set(pool.map(q=>q.section))].forEach(s=>{let o=document.createElement('option');o.value=s;o.textContent=s;$('topic').append(o)});showTab('learn');renderList();}
+function refreshStats(){let ids=pool.map(q=>String(q.number));$('known').textContent=ids.filter(id=>progress[id]==='known').length;$('review').textContent=ids.filter(id=>progress[id]==='review').length;if($('historyInfo'))$('historyInfo').textContent=quizHistory.length?'Gespeicherte Kurztests: '+quizHistory.length+' · letzter Test: '+quizHistory[0].correct+'/'+quizHistory[0].total+' richtig':'Dein Lernstand und deine Kurztests bleiben lokal auf diesem Gerät gespeichert.';}
+function showTab(t){['learnView','studyView','quizView','examView'].forEach(id=>$(id).classList.add('hidden'));$(t==='learn'?'learnView':t==='quiz'?'quizView':'examView').classList.remove('hidden');$('tabLearn').className='btn '+(t==='learn'?'primary':'secondary');$('tabQuiz').className='btn '+(t==='quiz'?'primary':'secondary');$('tabExam').className='btn '+(t==='exam'?'primary':'secondary');}
+function renderList(){let term=$('search').value.toLocaleLowerCase('de'),topic=$('topic').value;let arr=pool.filter(q=>(!reviewOnly||progress[String(q.number)]==='review')&&(!topic||q.section===topic)&&(!term||(q.question+' '+q.answer+' '+q.explanation+' '+q.number).toLocaleLowerCase('de').includes(term)));$('list').innerHTML='';arr.forEach(q=>{let b=document.createElement('button');b.className='item';b.innerHTML='<b>'+esc(q.number)+'. '+esc(q.question)+'</b><small>'+esc(q.section)+' · '+(progress[q.number]==='known'?'✓ Sicher':progress[q.number]==='review'?'↻ Wiederholen':'Offen')+'</small>';b.onclick=()=>openQuestion(q);$('list').append(b)});if(!arr.length)$('list').textContent='Keine passenden Fragen.';}
+function openQuestion(q){current=q;pos=pool.indexOf(q);$('learnView').classList.add('hidden');$('studyView').classList.remove('hidden');$('position').textContent='Frage '+(pos+1)+' von '+pool.length+' · '+q.number;$('sourceTag').textContent=q.section;$('question').textContent=q.question;$('answer').textContent=q.options?('Richtige Antwort: '+q.options[q.correct]+'\n\n'+q.explanation):q.answer;$('answer').classList.remove('show');$('reveal').classList.remove('hidden');$('rate').classList.add('hidden');$('sourceNote').textContent=sourceOf(q);refreshStats();}
+$('reveal').onclick=()=>{$('answer').classList.add('show');$('reveal').classList.add('hidden');$('rate').classList.remove('hidden')};
+function rate(v){progress[String(current.number)]=v;save();refreshStats();move(1)}
+$('markKnown').onclick=()=>rate('known');$('markReview').onclick=()=>rate('review');
+function move(d){let n=Math.max(0,Math.min(pool.length-1,pos+d));openQuestion(pool[n])}
+$('prev').onclick=()=>move(-1);$('next').onclick=()=>move(1);$('toList').onclick=()=>{$('studyView').classList.add('hidden');$('learnView').classList.remove('hidden');renderList()};
+$('search').oninput=renderList;$('topic').onchange=renderList;
+$('reviewOnly').onclick=()=>{reviewOnly=!reviewOnly;$('reviewOnly').setAttribute('aria-pressed',String(reviewOnly));$('reviewOnly').classList.toggle('primary',reviewOnly);$('reviewOnly').classList.toggle('secondary',!reviewOnly);$('reviewOnly').textContent=reviewOnly?'✓ Wiederholungsfragen aktiv':'↻ Nur Wiederholungsfragen';renderList()};
+$('back').onclick=()=>{$('app').classList.add('hidden');$('start').classList.remove('hidden')};
+$('tabLearn').onclick=()=>showTab('learn');$('tabQuiz').onclick=()=>{showTab('quiz');$('quizCard').classList.add('hidden')};$('tabExam').onclick=()=>{showTab('exam');updateExamScope();};
+document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>choose(b.dataset.cat));
+function startQuiz(){if(!RULES.length)return;quiz=[...RULES].sort(()=>Math.random()-.5).slice(0,Math.min(10,RULES.length));qi=0;score=0;$('quizCard').classList.remove('hidden');renderQuiz();}
+function renderQuiz(){answered=false;let q=quiz[qi];$('quizCount').textContent='Frage '+(qi+1)+' von '+quiz.length+' · bisher '+score+' richtig';$('quizQuestion').textContent=q.question;$('options').innerHTML='';$('feedback').classList.remove('show');$('quizNext').classList.add('hidden');q.options.forEach((o,i)=>{let b=document.createElement('button');b.className='opt';b.textContent=String.fromCharCode(65+i)+') '+o;b.onclick=()=>answerQuiz(i,b);$('options').append(b)})}
+function answerQuiz(i,btn){if(answered)return;answered=true;let q=quiz[qi];if(i===q.correct){score++;if(progress[String(q.number)]!=='review')progress[String(q.number)]='known';}else{progress[String(q.number)]='review';}save();refreshStats();[...$('options').children].forEach((b,j)=>{if(j===q.correct)b.classList.add('correct');else if(j===i)b.classList.add('wrong');b.disabled=true});$('feedback').textContent=(i===q.correct?'Richtig. ':'Leider falsch. Richtige Antwort: '+q.options[q.correct]+'. ')+q.explanation+' Quelle: '+q.source;$('feedback').classList.add('show');$('quizNext').classList.remove('hidden');}
+$('startQuiz').onclick=startQuiz;$('quizNext').onclick=()=>{qi++;if(qi<quiz.length)renderQuiz();else{$('quizCount').textContent='Test abgeschlossen: '+score+' von '+quiz.length+' richtig ('+Math.round(score/quiz.length*100)+' %)';quizHistory.unshift({date:new Date().toISOString(),category:category,correct:score,total:quiz.length});quizHistory=quizHistory.slice(0,30);localStorage.setItem('pgaTrainerQuizHistoryV1',JSON.stringify(quizHistory));$('quizQuestion').textContent='Gut gemacht!';$('options').innerHTML='';$('feedback').classList.remove('show');$('quizNext').classList.add('hidden')}};
+
+// 45-question practice exam. PGA distractors are explicitly provisional and not official.
+let examQuestions=[], examAnswers={}, examIndex=0, examSeconds=3600, examInterval=null, examSubmitted=false;
+function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
+function makePgaChoice(q){
+  if(q.options && q.optionsValidated===true){
+    return {...q, explanation:q.explanation||q.answer, source:q.source||('PGA-Golftechnik · Originalfrage '+q.number)};
+  }
+  const correct=String(q.answer||'').trim();
+  const poolAnswers=PGA.filter(x=>x.number!==q.number && x.section===q.section)
+    .map(x=>String(x.answer||'').trim()).filter(a=>a && a!==correct && a.length>8);
+  let distractors=[...new Set(shuffle(poolAnswers))].slice(0,3);
+  if(distractors.length<3){
+    const extra=PGA.filter(x=>x.number!==q.number).map(x=>String(x.answer||'').trim())
+      .filter(a=>a && a!==correct && a.length>8 && !distractors.includes(a));
+    distractors=[...distractors,...shuffle(extra).slice(0,3-distractors.length)];
+  }
+  const options=shuffle([correct,...distractors]);
+  return {...q, options, correct:options.indexOf(correct), explanation:'Musterantwort aus der geprüften PGA-Golftechnik-Lernfassung. Die drei falschen Optionen wurden automatisch aus anderen Musterantworten gebildet und müssen vor einer echten Prüfung fachlich gegengeprüft werden.', source:'PGA-Golftechnik · Frage '+q.number};
+}
+function buildExamSet(){
+  if(category==='rules') return null;
+  const pgaSet=shuffle(PGA).slice(0,category==='both'?25:45).map(makePgaChoice);
+  if(category==='both') return shuffle([...pgaSet,...shuffle(RULES).slice(0,20)]);
+  return shuffle(pgaSet);
+}
+function updateExamScope(){
+  $('examScope').textContent=category==='rules'
+    ? 'Im Bereich „Nur Golfregeln“ liegen derzeit 20 geprüfte Single-Choice-Regelfragen vor. Ein vollständiger 45-Fragen-Test wird erst angeboten, wenn mindestens 45 unterschiedliche Regelfragen vorliegen.'
+    : category==='both'
+      ? 'Dieser Trainingsmix enthält 25 PGA-Fragen und 20 Regelfragen. Die Aufteilung ist eine vorläufige Lernmischung, keine bestätigte offizielle Prüfungsgewichtung.'
+      : 'Dieser Test verwendet 45 zufällig ausgewählte PGA-Fragen. Die ersten 36 Fragen haben redaktionell erstellte Antwortoptionen; bei den übrigen Fragen sind die automatisch gebildeten Distraktoren noch vorläufig.';
+}
+function startExam(){
+  if(category==='rules'){updateExamScope();return;}
+  examQuestions=buildExamSet(); examAnswers={}; examIndex=0; examSeconds=3600; examSubmitted=false;
+  $('examIntro').classList.add('hidden');$('examResult').classList.add('hidden');$('examCard').classList.remove('hidden');
+  renderExamQuestion();updateExamTimer();
+  clearInterval(examInterval);examInterval=setInterval(()=>{examSeconds--;updateExamTimer();if(examSeconds<=0)submitExam(true)},1000);
+}
+function updateExamTimer(){
+  const m=String(Math.floor(examSeconds/60)).padStart(2,'0'), sec=String(examSeconds%60).padStart(2,'0');
+  $('examTimer').textContent=m+':'+sec;
+  $('examTimer').style.color=examSeconds<=300?'#b33':'';
+}
+function renderExamQuestion(){
+  const q=examQuestions[examIndex];
+  $('examPosition').textContent='Frage '+(examIndex+1)+' / '+examQuestions.length;
+  $('examProgress').style.width=((examIndex+1)/examQuestions.length*100)+'%';
+  $('examQuestion').textContent=q.question;$('examOptions').innerHTML='';
+  q.options.forEach((o,i)=>{
+    const b=document.createElement('button');b.className='opt'+(examAnswers[examIndex]===i?' selected':'');
+    b.textContent=String.fromCharCode(65+i)+') '+o;
+    b.onclick=()=>{if(examSubmitted)return;examAnswers[examIndex]=i;renderExamQuestion()};
+    $('examOptions').append(b);
+  });
+  $('examPrev').disabled=examIndex===0;
+  $('examNext').textContent=examIndex===examQuestions.length-1?'Zur Auswertung':'Weiter';
+}
+function submitExam(timeout=false){
+  if(examSubmitted)return;
+  examSubmitted=true;clearInterval(examInterval);
+  let correct=0, mistakes=[];
+  examQuestions.forEach((q,i)=>{
+    const picked=examAnswers[i];
+    if(picked===q.correct){correct++;progress[String(q.number)]=progress[String(q.number)]==='review'?'review':'known';}
+    else {progress[String(q.number)]='review';mistakes.push({q,picked});}
+  });
+  save();refreshStats();
+  const pct=Math.round(correct/examQuestions.length*100);
+  $('examCard').classList.add('hidden');$('examResult').classList.remove('hidden');
+  $('examCorrect').textContent=correct;$('examWrong').textContent=examQuestions.length-correct;$('examPercent').textContent=pct+'%';
+  $('examSummary').textContent=(timeout?'Die Zeit ist abgelaufen. ':'Prüfung abgegeben. ')+
+    'Du hast '+Object.keys(examAnswers).length+' von '+examQuestions.length+' Fragen beantwortet. Nicht beantwortete Fragen zählen als falsch. Dauer: '+Math.floor((3600-examSeconds)/60)+' Minuten.';
+  $('examMistakes').innerHTML='<h3>Fehler und offene Fragen ('+mistakes.length+')</h3>';
+  if(!mistakes.length)$('examMistakes').textContent='Alle Fragen richtig beantwortet.';
+  mistakes.forEach(({q,picked})=>{
+    const d=document.createElement('div');d.className='panel';d.style.margin='9px 0';
+    const h=document.createElement('b');h.textContent=q.number+'. '+q.question;d.append(h);
+    const p=document.createElement('p');p.className='muted';p.textContent='Deine Antwort: '+(picked===undefined?'Nicht beantwortet':q.options[picked]);d.append(p);
+    const a=document.createElement('p');a.textContent='Richtig: '+q.options[q.correct];d.append(a);
+    const src=document.createElement('small');src.className='muted';src.textContent=q.explanation+' · '+(q.source||'')+(q.optionsValidated?' · Antwortoptionen redaktionell erstellt':' · Antwortoptionen noch vorläufig');d.append(src);
+    $('examMistakes').append(d);
+  });
+  quizHistory.unshift({date:new Date().toISOString(),category:category,correct,total:examQuestions.length,kind:'exam',percent:pct});
+  quizHistory=quizHistory.slice(0,30);localStorage.setItem('pgaTrainerQuizHistoryV1',JSON.stringify(quizHistory));
+}
+$('startExam').onclick=startExam;
+$('examPrev').onclick=()=>{if(examIndex>0){examIndex--;renderExamQuestion()}};
+$('examNext').onclick=()=>{if(examIndex<examQuestions.length-1){examIndex++;renderExamQuestion()}else submitExam(false)};
+$('finishExam').onclick=()=>submitExam(false);
+$('examAgain').onclick=()=>{$('examResult').classList.add('hidden');$('examIntro').classList.remove('hidden');updateExamScope()};
+
+if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+</script></body></html>
+
