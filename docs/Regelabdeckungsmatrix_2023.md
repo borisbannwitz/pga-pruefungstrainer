@@ -1,18 +1,18 @@
 # Abdeckungsmatrix – Offizielle Golfregeln 2023
 
-Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 2.5 und der lokalen Fragenliste `rules.json`.
+Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 2.6 und der lokalen Fragenliste `rules.json`.
 
 ## Umfang und bisherige Fragen
 
 | Bestandteil | Einträge im PDF | Direkt mit Frage verknüpft | Nur verwandte Regelzweig-Frage | Keine Frage zugeordnet |
 |---|---:|---:|---:|---:|
 | Regelüberschriften (x.y und Buchstaben-Unterabschnitte) | 336 | 123 | 189 | 24 |
-| Nummerierte Absätze wie 1.3b(1) | 185 | 70 | 115 | 0 |
+| Nummerierte Absätze wie 1.3b(1) | 185 | 85 | 100 | 0 |
 | Definitionen | 74 | 74 | 0 | 0 |
-| **Gesamt** | **595** | **267** | **304** | **24** |
+| **Gesamt** | **595** | **282** | **289** | **24** |
 
-Die PDF-Auswertung enthält 107 Überschriften im Format x.y, 229 Buchstaben-Unterabschnitte, 185 ausdrücklich nummerierte Klammer-Absätze und 74 Definitionen: **595 Matrixzeilen**. In der App liegen **257 Fragen**: 182 Regel-/Änderungsfragen sowie 74 Einzeldefinitionsfragen und eine zusätzliche Frage zur Definitionsänderung „Erleichterungsbereich“.
-Von den 185 nummerierten Klammer-Absätzen sind **70 direkt verknüpft**, **115 nur über einen verwandten Abschnitt bzw. eine Elternregel angesprochen** und **0 ohne zugeordneten Regelzweig-Verweis**. Die 32 zuvor offenen Unterpunkte wurden als Fragen R203–R234 ergänzt.
+Die PDF-Auswertung enthält 107 Überschriften im Format x.y, 229 Buchstaben-Unterabschnitte, 185 ausdrücklich nummerierte Klammer-Absätze und 74 Definitionen: **595 Matrixzeilen**. In der App liegen **272 Fragen**: 197 Regel-/Änderungsfragen sowie 74 Einzeldefinitionsfragen und eine zusätzliche Frage zur Definitionsänderung „Erleichterungsbereich“.
+Von den 185 nummerierten Klammer-Absätzen sind **85 direkt verknüpft**, **100 nur über einen verwandten Abschnitt bzw. eine Elternregel angesprochen** und **0 ohne zugeordneten Regelzweig-Verweis**. Die 32 zuvor offenen Unterpunkte wurden als Fragen R203–R234 ergänzt.
 
 „Direkt verknüpft“ bedeutet: Die genaue Kennung steht in der Fragenzuordnung oder in Quelle/Fragentext. Eine verwandte Frage nennt nur eine Eltern- oder Kindregel und zählt daher nicht als genaue Unterpunkt-Zuordnung. Der Status prüft Kennungen und Zuordnungen, nicht die fachliche Vollständigkeit der Antwort.
 
@@ -35,8 +35,8 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 1.3 | 25 | Hauptabschnitt · Regel 1 | Spielen nach den Regeln | 🟠 enthält: 1.3c(4) | R47 — Was wurde bei der Anwendung von Strafen für mehrere Regelverstöße geändert? | — | Direkt verknüpft |
 | 1.3a | 25 | Buchstaben-Unterabschnitt · 1.3 | Bedeutung von „Regeln“, Begriffe in Turnieren | — | — | R47 (1.3) | Nur im Regelzweig |
 | 1.3b | 26 | Buchstaben-Unterabschnitt · 1.3 | Anwendung der Regeln | — | — | R47 (1.3) | Nur im Regelzweig |
-| 1.3b(1) | 26 | Nummerierter Absatz (1) · 1.3b | Verantwortung des Spielers für die Anwendung der Regeln | — | — | R47 (1.3) | Nur im Regelzweig |
-| 1.3b(2) | 26 | Nummerierter Absatz (2) · 1.3b | Zustimmung zur „angemessenen Einschätzung“ des Spielers beim Bestimmen eines Orts zur Anwendung der Regeln. | — | — | R47 (1.3) | Nur im Regelzweig |
+| 1.3b(1) | 26 | Nummerierter Absatz (1) · 1.3b | Verantwortung des Spielers für die Anwendung der Regeln | — | R258 — Ein Spieler erhält nicht in angemessener Zeit Regelrat vom Referee oder der Spielleitung. Wie muss er grundsätzlich vorgehen? | R47 (1.3) | Direkt verknüpft |
+| 1.3b(2) | 26 | Nummerierter Absatz (2) · 1.3b | Zustimmung zur „angemessenen Einschätzung“ des Spielers beim Bestimmen eines Orts zur Anwendung der Regeln. | — | R259 — Ein Spieler schätzt nach sorgfältiger Prüfung einen Erleichterungspunkt, doch Videobilder zeigen später, dass er falsch lag. Wann wird seine Einschätzung anerkannt? | R47 (1.3) | Direkt verknüpft |
 | 1.3c | 27 | Buchstaben-Unterabschnitt · 1.3 | Strafen | 🟠 enthält: 1.3c(4) | — | R47 (1.3, 1.3c(4)) | Nur im Regelzweig |
 | 1.3c(1) | 27 | Nummerierter Absatz (1) · 1.3c | Handlungen, die Strafen nach sich ziehen. | — | R247 — Wessen Verhalten kann bei einem Regelverstoß grundsätzlich zu einer Strafe für den Spieler führen? | R47 (1.3) | Direkt verknüpft |
 | 1.3c(2) | 27 | Nummerierter Absatz (2) · 1.3c | Strafmaß. | — | R248 — Welche drei Strafstufen sehen die Golfregeln grundsätzlich vor? | R47 (1.3) | Direkt verknüpft |
@@ -60,9 +60,9 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 3.2 | 33 | Hauptabschnitt · Regel 3 | Lochspiel | — | — | R22 (3.2a) | Nur im Regelzweig |
 | 3.2a | 33 | Buchstaben-Unterabschnitt · 3.2 | Ergebnis des Lochs und des Lochspiels | — | R22 — Woran wird im Lochspiel der Stand des Wettspiels gemessen? | — | Direkt verknüpft |
 | 3.2a(1) | 33 | Nummerierter Absatz (1) · 3.2a | Ein Loch gewinnen. | — | R250 — Wie kann ein Spieler im Lochspiel ein Loch gewinnen? | R22 (3.2a) | Direkt verknüpft |
-| 3.2a(2) | 34 | Nummerierter Absatz (2) · 3.2a | Loch teilen. | — | — | R22 (3.2a) | Nur im Regelzweig |
-| 3.2a(3) | 34 | Nummerierter Absatz (3) · 3.2a | Lochspiel gewinnen. | — | — | R22 (3.2a) | Nur im Regelzweig |
-| 3.2a(4) | 34 | Nummerierter Absatz (4) · 3.2a | Verlängerung eines geteilten Lochspiels. | — | — | R22 (3.2a) | Nur im Regelzweig |
+| 3.2a(2) | 34 | Nummerierter Absatz (2) · 3.2a | Loch teilen. | — | R260 — Wann dürfen Spieler im Lochspiel vereinbaren, ein Loch als geteilt zu behandeln? | R22 (3.2a) | Direkt verknüpft |
+| 3.2a(3) | 34 | Nummerierter Absatz (3) · 3.2a | Lochspiel gewinnen. | — | R261 — Welche Aussage beschreibt, wann ein Spieler das Lochspiel gewinnt? | R22 (3.2a) | Direkt verknüpft |
+| 3.2a(4) | 34 | Nummerierter Absatz (4) · 3.2a | Verlängerung eines geteilten Lochspiels. | — | R262 — Ein Lochspiel steht nach dem letzten Loch unentschieden. Wie wird es grundsätzlich fortgesetzt? | R22 (3.2a) | Direkt verknüpft |
 | 3.2a(5) | 34 | Nummerierter Absatz (5) · 3.2a | Wann ein Ergebnis endgültig ist. | — | R251 — Wann ist das Ergebnis eines Lochspiels grundsätzlich endgültig? | R22 (3.2a) | Direkt verknüpft |
 | 3.2b | 35 | Buchstaben-Unterabschnitt · 3.2 | Schenken | — | — | — | Keine Frage zugeordnet |
 | 3.2b(1) | 35 | Nummerierter Absatz (1) · 3.2b | Spieler darf Schlag, Loch oder Lochspiel schenken. | — | R203 — Wann darf ein Spieler seinem Gegner den nächsten Schlag schenken? | — | Direkt verknüpft |
@@ -90,9 +90,9 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 4.1a(3) | 44 | Nummerierter Absatz (3) · 4.1a | Absichtliche Veränderungen der Spieleigenschaften eines Schlägers während der Runde. | — | — | R49 (4.1) | Nur im Regelzweig |
 | 4.1b | 45 | Buchstaben-Unterabschnitt · 4.1 | Höchstzahl von 14 Schlägern; Schläger während einer Runde gemeinsam benutzen, hinzufügen und ersetzen | — | R23 — Wie viele Schläger darf ein Spieler während einer Runde höchstens mitführen? | R49 (4.1) | Direkt verknüpft |
 | 4.1b(1) | 45 | Nummerierter Absatz (1) · 4.1b | Höchstzahl von 14 Schlägern. | — | R252 — Ein Spieler möchte eine Runde mit 16 Schlägern beginnen. Wie viele muss er vor dem Start mindestens aus seiner Ausrüstung nehmen? | R23 (4.1b)<br>R49 (4.1) | Direkt verknüpft |
-| 4.1b(2) | 46 | Nummerierter Absatz (2) · 4.1b | Kein gemeinsames Benutzen von Schlägern. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
-| 4.1b(3) | 46 | Nummerierter Absatz (3) · 4.1b | Kein Ersatz verlorener Schläger. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
-| 4.1b(4) | 46 | Nummerierter Absatz (4) · 4.1b | Einschränkungen beim Hinzufügen oder Austauschen von Schlägern. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
+| 4.1b(2) | 46 | Nummerierter Absatz (2) · 4.1b | Kein gemeinsames Benutzen von Schlägern. | — | R263 — Im Einzelspiel möchte ein Spieler einen Schläger verwenden, den ein anderer Spieler auf dem Platz gerade benutzt. Was gilt? | R23 (4.1b)<br>R49 (4.1) | Direkt verknüpft |
+| 4.1b(3) | 46 | Nummerierter Absatz (3) · 4.1b | Kein Ersatz verlorener Schläger. | — | R264 — Ein Spieler hat eine Runde mit 14 Schlägern begonnen und verliert während der Runde einen davon. Darf er ihn ersetzen? | R23 (4.1b)<br>R49 (4.1) | Direkt verknüpft |
+| 4.1b(4) | 46 | Nummerierter Absatz (4) · 4.1b | Einschränkungen beim Hinzufügen oder Austauschen von Schlägern. | — | R265 — Ein Spieler darf einen Schläger während der Runde hinzufügen oder ersetzen. Welche Einschränkung muss er beachten? | R23 (4.1b)<br>R49 (4.1) | Direkt verknüpft |
 | 4.1c | 48 | Buchstaben-Unterabschnitt · 4.1 | Verfahren, um Schläger aus dem Spiel zu nehmen | — | — | R49 (4.1) | Nur im Regelzweig |
 | 4.1c(1) | 48 | Nummerierter Absatz (1) · 4.1c | Während der Runde. | — | — | R49 (4.1) | Nur im Regelzweig |
 | 4.1c(2) | 48 | Nummerierter Absatz (2) · 4.1c | Vor der Runde. | — | — | R49 (4.1) | Nur im Regelzweig |
@@ -138,14 +138,14 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 5.7 | 61 | Hauptabschnitt · Regel 5 | Unterbrechung des Spiels; Wiederaufnahme des Spiels | — | R153 — Wann müssen Spieler das Spiel sofort unterbrechen? | — | Direkt verknüpft |
 | 5.7a | 61 | Buchstaben-Unterabschnitt · 5.7 | Wann Spieler das Spiel unterbrechen dürfen oder müssen | — | — | R153 (5.7) | Nur im Regelzweig |
 | 5.7b | 62 | Buchstaben-Unterabschnitt · 5.7 | Pflichten der Spieler bei Unterbrechung des Spiels durch die Spielleitung | — | — | R153 (5.7) | Nur im Regelzweig |
-| 5.7b(1) | 62 | Nummerierter Absatz (1) · 5.7b | Sofortige Spielunterbrechung (etwa bei unmittelbar drohender Gefahr). | — | — | R153 (5.7) | Nur im Regelzweig |
-| 5.7b(2) | 62 | Nummerierter Absatz (2) · 5.7b | Spielunterbrechung aus sonstigen Gründen (etwa wegen Dunkelheit oder unbespielbaren Platzes). | — | — | R153 (5.7) | Nur im Regelzweig |
+| 5.7b(1) | 62 | Nummerierter Absatz (1) · 5.7b | Sofortige Spielunterbrechung (etwa bei unmittelbar drohender Gefahr). | — | R266 — Die Spielleitung ordnet wegen unmittelbar drohender Gefahr eine sofortige Spielunterbrechung an. Was darf ein Spieler tun? | R153 (5.7) | Direkt verknüpft |
+| 5.7b(2) | 62 | Nummerierter Absatz (2) · 5.7b | Spielunterbrechung aus sonstigen Gründen (etwa wegen Dunkelheit oder unbespielbaren Platzes). | — | R267 — Die Spielleitung unterbricht das Spiel aus einem anderen Grund, während die Gruppe ein Loch spielt. Was dürfen die Spieler grundsätzlich entscheiden? | R153 (5.7) | Direkt verknüpft |
 | 5.7c | 63 | Buchstaben-Unterabschnitt · 5.7 | Pflichten der Spieler bei Wiederaufnahme des Spiels | — | — | R153 (5.7) | Nur im Regelzweig |
-| 5.7c(1) | 63 | Nummerierter Absatz (1) · 5.7c | An welcher Stelle das Spiel wiederaufgenommen werden muss. | — | — | R153 (5.7) | Nur im Regelzweig |
-| 5.7c(2) | 63 | Nummerierter Absatz (2) · 5.7c | Wann das Spiel wieder aufgenommen werden muss. | — | — | R153 (5.7) | Nur im Regelzweig |
+| 5.7c(1) | 63 | Nummerierter Absatz (1) · 5.7c | An welcher Stelle das Spiel wiederaufgenommen werden muss. | — | R268 — Wo muss ein Spieler das Spiel nach einer Unterbrechung an einem begonnenen Loch wieder aufnehmen? | R153 (5.7) | Direkt verknüpft |
+| 5.7c(2) | 63 | Nummerierter Absatz (2) · 5.7c | Wann das Spiel wieder aufgenommen werden muss. | — | R269 — Die Spielleitung setzt die Wiederaufnahme des Spiels auf 14:00 Uhr fest. Wann muss ein Spieler grundsätzlich weiterspielen? | R153 (5.7) | Direkt verknüpft |
 | 5.7d | 64 | Buchstaben-Unterabschnitt · 5.7 | Ball bei Spielunterbrechung aufnehmen; Ball zurücklegen und ersetzen bei Wiederaufnahme des Spiels | — | — | R153 (5.7) | Nur im Regelzweig |
-| 5.7d(1) | 64 | Nummerierter Absatz (1) · 5.7d | Ball aufnehmen bei Spielunterbrechung oder bevor das Spiel fortgesetzt wird. | — | — | R153 (5.7) | Nur im Regelzweig |
-| 5.7d(2) | 64 | Nummerierter Absatz (2) · 5.7d | Was zu tun ist, wenn der Ball oder der Ballmarker während einer Spielunterbrechung bewegt wird. | — | — | R153 (5.7) | Nur im Regelzweig |
+| 5.7d(1) | 64 | Nummerierter Absatz (1) · 5.7d | Ball aufnehmen bei Spielunterbrechung oder bevor das Spiel fortgesetzt wird. | — | R270 — Ein Spieler hat seinen Ball während einer Spielunterbrechung aufgenommen. Was muss er vor der Wiederaufnahme tun? | R153 (5.7) | Direkt verknüpft |
+| 5.7d(2) | 64 | Nummerierter Absatz (2) · 5.7d | Was zu tun ist, wenn der Ball oder der Ballmarker während einer Spielunterbrechung bewegt wird. | — | R271 — Der Ball eines Spielers wird während einer Spielunterbrechung durch Naturkräfte bewegt. Was muss der Spieler vor der Wiederaufnahme tun? | R153 (5.7) | Direkt verknüpft |
 | 6.1 | 65 | Hauptabschnitt · Regel 6 | Das Spielen eines Lochs beginnen | — | R154 — Wo beginnt ein Spieler ein Loch? | — | Direkt verknüpft |
 | 6.1a | 65 | Buchstaben-Unterabschnitt · 6.1 | Wann das Loch beginnt | — | — | R154 (6.1) | Nur im Regelzweig |
 | 6.1b | 65 | Buchstaben-Unterabschnitt · 6.1 | Ball muss von innerhalb des Abschlags gespielt werden | — | — | R154 (6.1) | Nur im Regelzweig |
@@ -175,7 +175,7 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 6.4a(1) | 72 | Nummerierter Absatz (1) · 6.4a | Spielfolge. | — | R219 — Ein Loch im Lochspiel wird geteilt. Wer hat am nächsten Abschlag die Ehre? | — | Direkt verknüpft |
 | 6.4a(2) | 73 | Nummerierter Absatz (2) · 6.4a | Gegner darf außerhalb der Reihe gespielten Schlag des Spielers für ungültig erklären. | — | R220 — Ein Spieler schlägt im Lochspiel, obwohl der Gegner an der Reihe war. Was darf der Gegner tun? | — | Direkt verknüpft |
 | 6.4b | 73 | Buchstaben-Unterabschnitt · 6.4 | Zählspiel | — | R5 — Wer spielt im Zählspiel normalerweise zuerst? | — | Direkt verknüpft |
-| 6.4b(1) | 73 | Nummerierter Absatz (1) · 6.4b | Normale Spielfolge. | — | — | R5 (6.4b) | Nur im Regelzweig |
+| 6.4b(1) | 73 | Nummerierter Absatz (1) · 6.4b | Normale Spielfolge. | — | R272 — Im Zählspiel haben alle Spieler eines Lochs bereits vom Abschlag gespielt. Welcher Ball ist normalerweise als Nächstes zu spielen? | R5 (6.4b) | Direkt verknüpft |
 | 6.4b(2) | 74 | Nummerierter Absatz (2) · 6.4b | Spielen außer der Reihe in sicherheits- und verantwortungsbewusster Weise („Ready Golf“). | — | R243 — Wann darf ein Spieler im Zählspiel beim Ready Golf außer der Reihe spielen? | R5 (6.4b) | Direkt verknüpft |
 | 6.4c | 74 | Buchstaben-Unterabschnitt · 6.4 | Spielen eines provisorischen Balls oder anderen Balls vom Abschlag | — | — | — | Keine Frage zugeordnet |
 | 6.4d | 75 | Buchstaben-Unterabschnitt · 6.4 | Wenn Spieler Erleichterung außerhalb des Abschlags in Anspruch nimmt oder einen provisorischen Ball außerhalb des Abschlags spielen möchte | — | — | — | Keine Frage zugeordnet |
