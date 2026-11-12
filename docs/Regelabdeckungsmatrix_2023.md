@@ -1,18 +1,18 @@
 # Abdeckungsmatrix – Offizielle Golfregeln 2023
 
-Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 2.8 und der lokalen Fragenliste `rules.json`.
+Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 2.9 und der lokalen Fragenliste `rules.json`.
 
 ## Umfang und bisherige Fragen
 
 | Bestandteil | Einträge im PDF | Direkt mit Frage verknüpft | Nur verwandte Regelzweig-Frage | Keine Frage zugeordnet |
 |---|---:|---:|---:|---:|
 | Regelüberschriften (x.y und Buchstaben-Unterabschnitte) | 336 | 123 | 189 | 24 |
-| Nummerierte Absätze wie 1.3b(1) | 185 | 109 | 76 | 0 |
+| Nummerierte Absätze wie 1.3b(1) | 185 | 118 | 67 | 0 |
 | Definitionen | 74 | 74 | 0 | 0 |
-| **Gesamt** | **595** | **306** | **265** | **24** |
+| **Gesamt** | **595** | **315** | **256** | **24** |
 
-Die PDF-Auswertung enthält 107 Überschriften im Format x.y, 229 Buchstaben-Unterabschnitte, 185 ausdrücklich nummerierte Klammer-Absätze und 74 Definitionen: **595 Matrixzeilen**. In der App liegen **290 Fragen**: 215 Regel-/Änderungsfragen sowie 74 Einzeldefinitionsfragen und eine zusätzliche Frage zur Definitionsänderung „Erleichterungsbereich“.
-Von den 185 nummerierten Klammer-Absätzen sind **109 direkt verknüpft**, **76 nur über einen verwandten Abschnitt bzw. eine Elternregel angesprochen** und **0 ohne zugeordneten Regelzweig-Verweis**. Die 32 zuvor offenen Unterpunkte wurden als Fragen R203–R234 ergänzt.
+Die PDF-Auswertung enthält 107 Überschriften im Format x.y, 229 Buchstaben-Unterabschnitte, 185 ausdrücklich nummerierte Klammer-Absätze und 74 Definitionen: **595 Matrixzeilen**. In der App liegen **297 Fragen**: 222 Regel-/Änderungsfragen sowie 74 Einzeldefinitionsfragen und eine zusätzliche Frage zur Definitionsänderung „Erleichterungsbereich“.
+Von den 185 nummerierten Klammer-Absätzen sind **118 direkt verknüpft**, **67 nur über einen verwandten Abschnitt bzw. eine Elternregel angesprochen** und **0 ohne zugeordneten Regelzweig-Verweis**. Die 32 zuvor offenen Unterpunkte wurden als Fragen R203–R234 ergänzt.
 
 „Direkt verknüpft“ bedeutet: Die genaue Kennung steht in der Fragenzuordnung oder in Quelle/Fragentext. Eine verwandte Frage nennt nur eine Eltern- oder Kindregel und zählt daher nicht als genaue Unterpunkt-Zuordnung. Der Status prüft Kennungen und Zuordnungen, nicht die fachliche Vollständigkeit der Antwort.
 
@@ -403,9 +403,9 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 18.3a | 183 | Buchstaben-Unterabschnitt · 18.3 | Wann provisorischer Ball erlaubt ist | — | R19 — Wann darf ein provisorischer Ball gespielt werden? | — | Direkt verknüpft |
 | 18.3b | 183 | Buchstaben-Unterabschnitt · 18.3 | Ankündigung, provisorischen Ball zu spielen | — | — | — | Keine Frage zugeordnet |
 | 18.3c | 184 | Buchstaben-Unterabschnitt · 18.3 | Provisorischen Ball spielen, bis er zum Ball im Spiel oder aufgegeben wird | — | R38 — Der ursprüngliche Ball wird innerhalb der Suchzeit im Platz gefunden und ist nicht im Aus. Was geschieht mit einem gespielten provisorischen Ball? | — | Direkt verknüpft |
-| 18.3c(1) | 184 | Nummerierter Absatz (1) · 18.3c | Provisorischen Ball mehrmals spielen. | — | — | R38 (18.3c) | Nur im Regelzweig |
-| 18.3c(2) | 184 | Nummerierter Absatz (2) · 18.3c | Wann provisorischer Ball zum Ball im Spiel wird. | — | — | R38 (18.3c) | Nur im Regelzweig |
-| 18.3c(3) | 186 | Nummerierter Absatz (3) · 18.3c | Wann der provisorische Ball aufgegeben werden muss. | — | — | R38 (18.3c) | Nur im Regelzweig |
+| 18.3c(1) | 184 | Nummerierter Absatz (1) · 18.3c | Provisorischen Ball mehrmals spielen. | — | R291 — Ein Spieler spielt einen provisorischen Ball. Von welcher Stelle darf er ihn weiterspielen, ohne dass er seinen Status als provisorischer Ball verliert? | R38 (18.3c) | Direkt verknüpft |
+| 18.3c(2) | 184 | Nummerierter Absatz (2) · 18.3c | Wann provisorischer Ball zum Ball im Spiel wird. | — | R292 — In welchem Fall wird ein provisorischer Ball unter Strafe von Schlag und Distanzverlust zum Ball im Spiel? | R38 (18.3c) | Direkt verknüpft |
+| 18.3c(3) | 186 | Nummerierter Absatz (3) · 18.3c | Wann der provisorische Ball aufgegeben werden muss. | — | R38 — Der ursprüngliche Ball wird innerhalb der Suchzeit im Platz gefunden und ist nicht im Aus. Was geschieht mit einem gespielten provisorischen Ball? | R38 (18.3c) | Direkt verknüpft |
 | 19.1 | 187 | Hauptabschnitt · Regel 19 | Spieler darf überall auf dem Platz Erleichterung für unspielbaren Ball in Anspruch nehmen, außer in Penalty Area | — | R20 — Darf ein Spieler seinen Ball für unspielbar erklären, wenn er in einer Penalty Area liegt? | — | Direkt verknüpft |
 | 19.2 | 187 | Hauptabschnitt · Regel 19 | Erleichterungsverfahren für einen unspielbaren Ball im Gelände oder auf dem Grün | 🟠 enthält: 19.2b | R39 — Welche drei Erleichterungsoptionen gibt es grundsätzlich für einen unspielbaren Ball außerhalb einer Penalty Area?<br>R65 — Was ist bei Erleichterung auf der Bezugslinie für einen unspielbaren Ball nach Regel 19.2b zu beachten? | — | Direkt verknüpft |
 | 19.2a | 187 | Buchstaben-Unterabschnitt · 19.2 | Erleichterung mit Schlag und Distanzverlust | — | — | R39 (19.2)<br>R65 (19.2) | Nur im Regelzweig |
@@ -417,10 +417,10 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 20.1 | 194 | Hauptabschnitt · Regel 20 | Entscheiden von Regelfällen während der Runde | — | — | R40 (20.1c(3))<br>R41 (20.1b) | Nur im Regelzweig |
 | 20.1a | 194 | Buchstaben-Unterabschnitt · 20.1 | Spieler müssen unangemessene Verzögerung vermeiden | — | — | — | Keine Frage zugeordnet |
 | 20.1b | 194 | Buchstaben-Unterabschnitt · 20.1 | Regelfälle im Lochspiel | — | R41 — Was soll ein Spieler tun, wenn während einer Runde kein Referee oder Ausschussmitglied rechtzeitig für eine Regelfrage erreichbar ist? | — | Direkt verknüpft |
-| 20.1b(1) | 194 | Nummerierter Absatz (1) · 20.1b | Regelfälle einvernehmlich entscheiden. | — | — | R41 (20.1b) | Nur im Regelzweig |
-| 20.1b(2) | 195 | Nummerierter Absatz (2) · 20.1b | Regelentscheidung verlangt, bevor Ergebnis des Spiels feststeht. | — | — | R41 (20.1b) | Nur im Regelzweig |
-| 20.1b(3) | 196 | Nummerierter Absatz (3) · 20.1b | Regelentscheidung verlangt, nachdem Ergebnis des Lochspiels feststeht. | — | — | R41 (20.1b) | Nur im Regelzweig |
-| 20.1b(4) | 196 | Nummerierter Absatz (4) · 20.1b | Kein Recht, zwei Bälle zu spielen. | — | — | R41 (20.1b) | Nur im Regelzweig |
+| 20.1b(1) | 194 | Nummerierter Absatz (1) · 20.1b | Regelfälle einvernehmlich entscheiden. | — | R293 — Zwei Spieler einigen sich im Lochspiel auf eine Regelentscheidung, die sich später als falsch herausstellt. Wann bleibt die vereinbarte Entscheidung grundsätzlich endgültig? | R41 (20.1b) | Direkt verknüpft |
+| 20.1b(2) | 195 | Nummerierter Absatz (2) · 20.1b | Regelentscheidung verlangt, bevor Ergebnis des Spiels feststeht. | — | R294 — Ein Spieler erfährt vor Beginn des letzten Lochs von einem strittigen Regelfall im Lochspiel. Bis wann muss er eine Regelentscheidung verlangen? | R41 (20.1b) | Direkt verknüpft |
+| 20.1b(3) | 196 | Nummerierter Absatz (3) · 20.1b | Regelentscheidung verlangt, nachdem Ergebnis des Lochspiels feststeht. | — | R295 — Das Ergebnis eines Lochspiels steht bereits fest. Unter welcher Voraussetzung kann die Spielleitung noch eine Regelentscheidung erteilen? | R41 (20.1b) | Direkt verknüpft |
+| 20.1b(4) | 196 | Nummerierter Absatz (4) · 20.1b | Kein Recht, zwei Bälle zu spielen. | — | R296 — Ein Spieler ist im Lochspiel unsicher, wie er eine Regel anwenden muss. Darf er das Loch zur Klärung mit zwei Bällen beenden? | R41 (20.1b) | Direkt verknüpft |
 | 20.1c | 196 | Buchstaben-Unterabschnitt · 20.1 | Regelfälle im Zählspiel | — | — | R40 (20.1c(3)) | Nur im Regelzweig |
 | 20.1c(1) | 196 | Nummerierter Absatz (1) · 20.1c | Kein Recht, Regelfälle durch Absprache zu entscheiden. | — | R230 — Die Spieler im Zählspiel sind sich über die Anwendung einer Regel einig, aber ein Referee ist nicht erreichbar. Was gilt? | — | Direkt verknüpft |
 | 20.1c(2) | 196 | Nummerierter Absatz (2) · 20.1c | Spieler sollten die anderen Spieler im Teilnehmerfeld schützen. | — | R231 — Ein Spieler glaubt, ein anderer Spieler habe einen Regelverstoß begangen, bemerkt ihn aber nicht. Was sollte er tun? | — | Direkt verknüpft |
@@ -486,8 +486,8 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 23.3a | 218 | Buchstaben-Unterabschnitt · 23.3 | Wann die Runde beginnt | — | — | R193 (23.3) | Nur im Regelzweig |
 | 23.3b | 218 | Buchstaben-Unterabschnitt · 23.3 | Wann die Runde endet | — | — | R193 (23.3) | Nur im Regelzweig |
 | 23.3c | 219 | Buchstaben-Unterabschnitt · 23.3 | Wann ein Loch beendet ist | — | — | R193 (23.3) | Nur im Regelzweig |
-| 23.3c(1) | 219 | Nummerierter Absatz (1) · 23.3c | Lochspiel. | — | — | R193 (23.3) | Nur im Regelzweig |
-| 23.3c(2) | 219 | Nummerierter Absatz (2) · 23.3c | Zählspiel. | — | — | R193 (23.3) | Nur im Regelzweig |
+| 23.3c(1) | 219 | Nummerierter Absatz (1) · 23.3c | Lochspiel. | — | R193 — Im Vierball-Lochspiel hat ein Partner eingelocht. Der andere Partner hat ein Ergebnis, das für die Partei nicht zählen kann. Was gilt? | R193 (23.3) | Direkt verknüpft |
+| 23.3c(2) | 219 | Nummerierter Absatz (2) · 23.3c | Zählspiel. | — | R297 — Im Vierball-Zählspiel hat ein Partner eingelocht. Wann hat die Partei das Loch beendet? | R193 (23.3) | Direkt verknüpft |
 | 23.4 | 219 | Hauptabschnitt · Regel 23 | Einer oder beide Partner dürfen die Partei vertreten | — | R194 — Wer darf die Partei im Vierball vertreten? | — | Direkt verknüpft |
 | 23.5 | 220 | Hauptabschnitt · Regel 23 | Handlungen des Spielers beeinflussen Spiel des Partners | — | R195 — Wie können bestimmte Handlungen eines Partners für den anderen Partner wirken? | — | Direkt verknüpft |
 | 23.5a | 220 | Buchstaben-Unterabschnitt · 23.5 | Spieler darf alle Handlungen mit dem Ball des Partners vornehmen, die dem Partner erlaubt sind | — | — | R195 (23.5) | Nur im Regelzweig |
