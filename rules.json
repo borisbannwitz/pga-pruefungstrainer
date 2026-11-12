@@ -2252,6 +2252,906 @@
     "coverageId": "D:Zurücklegen",
     "definitionTerm": "Zurücklegen",
     "changed2023": false
+  },
+  {
+    "number": "R143",
+    "section": "Regel 1.2 – Richtlinien für das Verhalten von Spielern",
+    "question": "Welche Verhaltensweise passt zu den Grundsätzen für alle Spieler?",
+    "options": [
+      "Grundsätzlich nein, außer eine Regel erlaubt die konkrete Handlung.",
+      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen.",
+      "Auf den festgestellten Tatsachen und der zutreffenden Golfregel.",
+      "Fair und im Einklang mit ähnlichen Fällen und den Grundsätzen der Regeln."
+    ],
+    "correct": 1,
+    "explanation": "Regel 1.2 erwartet Integrität, Rücksichtnahme und die Schonung des Platzes.",
+    "source": "Regel 1.2 · Buchseite 24",
+    "coverageId": "1.2"
+  },
+  {
+    "number": "R144",
+    "section": "Regel 2.1 – Platzgrenzen und das Aus",
+    "question": "Wann ist ein Ball im Aus?",
+    "options": [
+      "Wenn der gesamte Ball außerhalb der festgelegten Platzgrenze liegt.",
+      "Wenn irgendein Teil des Balls Sand innerhalb der Bunkerkante berührt.",
+      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes.",
+      "Der Spieler darf ihn nicht von dort spielen und muss nach der einschlägigen Regel Erleichterung nehmen."
+    ],
+    "correct": 0,
+    "explanation": "Ein Ball ist erst im Aus, wenn er vollständig außerhalb der Platzgrenze liegt.",
+    "source": "Regel 2.1 · Buchseite 29",
+    "coverageId": "2.1"
+  },
+  {
+    "number": "R145",
+    "section": "Regel 2.3 – Gegenstände oder Bedingungen, die das Spiel beeinflussen können",
+    "question": "Welche Gruppe nennt Arten von Gegenständen oder Bedingungen, die das Spiel beeinflussen können?",
+    "options": [
+      "Der Spieler darf ihn nicht von dort spielen und muss nach der einschlägigen Regel Erleichterung nehmen.",
+      "Erleichterung nach anderen Regeln, etwa wegen ungewöhnlicher Platzverhältnisse oder eines unspielbaren Balls.",
+      "Straflose Erleichterung von der Gefährdung durch Tiere, wenn die Regelbedingungen erfüllt sind.",
+      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes."
+    ],
+    "correct": 3,
+    "explanation": "Regel 2.3 ordnet diese Gegenstände und Bedingungen ein.",
+    "source": "Regel 2.3 · Buchseite 31",
+    "coverageId": "2.3"
+  },
+  {
+    "number": "R146",
+    "section": "Regel 2.4 – Spielverbotszonen",
+    "question": "Der Ball liegt in einer Spielverbotszone. Was gilt grundsätzlich?",
+    "options": [
+      "Straflose Erleichterung von der Gefährdung durch Tiere, wenn die Regelbedingungen erfüllt sind.",
+      "Wenn der gesamte Ball außerhalb der festgelegten Platzgrenze liegt.",
+      "Der Spieler darf ihn nicht von dort spielen und muss nach der einschlägigen Regel Erleichterung nehmen.",
+      "Straflose Erleichterung nach Regel 16.1c innerhalb des Bunkers, wenn deren Voraussetzungen erfüllt sind."
+    ],
+    "correct": 2,
+    "explanation": "In einer Spielverbotszone ist das Spielen verboten; die zugehörige Regel bestimmt das weitere Verfahren.",
+    "source": "Regel 2.4 · Buchseite 31",
+    "coverageId": "2.4"
+  },
+  {
+    "number": "R147",
+    "section": "Regel 3.1 – Wesentliche Bestandteile aller Turniere",
+    "question": "Welche Entscheidungen gehören zu den wesentlichen Bestandteilen eines Turniers?",
+    "options": [
+      "Die Spielleitung legt die Bedingungen fest; die Regeln gelten, soweit sie zur Spielform passen.",
+      "Spielform, Einzel- oder Partnerspiel sowie Brutto- oder Netto-Wertung.",
+      "Ein von der Mannschaft benannter Ratgeber nach den Vorgaben der Spielleitung.",
+      "Sie können ihm zugerechnet werden und nach den Regeln Folgen für die Partei haben."
+    ],
+    "correct": 1,
+    "explanation": "Regel 3.1 beschreibt diese drei Grundentscheidungen für Turniere.",
+    "source": "Regel 3.1 · Buchseite 32",
+    "coverageId": "3.1"
+  },
+  {
+    "number": "R148",
+    "section": "Regel 4.2 – Bälle",
+    "question": "Ein Ball zerbricht beim Schlag in Stücke. Was gilt?",
+    "options": [
+      "Der Schlag zählt nicht; der Spieler spielt einen anderen Ball von der Stelle des Schlags.",
+      "Die Ballstelle markieren; der Ball darf nur so weit gereinigt werden, wie es zum Erkennen nötig ist.",
+      "Ein absichtlicher Schlag auf einen Ball zum Üben ist grundsätzlich verboten.",
+      "Der Ball wird an seine ursprüngliche Stelle zurückgelegt."
+    ],
+    "correct": 0,
+    "explanation": "Wenn der Ball beim Schlag zerbricht, zählt der Schlag nicht und wird von der ursprünglichen Stelle wiederholt.",
+    "source": "Regel 4.2 · Buchseite 49",
+    "coverageId": "4.2"
+  },
+  {
+    "number": "R149",
+    "section": "Regel 4.3 – Gebrauch von Ausrüstung",
+    "question": "Welche Aussage zur Ausrüstungsverwendung stimmt?",
+    "options": [
+      "Ja, solange beide zusammen nicht mehr als 14 Schläger benutzen.",
+      "Den Schläger absichtlich am Körper zu verankern, um ihn als stabilen Drehpunkt zu verwenden.",
+      "Wenn beide zusammen höchstens 14 Schläger benutzen.",
+      "Ausrüstung darf nicht ungewöhnlich verwendet werden, um einen möglichen Vorteil zu schaffen."
+    ],
+    "correct": 3,
+    "explanation": "Regel 4.3 untersagt bestimmte Verwendungen, die einen künstlichen Vorteil schaffen.",
+    "source": "Regel 4.3 · Buchseite 50",
+    "coverageId": "4.3"
+  },
+  {
+    "number": "R150",
+    "section": "Regel 5.1 – Bedeutung von „Runde“",
+    "question": "Wie ist eine Runde grundsätzlich aufgebaut?",
+    "options": [
+      "Von der betreffenden Regel und davon, wie der Verstoß das Spiel der Partner beeinflusst.",
+      "Spieler oder Parteien treten als Mannschaft an; die Spielleitung legt fest, wie das Mannschaftsergebnis gebildet wird.",
+      "Sie umfasst 18 oder weniger Löcher in der von der Spielleitung festgelegten Reihenfolge.",
+      "Die Spielleitung legt die Bedingungen fest; die Regeln gelten, soweit sie zur Spielform passen."
+    ],
+    "correct": 2,
+    "explanation": "Eine Runde besteht aus bis zu 18 Löchern in der festgelegten Reihenfolge.",
+    "source": "Regel 5.1 · Buchseite 56",
+    "coverageId": "5.1"
+  },
+  {
+    "number": "R151",
+    "section": "Regel 5.4 – Spielen in Gruppen",
+    "question": "Wer legt grundsätzlich fest, in welchen Gruppen Spieler antreten?",
+    "options": [
+      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen.",
+      "Die Spielleitung setzt die Gruppen fest; Spieler sollen sie nicht eigenmächtig ändern.",
+      "Spieler oder Parteien treten als Mannschaft an; die Spielleitung legt fest, wie das Mannschaftsergebnis gebildet wird.",
+      "Sie können ihm zugerechnet werden und nach den Regeln Folgen für die Partei haben."
+    ],
+    "correct": 1,
+    "explanation": "Änderungen der Gruppen erfordern die Zustimmung der Spielleitung.",
+    "source": "Regel 5.4 · Buchseite 58",
+    "coverageId": "5.4"
+  },
+  {
+    "number": "R152",
+    "section": "Regel 5.5 – Üben auf der Runde oder während einer Spielunterbrechung",
+    "question": "Was gilt für einen Übungsschlag während des Spielens eines Lochs?",
+    "options": [
+      "Ein absichtlicher Schlag auf einen Ball zum Üben ist grundsätzlich verboten.",
+      "Der Ball kann markiert und aufgenommen werden; bei Störung kann der Spieler dazu aufgefordert werden.",
+      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt.",
+      "Keine Strafe; der Ball wird an seine ursprüngliche Stelle zurückgelegt."
+    ],
+    "correct": 0,
+    "explanation": "Während eines Lochs sind Übungsschläge grundsätzlich nicht erlaubt; Probeschwünge ohne Ballkontakt sind davon zu unterscheiden.",
+    "source": "Regel 5.5 · Buchseite 59",
+    "coverageId": "5.5"
+  },
+  {
+    "number": "R153",
+    "section": "Regel 5.7 – Unterbrechung des Spiels; Wiederaufnahme des Spiels",
+    "question": "Wann müssen Spieler das Spiel sofort unterbrechen?",
+    "options": [
+      "Ein von der Mannschaft benannter Ratgeber nach den Vorgaben der Spielleitung.",
+      "Spieler oder Parteien treten als Mannschaft an; die Spielleitung legt fest, wie das Mannschaftsergebnis gebildet wird.",
+      "Jeder Partner, soweit Spielfolge und Regeln eingehalten werden.",
+      "Bei einer Unterbrechung wegen Gefahr oder einem unmittelbaren Sicherheitsrisiko."
+    ],
+    "correct": 3,
+    "explanation": "Bei Gefahr müssen Spieler sofort aufhören; sonst richten sie sich nach der Anweisung der Spielleitung.",
+    "source": "Regel 5.7 · Buchseite 61",
+    "coverageId": "5.7"
+  },
+  {
+    "number": "R154",
+    "section": "Regel 6.1 – Das Spielen eines Lochs beginnen",
+    "question": "Wo beginnt ein Spieler ein Loch?",
+    "options": [
+      "Jederzeit, indem er von der Stelle des vorherigen Schlags spielt und einen Strafschlag hinzurechnet.",
+      "Grundstrafe; bei schwerwiegendem Verstoß kann eine Berichtigung erforderlich sein.",
+      "Mit einem Ball aus dem Abschlagbereich des zu spielenden Lochs.",
+      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt."
+    ],
+    "correct": 2,
+    "explanation": "Ein Loch beginnt mit einem Schlag von innerhalb des dafür bestimmten Abschlagbereichs.",
+    "source": "Regel 6.1 · Buchseite 65",
+    "coverageId": "6.1"
+  },
+  {
+    "number": "R155",
+    "section": "Regel 6.5 – Beenden eines Lochs",
+    "question": "Wann ist ein Loch im normalen Zählspiel beendet?",
+    "options": [
+      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt.",
+      "Wenn der Spieler mit dem Ball eingelocht hat.",
+      "Der Schlag zählt nicht; der Spieler spielt einen anderen Ball von der Stelle des Schlags.",
+      "Ein absichtlicher Schlag auf einen Ball zum Üben ist grundsätzlich verboten."
+    ],
+    "correct": 1,
+    "explanation": "Im Zählspiel ist das Loch grundsätzlich mit dem Einlochen beendet.",
+    "source": "Regel 6.5 · Buchseite 76",
+    "coverageId": "6.5"
+  },
+  {
+    "number": "R156",
+    "section": "Regel 7.2 – Wie Ball identifiziert wird",
+    "question": "Woran darf ein Spieler seinen Ball zur Identifizierung erkennen?",
+    "options": [
+      "An Kennzeichnungen oder anderen Merkmalen des Balls.",
+      "Der Schlag zählt nicht; der Spieler spielt einen anderen Ball von der Stelle des Schlags.",
+      "Eine angemessene Zeit, um das Loch zu erreichen, und danach noch zehn Sekunden.",
+      "Das Verfahren hängt vom Bereich ab: Abschlag, Droppen oder Zurücklegen."
+    ],
+    "correct": 0,
+    "explanation": "Ein Ball kann anhand seiner Kennzeichnungen und sonstigen Merkmale identifiziert werden.",
+    "source": "Regel 7.2 · Buchseite 79",
+    "coverageId": "7.2"
+  },
+  {
+    "number": "R157",
+    "section": "Regel 7.3 – Ball zum Identifizieren aufnehmen",
+    "question": "Was ist vor dem Aufnehmen eines Balls zur Identifizierung zu tun?",
+    "options": [
+      "Grundstrafe; bei schwerwiegendem Verstoß kann eine Berichtigung erforderlich sein.",
+      "Das Verfahren hängt vom Bereich ab: Abschlag, Droppen oder Zurücklegen.",
+      "Ein absichtlicher Schlag auf einen Ball zum Üben ist grundsätzlich verboten.",
+      "Die Ballstelle markieren; der Ball darf nur so weit gereinigt werden, wie es zum Erkennen nötig ist."
+    ],
+    "correct": 3,
+    "explanation": "Vor dem Aufnehmen wird die Stelle markiert, und eine Reinigung ist nur im nötigen Umfang zulässig.",
+    "source": "Regel 7.3 · Buchseite 79",
+    "coverageId": "7.3"
+  },
+  {
+    "number": "R158",
+    "section": "Regel 8.2 – Absichtliche Handlungen des Spielers, um andere äußere Bedingungen zu verändern, die eigenen Ball in Ruhe oder den zu spielenden Schlag beeinflussen",
+    "question": "Darf ein Spieler absichtlich äußere Bedingungen verändern, um den eigenen Schlag zu beeinflussen?",
+    "options": [
+      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen.",
+      "Auf den festgestellten Tatsachen und der zutreffenden Golfregel.",
+      "Grundsätzlich nein, außer eine Regel erlaubt die konkrete Handlung.",
+      "Ihn ablenken oder aufhalten, um das Ergebnis zu beeinflussen."
+    ],
+    "correct": 2,
+    "explanation": "Regel 8.2 untersagt absichtliche Veränderungen zugunsten des eigenen Balls oder Schlags, vorbehaltlich erlaubter Handlungen.",
+    "source": "Regel 8.2 · Buchseite 86",
+    "coverageId": "8.2"
+  },
+  {
+    "number": "R159",
+    "section": "Regel 8.3 – Absichtliche Handlungen des Spielers, um äußere Bedingungen zu verändern, die den Ball in Ruhe oder den auszuführenden Schlag eines anderen Spielers beeinflussen",
+    "question": "Darf ein Spieler absichtlich Bedingungen verändern, um den Schlag eines anderen Spielers zu beeinflussen?",
+    "options": [
+      "Grundsätzlich nein.",
+      "Grundsätzlich nein, außer eine Regel erlaubt die konkrete Handlung.",
+      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen.",
+      "Auf den festgestellten Tatsachen und der zutreffenden Golfregel."
+    ],
+    "correct": 1,
+    "explanation": "Regel 8.3 untersagt solche absichtlichen Eingriffe zugunsten oder zulasten eines anderen Spielers.",
+    "source": "Regel 8.3 · Buchseite 87",
+    "coverageId": "8.3"
+  },
+  {
+    "number": "R160",
+    "section": "Regel 9.1 – Ball spielen, wie er liegt",
+    "question": "Welcher Grundsatz gilt für den ruhenden Ball?",
+    "options": [
+      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt.",
+      "Der Schlag zählt nicht; der Spieler spielt einen anderen Ball von der Stelle des Schlags.",
+      "Den Verfahrensfehler nach Regel 14.5 berichtigen, bevor er den Ball spielt.",
+      "Der Ballmarker wird an seine ursprüngliche Stelle zurückgelegt."
+    ],
+    "correct": 0,
+    "explanation": "Regel 9.1 verankert den Grundsatz „Spielen, wie der Ball liegt“, vorbehaltlich geregelter Ausnahmen.",
+    "source": "Regel 9.1 · Buchseite 88",
+    "coverageId": "9.1"
+  },
+  {
+    "number": "R161",
+    "section": "Regel 9.2 – Entscheiden, ob sich ein Ball bewegt hat und wodurch die Bewegung verursacht wurde",
+    "question": "Wie wird beurteilt, ob ein Ball sich bewegt hat oder wodurch?",
+    "options": [
+      "An Kennzeichnungen oder anderen Merkmalen des Balls.",
+      "Ein absichtlicher Schlag auf einen Ball zum Üben ist grundsätzlich verboten.",
+      "Eine angemessene Zeit, um das Loch zu erreichen, und danach noch zehn Sekunden.",
+      "Anhand einer vernünftigen Beurteilung der verfügbaren Tatsachen und Informationen."
+    ],
+    "correct": 3,
+    "explanation": "Regel 9.2 behandelt die Tatsachenfeststellung zu Bewegung und Ursache.",
+    "source": "Regel 9.2 · Buchseite 89",
+    "coverageId": "9.2"
+  },
+  {
+    "number": "R162",
+    "section": "Regel 9.5 – Ball durch Gegner im Lochspiel aufgenommen oder bewegt",
+    "question": "Ein Gegner bewegt im Lochspiel den ruhenden Ball des Spielers. Was gilt grundsätzlich?",
+    "options": [
+      "Den Verfahrensfehler nach Regel 14.5 berichtigen, bevor er den Ball spielt.",
+      "Grundstrafe; bei schwerwiegendem Verstoß kann eine Berichtigung erforderlich sein.",
+      "Der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
+      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt."
+    ],
+    "correct": 2,
+    "explanation": "Ein durch den Gegner bewegter Ball wird grundsätzlich zurückgelegt; besondere Ausnahmen sind in der Regel geregelt.",
+    "source": "Regel 9.5 · Buchseite 92",
+    "coverageId": "9.5"
+  },
+  {
+    "number": "R163",
+    "section": "Regel 9.6 – Ball durch äußeren Einfluss aufgenommen oder bewegt",
+    "question": "Ein äußerer Einfluss bewegt den ruhenden Ball. Was gilt grundsätzlich?",
+    "options": [
+      "Eine angemessene Zeit, um das Loch zu erreichen, und danach noch zehn Sekunden.",
+      "Keine Strafe; der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
+      "Ein absichtlicher Schlag auf einen Ball zum Üben ist grundsätzlich verboten.",
+      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt."
+    ],
+    "correct": 1,
+    "explanation": "Ein durch äußeren Einfluss bewegter Ball wird grundsätzlich straflos zurückgelegt.",
+    "source": "Regel 9.6 · Buchseite 93",
+    "coverageId": "9.6"
+  },
+  {
+    "number": "R164",
+    "section": "Regel 9.7 – Ballmarker aufgenommen oder bewegt",
+    "question": "Ein Ballmarker wird versehentlich bewegt. Wie wird die Stelle wiederhergestellt?",
+    "options": [
+      "Der Ballmarker wird an seine ursprüngliche Stelle zurückgelegt.",
+      "Keine Strafe; der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
+      "Mit einem Ball aus dem Abschlagbereich des zu spielenden Lochs.",
+      "Eine angemessene Zeit, um das Loch zu erreichen, und danach noch zehn Sekunden."
+    ],
+    "correct": 0,
+    "explanation": "Ein versehentlich bewegter Ballmarker wird grundsätzlich zurückgelegt.",
+    "source": "Regel 9.7 · Buchseite 94",
+    "coverageId": "9.7"
+  },
+  {
+    "number": "R165",
+    "section": "Regel 10.1 – Einen Schlag ausführen",
+    "question": "Welche Schlagtechnik ist grundsätzlich verboten?",
+    "options": [
+      "Ja, solange beide zusammen nicht mehr als 14 Schläger benutzen.",
+      "Wenn beide zusammen höchstens 14 Schläger benutzen.",
+      "Ausrüstung darf nicht ungewöhnlich verwendet werden, um einen möglichen Vorteil zu schaffen.",
+      "Den Schläger absichtlich am Körper zu verankern, um ihn als stabilen Drehpunkt zu verwenden."
+    ],
+    "correct": 3,
+    "explanation": "Regel 10.1b untersagt den verankerten Schlag, vorbehaltlich der beschriebenen Ausnahmen.",
+    "source": "Regel 10.1 · Buchseite 95",
+    "coverageId": "10.1"
+  },
+  {
+    "number": "R166",
+    "section": "Regel 10.3 – Caddies",
+    "question": "Wie viele Caddies darf ein Spieler gleichzeitig haben?",
+    "options": [
+      "Sie können ihm zugerechnet werden und nach den Regeln Folgen für die Partei haben.",
+      "Die Spielleitung legt die Bedingungen fest; die Regeln gelten, soweit sie zur Spielform passen.",
+      "Grundsätzlich höchstens einen Caddie zur selben Zeit.",
+      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen."
+    ],
+    "correct": 2,
+    "explanation": "Regel 10.3 erlaubt grundsätzlich nur einen Caddie zugleich.",
+    "source": "Regel 10.3 · Buchseite 101",
+    "coverageId": "10.3"
+  },
+  {
+    "number": "R167",
+    "section": "Regel 11.2 – Ball in Bewegung absichtlich durch Person abgelenkt oder aufgehalten",
+    "question": "Was darf ein Spieler nicht absichtlich mit einem Ball in Bewegung tun?",
+    "options": [
+      "Auf den festgestellten Tatsachen und der zutreffenden Golfregel.",
+      "Ihn ablenken oder aufhalten, um das Ergebnis zu beeinflussen.",
+      "Grundsätzlich nein, außer eine Regel erlaubt die konkrete Handlung.",
+      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen."
+    ],
+    "correct": 1,
+    "explanation": "Regel 11.2 verbietet absichtliches Ablenken oder Aufhalten eines Balls in Bewegung.",
+    "source": "Regel 11.2 · Buchseite 106",
+    "coverageId": "11.2"
+  },
+  {
+    "number": "R168",
+    "section": "Regel 11.3 – Gegenstände absichtlich entfernen oder Bedingungen verändern, um einen Ball in Bewegung zu beeinflussen",
+    "question": "Darf ein Spieler absichtlich Gegenstände oder Bedingungen verändern, um einen Ball in Bewegung zu beeinflussen?",
+    "options": [
+      "Grundsätzlich nein.",
+      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen.",
+      "Fair und im Einklang mit ähnlichen Fällen und den Grundsätzen der Regeln.",
+      "Ihn ablenken oder aufhalten, um das Ergebnis zu beeinflussen."
+    ],
+    "correct": 0,
+    "explanation": "Regel 11.3 untersagt solche absichtlichen Eingriffe in den Lauf eines Balls.",
+    "source": "Regel 11.3 · Buchseite 108",
+    "coverageId": "11.3"
+  },
+  {
+    "number": "R169",
+    "section": "Regel 12.1 – Wann ein Ball im Bunker liegt",
+    "question": "Wann liegt ein Ball im Bunker?",
+    "options": [
+      "Der Spieler darf straflose Erleichterung nach Regel 16.3 nehmen, wenn deren Voraussetzungen erfüllt sind.",
+      "Straflose Erleichterung von der Gefährdung durch Tiere, wenn die Regelbedingungen erfüllt sind.",
+      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes.",
+      "Wenn irgendein Teil des Balls Sand innerhalb der Bunkerkante berührt."
+    ],
+    "correct": 3,
+    "explanation": "Ein Ball liegt im Bunker, sobald ein Teil des Balls den Sand innerhalb der Kante berührt.",
+    "source": "Regel 12.1 · Buchseite 113",
+    "coverageId": "12.1"
+  },
+  {
+    "number": "R170",
+    "section": "Regel 12.3 – Sonderregeln für Erleichterung bei Ball im Bunker",
+    "question": "Eine ungewöhnliche Platzbedingung behindert einen Ball im Bunker. Was ist grundsätzlich möglich?",
+    "options": [
+      "Straflose Erleichterung von der Gefährdung durch Tiere, wenn die Regelbedingungen erfüllt sind.",
+      "Wenn der gesamte Ball außerhalb der festgelegten Platzgrenze liegt.",
+      "Straflose Erleichterung nach Regel 16.1c innerhalb des Bunkers, wenn deren Voraussetzungen erfüllt sind.",
+      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes."
+    ],
+    "correct": 2,
+    "explanation": "Regel 12.3 verweist für Erleichterungssituationen im Bunker auf das jeweils passende Verfahren.",
+    "source": "Regel 12.3 · Buchseite 115",
+    "coverageId": "12.3"
+  },
+  {
+    "number": "R171",
+    "section": "Regel 13.3 – Ball ragt über den Lochrand hinaus",
+    "question": "Der Ball hängt über dem Lochrand. Wie lange darf der Spieler zunächst warten?",
+    "options": [
+      "Die Stelle markieren und den Ball grundsätzlich nicht reinigen.",
+      "Eine angemessene Zeit, um das Loch zu erreichen, und danach noch zehn Sekunden.",
+      "Der Schlag zählt nicht; der Spieler spielt einen anderen Ball von der Stelle des Schlags.",
+      "Mit einem Ball aus dem Abschlagbereich des zu spielenden Lochs."
+    ],
+    "correct": 1,
+    "explanation": "Fällt der Ball erst nach dieser Zeit hinein, gilt er als zur Ruhe gekommen; fällt er danach noch, kommt grundsätzlich ein Strafschlag hinzu.",
+    "source": "Regel 13.3 · Buchseite 125",
+    "coverageId": "13.3"
+  },
+  {
+    "number": "R172",
+    "section": "Regel 14.2 – Ball an Stelle zurücklegen",
+    "question": "Wo muss ein Ball zurückgelegt werden?",
+    "options": [
+      "An seine ursprüngliche Stelle; die ursprüngliche Lage wird so gut wie möglich wiederhergestellt.",
+      "Der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
+      "Die Ballstelle markieren; der Ball darf nur so weit gereinigt werden, wie es zum Erkennen nötig ist.",
+      "Den Verfahrensfehler nach Regel 14.5 berichtigen, bevor er den Ball spielt."
+    ],
+    "correct": 0,
+    "explanation": "Regel 14.2 verlangt das Zurücklegen an die ursprüngliche Stelle und, soweit möglich, die ursprüngliche Lage.",
+    "source": "Regel 14.2 · Buchseite 130",
+    "coverageId": "14.2"
+  },
+  {
+    "number": "R173",
+    "section": "Regel 14.4 – W ann der Ball des Spielers wieder im Spiel ist, nachdem ursprünglicher Ball nicht mehr im Spiel war",
+    "question": "Wann ist ein gedroppter, gelegter oder zurückgelegter Ball wieder im Spiel?",
+    "options": [
+      "Die Stelle markieren und den Ball grundsätzlich nicht reinigen.",
+      "Der Ball kann markiert und aufgenommen werden; bei Störung kann der Spieler dazu aufgefordert werden.",
+      "Anhand einer vernünftigen Beurteilung der verfügbaren Tatsachen und Informationen.",
+      "Wenn der Spieler ihn mit der Absicht loslässt oder platziert, dass er zum Ball im Spiel wird."
+    ],
+    "correct": 3,
+    "explanation": "Die Absicht beim Droppen, Legen oder Zurücklegen entscheidet über den Status des Balls.",
+    "source": "Regel 14.4 · Buchseite 139",
+    "coverageId": "14.4"
+  },
+  {
+    "number": "R174",
+    "section": "Regel 14.5 – Fehler beim Ersetzen, Zurücklegen, Droppen oder Legen des Balls berichtigen",
+    "question": "Der Spieler bemerkt vor dem Schlag einen Fehler beim Droppen oder Zurücklegen. Was kann er tun?",
+    "options": [
+      "Grundstrafe; bei schwerwiegendem Verstoß kann eine Berichtigung erforderlich sein.",
+      "Keine Strafe; der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
+      "Den Verfahrensfehler nach Regel 14.5 berichtigen, bevor er den Ball spielt.",
+      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt."
+    ],
+    "correct": 2,
+    "explanation": "Regel 14.5 erlaubt unter ihren Voraussetzungen die Berichtigung vor dem nächsten Schlag.",
+    "source": "Regel 14.5 · Buchseite 140",
+    "coverageId": "14.5"
+  },
+  {
+    "number": "R175",
+    "section": "Regel 14.6 – Nächsten Schlag von der Stelle des vorigen Schlags ausführen",
+    "question": "Wie wird gespielt, wenn der nächste Schlag von der Stelle des vorherigen Schlags ausgeführt werden muss?",
+    "options": [
+      "Keine Strafe; der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
+      "Das Verfahren hängt vom Bereich ab: Abschlag, Droppen oder Zurücklegen.",
+      "Wenn der Spieler ihn mit der Absicht loslässt oder platziert, dass er zum Ball im Spiel wird.",
+      "Die Ballstelle markieren; der Ball darf nur so weit gereinigt werden, wie es zum Erkennen nötig ist."
+    ],
+    "correct": 1,
+    "explanation": "Regel 14.6 legt je nach Bereich das Verfahren für Schlag und Distanzverlust fest.",
+    "source": "Regel 14.6 · Buchseite 141",
+    "coverageId": "14.6"
+  },
+  {
+    "number": "R176",
+    "section": "Regel 14.7 – Spielen vom falschen Ort",
+    "question": "Welche Folge kann das Spielen vom falschen Ort im Zählspiel haben?",
+    "options": [
+      "Grundstrafe; bei schwerwiegendem Verstoß kann eine Berichtigung erforderlich sein.",
+      "Der Ball kann markiert und aufgenommen werden; bei Störung kann der Spieler dazu aufgefordert werden.",
+      "An Kennzeichnungen oder anderen Merkmalen des Balls.",
+      "Wenn der Spieler ihn mit der Absicht loslässt oder platziert, dass er zum Ball im Spiel wird."
+    ],
+    "correct": 0,
+    "explanation": "Regel 14.7 sieht grundsätzlich die Grundstrafe vor und behandelt schwerwiegende Verstöße gesondert.",
+    "source": "Regel 14.7 · Buchseite 143",
+    "coverageId": "14.7"
+  },
+  {
+    "number": "R177",
+    "section": "Regel 15.3 – Ball oder Ballmarker unterstützt oder stört das Spiel",
+    "question": "Ein Ball könnte einem anderen Spieler helfen oder ihn stören. Was kann verlangt werden?",
+    "options": [
+      "Grundstrafe; bei schwerwiegendem Verstoß kann eine Berichtigung erforderlich sein.",
+      "Eine angemessene Zeit, um das Loch zu erreichen, und danach noch zehn Sekunden.",
+      "Jederzeit, indem er von der Stelle des vorherigen Schlags spielt und einen Strafschlag hinzurechnet.",
+      "Der Ball kann markiert und aufgenommen werden; bei Störung kann der Spieler dazu aufgefordert werden."
+    ],
+    "correct": 3,
+    "explanation": "Regel 15.3 regelt Bälle oder Ballmarker, die helfen oder stören könnten.",
+    "source": "Regel 15.3 · Buchseite 152",
+    "coverageId": "15.3"
+  },
+  {
+    "number": "R178",
+    "section": "Regel 16.2 – Gefährdung durch Tiere",
+    "question": "Ein gefährliches Tier ist nahe am Ball oder am beabsichtigten Schwung. Was kommt grundsätzlich in Betracht?",
+    "options": [
+      "Straflose Erleichterung nach Regel 16.1c innerhalb des Bunkers, wenn deren Voraussetzungen erfüllt sind.",
+      "Der Spieler darf straflose Erleichterung nach Regel 16.3 nehmen, wenn deren Voraussetzungen erfüllt sind.",
+      "Straflose Erleichterung von der Gefährdung durch Tiere, wenn die Regelbedingungen erfüllt sind.",
+      "Erleichterung nach anderen Regeln, etwa wegen ungewöhnlicher Platzverhältnisse oder eines unspielbaren Balls."
+    ],
+    "correct": 2,
+    "explanation": "Regel 16.2 erlaubt unter ihren Bedingungen straflose Erleichterung bei Gefährdung durch Tiere.",
+    "source": "Regel 16.2 · Buchseite 162",
+    "coverageId": "16.2"
+  },
+  {
+    "number": "R179",
+    "section": "Regel 16.3 – Eingebetteter Ball",
+    "question": "Ein Ball ist im Gelände in seinem eigenen Einschlagloch eingebettet. Was gilt grundsätzlich?",
+    "options": [
+      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes.",
+      "Der Spieler darf straflose Erleichterung nach Regel 16.3 nehmen, wenn deren Voraussetzungen erfüllt sind.",
+      "Wenn der gesamte Ball außerhalb der festgelegten Platzgrenze liegt.",
+      "Straflose Erleichterung nach Regel 16.1c innerhalb des Bunkers, wenn deren Voraussetzungen erfüllt sind."
+    ],
+    "correct": 1,
+    "explanation": "Regel 16.3 erlaubt grundsätzlich straflose Erleichterung für einen eingebetteten Ball im Gelände.",
+    "source": "Regel 16.3 · Buchseite 164",
+    "coverageId": "16.3"
+  },
+  {
+    "number": "R180",
+    "section": "Regel 16.4 – B all aufnehmen, um zu sehen, ob er sich in einer Lage befindet, von der Erleichterung erlaubt ist",
+    "question": "Der Spieler hebt einen Ball auf, um zu prüfen, ob Erleichterung zulässig ist. Was muss er beachten?",
+    "options": [
+      "Die Stelle markieren und den Ball grundsätzlich nicht reinigen.",
+      "Anhand einer vernünftigen Beurteilung der verfügbaren Tatsachen und Informationen.",
+      "An seine ursprüngliche Stelle; die ursprüngliche Lage wird so gut wie möglich wiederhergestellt.",
+      "Das Verfahren hängt vom Bereich ab: Abschlag, Droppen oder Zurücklegen."
+    ],
+    "correct": 0,
+    "explanation": "Regel 16.4 gestattet das Aufnehmen zur Prüfung unter diesen Bedingungen.",
+    "source": "Regel 16.4 · Buchseite 167",
+    "coverageId": "16.4"
+  },
+  {
+    "number": "R181",
+    "section": "Regel 17.2 – Möglichkeiten, nachdem Ball aus Penalty Area gespielt wurde",
+    "question": "Was regelt Regel 17.2?",
+    "options": [
+      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes.",
+      "Der Spieler darf straflose Erleichterung nach Regel 16.3 nehmen, wenn deren Voraussetzungen erfüllt sind.",
+      "Straflose Erleichterung nach Regel 16.1c innerhalb des Bunkers, wenn deren Voraussetzungen erfüllt sind.",
+      "Die Möglichkeiten, wenn ein Ball nach einem Schlag aus einer Penalty Area dort oder anderswo zur Ruhe kommt."
+    ],
+    "correct": 3,
+    "explanation": "Regel 17.2 beschreibt die Optionen nach einem Schlag aus einer Penalty Area je nach Lage des Balls.",
+    "source": "Regel 17.2 · Buchseite 175",
+    "coverageId": "17.2"
+  },
+  {
+    "number": "R182",
+    "section": "Regel 17.3 – Keine Erleichterung nach anderen Regeln für einen Ball in der Penalty Area",
+    "question": "Welche Erleichterung ist für einen Ball in einer Penalty Area grundsätzlich ausgeschlossen?",
+    "options": [
+      "Wenn der gesamte Ball außerhalb der festgelegten Platzgrenze liegt.",
+      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes.",
+      "Erleichterung nach anderen Regeln, etwa wegen ungewöhnlicher Platzverhältnisse oder eines unspielbaren Balls.",
+      "Der Spieler darf ihn nicht von dort spielen und muss nach der einschlägigen Regel Erleichterung nehmen."
+    ],
+    "correct": 2,
+    "explanation": "Regel 17.3 schließt für einen Ball in der Penalty Area Erleichterung nach anderen Regeln grundsätzlich aus.",
+    "source": "Regel 17.3 · Buchseite 179",
+    "coverageId": "17.3"
+  },
+  {
+    "number": "R183",
+    "section": "Regel 18.1 – Erleichterung mit Schlag und Distanzverlust ist jederzeit zulässig",
+    "question": "Wann darf ein Spieler Schlag und Distanzverlust wählen?",
+    "options": [
+      "Der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
+      "Jederzeit, indem er von der Stelle des vorherigen Schlags spielt und einen Strafschlag hinzurechnet.",
+      "Die Ballstelle markieren; der Ball darf nur so weit gereinigt werden, wie es zum Erkennen nötig ist.",
+      "Anhand einer vernünftigen Beurteilung der verfügbaren Tatsachen und Informationen."
+    ],
+    "correct": 1,
+    "explanation": "Regel 18.1 erlaubt dieses Verfahren jederzeit; für die Ausführung gilt Regel 14.6.",
+    "source": "Regel 18.1 · Buchseite 180",
+    "coverageId": "18.1"
+  },
+  {
+    "number": "R184",
+    "section": "Regel 20.2 – Entscheidungen zu Regelfällen",
+    "question": "Worauf beruht die Entscheidung in einem Regelfall?",
+    "options": [
+      "Auf den festgestellten Tatsachen und der zutreffenden Golfregel.",
+      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen.",
+      "Ihn ablenken oder aufhalten, um das Ergebnis zu beeinflussen.",
+      "Grundsätzlich nein, außer eine Regel erlaubt die konkrete Handlung."
+    ],
+    "correct": 0,
+    "explanation": "Regel 20.2 behandelt Entscheidungen zu Regelfällen und die Anwendung der Regeln auf die Tatsachen.",
+    "source": "Regel 20.2 · Buchseite 198",
+    "coverageId": "20.2"
+  },
+  {
+    "number": "R185",
+    "section": "Regel 20.3 – Nicht von den Regeln erfasste Fälle",
+    "question": "Wie entscheidet die Spielleitung einen Fall ohne ausdrückliche Regel?",
+    "options": [
+      "Grundsätzlich nein.",
+      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen.",
+      "Grundsätzlich nein, außer eine Regel erlaubt die konkrete Handlung.",
+      "Fair und im Einklang mit ähnlichen Fällen und den Grundsätzen der Regeln."
+    ],
+    "correct": 3,
+    "explanation": "Regel 20.3 verlangt eine faire, mit ähnlichen Fällen und den Regelgrundsätzen übereinstimmende Entscheidung.",
+    "source": "Regel 20.3 · Buchseite 201",
+    "coverageId": "20.3"
+  },
+  {
+    "number": "R186",
+    "section": "Regel 21.2 – Maximum Score",
+    "question": "Was kennzeichnet Maximum Score?",
+    "options": [
+      "Die Spielleitung legt die Bedingungen fest; die Regeln gelten, soweit sie zur Spielform passen.",
+      "Bei einer Unterbrechung wegen Gefahr oder einem unmittelbaren Sicherheitsrisiko.",
+      "Für jedes Loch gilt eine Höchstzahl; ist sie erreicht, darf der Spieler den Ball aufnehmen.",
+      "Sie umfasst 18 oder weniger Löcher in der von der Spielleitung festgelegten Reihenfolge."
+    ],
+    "correct": 2,
+    "explanation": "Bei Maximum Score zählt das festgelegte Höchstergebnis für das Loch.",
+    "source": "Regel 21.2 · Buchseite 207",
+    "coverageId": "21.2"
+  },
+  {
+    "number": "R187",
+    "section": "Regel 21.4 – Dreiball-Lochspiel",
+    "question": "Wie funktioniert Dreiball-Lochspiel?",
+    "options": [
+      "Ein von der Mannschaft benannter Ratgeber nach den Vorgaben der Spielleitung.",
+      "Jeder von drei Spielern spielt gleichzeitig ein eigenes Lochspiel gegen die beiden anderen.",
+      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen.",
+      "Auf oder nahe der Verlängerung der Spiellinie hinter dem Spieler, wenn dieser beginnt, den Stand einzunehmen."
+    ],
+    "correct": 1,
+    "explanation": "Dreiball umfasst drei parallel gespielte Einzelmatches.",
+    "source": "Regel 21.4 · Buchseite 211",
+    "coverageId": "21.4"
+  },
+  {
+    "number": "R188",
+    "section": "Regel 21.5 – Andere Spielformen",
+    "question": "Was gilt für weitere, nicht ausdrücklich in Regel 21 beschriebene Spielformen?",
+    "options": [
+      "Die Spielleitung legt die Bedingungen fest; die Regeln gelten, soweit sie zur Spielform passen.",
+      "Grundsätzlich höchstens einen Caddie zur selben Zeit.",
+      "Jeder Partner, soweit Spielfolge und Regeln eingehalten werden.",
+      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen."
+    ],
+    "correct": 0,
+    "explanation": "Regel 21.5 ermöglicht andere Spielformen unter den festgelegten Bedingungen.",
+    "source": "Regel 21.5 · Buchseite 212",
+    "coverageId": "21.5"
+  },
+  {
+    "number": "R189",
+    "section": "Regel 22.2 – Jeder Partner kann für Partei handeln",
+    "question": "Wer darf im Vierer grundsätzlich für die Partei handeln?",
+    "options": [
+      "Sie umfasst 18 oder weniger Löcher in der von der Spielleitung festgelegten Reihenfolge.",
+      "Sie dürfen grundsätzlich selbst bestimmen, welcher Partner zuerst spielt.",
+      "Die Partner schlagen an den Löchern abwechselnd ab.",
+      "Jeder Partner, soweit Spielfolge und Regeln eingehalten werden."
+    ],
+    "correct": 3,
+    "explanation": "Regel 22.2 erlaubt grundsätzlich beiden Partnern, für ihre Partei zu handeln.",
+    "source": "Regel 22.2 · Buchseite 213",
+    "coverageId": "22.2"
+  },
+  {
+    "number": "R190",
+    "section": "Regel 22.4 – Beginn der Runde",
+    "question": "Wie wechseln die Abschläge der Partner im Vierer?",
+    "options": [
+      "Auf oder nahe der Verlängerung der Spiellinie hinter dem Spieler, wenn dieser beginnt, den Stand einzunehmen.",
+      "Einer oder beide Partner, soweit die Regeln es zulassen.",
+      "Die Partner schlagen an den Löchern abwechselnd ab.",
+      "Für jedes Loch gilt eine Höchstzahl; ist sie erreicht, darf der Spieler den Ball aufnehmen."
+    ],
+    "correct": 2,
+    "explanation": "Im Vierer spielen die Partner einen Ball abwechselnd; dazu wechseln auch die Abschläge.",
+    "source": "Regel 22.4 · Buchseite 214",
+    "coverageId": "22.4"
+  },
+  {
+    "number": "R191",
+    "section": "Regel 22.5 – Partner dürfen Schläger gemeinsam benutzen",
+    "question": "Wann dürfen Partner im Vierer ihre Schläger teilen?",
+    "options": [
+      "Den Schläger absichtlich am Körper zu verankern, um ihn als stabilen Drehpunkt zu verwenden.",
+      "Wenn beide zusammen höchstens 14 Schläger benutzen.",
+      "Ja, solange beide zusammen nicht mehr als 14 Schläger benutzen.",
+      "Ausrüstung darf nicht ungewöhnlich verwendet werden, um einen möglichen Vorteil zu schaffen."
+    ],
+    "correct": 1,
+    "explanation": "Partner dürfen Schläger gemeinsam verwenden, solange die Gesamtzahl 14 nicht überschreitet.",
+    "source": "Regel 22.5 · Buchseite 215",
+    "coverageId": "22.5"
+  },
+  {
+    "number": "R192",
+    "section": "Regel 22.6 – Verbot für Spieler, hinter dem Partner zu stehen, wenn ein Schlag ausgeführt wird",
+    "question": "Wo darf der Partner beim Schlag im Vierer nicht stehen?",
+    "options": [
+      "Auf oder nahe der Verlängerung der Spiellinie hinter dem Spieler, wenn dieser beginnt, den Stand einzunehmen.",
+      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen.",
+      "Für jedes Loch gilt eine Höchstzahl; ist sie erreicht, darf der Spieler den Ball aufnehmen.",
+      "Bei einer Unterbrechung wegen Gefahr oder einem unmittelbaren Sicherheitsrisiko."
+    ],
+    "correct": 0,
+    "explanation": "Regel 22.6 beschränkt die Position des Partners hinter dem Spieler.",
+    "source": "Regel 22.6 · Buchseite 215",
+    "coverageId": "22.6"
+  },
+  {
+    "number": "R193",
+    "section": "Regel 23.3 – Wann die Runde beginnt und endet; wann ein Loch beendet ist",
+    "question": "Wann ist ein Loch im Vierball grundsätzlich beendet?",
+    "options": [
+      "Sie können ihm zugerechnet werden und nach den Regeln Folgen für die Partei haben.",
+      "Jeder Partner, soweit Spielfolge und Regeln eingehalten werden.",
+      "Von der betreffenden Regel und davon, wie der Verstoß das Spiel der Partner beeinflusst.",
+      "Wenn beide Partner fertig sind oder das Ergebnis des Lochs bereits feststeht."
+    ],
+    "correct": 3,
+    "explanation": "Im Vierball endet das Loch, sobald beide Partner beendet haben oder das Resultat entschieden ist.",
+    "source": "Regel 23.3 · Buchseite 218",
+    "coverageId": "23.3"
+  },
+  {
+    "number": "R194",
+    "section": "Regel 23.4 – Einer oder beide Partner dürfen die Partei vertreten",
+    "question": "Wer darf die Partei im Vierball vertreten?",
+    "options": [
+      "Spieler oder Parteien treten als Mannschaft an; die Spielleitung legt fest, wie das Mannschaftsergebnis gebildet wird.",
+      "Bei einer Unterbrechung wegen Gefahr oder einem unmittelbaren Sicherheitsrisiko.",
+      "Einer oder beide Partner, soweit die Regeln es zulassen.",
+      "Wenn beide Partner fertig sind oder das Ergebnis des Lochs bereits feststeht."
+    ],
+    "correct": 2,
+    "explanation": "Regel 23.4 erlaubt einem oder beiden Partnern, die Partei zu vertreten.",
+    "source": "Regel 23.4 · Buchseite 219",
+    "coverageId": "23.4"
+  },
+  {
+    "number": "R195",
+    "section": "Regel 23.5 – Handlungen des Spielers beeinflussen Spiel des Partners",
+    "question": "Wie können bestimmte Handlungen eines Partners für den anderen Partner wirken?",
+    "options": [
+      "Von der betreffenden Regel und davon, wie der Verstoß das Spiel der Partner beeinflusst.",
+      "Sie können ihm zugerechnet werden und nach den Regeln Folgen für die Partei haben.",
+      "Sie umfasst 18 oder weniger Löcher in der von der Spielleitung festgelegten Reihenfolge.",
+      "Die Spielleitung setzt die Gruppen fest; Spieler sollen sie nicht eigenmächtig ändern."
+    ],
+    "correct": 1,
+    "explanation": "Regel 23.5 behandelt Handlungen, die das Spiel des Partners beeinflussen.",
+    "source": "Regel 23.5 · Buchseite 220",
+    "coverageId": "23.5"
+  },
+  {
+    "number": "R196",
+    "section": "Regel 23.6 – Spielfolge der Partei",
+    "question": "In welcher Reihenfolge dürfen Partner im Vierball ihre Bälle spielen?",
+    "options": [
+      "Sie dürfen grundsätzlich selbst bestimmen, welcher Partner zuerst spielt.",
+      "Wenn beide Partner fertig sind oder das Ergebnis des Lochs bereits feststeht.",
+      "Für jedes Loch gilt eine Höchstzahl; ist sie erreicht, darf der Spieler den Ball aufnehmen.",
+      "Jeder Partner, soweit Spielfolge und Regeln eingehalten werden."
+    ],
+    "correct": 0,
+    "explanation": "Im Vierball kann die Partei die Reihenfolge der Partner grundsätzlich wählen.",
+    "source": "Regel 23.6 · Buchseite 221",
+    "coverageId": "23.6"
+  },
+  {
+    "number": "R197",
+    "section": "Regel 23.7 – Partner dürfen Schläger gemeinsam benutzen",
+    "question": "Dürfen Vierball-Partner Schläger teilen?",
+    "options": [
+      "Wenn beide zusammen höchstens 14 Schläger benutzen.",
+      "Ausrüstung darf nicht ungewöhnlich verwendet werden, um einen möglichen Vorteil zu schaffen.",
+      "Den Schläger absichtlich am Körper zu verankern, um ihn als stabilen Drehpunkt zu verwenden.",
+      "Ja, solange beide zusammen nicht mehr als 14 Schläger benutzen."
+    ],
+    "correct": 3,
+    "explanation": "Auch im Vierball gilt für gemeinsam benutzte Schläger die Höchstzahl von 14.",
+    "source": "Regel 23.7 · Buchseite 221",
+    "coverageId": "23.7"
+  },
+  {
+    "number": "R198",
+    "section": "Regel 23.8 – Verbot für Spieler, hinter dem Partner zu stehen, wenn ein Schlag ausgeführt wird",
+    "question": "Welche Einschränkung gilt für den Partner hinter dem Spieler im Vierball?",
+    "options": [
+      "Für jedes Loch gilt eine Höchstzahl; ist sie erreicht, darf der Spieler den Ball aufnehmen.",
+      "Spielform, Einzel- oder Partnerspiel sowie Brutto- oder Netto-Wertung.",
+      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen.",
+      "Wenn beide Partner fertig sind oder das Ergebnis des Lochs bereits feststeht."
+    ],
+    "correct": 2,
+    "explanation": "Regel 23.8 enthält eine Beschränkung für die Position des Partners hinter dem Spieler.",
+    "source": "Regel 23.8 · Buchseite 221",
+    "coverageId": "23.8"
+  },
+  {
+    "number": "R199",
+    "section": "Regel 23.9 – Wann eine Strafe nur für einen Partner oder für beide Partner anfällt",
+    "question": "Wovon hängt es ab, ob eine Strafe im Vierball einen oder beide Partner trifft?",
+    "options": [
+      "Spielform, Einzel- oder Partnerspiel sowie Brutto- oder Netto-Wertung.",
+      "Von der betreffenden Regel und davon, wie der Verstoß das Spiel der Partner beeinflusst.",
+      "Grundsätzlich höchstens einen Caddie zur selben Zeit.",
+      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen."
+    ],
+    "correct": 1,
+    "explanation": "Regel 23.9 legt fest, wann eine Strafe für einen Partner oder für beide gilt.",
+    "source": "Regel 23.9 · Buchseite 221",
+    "coverageId": "23.9"
+  },
+  {
+    "number": "R200",
+    "section": "Regel 24.1 – Übersicht über Mannschaftsturniere",
+    "question": "Was kennzeichnet ein Mannschaftsturnier?",
+    "options": [
+      "Spieler oder Parteien treten als Mannschaft an; die Spielleitung legt fest, wie das Mannschaftsergebnis gebildet wird.",
+      "Ein von der Mannschaft benannter Ratgeber nach den Vorgaben der Spielleitung.",
+      "Bei einer Unterbrechung wegen Gefahr oder einem unmittelbaren Sicherheitsrisiko.",
+      "Einer oder beide Partner, soweit die Regeln es zulassen."
+    ],
+    "correct": 0,
+    "explanation": "Regel 24.1 beschreibt Mannschaftsturniere und deren Ergebnisfestlegung.",
+    "source": "Regel 24.1 · Buchseite 224",
+    "coverageId": "24.1"
+  },
+  {
+    "number": "R201",
+    "section": "Regel 24.3 – Mannschaftskapitän",
+    "question": "Welche Aufgabe kann ein Mannschaftskapitän übernehmen?",
+    "options": [
+      "Spieler oder Parteien treten als Mannschaft an; die Spielleitung legt fest, wie das Mannschaftsergebnis gebildet wird.",
+      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen.",
+      "Sie können ihm zugerechnet werden und nach den Regeln Folgen für die Partei haben.",
+      "Die Mannschaft vertreten und nach den Turnierbedingungen Beratung geben."
+    ],
+    "correct": 3,
+    "explanation": "Regel 24.3 regelt die Rolle des Mannschaftskapitäns.",
+    "source": "Regel 24.3 · Buchseite 224",
+    "coverageId": "24.3"
+  },
+  {
+    "number": "R202",
+    "section": "Regel 24.4 – Erlaubte Beratung in Mannschaftsturnieren",
+    "question": "Wer darf in einem Mannschaftsturnier beraten, wenn die Bedingungen dies erlauben?",
+    "options": [
+      "Die Spielleitung setzt die Gruppen fest; Spieler sollen sie nicht eigenmächtig ändern.",
+      "Einer oder beide Partner, soweit die Regeln es zulassen.",
+      "Ein von der Mannschaft benannter Ratgeber nach den Vorgaben der Spielleitung.",
+      "Grundsätzlich höchstens einen Caddie zur selben Zeit."
+    ],
+    "correct": 2,
+    "explanation": "Regel 24.4 regelt erlaubte Beratung durch einen benannten Ratgeber.",
+    "source": "Regel 24.4 · Buchseite 225",
+    "coverageId": "24.4"
   }
 ]
 
