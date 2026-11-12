@@ -1,6 +1,6 @@
 # Abdeckungsmatrix – Offizielle Golfregeln 2023
 
-Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 2.4 und der lokalen Fragenliste `rules.json`.
+Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 2.5 und der lokalen Fragenliste `rules.json`.
 
 ## Umfang und bisherige Fragen
 
@@ -89,7 +89,7 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 4.1a(2) | 44 | Nummerierter Absatz (2) · 4.1a | Benutzung oder Instandsetzung oder Ersatz eines während der Runde beschädigten Schlägers. | 🟠 S. 18 · Beschädigter Schläger während der Runde | R24 — Ein Schläger wird während der Runde versehentlich beschädigt. Was darf der Spieler grundsätzlich tun?<br>R49 — Ein Schläger wird während der Runde versehentlich beschädigt. Wann darf der Spieler ihn ersetzen? | — | Direkt verknüpft |
 | 4.1a(3) | 44 | Nummerierter Absatz (3) · 4.1a | Absichtliche Veränderungen der Spieleigenschaften eines Schlägers während der Runde. | — | — | R49 (4.1) | Nur im Regelzweig |
 | 4.1b | 45 | Buchstaben-Unterabschnitt · 4.1 | Höchstzahl von 14 Schlägern; Schläger während einer Runde gemeinsam benutzen, hinzufügen und ersetzen | — | R23 — Wie viele Schläger darf ein Spieler während einer Runde höchstens mitführen? | R49 (4.1) | Direkt verknüpft |
-| 4.1b(1) | 45 | Nummerierter Absatz (1) · 4.1b | Höchstzahl von 14 Schlägern. | — | R252 — Wie viele Schläger darf ein Spieler während einer Runde höchstens mitführen? | R23 (4.1b)<br>R49 (4.1) | Direkt verknüpft |
+| 4.1b(1) | 45 | Nummerierter Absatz (1) · 4.1b | Höchstzahl von 14 Schlägern. | — | R252 — Ein Spieler möchte eine Runde mit 16 Schlägern beginnen. Wie viele muss er vor dem Start mindestens aus seiner Ausrüstung nehmen? | R23 (4.1b)<br>R49 (4.1) | Direkt verknüpft |
 | 4.1b(2) | 46 | Nummerierter Absatz (2) · 4.1b | Kein gemeinsames Benutzen von Schlägern. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
 | 4.1b(3) | 46 | Nummerierter Absatz (3) · 4.1b | Kein Ersatz verlorener Schläger. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
 | 4.1b(4) | 46 | Nummerierter Absatz (4) · 4.1b | Einschränkungen beim Hinzufügen oder Austauschen von Schlägern. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
@@ -623,4 +623,3 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | D:Zählspiel | 265 | Definition · Definitionen | Zählspiel | — | R140 — Welcher Regelbegriff passt zu dieser Beschreibung? Spielform, in der Spieler oder Parteien gegen alle anderen antreten; in der Standardform zählt die Gesamtschlagzahl. | — | Direkt verknüpft |
 | D:Zeitweiliges Wasser | 265 | Definition · Definitionen | Zeitweiliges Wasser | — | R141 — Welcher Regelbegriff passt zu dieser Beschreibung? Vorübergehende Wasseransammlung auf der Oberfläche außerhalb einer Penalty Area; Tau und Reif zählen nicht dazu. | — | Direkt verknüpft |
 | D:Zurücklegen | 266 | Definition · Definitionen | Zurücklegen | — | R142 — Welcher Regelbegriff passt zu dieser Beschreibung? Ball von Hand an der vorgeschriebenen Stelle platzieren und loslassen, damit er wieder im Spiel ist. | — | Direkt verknüpft |
-
