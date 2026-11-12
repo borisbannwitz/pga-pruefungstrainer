@@ -1,6 +1,6 @@
 # Abdeckungsmatrix – Offizielle Golfregeln 2023
 
-Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 2.1 und der lokalen Fragenliste `rules.json`.
+Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 2.2 und der lokalen Fragenliste `rules.json`.
 
 ## Umfang und bisherige Fragen
 
@@ -42,7 +42,7 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 1.3c(2) | 27 | Nummerierter Absatz (2) · 1.3c | Strafmaß. | — | — | R47 (1.3) | Nur im Regelzweig |
 | 1.3c(3) | 27 | Nummerierter Absatz (3) · 1.3c | Keine Ermessensfreiheit zum Abändern von Strafen. | — | — | R47 (1.3) | Nur im Regelzweig |
 | 1.3c(4) | 28 | Nummerierter Absatz (4) · 1.3c | Anwendung von Strafen bei mehrfachem Regelverstoß. | 🟠 S. 18 · Mehrere Regelverstöße und Anwendung von Strafen | R47 — Was wurde bei der Anwendung von Strafen für mehrere Regelverstöße geändert? | — | Direkt verknüpft |
-| 2.1 | 29 | Hauptabschnitt · Regel 2 | Platzgrenzen und das Aus | — | R144 — Wann ist ein Ball im Aus? | — | Direkt verknüpft |
+| 2.2 | 29 | Hauptabschnitt · Regel 2 | Platzgrenzen und das Aus | — | R144 — Wann ist ein Ball im Aus? | — | Direkt verknüpft |
 | 2.2 | 29 | Hauptabschnitt · Regel 2 | Festgelegte Bereiche des Platzes | — | R21 — Welche Bereiche sind die fünf Platzbereiche nach den Golfregeln? | — | Direkt verknüpft |
 | 2.2a | 29 | Buchstaben-Unterabschnitt · 2.2 | Das Gelände | — | — | R21 (2.2) | Nur im Regelzweig |
 | 2.2b | 30 | Buchstaben-Unterabschnitt · 2.2 | Die vier besonderen Bereiche des Platzes | — | — | R21 (2.2) | Nur im Regelzweig |
@@ -256,7 +256,7 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 11.2c(1) | 107 | Nummerierter Absatz (1) · 11.2c | Schlag von außerhalb des Grüns gespielt. | — | — | R167 (11.2) | Nur im Regelzweig |
 | 11.2c(2) | 108 | Nummerierter Absatz (2) · 11.2c | Schlag wurde auf dem Grün ausgeführt. | — | — | R167 (11.2) | Nur im Regelzweig |
 | 11.3 | 108 | Hauptabschnitt · Regel 11 | Gegenstände absichtlich entfernen oder Bedingungen verändern, um einen Ball in Bewegung zu beeinflussen | — | R168 — Darf ein Spieler absichtlich Gegenstände oder Bedingungen verändern, um einen Ball in Bewegung zu beeinflussen? | — | Direkt verknüpft |
-| 12.1 | 113 | Hauptabschnitt · Regel 12 | Wann ein Ball im Bunker liegt | — | R169 — Wann liegt ein Ball im Bunker? | — | Direkt verknüpft |
+| 12.2 | 113 | Hauptabschnitt · Regel 12 | Wann ein Ball im Bunker liegt | — | R169 — Wann liegt ein Ball im Bunker? | — | Direkt verknüpft |
 | 12.2 | 113 | Hauptabschnitt · Regel 12 | Ball im Bunker spielen | — | R11 — Was darf ein Spieler grundsätzlich nicht tun, bevor er einen Ball im Bunker spielt? | R32 (12.2a) | Direkt verknüpft |
 | 12.2a | 113 | Buchstaben-Unterabschnitt · 12.2 | Entfernen loser hinderlicher Naturstoffe und beweglicher Hemmnisse | — | R32 — Darf ein Spieler lose hinderliche Naturstoffe im Bunker entfernen? | R11 (12.2) | Direkt verknüpft |
 | 12.2b | 113 | Buchstaben-Unterabschnitt · 12.2 | Einschränkungen, den Bunkersand zu berühren | — | R11 — Was darf ein Spieler grundsätzlich nicht tun, bevor er einen Ball im Bunker spielt? | — | Direkt verknüpft |
@@ -467,7 +467,7 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 21.4b | 212 | Buchstaben-Unterabschnitt · 21.4 | Spielen außerhalb der Reihenfolge | — | — | R187 (21.4) | Nur im Regelzweig |
 | 21.4c | 212 | Buchstaben-Unterabschnitt · 21.4 | Ball oder Ballmarker von einem der Gegner aufgenommen oder bewegt | — | — | R187 (21.4) | Nur im Regelzweig |
 | 21.5 | 212 | Hauptabschnitt · Regel 21 | Andere Spielformen | — | R188 — Was gilt für weitere, nicht ausdrücklich in Regel 21 beschriebene Spielformen? | — | Direkt verknüpft |
-| 22.1 | 213 | Hauptabschnitt · Regel 22 | Übersicht über Vierer | — | R43 — Wie spielen zwei Partner im Foursome grundsätzlich? | — | Direkt verknüpft |
+| 22.2 | 213 | Hauptabschnitt · Regel 22 | Übersicht über Vierer | — | R43 — Wie spielen zwei Partner im Foursome grundsätzlich? | — | Direkt verknüpft |
 | 22.2 | 213 | Hauptabschnitt · Regel 22 | Jeder Partner kann für Partei handeln | — | R189 — Wer darf im Vierer grundsätzlich für die Partei handeln? | — | Direkt verknüpft |
 | 22.3 | 214 | Hauptabschnitt · Regel 22 | Partei muss abwechselnd schlagen | — | R43 — Wie spielen zwei Partner im Foursome grundsätzlich? | — | Direkt verknüpft |
 | 22.4 | 214 | Hauptabschnitt · Regel 22 | Beginn der Runde | — | R190 — Wie wechseln die Abschläge der Partner im Vierer? | — | Direkt verknüpft |
