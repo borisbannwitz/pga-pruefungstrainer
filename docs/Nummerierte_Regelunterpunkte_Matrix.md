@@ -1,8 +1,8 @@
 # Matrix der nummerierten Unterpunkte
 
-Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md). Fragezuordnungen aus der App-Version 2.6.
+Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md). Fragezuordnungen aus der App-Version 2.7.
 
-**185 Unterpunkte:** 85 direkt verknüpft, 100 nur im Regelzweig, 0 ohne zugeordneten Regelverweis.
+**185 Unterpunkte:** 98 direkt verknüpft, 87 nur im Regelzweig, 0 ohne zugeordneten Regelverweis.
 
 „Nur im Regelzweig“ bedeutet: Eine über- oder untergeordnete Regel kommt in einer vorhandenen Frage vor; die genaue Unterpunkt-Kennung ist dort nicht direkt zugeordnet.
 
@@ -88,8 +88,8 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 8.1c(2) | 85 | Nummerierter Absatz (2) · 8.1c | Wie Bedingungen wiederherzustellen sind, die verbessert wurden, indem ein Gegenstand an eine Stelle gelegt wurde. | — | — | R7 (8.1) | Nur im Regelzweig |
 | 8.1d(1) | 85 | Nummerierter Absatz (1) · 8.1d | Wann Wiederherstellen der verschlechterten Bedingungen erlaubt ist. | — | — | R7 (8.1) | Nur im Regelzweig |
 | 8.1d(2) | 85 | Nummerierter Absatz (2) · 8.1d | Wann Wiederherstellen der verschlechterten Bedingungen nicht erlaubt ist. | — | — | R7 (8.1) | Nur im Regelzweig |
-| 9.2b(1) | 89 | Nummerierter Absatz (1) · 9.2b | Vier mögliche Ursachen. | — | — | R161 (9.2) | Nur im Regelzweig |
-| 9.2b(2) | 90 | Nummerierter Absatz (2) · 9.2b | „Bekannt oder so gut wie sicher“ als Maßstab, um zu entscheiden, was die Bewegung des Balls verursachte. | — | — | R161 (9.2) | Nur im Regelzweig |
+| 9.2b(1) | 89 | Nummerierter Absatz (1) · 9.2b | Vier mögliche Ursachen. | — | R278 — Welche vier Ursachen kommen nach Regel 9.2b(1) für die Bewegung eines ruhenden Balls in Betracht? | R161 (9.2) | Direkt verknüpft |
+| 9.2b(2) | 90 | Nummerierter Absatz (2) · 9.2b | „Bekannt oder so gut wie sicher“ als Maßstab, um zu entscheiden, was die Bewegung des Balls verursachte. | — | R161 — Welche Voraussetzung gilt, damit eine Person oder ein äußerer Einfluss als Ursache für die Bewegung des Balls angesehen wird? | R161 (9.2) | Direkt verknüpft |
 | 10.2b(1) | 98 | Nummerierter Absatz (1) · 10.2b | Hilfe erhalten vom Caddie durch Informationen zur Spiellinie oder andere Richtungshinweise. | 🟠 S. 18–19 · Hilfe zur Spiellinie durch Caddie | R52 — Ein Caddie legt einen Gegenstand auf den Boden, um die Spiellinie des Spielers zu zeigen. Der Gegenstand wird vor dem Schlag entfernt. Welche Aussage trifft zu? | R9 (10.2) | Direkt verknüpft |
 | 10.2b(2) | 99 | Nummerierter Absatz (2) · 10.2b | Hilfe zu Spiellinie oder andere Richtungshinweise von irgendeiner anderen Person als dem Caddie erhalten. | 🟠 S. 18–19 · Ausrichtungshilfe durch andere Personen | R52 — Ein Caddie legt einen Gegenstand auf den Boden, um die Spiellinie des Spielers zu zeigen. Der Gegenstand wird vor dem Schlag entfernt. Welche Aussage trifft zu? | R9 (10.2) | Direkt verknüpft |
 | 10.2b(3) | 99 | Nummerierter Absatz (3) · 10.2b | Keinen Gegenstand hinlegen, um Hilfe bei der Ausrichtung, der Einnahme des Stands oder beim Schwung zu erhalten. | — | R31 — Darf ein Spieler einen Gegenstand auf den Boden legen, um sich beim Ausrichten für einen Schlag zu helfen? | R9 (10.2)<br>R52 (10.2) | Direkt verknüpft |
@@ -104,9 +104,9 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 11.1b(2) | 105 | Nummerierter Absatz (2) · 11.1b | Ball wird auf dem Grün gespielt. | 🟠 S. 19 · Ball auf dem Grün trifft versehentlich Person oder Gegenstand; Schlagwiederholung | R53 — Ein vom Grün gespielter Ball trifft versehentlich ein Insekt, den Spieler oder den Schläger, mit dem der Schlag ausgeführt wurde. Was gilt grundsätzlich? | R10 (11.1)<br>R68 (11.1b) | Direkt verknüpft |
 | 11.2c(1) | 107 | Nummerierter Absatz (1) · 11.2c | Schlag von außerhalb des Grüns gespielt. | — | — | R167 (11.2) | Nur im Regelzweig |
 | 11.2c(2) | 108 | Nummerierter Absatz (2) · 11.2c | Schlag wurde auf dem Grün ausgeführt. | — | — | R167 (11.2) | Nur im Regelzweig |
-| 12.2b(1) | 113 | Nummerierter Absatz (1) · 12.2b | Wann es Strafe nach sich zieht, den Sand zu berühren. | — | — | R11 (12.2, 12.2b) | Nur im Regelzweig |
-| 12.2b(2) | 114 | Nummerierter Absatz (2) · 12.2b | Wann Sand berühren straflos ist. | — | — | R11 (12.2, 12.2b) | Nur im Regelzweig |
-| 12.2b(3) | 114 | Nummerierter Absatz (3) · 12.2b | Keine Einschränkung, nachdem der Ball aus dem Bunker gespielt wurde. | — | — | R11 (12.2, 12.2b) | Nur im Regelzweig |
+| 12.2b(1) | 113 | Nummerierter Absatz (1) · 12.2b | Wann es Strafe nach sich zieht, den Sand zu berühren. | — | R11 — Was darf ein Spieler grundsätzlich nicht tun, bevor er einen Ball im Bunker spielt? | R11 (12.2, 12.2b) | Direkt verknüpft |
+| 12.2b(2) | 114 | Nummerierter Absatz (2) · 12.2b | Wann Sand berühren straflos ist. | — | R273 — Welche Handlung ist im Bunker nach Regel 12.2b(2) grundsätzlich erlaubt, solange sie die Bedingungen für den nächsten Schlag nicht verbessert? | R11 (12.2, 12.2b) | Direkt verknüpft |
+| 12.2b(3) | 114 | Nummerierter Absatz (3) · 12.2b | Keine Einschränkung, nachdem der Ball aus dem Bunker gespielt wurde. | — | R274 — Der Ball wurde aus dem Bunker gespielt und liegt nun außerhalb. Was darf der Spieler danach mit dem Sand dieses Bunkers tun? | R11 (12.2, 12.2b) | Direkt verknüpft |
 | 13.1c(1) | 117 | Nummerierter Absatz (1) · 13.1c | Sand und loses Erdreich entfernen. | — | — | R13 (13.1c)<br>R33 (13.1c) | Nur im Regelzweig |
 | 13.1c(2) | 117 | Nummerierter Absatz (2) · 13.1c | Schäden ausbessern. | — | — | R13 (13.1c)<br>R33 (13.1c) | Nur im Regelzweig |
 | 13.1d(1) | 118 | Nummerierter Absatz (1) · 13.1d | Keine Strafe für versehentliches Bewegen des Balls. | — | R223 — Ein Spieler bewegt den Ballmarker eines Spielers auf dem Grün versehentlich. Was gilt? | — | Direkt verknüpft |
@@ -114,9 +114,9 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 13.1f(1) | 119 | Nummerierter Absatz (1) · 13.1f | Beeinträchtigung durch ein falsches Grün. | — | R225 — Wann liegt eine Beeinträchtigung durch ein falsches Grün vor? | — | Direkt verknüpft |
 | 13.1f(2) | 119 | Nummerierter Absatz (2) · 13.1f | Erleichterung muss in Anspruch genommen werden. | — | R226 — Der Ball oder der Stand wird durch ein falsches Grün beeinträchtigt. Wie muss der Spieler vorgehen? | — | Direkt verknüpft |
 | 13.1f(3) | 119 | Nummerierter Absatz (3) · 13.1f | Keine Erleichterung, wenn sie offensichtlich unangemessen ist. | — | R227 — Wann gibt es keine Erleichterung wegen eines falschen Grüns? | — | Direkt verknüpft |
-| 13.2a(1) | 121 | Nummerierter Absatz (1) · 13.2a | Spieler darf den Flaggenstock im Loch belassen. | — | — | R12 (13.2a) | Nur im Regelzweig |
-| 13.2a(2) | 121 | Nummerierter Absatz (2) · 13.2a | Keine Strafe, wenn der Ball den im Loch befindlichen Flaggenstock trifft. | — | — | R12 (13.2a) | Nur im Regelzweig |
-| 13.2a(3) | 121 | Nummerierter Absatz (3) · 13.2a | Einschränkung für den Spieler beim Bewegen oder Entfernen des Flaggenstocks im Loch, während ein Ball in Bewegung ist. | — | — | R12 (13.2a) | Nur im Regelzweig |
+| 13.2a(1) | 121 | Nummerierter Absatz (1) · 13.2a | Spieler darf den Flaggenstock im Loch belassen. | — | R12 — Darf der Spieler auf dem Grün den Flaggenstock beim Schlag im Loch lassen? | R12 (13.2a) | Direkt verknüpft |
+| 13.2a(2) | 121 | Nummerierter Absatz (2) · 13.2a | Keine Strafe, wenn der Ball den im Loch befindlichen Flaggenstock trifft. | — | R275 — Ein Spieler puttet mit dem Flaggenstock im Loch. Der Ball in Bewegung trifft den Flaggenstock. Was gilt grundsätzlich? | R12 (13.2a) | Direkt verknüpft |
+| 13.2a(3) | 121 | Nummerierter Absatz (3) · 13.2a | Einschränkung für den Spieler beim Bewegen oder Entfernen des Flaggenstocks im Loch, während ein Ball in Bewegung ist. | — | R276 — Nachdem ein Schlag ausgeführt wurde, während der Flaggenstock im Loch steckt, bewegt der Spieler ihn absichtlich, um zu beeinflussen, wo der Ball zur Ruhe kommt. Was gilt? | R12 (13.2a) | Direkt verknüpft |
 | 13.2a(4) | 122 | Nummerierter Absatz (4) · 13.2a | Einschränkungen für andere Spieler beim Bewegen oder Entfernen des Flaggenstocks, wenn der Spieler sich entschieden hat, diesen im Loch zu belassen. | — | — | R12 (13.2a) | Nur im Regelzweig |
 | 13.2b(1) | 122 | Nummerierter Absatz (1) · 13.2b | Spieler darf den Flaggenstock aus dem Loch entfernen lassen. | — | R228 — Wie kann ein Spieler entscheiden, den Schlag mit entferntem Flaggenstock auszuführen? | — | Direkt verknüpft |
 | 13.2b(2) | 123 | Nummerierter Absatz (2) · 13.2b | Was zu tun ist, wenn Ball den Flaggenstock oder die Person, die ihn bedient, trifft. | — | R229 — Der Ball trifft versehentlich den entfernten Flaggenstock oder die Person, die ihn bedient. Was gilt? | — | Direkt verknüpft |
@@ -127,20 +127,20 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 14.3b(1) | 133 | Nummerierter Absatz (1) · 14.3b | Spieler muss den Ball droppen. | — | R14 — Aus welcher Höhe muss ein Ball beim Droppen grundsätzlich fallengelassen werden? | R15 (14.3)<br>R62 (14.3) | Direkt verknüpft |
 | 14.3b(2) | 133 | Nummerierter Absatz (2) · 14.3b | Ball muss aus Kniehöhe senkrecht nach unten gedroppt werden, ohne Spieler oder Ausrüstung zu berühren. | — | R244 — Wie muss ein Ball nach Regel 14.3b(2) gedroppt werden? | R15 (14.3)<br>R62 (14.3) | Direkt verknüpft |
 | 14.3b(3) | 135 | Nummerierter Absatz (3) · 14.3b | Ball muss im Erleichterungsbereich (oder auf der Linie) gedroppt werden. | 🟠 S. 19 · Drop auf der Bezugslinie | R62 — Wo muss der Spieler beim Zurück-auf-der-Linie-Verfahren den Ball droppen? | R15 (14.3) | Direkt verknüpft |
-| 14.3b(4) | 135 | Nummerierter Absatz (4) · 14.3b | Was tun, wenn Ball auf falsche Weise gedroppt. | — | — | R15 (14.3)<br>R62 (14.3) | Nur im Regelzweig |
+| 14.3b(4) | 135 | Nummerierter Absatz (4) · 14.3b | Was tun, wenn Ball auf falsche Weise gedroppt. | — | R277 — Ein Spieler hat einen Ball nicht auf die vorgeschriebene Weise gedroppt. Was muss er tun, bevor er den Ball spielt? | R15 (14.3)<br>R62 (14.3) | Direkt verknüpft |
 | 14.3c(1) | 135 | Nummerierter Absatz (1) · 14.3c | Spieler hat das Erleichterungsverfahren abgeschlossen, wenn auf richtige Weise gedroppter Ball im Erleichterungsbereich zur Ruhe kommt. | — | R245 — Wann ist ein Erleichterungsverfahren nach einem richtigen Drop grundsätzlich abgeschlossen? | R15 (14.3)<br>R62 (14.3) | Direkt verknüpft |
 | 14.3c(2) | 136 | Nummerierter Absatz (2) · 14.3c | Was zu tun ist, wenn ein auf die richtige Weise gedroppter Ball außerhalb des Erleichterungsbereichs zur Ruhe kommt. | — | R246 — Ein richtig gedroppter Ball kommt außerhalb des Erleichterungsbereichs zur Ruhe. Was muss der Spieler grundsätzlich als Nächstes tun? | R15 (14.3)<br>R62 (14.3) | Direkt verknüpft |
 | 14.5b(1) | 140 | Nummerierter Absatz (1) · 14.5b | Der Ball wurde nach anwendbarer Regel ins Spiel gebracht; Ball wurde am richtigen Ort gedroppt oder gelegt, muss aber nach einer Regel erneut gedroppt oder gelegt werden. | — | — | R174 (14.5) | Nur im Regelzweig |
 | 14.5b(2) | 140 | Nummerierter Absatz (2) · 14.5b | Ball wurde nach anwendbarer Regel ins Spiel gebracht, aber am falschen Ort gedroppt oder hingelegt. | — | — | R174 (14.5) | Nur im Regelzweig |
 | 14.5b(3) | 141 | Nummerierter Absatz (3) · 14.5b | Ball nach nicht anwendbarer Regel ins Spiel gebracht | — | — | R174 (14.5) | Nur im Regelzweig |
-| 14.7b(1) | 144 | Nummerierter Absatz (1) · 14.7b | Spieler muss entscheiden, ob er das Loch mit dem vom falschen Ort gespielten Ball zu Ende spielt oder den Fehler berichtigt, indem er vom richtigen Ort spielt. | — | — | R176 (14.7) | Nur im Regelzweig |
+| 14.7b(1) | 144 | Nummerierter Absatz (1) · 14.7b | Spieler muss entscheiden, ob er das Loch mit dem vom falschen Ort gespielten Ball zu Ende spielt oder den Fehler berichtigt, indem er vom richtigen Ort spielt. | — | R176 — Im Zählspiel stellt ein Spieler vor Beginn des nächsten Lochs fest, dass er vom falschen Ort gespielt und dadurch einen schwerwiegenden Verstoß begangen hat. Was muss er tun? | R176 (14.7) | Direkt verknüpft |
 | 14.7b(2) | 144 | Nummerierter Absatz (2) · 14.7b | Spieler, der zwei Bälle spielt, muss die Spielleitung hierüber unterrichten. | — | — | R176 (14.7) | Nur im Regelzweig |
 | 14.7b(3) | 145 | Nummerierter Absatz (3) · 14.7b | Wenn Spieler zwei Bälle spielte, entscheidet Spielleitung über Lochergebnis des Spielers. | — | — | R176 (14.7) | Nur im Regelzweig |
 | 15.2a(1) | 149 | Nummerierter Absatz (1) · 15.2a | Entfernen beweglicher Hemmnisse. | — | — | R35 (15.2a) | Nur im Regelzweig |
 | 15.2a(2) | 150 | Nummerierter Absatz (2) · 15.2a | Erleichterung, wenn Ball auf dem Platz, aber außerhalb des Grüns, in oder auf einem beweglichen Hemmnis liegt. | — | — | R35 (15.2a) | Nur im Regelzweig |
 | 15.2a(3) | 151 | Nummerierter Absatz (3) · 15.2a | Erleichterung, wenn der Ball auf dem Grün in oder auf einem beweglichen Hemmnis liegt. | — | — | R35 (15.2a) | Nur im Regelzweig |
 | 15.3b(1) | 153 | Nummerierter Absatz (1) · 15.3b | Bedeutung von „Störung durch den Ball eines anderen Spielers“. | — | — | R177 (15.3) | Nur im Regelzweig |
-| 15.3b(2) | 153 | Nummerierter Absatz (2) · 15.3b | Wann Erleichterung von störendem Ball zulässig ist. | — | — | R177 (15.3) | Nur im Regelzweig |
+| 15.3b(2) | 153 | Nummerierter Absatz (2) · 15.3b | Wann Erleichterung von störendem Ball zulässig ist. | — | R177 — Ein Ball könnte einem anderen Spieler helfen oder ihn stören. Was kann verlangt werden? | R177 (15.3) | Direkt verknüpft |
 | 16.1a(1) | 155 | Nummerierter Absatz (1) · 16.1a | Bedeutung von Beeinträchtigung durch ungewöhnliche Platzverhältnisse. | — | — | R16 (16.1)<br>R36 (16.1, 16.1a)<br>R63 (16.1) | Nur im Regelzweig |
 | 16.1a(2) | 157 | Nummerierter Absatz (2) · 16.1a | Erleichterung überall auf dem Platz zulässig, außer Ball liegt in Penalty Area. | — | — | R16 (16.1)<br>R36 (16.1, 16.1a)<br>R63 (16.1) | Nur im Regelzweig |
 | 16.1a(3) | 157 | Nummerierter Absatz (3) · 16.1a | Keine Erleichterung, wenn es eindeutig unvernünftig ist, den Ball zu spielen. | — | — | R16 (16.1)<br>R36 (16.1, 16.1a)<br>R63 (16.1) | Nur im Regelzweig |
@@ -161,8 +161,8 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 17.1e(3) | 175 | Nummerierter Absatz (3) · 17.1e | Keine straflose Erleichterung, wenn Spielen des Balls unvernünftig ist. | — | — | R64 (17.1) | Nur im Regelzweig |
 | 17.2a(1) | 175 | Nummerierter Absatz (1) · 17.2a | Normale Erleichterungsmöglichkeiten. | — | — | R181 (17.2) | Nur im Regelzweig |
 | 17.2a(2) | 176 | Nummerierter Absatz (2) · 17.2a | Zusätzliche Erleichterungsmöglichkeit: Spielen von dort, wo der letzte Schlag außerhalb einer Penalty Area ausgeführt wurde. | — | — | R181 (17.2) | Nur im Regelzweig |
-| 18.2a(1) | 181 | Nummerierter Absatz (1) · 18.2a | Wann Ball verloren ist. | — | — | R3 (18.2a) | Nur im Regelzweig |
-| 18.2a(2) | 181 | Nummerierter Absatz (2) · 18.2a | Wann Ball im Aus ist. | — | — | R3 (18.2a) | Nur im Regelzweig |
+| 18.2a(1) | 181 | Nummerierter Absatz (1) · 18.2a | Wann Ball verloren ist. | — | R3 — Wie lange darf ein Ball grundsätzlich gesucht werden? | R3 (18.2a) | Direkt verknüpft |
+| 18.2a(2) | 181 | Nummerierter Absatz (2) · 18.2a | Wann Ball im Aus ist. | — | R279 — Wann gilt ein ruhender Ball nach Regel 18.2a(2) als im Aus? | R3 (18.2a) | Direkt verknüpft |
 | 18.3c(1) | 184 | Nummerierter Absatz (1) · 18.3c | Provisorischen Ball mehrmals spielen. | — | — | R38 (18.3c) | Nur im Regelzweig |
 | 18.3c(2) | 184 | Nummerierter Absatz (2) · 18.3c | Wann provisorischer Ball zum Ball im Spiel wird. | — | — | R38 (18.3c) | Nur im Regelzweig |
 | 18.3c(3) | 186 | Nummerierter Absatz (3) · 18.3c | Wann der provisorische Ball aufgegeben werden muss. | — | — | R38 (18.3c) | Nur im Regelzweig |
