@@ -1,18 +1,18 @@
 # Abdeckungsmatrix – Offizielle Golfregeln 2023
 
-Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 2.7 und der lokalen Fragenliste `rules.json`.
+Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 2.8 und der lokalen Fragenliste `rules.json`.
 
 ## Umfang und bisherige Fragen
 
 | Bestandteil | Einträge im PDF | Direkt mit Frage verknüpft | Nur verwandte Regelzweig-Frage | Keine Frage zugeordnet |
 |---|---:|---:|---:|---:|
 | Regelüberschriften (x.y und Buchstaben-Unterabschnitte) | 336 | 123 | 189 | 24 |
-| Nummerierte Absätze wie 1.3b(1) | 185 | 98 | 87 | 0 |
+| Nummerierte Absätze wie 1.3b(1) | 185 | 109 | 76 | 0 |
 | Definitionen | 74 | 74 | 0 | 0 |
-| **Gesamt** | **595** | **295** | **276** | **24** |
+| **Gesamt** | **595** | **306** | **265** | **24** |
 
-Die PDF-Auswertung enthält 107 Überschriften im Format x.y, 229 Buchstaben-Unterabschnitte, 185 ausdrücklich nummerierte Klammer-Absätze und 74 Definitionen: **595 Matrixzeilen**. In der App liegen **279 Fragen**: 204 Regel-/Änderungsfragen sowie 74 Einzeldefinitionsfragen und eine zusätzliche Frage zur Definitionsänderung „Erleichterungsbereich“.
-Von den 185 nummerierten Klammer-Absätzen sind **98 direkt verknüpft**, **87 nur über einen verwandten Abschnitt bzw. eine Elternregel angesprochen** und **0 ohne zugeordneten Regelzweig-Verweis**. Die 32 zuvor offenen Unterpunkte wurden als Fragen R203–R234 ergänzt.
+Die PDF-Auswertung enthält 107 Überschriften im Format x.y, 229 Buchstaben-Unterabschnitte, 185 ausdrücklich nummerierte Klammer-Absätze und 74 Definitionen: **595 Matrixzeilen**. In der App liegen **290 Fragen**: 215 Regel-/Änderungsfragen sowie 74 Einzeldefinitionsfragen und eine zusätzliche Frage zur Definitionsänderung „Erleichterungsbereich“.
+Von den 185 nummerierten Klammer-Absätzen sind **109 direkt verknüpft**, **76 nur über einen verwandten Abschnitt bzw. eine Elternregel angesprochen** und **0 ohne zugeordneten Regelzweig-Verweis**. Die 32 zuvor offenen Unterpunkte wurden als Fragen R203–R234 ergänzt.
 
 „Direkt verknüpft“ bedeutet: Die genaue Kennung steht in der Fragenzuordnung oder in Quelle/Fragentext. Eine verwandte Frage nennt nur eine Eltern- oder Kindregel und zählt daher nicht als genaue Unterpunkt-Zuordnung. Der Status prüft Kennungen und Zuordnungen, nicht die fachliche Vollständigkeit der Antwort.
 
@@ -106,15 +106,15 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 4.2c(2) | 50 | Nummerierter Absatz (2) · 4.2c | Wann ein anderer Ball eingesetzt werden darf. | — | — | R148 (4.2) | Nur im Regelzweig |
 | 4.3 | 50 | Hauptabschnitt · Regel 4 | Gebrauch von Ausrüstung | — | R149 — Welche Aussage zur Ausrüstungsverwendung stimmt? | — | Direkt verknüpft |
 | 4.3a | 50 | Buchstaben-Unterabschnitt · 4.3 | Zulässige und verbotene Verwendung von Ausrüstung | — | — | R149 (4.3) | Nur im Regelzweig |
-| 4.3a(1) | 51 | Nummerierter Absatz (1) · 4.3a | Entfernungs- und Richtungsangaben. | — | — | R149 (4.3) | Nur im Regelzweig |
-| 4.3a(2) | 51 | Nummerierter Absatz (2) · 4.3a | Angaben zu Wind- und anderen Wetterbedingungen. | — | — | R149 (4.3) | Nur im Regelzweig |
-| 4.3a(3) | 52 | Nummerierter Absatz (3) · 4.3a | Informationen, die vor oder während der Runde erfasst wurden. | — | — | R149 (4.3) | Nur im Regelzweig |
-| 4.3a(4) | 52 | Nummerierter Absatz (4) · 4.3a | Audio- und Videogeräte. | — | — | R149 (4.3) | Nur im Regelzweig |
-| 4.3a(5) | 53 | Nummerierter Absatz (5) · 4.3a | Handschuhe und Griffhilfen. | — | — | R149 (4.3) | Nur im Regelzweig |
-| 4.3a(6) | 53 | Nummerierter Absatz (6) · 4.3a | Dehnungsgeräte und Übungs- oder Schwunghilfen. | — | — | R149 (4.3) | Nur im Regelzweig |
+| 4.3a(1) | 51 | Nummerierter Absatz (1) · 4.3a | Entfernungs- und Richtungsangaben. | — | R280 — Ein Spieler nutzt während der Runde ein Gerät, das nur die Entfernung und Richtung anzeigt. Darf er diese Angaben erhalten? | R149 (4.3) | Direkt verknüpft |
+| 4.3a(2) | 51 | Nummerierter Absatz (2) · 4.3a | Angaben zu Wind- und anderen Wetterbedingungen. | — | R281 — Welche Wetterinformation darf ein Spieler während der Runde nutzen? | R149 (4.3) | Direkt verknüpft |
+| 4.3a(3) | 52 | Nummerierter Absatz (3) · 4.3a | Informationen, die vor oder während der Runde erfasst wurden. | — | R282 — Welche Nutzung von Spielinformationen ist während der Runde erlaubt? | R149 (4.3) | Direkt verknüpft |
+| 4.3a(4) | 52 | Nummerierter Absatz (4) · 4.3a | Audio- und Videogeräte. | — | R283 — Welche Verwendung eines Audio- oder Videogeräts ist während der Runde unzulässig? | R149 (4.3) | Direkt verknüpft |
+| 4.3a(5) | 53 | Nummerierter Absatz (5) · 4.3a | Handschuhe und Griffhilfen. | — | R284 — Welche Griffhilfe ist nach Regel 4.3a(5) grundsätzlich zulässig? | R149 (4.3) | Direkt verknüpft |
+| 4.3a(6) | 53 | Nummerierter Absatz (6) · 4.3a | Dehnungsgeräte und Übungs- oder Schwunghilfen. | — | R285 — Welche Ausrüstung darf ein Spieler während der Runde nach Regel 4.3a(6) grundsätzlich zum Dehnen verwenden? | R149 (4.3) | Direkt verknüpft |
 | 4.3b | 54 | Buchstaben-Unterabschnitt · 4.3 | Aus medizinischen Gründen verwendete Ausrüstung | — | — | R149 (4.3) | Nur im Regelzweig |
-| 4.3b(1) | 54 | Nummerierter Absatz (1) · 4.3b | Medizinische Ausnahmeregelung. | — | — | R149 (4.3) | Nur im Regelzweig |
-| 4.3b(2) | 54 | Nummerierter Absatz (2) · 4.3b | Tape oder ähnliche Bandagen. | — | — | R149 (4.3) | Nur im Regelzweig |
+| 4.3b(1) | 54 | Nummerierter Absatz (1) · 4.3b | Medizinische Ausnahmeregelung. | — | R286 — Wann verstößt ein Spieler nicht gegen Regel 4.3, wenn er Ausrüstung aus medizinischen Gründen verwendet? | R149 (4.3) | Direkt verknüpft |
+| 4.3b(2) | 54 | Nummerierter Absatz (2) · 4.3b | Tape oder ähnliche Bandagen. | — | R287 — Ein Spieler verwendet Tape aus medizinischem Anlass. Welche Einschränkung gilt? | R149 (4.3) | Direkt verknüpft |
 | 5.1 | 56 | Hauptabschnitt · Regel 5 | Bedeutung von „Runde“ | — | R150 — Wie ist eine Runde grundsätzlich aufgebaut? | — | Direkt verknüpft |
 | 5.2 | 56 | Hauptabschnitt · Regel 5 | Üben auf dem Platz vor der Runde oder zwischen den Runden | — | — | R25 (5.2b) | Nur im Regelzweig |
 | 5.2a | 57 | Buchstaben-Unterabschnitt · 5.2 | Lochspiel | — | — | — | Keine Frage zugeordnet |
@@ -351,9 +351,9 @@ Die Änderungen sind in der Übersicht auf den gedruckten Buchseiten 18–19 auf
 | 15.3c | 154 | Buchstaben-Unterabschnitt · 15.3 | Ballmarker unterstützt oder beeinträchtigt das Spiel | — | — | R177 (15.3) | Nur im Regelzweig |
 | 16.1 | 155 | Hauptabschnitt · Regel 16 | Ungewöhnliche Platzverhältnisse (einschließlich unbeweglicher Hemmnisse) | 🟠 enthält: 16.1c(2) | R16 — Welche der folgenden Situationen ist typischerweise ein ungewöhnliches Platzverhältnis?<br>R36 — Ein Tierloch behindert den Stand eines Spielers im allgemeinen Bereich. Was ist grundsätzlich möglich?<br>R63 — Bei Erleichterung auf der Bezugslinie nach Regel 16.1c: Was bestimmt die zulässige Stelle für den Drop? | — | Direkt verknüpft |
 | 16.1a | 155 | Buchstaben-Unterabschnitt · 16.1 | Wann Erleichterung zulässig ist | — | R36 — Ein Tierloch behindert den Stand eines Spielers im allgemeinen Bereich. Was ist grundsätzlich möglich? | R16 (16.1)<br>R63 (16.1) | Direkt verknüpft |
-| 16.1a(1) | 155 | Nummerierter Absatz (1) · 16.1a | Bedeutung von Beeinträchtigung durch ungewöhnliche Platzverhältnisse. | — | — | R16 (16.1)<br>R36 (16.1, 16.1a)<br>R63 (16.1) | Nur im Regelzweig |
-| 16.1a(2) | 157 | Nummerierter Absatz (2) · 16.1a | Erleichterung überall auf dem Platz zulässig, außer Ball liegt in Penalty Area. | — | — | R16 (16.1)<br>R36 (16.1, 16.1a)<br>R63 (16.1) | Nur im Regelzweig |
-| 16.1a(3) | 157 | Nummerierter Absatz (3) · 16.1a | Keine Erleichterung, wenn es eindeutig unvernünftig ist, den Ball zu spielen. | — | — | R16 (16.1)<br>R36 (16.1, 16.1a)<br>R63 (16.1) | Nur im Regelzweig |
+| 16.1a(1) | 155 | Nummerierter Absatz (1) · 16.1a | Bedeutung von Beeinträchtigung durch ungewöhnliche Platzverhältnisse. | — | R288 — Wann liegt eine Beeinträchtigung durch ungewöhnliche Platzverhältnisse nach Regel 16.1a(1) vor? | R16 (16.1)<br>R36 (16.1, 16.1a)<br>R63 (16.1) | Direkt verknüpft |
+| 16.1a(2) | 157 | Nummerierter Absatz (2) · 16.1a | Erleichterung überall auf dem Platz zulässig, außer Ball liegt in Penalty Area. | — | R289 — Ein Ball liegt in einer Penalty Area, und ungewöhnliche Platzverhältnisse beeinträchtigen den Stand. Darf der Spieler straflose Erleichterung nach Regel 16.1 nehmen? | R16 (16.1)<br>R36 (16.1, 16.1a)<br>R63 (16.1) | Direkt verknüpft |
+| 16.1a(3) | 157 | Nummerierter Absatz (3) · 16.1a | Keine Erleichterung, wenn es eindeutig unvernünftig ist, den Ball zu spielen. | — | R290 — Ein unbewegliches Hemmnis beeinträchtigt den Stand eines Spielers, aber ein Busch macht den beabsichtigten Schlag ohnehin eindeutig unvernünftig. Darf der Spieler deshalb straflose Erleichterung nach Regel 16.1 nehmen? | R16 (16.1)<br>R36 (16.1, 16.1a)<br>R63 (16.1) | Direkt verknüpft |
 | 16.1b | 157 | Buchstaben-Unterabschnitt · 16.1 | Erleichterung für Ball im Gelände | — | — | R16 (16.1)<br>R36 (16.1)<br>R63 (16.1) | Nur im Regelzweig |
 | 16.1c | 158 | Buchstaben-Unterabschnitt · 16.1 | Erleichterung für Ball im Bunker | 🟠 enthält: 16.1c(2) | R63 — Bei Erleichterung auf der Bezugslinie nach Regel 16.1c: Was bestimmt die zulässige Stelle für den Drop? | R16 (16.1)<br>R36 (16.1) | Direkt verknüpft |
 | 16.1c(1) | 158 | Nummerierter Absatz (1) · 16.1c | Strafl ose Erleichterung: Aus dem Bunker spielen. | — | — | R16 (16.1)<br>R36 (16.1)<br>R63 (16.1, 16.1c) | Nur im Regelzweig |
