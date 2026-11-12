@@ -408,7 +408,7 @@
   {
     "number": "R30",
     "section": "Regel 9 – Ball wie er liegt",
-    "question": "Ein Spieler bewegt seinen Ball in Ruhe versehentlich außerhalb einer Suche. Was gilt grundsätzlich?",
+    "question": "Ein Spieler bewegt seinen Ball in Ruhe im allgemeinen Bereich versehentlich, nicht während einer Suche. Was gilt grundsätzlich?",
     "options": [
       "Keine Strafe; der Ball wird von der neuen Stelle gespielt",
       "Ein Strafschlag; der Ball muss zurückgelegt werden",
@@ -416,7 +416,7 @@
       "Der Schlag zählt als ausgeführt"
     ],
     "correct": 1,
-    "explanation": "Bewegt der Spieler seinen Ball versehentlich, fällt grundsätzlich ein Strafschlag an und der Ball muss zurückgelegt werden. Es gibt Ausnahmen, etwa beim Suchen oder auf dem Grün.",
+    "explanation": "Bewegt der Spieler seinen Ball versehentlich, fällt grundsätzlich ein Strafschlag an und der Ball muss zurückgelegt werden. Die Regel enthält Ausnahmen, etwa beim Suchen oder auf dem Grün.",
     "source": "Regel 9.4"
   },
   {
