@@ -6,7 +6,7 @@
 
 .access-card{max-width:420px;margin:46px auto}.access-card h2{font-size:20px;margin:0 0 8px}.access-label{display:block;font-size:13px;font-weight:600;margin:13px 0 6px}.access-input{width:100%;border:1px solid var(--line);border-radius:10px;padding:12px;background:white;font:inherit;margin-bottom:12px}.access-error{min-height:1.4em;color:#9b3028;margin:8px 0 0}
 </style></head><body>
-<header><div class="sub">LERNEN · WIEDERHOLEN · PRÜFEN</div><h1>PGA Prüfungstrainer</h1><p style="font-size:11px;opacity:.7;margin-top:5px">Version 2.0</p><p>Golftechnik und offizielle Golfregeln · lokal auf deinem Gerät</p></header>
+<header><div class="sub">LERNEN · WIEDERHOLEN · PRÜFEN</div><h1>PGA Prüfungstrainer</h1><p style="font-size:11px;opacity:.7;margin-top:5px">Version 2.1</p><p>Golftechnik und offizielle Golfregeln · lokal auf deinem Gerät</p></header>
 
 <section class="wrap" id="passwordGate"><div class="panel access-card"><h2>Zugang zum PGA Prüfungstrainer</h2><p class="muted">Bitte gib das gemeinsame Passwort ein.</p><form id="passwordForm"><label class="access-label" for="passwordInput">Passwort</label><input class="access-input" id="passwordInput" type="password" autocomplete="current-password" required><button class="btn primary" type="submit">Weiter</button><p class="access-error" id="passwordError" role="alert" aria-live="polite"></p></form></div></section>
 <main class="wrap hidden" id="protectedApp" aria-hidden="true">
@@ -75,6 +75,7 @@ let category='pga',pool=[],pos=0,current=null,quiz=[],qi=0,score=0,answered=fals
 let progress=JSON.parse(localStorage.getItem('pgaTrainerProgressV2')||'{}');
 let reviewOnly=false;
 let quizHistory=JSON.parse(localStorage.getItem('pgaTrainerQuizHistoryV1')||'[]');
+let askedQuestionIds=new Set(JSON.parse(localStorage.getItem('pgaTrainerAskedQuestionsV1')||'[]').map(String));
 const save=()=>localStorage.setItem('pgaTrainerProgressV2',JSON.stringify(progress));
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function sourceOf(q){if(q.sourceNote)return q.sourceNote;if(q.optionsValidated)return 'PGA-Golftechnik · Antwortoptionen redaktionell erstellt · Originalfrage '+q.number;if(q.options)return 'Golfregeln 2023 · '+q.source;return 'PGA-Golftechnik · Originalfrage '+q.number+' · Antwortoptionen im Prüfungsmodus noch vorläufig';}
@@ -101,12 +102,15 @@ function startQuiz(){
   let source=category==='rules'?RULES:category==='pga'?PGA:[...PGA,...RULES];
   source=uniqueQuestions(source);
   if(!source.length)return;
-  quiz=shuffle(source).slice(0,Math.min(10,source.length)).map(q=>category==='rules'||q.options?q:makePgaChoice(q));
+  quiz=pickAdaptiveQuestions(source,Math.min(10,source.length)).map(q=>category==='rules'||q.options?q:makePgaChoice(q));
   qi=0;score=0;$('quizCard').classList.remove('hidden');renderQuiz();
 }
 let examQuestions=[], examAnswers={}, examIndex=0, examSeconds=3600, examInterval=null, examSubmitted=false;
 function shuffle(a){const out=[...a];for(let i=out.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[out[i],out[j]]=[out[j],out[i]]}return out}
 function uniqueQuestions(items){const seen=new Set();return items.filter(q=>{const key=String(q.question||'').normalize('NFKC').toLocaleLowerCase('de-DE').replace(/[^a-z0-9äöüß]+/gi,' ').trim();if(!key||seen.has(key))return false;seen.add(key);return true})}
+function adaptiveOrder(items){const priority=[],fallback=[];for(const q of uniqueQuestions(items)){const id=String(q.number);if(progress[id]==='review'||(!askedQuestionIds.has(id)&&progress[id]!=='known'))priority.push(q);else fallback.push(q)}return [...shuffle(priority),...shuffle(fallback)]}
+function pickAdaptiveQuestions(items,count){return adaptiveOrder(items).slice(0,count)}
+function markQuestionAsked(q){const id=String(q.number);if(!askedQuestionIds.has(id)){askedQuestionIds.add(id);localStorage.setItem('pgaTrainerAskedQuestionsV1',JSON.stringify([...askedQuestionIds]))}}
 function makePgaChoice(q){
   if(q.options && q.optionsValidated===true){
     return {...q, explanation:q.explanation||q.answer, source:q.source||('PGA-Golftechnik · Originalfrage '+q.number)};
@@ -122,7 +126,7 @@ function makePgaChoice(q){
   return {...q, options, correct:options.indexOf(correct), explanation:'Musterantwort aus der geprüften PGA-Golftechnik-Lernfassung. Die drei falschen Optionen wurden automatisch aus anderen Musterantworten gebildet und müssen vor einer echten Prüfung fachlich gegengeprüft werden.', source:'PGA-Golftechnik · Frage '+q.number};
 }
 function renderQuiz(){
-  answered=false;const q=quiz[qi];$('quizCount').textContent='Frage '+(qi+1)+' von '+quiz.length+' · bisher '+score+' richtig';$('quizQuestion').textContent=q.question;$('options').innerHTML='';$('feedback').classList.remove('show');$('quizNext').classList.add('hidden');
+  answered=false;const q=quiz[qi];markQuestionAsked(q);$('quizCount').textContent='Frage '+(qi+1)+' von '+quiz.length+' · bisher '+score+' richtig';$('quizQuestion').textContent=q.question;$('options').innerHTML='';$('feedback').classList.remove('show');$('quizNext').classList.add('hidden');
   q.options.forEach((o,i)=>{const b=document.createElement('button');b.className='opt';b.textContent=String.fromCharCode(65+i)+') '+o;b.onclick=()=>answerQuiz(i);$('options').append(b)});
 }
 function answerQuiz(i){
@@ -132,9 +136,9 @@ function answerQuiz(i){
 $('startQuiz').onclick=startQuiz;
 $('quizNext').onclick=()=>{qi++;if(qi<quiz.length)renderQuiz();else{$('quizCount').textContent='Test abgeschlossen: '+score+' von '+quiz.length+' richtig ('+Math.round(score/quiz.length*100)+' %)';quizHistory.unshift({date:new Date().toISOString(),category:category,correct:score,total:quiz.length});quizHistory=quizHistory.slice(0,30);localStorage.setItem('pgaTrainerQuizHistoryV1',JSON.stringify(quizHistory));$('quizQuestion').textContent='Gut gemacht!';$('options').innerHTML='';$('feedback').classList.remove('show');$('quizNext').classList.add('hidden')}};
 function buildExamSet(){
-  if(category==='rules') return shuffle(uniqueQuestions(RULES));
-  const pgaSet=shuffle(uniqueQuestions(PGA)).slice(0,category==='both'?25:45).map(makePgaChoice);
-  if(category==='both') return shuffle([...pgaSet,...shuffle(RULES).slice(0,20)]);
+  if(category==='rules') return adaptiveOrder(RULES);
+  const pgaSet=pickAdaptiveQuestions(PGA,category==='both'?25:45).map(makePgaChoice);
+  if(category==='both') return shuffle([...pgaSet,...pickAdaptiveQuestions(RULES,20)]);
   return shuffle(pgaSet);
 }
 function updateExamScope(){
@@ -160,7 +164,7 @@ function updateExamTimer(){
   $('examTimer').style.color=examSeconds<=300?'#b33':'';
 }
 function renderExamQuestion(){
-  const q=examQuestions[examIndex];
+  const q=examQuestions[examIndex];markQuestionAsked(q);
   $('examPosition').textContent='Frage '+(examIndex+1)+' / '+examQuestions.length;
   $('examProgress').style.width=((examIndex+1)/examQuestions.length*100)+'%';
   $('examQuestion').textContent=q.question;$('examOptions').innerHTML='';
