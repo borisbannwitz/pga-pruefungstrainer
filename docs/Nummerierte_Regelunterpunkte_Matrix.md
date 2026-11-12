@@ -1,6 +1,6 @@
 # Matrix der nummerierten Unterpunkte
 
-Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md). Fragezuordnungen aus der App-Version 2.4.
+Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md). Fragezuordnungen aus der App-Version 2.5.
 
 **185 Unterpunkte:** 70 direkt verknüpft, 115 nur im Regelzweig, 0 ohne zugeordneten Regelverweis.
 
@@ -38,7 +38,7 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 4.1a(1) | 43 | Nummerierter Absatz (1) · 4.1a | Zugelassene Schläger. | — | — | R49 (4.1) | Nur im Regelzweig |
 | 4.1a(2) | 44 | Nummerierter Absatz (2) · 4.1a | Benutzung oder Instandsetzung oder Ersatz eines während der Runde beschädigten Schlägers. | 🟠 S. 18 · Beschädigter Schläger während der Runde | R24 — Ein Schläger wird während der Runde versehentlich beschädigt. Was darf der Spieler grundsätzlich tun?<br>R49 — Ein Schläger wird während der Runde versehentlich beschädigt. Wann darf der Spieler ihn ersetzen? | — | Direkt verknüpft |
 | 4.1a(3) | 44 | Nummerierter Absatz (3) · 4.1a | Absichtliche Veränderungen der Spieleigenschaften eines Schlägers während der Runde. | — | — | R49 (4.1) | Nur im Regelzweig |
-| 4.1b(1) | 45 | Nummerierter Absatz (1) · 4.1b | Höchstzahl von 14 Schlägern. | — | R252 — Wie viele Schläger darf ein Spieler während einer Runde höchstens mitführen? | R23 (4.1b)<br>R49 (4.1) | Direkt verknüpft |
+| 4.1b(1) | 45 | Nummerierter Absatz (1) · 4.1b | Höchstzahl von 14 Schlägern. | — | R252 — Ein Spieler möchte eine Runde mit 16 Schlägern beginnen. Wie viele muss er vor dem Start mindestens aus seiner Ausrüstung nehmen? | R23 (4.1b)<br>R49 (4.1) | Direkt verknüpft |
 | 4.1b(2) | 46 | Nummerierter Absatz (2) · 4.1b | Kein gemeinsames Benutzen von Schlägern. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
 | 4.1b(3) | 46 | Nummerierter Absatz (3) · 4.1b | Kein Ersatz verlorener Schläger. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
 | 4.1b(4) | 46 | Nummerierter Absatz (4) · 4.1b | Einschränkungen beim Hinzufügen oder Austauschen von Schlägern. | — | — | R23 (4.1b)<br>R49 (4.1) | Nur im Regelzweig |
