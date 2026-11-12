@@ -1,6 +1,6 @@
 # PGA Prüfungstrainer
 
-Web-App-Version **2.9**. Der Regelfragenpool enthält 297 Fragen; der Bereich PGA/Golftechnik enthält 167 Fragen einschließlich GOSSIP.
+Web-App-Version **3.0**. Der Regelfragenpool enthält 309 Fragen; der Bereich PGA/Golftechnik enthält 167 Fragen einschließlich GOSSIP.
 
 Die App zeigt beim Öffnen eine Passwortabfrage. Sie blendet nur die Oberfläche aus; Dateien im öffentlichen Repository bleiben abrufbar.
 
@@ -14,4 +14,4 @@ Die App wird über [GitHub Pages](https://borisbannwitz.github.io/pga-pruefungst
 
 Kurztests und Prüfungssimulationen priorisieren noch nicht gestellte und falsch beantwortete Fragen; der Testverlauf bleibt lokal im Browser.
 
-Die Regelfragenquelle `rules.json` ist die einzige Datenquelle; die Anzahl wird dynamisch angezeigt. Die Matrix verknüpft jetzt 70 von 185 nummerierten Regelunterpunkten direkt mit einer eigenen Frage. Die Regelfragen liegen in `rules.json`, die PGA-Golftechnikfragen in `questions.json` und `questions.js`.
+Die Regelfragenquelle `rules.json` ist die einzige Datenquelle; die Anzahl wird dynamisch angezeigt. Die Matrix verknüpft 130 von 185 nummerierten Unterpunkten direkt; 55 sind nur über einen verwandten Regelzweig abgedeckt, keiner bleibt ohne Regelverweis. Die Regelfragen liegen in `rules.json`, die PGA-Golftechnikfragen in `questions.json` und `questions.js`.
