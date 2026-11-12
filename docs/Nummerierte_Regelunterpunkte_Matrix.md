@@ -1,8 +1,8 @@
 # Matrix der nummerierten Unterpunkte
 
-Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md). Fragezuordnungen aus der App-Version 2.8.
+Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md). Fragezuordnungen aus der App-Version 2.9.
 
-**185 Unterpunkte:** 109 direkt verknüpft, 76 nur im Regelzweig, 0 ohne zugeordneten Regelverweis.
+**185 Unterpunkte:** 118 direkt verknüpft, 67 nur im Regelzweig, 0 ohne zugeordneten Regelverweis.
 
 „Nur im Regelzweig“ bedeutet: Eine über- oder untergeordnete Regel kommt in einer vorhandenen Frage vor; die genaue Unterpunkt-Kennung ist dort nicht direkt zugeordnet.
 
@@ -163,13 +163,13 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 17.2a(2) | 176 | Nummerierter Absatz (2) · 17.2a | Zusätzliche Erleichterungsmöglichkeit: Spielen von dort, wo der letzte Schlag außerhalb einer Penalty Area ausgeführt wurde. | — | — | R181 (17.2) | Nur im Regelzweig |
 | 18.2a(1) | 181 | Nummerierter Absatz (1) · 18.2a | Wann Ball verloren ist. | — | R3 — Wie lange darf ein Ball grundsätzlich gesucht werden? | R3 (18.2a) | Direkt verknüpft |
 | 18.2a(2) | 181 | Nummerierter Absatz (2) · 18.2a | Wann Ball im Aus ist. | — | R279 — Wann gilt ein ruhender Ball nach Regel 18.2a(2) als im Aus? | R3 (18.2a) | Direkt verknüpft |
-| 18.3c(1) | 184 | Nummerierter Absatz (1) · 18.3c | Provisorischen Ball mehrmals spielen. | — | — | R38 (18.3c) | Nur im Regelzweig |
-| 18.3c(2) | 184 | Nummerierter Absatz (2) · 18.3c | Wann provisorischer Ball zum Ball im Spiel wird. | — | — | R38 (18.3c) | Nur im Regelzweig |
-| 18.3c(3) | 186 | Nummerierter Absatz (3) · 18.3c | Wann der provisorische Ball aufgegeben werden muss. | — | — | R38 (18.3c) | Nur im Regelzweig |
-| 20.1b(1) | 194 | Nummerierter Absatz (1) · 20.1b | Regelfälle einvernehmlich entscheiden. | — | — | R41 (20.1b) | Nur im Regelzweig |
-| 20.1b(2) | 195 | Nummerierter Absatz (2) · 20.1b | Regelentscheidung verlangt, bevor Ergebnis des Spiels feststeht. | — | — | R41 (20.1b) | Nur im Regelzweig |
-| 20.1b(3) | 196 | Nummerierter Absatz (3) · 20.1b | Regelentscheidung verlangt, nachdem Ergebnis des Lochspiels feststeht. | — | — | R41 (20.1b) | Nur im Regelzweig |
-| 20.1b(4) | 196 | Nummerierter Absatz (4) · 20.1b | Kein Recht, zwei Bälle zu spielen. | — | — | R41 (20.1b) | Nur im Regelzweig |
+| 18.3c(1) | 184 | Nummerierter Absatz (1) · 18.3c | Provisorischen Ball mehrmals spielen. | — | R291 — Ein Spieler spielt einen provisorischen Ball. Von welcher Stelle darf er ihn weiterspielen, ohne dass er seinen Status als provisorischer Ball verliert? | R38 (18.3c) | Direkt verknüpft |
+| 18.3c(2) | 184 | Nummerierter Absatz (2) · 18.3c | Wann provisorischer Ball zum Ball im Spiel wird. | — | R292 — In welchem Fall wird ein provisorischer Ball unter Strafe von Schlag und Distanzverlust zum Ball im Spiel? | R38 (18.3c) | Direkt verknüpft |
+| 18.3c(3) | 186 | Nummerierter Absatz (3) · 18.3c | Wann der provisorische Ball aufgegeben werden muss. | — | R38 — Der ursprüngliche Ball wird innerhalb der Suchzeit im Platz gefunden und ist nicht im Aus. Was geschieht mit einem gespielten provisorischen Ball? | R38 (18.3c) | Direkt verknüpft |
+| 20.1b(1) | 194 | Nummerierter Absatz (1) · 20.1b | Regelfälle einvernehmlich entscheiden. | — | R293 — Zwei Spieler einigen sich im Lochspiel auf eine Regelentscheidung, die sich später als falsch herausstellt. Wann bleibt die vereinbarte Entscheidung grundsätzlich endgültig? | R41 (20.1b) | Direkt verknüpft |
+| 20.1b(2) | 195 | Nummerierter Absatz (2) · 20.1b | Regelentscheidung verlangt, bevor Ergebnis des Spiels feststeht. | — | R294 — Ein Spieler erfährt vor Beginn des letzten Lochs von einem strittigen Regelfall im Lochspiel. Bis wann muss er eine Regelentscheidung verlangen? | R41 (20.1b) | Direkt verknüpft |
+| 20.1b(3) | 196 | Nummerierter Absatz (3) · 20.1b | Regelentscheidung verlangt, nachdem Ergebnis des Lochspiels feststeht. | — | R295 — Das Ergebnis eines Lochspiels steht bereits fest. Unter welcher Voraussetzung kann die Spielleitung noch eine Regelentscheidung erteilen? | R41 (20.1b) | Direkt verknüpft |
+| 20.1b(4) | 196 | Nummerierter Absatz (4) · 20.1b | Kein Recht, zwei Bälle zu spielen. | — | R296 — Ein Spieler ist im Lochspiel unsicher, wie er eine Regel anwenden muss. Darf er das Loch zur Klärung mit zwei Bällen beenden? | R41 (20.1b) | Direkt verknüpft |
 | 20.1c(1) | 196 | Nummerierter Absatz (1) · 20.1c | Kein Recht, Regelfälle durch Absprache zu entscheiden. | — | R230 — Die Spieler im Zählspiel sind sich über die Anwendung einer Regel einig, aber ein Referee ist nicht erreichbar. Was gilt? | — | Direkt verknüpft |
 | 20.1c(2) | 196 | Nummerierter Absatz (2) · 20.1c | Spieler sollten die anderen Spieler im Teilnehmerfeld schützen. | — | R231 — Ein Spieler glaubt, ein anderer Spieler habe einen Regelverstoß begangen, bemerkt ihn aber nicht. Was sollte er tun? | — | Direkt verknüpft |
 | 20.1c(3) | 197 | Nummerierter Absatz (3) · 20.1c | Spielen zweier Bälle bei Zweifeln, wie vorzugehen ist. | — | R40 — Ein Spieler im Zählspiel ist unsicher, wie eine Regel anzuwenden ist. Welche Möglichkeit sieht die Regel vor? | — | Direkt verknüpft |
@@ -186,8 +186,8 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 21.3b(2) | 210 | Nummerierter Absatz (2) · 21.3b | Ergebnis für jedes Loch eintragen. | — | — | R55 (21.3) | Nur im Regelzweig |
 | 23.2b(1) | 217 | Nummerierter Absatz (1) · 23.2b | Verantwortlichkeit der Partei. | — | R233 — Welche Anforderung gilt für die Scorekarte einer Partei im Vierball-Zählspiel? | — | Direkt verknüpft |
 | 23.2b(2) | 217 | Nummerierter Absatz (2) · 23.2b | Verantwortlichkeit der Spielleitung. | — | R234 — Beide Partner tragen im Vierball-Zählspiel unterschiedliche Ergebnisse für ein Loch ein. Welches Ergebnis zählt für die Partei? | — | Direkt verknüpft |
-| 23.3c(1) | 219 | Nummerierter Absatz (1) · 23.3c | Lochspiel. | — | — | R193 (23.3) | Nur im Regelzweig |
-| 23.3c(2) | 219 | Nummerierter Absatz (2) · 23.3c | Zählspiel. | — | — | R193 (23.3) | Nur im Regelzweig |
+| 23.3c(1) | 219 | Nummerierter Absatz (1) · 23.3c | Lochspiel. | — | R193 — Im Vierball-Lochspiel hat ein Partner eingelocht. Der andere Partner hat ein Ergebnis, das für die Partei nicht zählen kann. Was gilt? | R193 (23.3) | Direkt verknüpft |
+| 23.3c(2) | 219 | Nummerierter Absatz (2) · 23.3c | Zählspiel. | — | R297 — Im Vierball-Zählspiel hat ein Partner eingelocht. Wann hat die Partei das Loch beendet? | R193 (23.3) | Direkt verknüpft |
 | 23.9a(1) | 221 | Nummerierter Absatz (1) · 23.9a | Strafe gilt normalerweise nur für den Spieler, nicht für den Partner. | — | — | R199 (23.9) | Nur im Regelzweig |
 | 23.9a(2) | 222 | Nummerierter Absatz (2) · 23.9a | Drei Fälle, in denen die Strafe für den Spieler auch für den Partner gilt. | — | — | R199 (23.9) | Nur im Regelzweig |
 | 23.9b(1) | 222 | Nummerierter Absatz (1) · 23.9b | Wann eine Partei wegen eines Regelverstoßes durch einen Partner disqualifiziert ist. | — | — | R199 (23.9) | Nur im Regelzweig |
