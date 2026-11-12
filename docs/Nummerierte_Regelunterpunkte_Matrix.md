@@ -1,8 +1,8 @@
 # Matrix der nummerierten Unterpunkte
 
-Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md). Fragezuordnungen aus der App-Version 2.2.
+Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md). Fragezuordnungen aus der App-Version 2.3.
 
-**185 Unterpunkte:** 47 direkt verknüpft, 138 nur im Regelzweig, 0 ohne zugeordneten Regelverweis.
+**185 Unterpunkte:** 59 direkt verknüpft, 126 nur im Regelzweig, 0 ohne zugeordneten Regelverweis.
 
 „Nur im Regelzweig“ bedeutet: Eine über- oder untergeordnete Regel kommt in einer vorhandenen Frage vor; die genaue Unterpunkt-Kennung ist dort nicht direkt zugeordnet.
 
@@ -31,9 +31,9 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 3.2d(2) | 37 | Nummerierter Absatz (2) · 3.2d | Dem Gegner Strafe mitteilen. | — | R208 — Ein Spieler hat sich im Lochspiel eine Strafe zugezogen. Wann muss er den Gegner darüber informieren? | — | Direkt verknüpft |
 | 3.2d(3) | 38 | Nummerierter Absatz (3) · 3.2d | Kenntnis über den Spielstand im Lochspiel. | — | R209 — Beide Spieler haben sich versehentlich auf einen falschen Spielstand geeinigt. Bis wann können sie ihn grundsätzlich berichtigen? | — | Direkt verknüpft |
 | 3.2d(4) | 38 | Nummerierter Absatz (4) · 3.2d | Eigene Rechte und Interessen schützen. | — | R210 — Ein Spieler weiß, dass sein Gegner eine Strafe verwirkt hat. Was darf er tun? | — | Direkt verknüpft |
-| 3.3b(1) | 39 | Nummerierter Absatz (1) · 3.3b | Verantwortlichkeit des Zählers: Eintragen und Bestätigen der Ergebnisse der Löcher auf der Scorekarte. | — | — | R2 (3.3)<br>R48 (3.3) | Nur im Regelzweig |
-| 3.3b(2) | 40 | Nummerierter Absatz (2) · 3.3b | Verantwortlichkeit des Spielers: Ergebnisse der Löcher bestätigen und Scorekarte einreichen. | — | — | R2 (3.3)<br>R48 (3.3) | Nur im Regelzweig |
-| 3.3b(3) | 41 | Nummerierter Absatz (3) · 3.3b | Falsches Ergebnis für das Loch. | — | — | R2 (3.3)<br>R48 (3.3) | Nur im Regelzweig |
+| 3.3b(1) | 39 | Nummerierter Absatz (1) · 3.3b | Verantwortlichkeit des Zählers: Eintragen und Bestätigen der Ergebnisse der Löcher auf der Scorekarte. | — | R235 — Welche Aufgabe hat der Zähler bei der Scorekarte im Zählspiel? | R2 (3.3)<br>R48 (3.3) | Direkt verknüpft |
+| 3.3b(2) | 40 | Nummerierter Absatz (2) · 3.3b | Verantwortlichkeit des Spielers: Ergebnisse der Löcher bestätigen und Scorekarte einreichen. | — | R236 — Wofür bleibt der Spieler nach der Runde im Zählspiel selbst verantwortlich? | R2 (3.3)<br>R48 (3.3) | Direkt verknüpft |
+| 3.3b(3) | 41 | Nummerierter Absatz (3) · 3.3b | Falsches Ergebnis für das Loch. | — | R237 — Was gilt grundsätzlich, wenn der Spieler für ein Loch ein höheres Ergebnis einträgt, als er tatsächlich gespielt hat? | R2 (3.3)<br>R48 (3.3) | Direkt verknüpft |
 | 3.3b(4) | 42 | Nummerierter Absatz (4) · 3.3b | Spieler nicht verantwortlich für die Angabe des Handicaps auf der Scorekarte oder für die Addition der Lochergebnisse. | 🟠 S. 18 · Handicapangabe und Addition auf der Scorekarte | R48 — Wer ist im Zählspiel für die Handicap-Schläge und die Ermittlung des Nettoergebnisses verantwortlich? | R2 (3.3) | Direkt verknüpft |
 | 4.1a(1) | 43 | Nummerierter Absatz (1) · 4.1a | Zugelassene Schläger. | — | — | R49 (4.1) | Nur im Regelzweig |
 | 4.1a(2) | 44 | Nummerierter Absatz (2) · 4.1a | Benutzung oder Instandsetzung oder Ersatz eines während der Runde beschädigten Schlägers. | 🟠 S. 18 · Beschädigter Schläger während der Runde | R24 — Ein Schläger wird während der Runde versehentlich beschädigt. Was darf der Spieler grundsätzlich tun?<br>R49 — Ein Schläger wird während der Runde versehentlich beschädigt. Wann darf der Spieler ihn ersetzen? | — | Direkt verknüpft |
@@ -45,7 +45,7 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 4.1c(1) | 48 | Nummerierter Absatz (1) · 4.1c | Während der Runde. | — | — | R49 (4.1) | Nur im Regelzweig |
 | 4.1c(2) | 48 | Nummerierter Absatz (2) · 4.1c | Vor der Runde. | — | — | R49 (4.1) | Nur im Regelzweig |
 | 4.2a(1) | 49 | Nummerierter Absatz (1) · 4.2a | Es muss ein zugelassener Ball gespielt werden. | — | — | R148 (4.2) | Nur im Regelzweig |
-| 4.2a(2) | 49 | Nummerierter Absatz (2) · 4.2a | Ein absichtlich veränderter Ball darf nicht gespielt werden. | — | — | R148 (4.2) | Nur im Regelzweig |
+| 4.2a(2) | 49 | Nummerierter Absatz (2) · 4.2a | Ein absichtlich veränderter Ball darf nicht gespielt werden. | — | R238 — Darf ein Spieler einen Golfball schlagen, dessen Spieleigenschaften absichtlich verändert wurden? | R148 (4.2) | Direkt verknüpft |
 | 4.2c(1) | 49 | Nummerierter Absatz (1) · 4.2c | Ball aufnehmen, um festzustellen, ob er eingekerbt ist oder einen Sprung hat. | — | — | R148 (4.2) | Nur im Regelzweig |
 | 4.2c(2) | 50 | Nummerierter Absatz (2) · 4.2c | Wann ein anderer Ball eingesetzt werden darf. | — | — | R148 (4.2) | Nur im Regelzweig |
 | 4.3a(1) | 51 | Nummerierter Absatz (1) · 4.3a | Entfernungs- und Richtungsangaben. | — | — | R149 (4.3) | Nur im Regelzweig |
@@ -73,15 +73,15 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 6.2b(4) | 68 | Nummerierter Absatz (4) · 6.2b | Einschränkung, Abschlagmarkierungen zu versetzen, wenn vom Abschlag gespielt wird. | — | R216 — Ein Spieler versetzt eine Abschlagmarkierung, um die Bedingungen für seinen Schlag zu verbessern. Was ist die Folge? | — | Direkt verknüpft |
 | 6.2b(5) | 68 | Nummerierter Absatz (5) · 6.2b | Ball bis zum Schlag nicht im Spiel. | — | R217 — Ein aufgeteeter Ball fällt vor dem Schlag vom Tee. Was darf der Spieler tun? | — | Direkt verknüpft |
 | 6.2b(6) | 69 | Nummerierter Absatz (6) · 6.2b | Wenn Ball im Spiel innerhalb des Abschlags liegt. | — | R218 — Ein Spieler schlägt am Abschlag am Ball vorbei; der Ball bleibt im Spiel und liegt noch im Abschlag. Was darf er tun? | — | Direkt verknüpft |
-| 6.3b(1) | 69 | Nummerierter Absatz (1) · 6.3b | Wann es Spieler erlaubt und nicht erlaubt ist, einen anderen Ball neu einzusetzen. | — | — | R50 (6.3) | Nur im Regelzweig |
-| 6.3b(2) | 70 | Nummerierter Absatz (2) · 6.3b | Neu eingesetzter Ball wird Ball im Spiel. | — | — | R50 (6.3) | Nur im Regelzweig |
+| 6.3b(1) | 69 | Nummerierter Absatz (1) · 6.3b | Wann es Spieler erlaubt und nicht erlaubt ist, einen anderen Ball neu einzusetzen. | — | R239 — Wann darf ein Spieler während eines Lochs einen anderen Ball einsetzen? | R50 (6.3) | Direkt verknüpft |
+| 6.3b(2) | 70 | Nummerierter Absatz (2) · 6.3b | Neu eingesetzter Ball wird Ball im Spiel. | — | R240 — Ein Spieler setzt regelwidrig einen anderen Ball ein. Was gilt, sobald dieser Ball durch Droppen oder Hinlegen ins Spiel gebracht wurde? | R50 (6.3) | Direkt verknüpft |
 | 6.3b(3) | 70 | Nummerierter Absatz (3) · 6.3b | Schlag nach einem regelwidrig neu eingesetzten Ball. | 🟠 S. 18 · Regelwidrig neu eingesetzter Ball | R50 — Welche Strafe gilt 2023, wenn ein Spieler regelwidrig einen neuen Ball einsetzt, obwohl der ursprüngliche Ball weiterzuspielen wäre? | — | Direkt verknüpft |
-| 6.3c(1) | 71 | Nummerierter Absatz (1) · 6.3c | Schlag nach einem falschen Ball. | — | — | R27 (6.3c)<br>R50 (6.3) | Nur im Regelzweig |
-| 6.3c(2) | 71 | Nummerierter Absatz (2) · 6.3c | Was zu tun ist, wenn der Ball des Spielers von einem anderen Spieler als falscher Ball gespielt wurde. | — | — | R27 (6.3c)<br>R50 (6.3) | Nur im Regelzweig |
+| 6.3c(1) | 71 | Nummerierter Absatz (1) · 6.3c | Schlag nach einem falschen Ball. | — | R241 — Welche Strafe erhält ein Spieler im Zählspiel grundsätzlich, wenn er nach einem falschen Ball schlägt? | R27 (6.3c)<br>R50 (6.3) | Direkt verknüpft |
+| 6.3c(2) | 71 | Nummerierter Absatz (2) · 6.3c | Was zu tun ist, wenn der Ball des Spielers von einem anderen Spieler als falscher Ball gespielt wurde. | — | R242 — Ein anderer Spieler spielt deinen Ball als falschen Ball. Was musst du tun? | R27 (6.3c)<br>R50 (6.3) | Direkt verknüpft |
 | 6.4a(1) | 72 | Nummerierter Absatz (1) · 6.4a | Spielfolge. | — | R219 — Ein Loch im Lochspiel wird geteilt. Wer hat am nächsten Abschlag die Ehre? | — | Direkt verknüpft |
 | 6.4a(2) | 73 | Nummerierter Absatz (2) · 6.4a | Gegner darf außerhalb der Reihe gespielten Schlag des Spielers für ungültig erklären. | — | R220 — Ein Spieler schlägt im Lochspiel, obwohl der Gegner an der Reihe war. Was darf der Gegner tun? | — | Direkt verknüpft |
 | 6.4b(1) | 73 | Nummerierter Absatz (1) · 6.4b | Normale Spielfolge. | — | — | R5 (6.4b) | Nur im Regelzweig |
-| 6.4b(2) | 74 | Nummerierter Absatz (2) · 6.4b | Spielen außer der Reihe in sicherheits- und verantwortungsbewusster Weise („Ready Golf“). | — | — | R5 (6.4b) | Nur im Regelzweig |
+| 6.4b(2) | 74 | Nummerierter Absatz (2) · 6.4b | Spielen außer der Reihe in sicherheits- und verantwortungsbewusster Weise („Ready Golf“). | — | R243 — Wann darf ein Spieler im Zählspiel beim Ready Golf außer der Reihe spielen? | R5 (6.4b) | Direkt verknüpft |
 | 6.4d(1) | 75 | Nummerierter Absatz (1) · 6.4d | Erleichterung in Anspruch nehmen, um einen Ball von anderer Stelle zu spielen, als der, an der er liegt. | — | R221 — Ein Spieler darf seinen Ball spielen, wie er liegt, oder Erleichterung nehmen. Woran richtet sich seine Spielfolge, wenn er sich für Erleichterung entscheidet? | — | Direkt verknüpft |
 | 6.4d(2) | 75 | Nummerierter Absatz (2) · 6.4d | Provisorischen Ball spielen. | — | R222 — Wann muss ein Spieler einen provisorischen Ball außerhalb des Abschlags spielen? | — | Direkt verknüpft |
 | 8.1c(1) | 84 | Nummerierter Absatz (1) · 8.1c | Wie Bedingungen wiederhergestellt werden, die durch Bewegen, Biegen oder Brechen von Gegenständen verbessert wurden | — | — | R7 (8.1) | Nur im Regelzweig |
@@ -125,11 +125,11 @@ Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md).
 | 14.2d(1) | 131 | Nummerierter Absatz (1) · 14.2d | Ball im Sand. | — | — | R172 (14.2) | Nur im Regelzweig |
 | 14.2d(2) | 131 | Nummerierter Absatz (2) · 14.2d | Ball an anderer Stelle, nicht im Sand. | — | — | R172 (14.2) | Nur im Regelzweig |
 | 14.3b(1) | 133 | Nummerierter Absatz (1) · 14.3b | Spieler muss den Ball droppen. | — | R14 — Aus welcher Höhe muss ein Ball beim Droppen grundsätzlich fallengelassen werden? | R15 (14.3)<br>R62 (14.3) | Direkt verknüpft |
-| 14.3b(2) | 133 | Nummerierter Absatz (2) · 14.3b | Ball muss aus Kniehöhe senkrecht nach unten gedroppt werden, ohne Spieler oder Ausrüstung zu berühren. | — | — | R15 (14.3)<br>R62 (14.3) | Nur im Regelzweig |
+| 14.3b(2) | 133 | Nummerierter Absatz (2) · 14.3b | Ball muss aus Kniehöhe senkrecht nach unten gedroppt werden, ohne Spieler oder Ausrüstung zu berühren. | — | R244 — Wie muss ein Ball nach Regel 14.3b(2) gedroppt werden? | R15 (14.3)<br>R62 (14.3) | Direkt verknüpft |
 | 14.3b(3) | 135 | Nummerierter Absatz (3) · 14.3b | Ball muss im Erleichterungsbereich (oder auf der Linie) gedroppt werden. | 🟠 S. 19 · Drop auf der Bezugslinie | R62 — Wo muss der Spieler beim Zurück-auf-der-Linie-Verfahren den Ball droppen? | R15 (14.3) | Direkt verknüpft |
 | 14.3b(4) | 135 | Nummerierter Absatz (4) · 14.3b | Was tun, wenn Ball auf falsche Weise gedroppt. | — | — | R15 (14.3)<br>R62 (14.3) | Nur im Regelzweig |
-| 14.3c(1) | 135 | Nummerierter Absatz (1) · 14.3c | Spieler hat das Erleichterungsverfahren abgeschlossen, wenn auf richtige Weise gedroppter Ball im Erleichterungsbereich zur Ruhe kommt. | — | — | R15 (14.3)<br>R62 (14.3) | Nur im Regelzweig |
-| 14.3c(2) | 136 | Nummerierter Absatz (2) · 14.3c | Was zu tun ist, wenn ein auf die richtige Weise gedroppter Ball außerhalb des Erleichterungsbereichs zur Ruhe kommt. | — | — | R15 (14.3)<br>R62 (14.3) | Nur im Regelzweig |
+| 14.3c(1) | 135 | Nummerierter Absatz (1) · 14.3c | Spieler hat das Erleichterungsverfahren abgeschlossen, wenn auf richtige Weise gedroppter Ball im Erleichterungsbereich zur Ruhe kommt. | — | R245 — Wann ist ein Erleichterungsverfahren nach einem richtigen Drop grundsätzlich abgeschlossen? | R15 (14.3)<br>R62 (14.3) | Direkt verknüpft |
+| 14.3c(2) | 136 | Nummerierter Absatz (2) · 14.3c | Was zu tun ist, wenn ein auf die richtige Weise gedroppter Ball außerhalb des Erleichterungsbereichs zur Ruhe kommt. | — | R246 — Ein richtig gedroppter Ball kommt außerhalb des Erleichterungsbereichs zur Ruhe. Was muss der Spieler grundsätzlich als Nächstes tun? | R15 (14.3)<br>R62 (14.3) | Direkt verknüpft |
 | 14.5b(1) | 140 | Nummerierter Absatz (1) · 14.5b | Der Ball wurde nach anwendbarer Regel ins Spiel gebracht; Ball wurde am richtigen Ort gedroppt oder gelegt, muss aber nach einer Regel erneut gedroppt oder gelegt werden. | — | — | R174 (14.5) | Nur im Regelzweig |
 | 14.5b(2) | 140 | Nummerierter Absatz (2) · 14.5b | Ball wurde nach anwendbarer Regel ins Spiel gebracht, aber am falschen Ort gedroppt oder hingelegt. | — | — | R174 (14.5) | Nur im Regelzweig |
 | 14.5b(3) | 141 | Nummerierter Absatz (3) · 14.5b | Ball nach nicht anwendbarer Regel ins Spiel gebracht | — | — | R174 (14.5) | Nur im Regelzweig |
