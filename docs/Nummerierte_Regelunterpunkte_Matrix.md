@@ -1,6 +1,6 @@
 # Matrix der nummerierten Unterpunkte
 
-Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md). Fragezuordnungen aus der App-Version 1.9.
+Auszug aus der vollständigen [Abdeckungsmatrix](Regelabdeckungsmatrix_2023.md). Fragezuordnungen aus der App-Version 2.0.
 
 **185 Unterpunkte:** 47 direkt verknüpft, 138 nur im Regelzweig, 0 ohne zugeordneten Regelverweis.
 
