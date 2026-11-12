@@ -1,6 +1,6 @@
 # Abdeckungsmatrix – Offizielle Golfregeln 2023
 
-Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 1.7 und der lokalen Fragenliste `rules.json`.
+Quelle: offizielle_golfregeln_2023.pdf (DGV, Ausgabe 2023; 284 PDF-Seiten). Abgleich mit App-Version 1.8 und der lokalen Fragenliste `rules.json`.
 
 ## Umfang und bisherige Fragen
 
