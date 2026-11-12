@@ -6,10 +6,10 @@ Stand: 12.11.2026
 
 - Die Abdeckungsmatrix zur DGV-Ausgabe „Offizielle Golfregeln 2023“ ist erstellt.
 - Sie enthält 595 Einträge: 107 Überschriften im Format x.y, 229 Buchstaben-Unterabschnitte, 185 nummerierte Absätze wie 1.3b(1) sowie 74 Definitionen.
-- Mit der Fragenliste der App-Version 2.4 wurden 257 Fragen abgeglichen: 182 Regel-/Änderungsfragen, 74 einzelne Definitionsfragen und eine zusätzliche Frage zur geänderten Definition „Erleichterungsbereich“.
+- Mit der Fragenliste der App-Version 2.5 wurden 257 Fragen abgeglichen: 182 Regel-/Änderungsfragen, 74 einzelne Definitionsfragen und eine zusätzliche Frage zur geänderten Definition „Erleichterungsbereich“.
 - Bei den 185 nummerierten Absätzen sind 70 direkt mit einer Frage verknüpft, 115 nur über einen verwandten Regelzweig und keiner ohne zugeordneten Regelverweis. Die 32 zuvor offenen Absätze sind als R203–R234 ergänzt. Diese Einordnung basiert auf Kennungen und Quellen in der Fragenliste; sie bewertet nicht die fachliche Vollständigkeit jeder Antwort.
 - Für das Ziel „jeder nummerierte Absatz bekommt eine eigene, direkt zugeordnete Frage“ sind noch 115 Unterpunkte ohne direkte Einzelzuordnung.
-- Die 32 zuvor offenen Unterpunkte wurden als R203–R234 ergänzt; weitere 23 zuvor nur indirekt abgedeckte Unterpunkte sind jetzt direkt als R235–R257 gefragt. Version 2.4 ist auf GitHub main aktualisiert.
+- Die 32 zuvor offenen Unterpunkte wurden als R203–R234 ergänzt; weitere 23 zuvor nur indirekt abgedeckte Unterpunkte sind jetzt direkt als R235–R257 gefragt. Version 2.5 ist auf GitHub main aktualisiert.
 - Die Änderungen 2023 auf den gedruckten Seiten 18–19 sind in den Matrizen orange hervorgehoben; Seite 20 erläutert die Fallprüfung.
 
 ## Dateien
