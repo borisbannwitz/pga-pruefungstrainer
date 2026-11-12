@@ -18,7 +18,7 @@
 <section id="app" class="hidden">
  <div class="actions" style="margin:0 0 12px"><button class="btn secondary" id="back">← Bereich wechseln</button><span class="tag" id="catLabel"></span></div>
  <div class="stats"><div class="stat"><b id="count">0</b><span>Fragen im Bereich</span></div><div class="stat"><b id="known">0</b><span>Sicher</span></div><div class="stat"><b id="review">0</b><span>Wiederholen</span></div></div><p class="muted" id="historyInfo">Dein Lernstand und deine letzten Kurztests bleiben lokal auf diesem Gerät gespeichert.</p>
- <div class="actions"><button class="btn primary" id="tabLearn">Lernmodus</button><button class="btn secondary" id="tabQuiz">Regelfragen testen</button><button class="btn secondary" id="tabExam">Prüfungssimulation</button></div>
+ <div class="actions"><button class="btn primary" id="tabLearn">Lernmodus</button><button class="btn secondary" id="tabQuiz">Kurztest</button><button class="btn secondary" id="tabExam">Prüfungssimulation</button></div>
  <section id="learnView">
   <div class="toolbar"><input id="search" placeholder="Frage oder Begriff suchen"><select id="topic"><option value="">Alle Themen</option></select><button class="btn secondary" id="reviewOnly" aria-pressed="false">↻ Nur Wiederholungsfragen</button></div>
   <div id="list"></div>
@@ -30,7 +30,7 @@
    <div class="actions hidden" id="rate"><button class="btn good" id="markKnown">✓ Kann ich</button><button class="btn bad" id="markReview">↻ Wiederholen</button></div>
   </article><p class="muted" id="sourceNote"></p><button class="btn secondary" id="toList">← Fragenübersicht</button>
  </section>
- <section id="quizView" class="hidden"><div class="panel"><b>Regelfragen – Kurztest</b><p class="muted">Single Choice · 10 zufällig ausgewählte Regelfragen. Nach jeder Antwort erhältst du die Erklärung und den Regelverweis.</p><button class="btn primary" id="startQuiz">Test starten</button></div><div id="quizCard" class="qcard hidden"><div class="muted" id="quizCount"></div><div class="question" id="quizQuestion"></div><div id="options"></div><div class="answer" id="feedback"></div><button class="btn primary hidden" id="quizNext">Nächste Frage</button></div></section>
+ <section id="quizView" class="hidden"><div class="panel"><b id="quizTitle">Kurztest</b><p class="muted" id="quizDescription"></p><button class="btn primary" id="startQuiz">Test starten</button></div><div id="quizCard" class="qcard hidden"><div class="muted" id="quizCount"></div><div class="question" id="quizQuestion"></div><div id="options"></div><div class="answer" id="feedback"></div><button class="btn primary hidden" id="quizNext">Nächste Frage</button></div></section>
  <section id="examView" class="hidden">
   <div class="panel" id="examIntro">
    <b>45-Fragen-Trainingssimulation</b>
@@ -65,7 +65,11 @@ let quizHistory=JSON.parse(localStorage.getItem('pgaTrainerQuizHistoryV1')||'[]'
 const save=()=>localStorage.setItem('pgaTrainerProgressV2',JSON.stringify(progress));
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function sourceOf(q){if(q.optionsValidated)return 'PGA-Golftechnik · Antwortoptionen redaktionell erstellt · Originalfrage '+q.number;if(q.options)return 'Golfregeln 2023 · '+q.source;return 'PGA-Golftechnik · Originalfrage '+q.number+' · Antwortoptionen im Prüfungsmodus noch vorläufig';}
-function choose(c){category=c;$('start').classList.add('hidden');$('app').classList.remove('hidden');$('catLabel').textContent=c==='pga'?'Nur PGA / Golftechnik':c==='rules'?'Nur Golfregeln':'PGA + Golfregeln';pool=c==='pga'?PGA:c==='rules'?RULES:[...PGA,...RULES];$('count').textContent=pool.length;refreshStats();$('topic').innerHTML='<option value="">Alle Themen</option>';[...new Set(pool.map(q=>q.section))].forEach(s=>{let o=document.createElement('option');o.value=s;o.textContent=s;$('topic').append(o)});showTab('learn');renderList();}
+function updateQuizScope(){
+  const title=category==='pga'?'Golftechnik-Kurztest':category==='rules'?'Regelfragen-Kurztest':'Golftechnik + Golfregeln – Kurztest';
+  const detail=category==='pga'?'10 zufällige Golftechnikfragen. Nach jeder Antwort erhältst du die Erklärung und die Musterantwort.':category==='rules'?'10 zufällige Regelfragen mit Erklärung und Regelverweis.':'10 zufällige Fragen aus Golftechnik und Golfregeln.';
+  $('quizTitle').textContent=title;$('quizDescription').textContent=detail;$('tabQuiz').textContent=category==='rules'?'Regelfragen testen':'Kurztest';
+}function choose(c){category=c;$('start').classList.add('hidden');$('app').classList.remove('hidden');$('catLabel').textContent=c==='pga'?'Nur PGA / Golftechnik':c==='rules'?'Nur Golfregeln':'PGA + Golfregeln';pool=c==='pga'?PGA:c==='rules'?RULES:[...PGA,...RULES];$('count').textContent=pool.length;refreshStats();$('topic').innerHTML='<option value="">Alle Themen</option>';[...new Set(pool.map(q=>q.section))].forEach(s=>{let o=document.createElement('option');o.value=s;o.textContent=s;$('topic').append(o)});updateQuizScope();showTab('learn');renderList();}
 function refreshStats(){let ids=pool.map(q=>String(q.number));$('known').textContent=ids.filter(id=>progress[id]==='known').length;$('review').textContent=ids.filter(id=>progress[id]==='review').length;if($('historyInfo'))$('historyInfo').textContent=quizHistory.length?'Gespeicherte Kurztests: '+quizHistory.length+' · letzter Test: '+quizHistory[0].correct+'/'+quizHistory[0].total+' richtig':'Dein Lernstand und deine Kurztests bleiben lokal auf diesem Gerät gespeichert.';}
 function showTab(t){['learnView','studyView','quizView','examView'].forEach(id=>$(id).classList.add('hidden'));$(t==='learn'?'learnView':t==='quiz'?'quizView':'examView').classList.remove('hidden');$('tabLearn').className='btn '+(t==='learn'?'primary':'secondary');$('tabQuiz').className='btn '+(t==='quiz'?'primary':'secondary');$('tabExam').className='btn '+(t==='exam'?'primary':'secondary');}
 function renderList(){let term=$('search').value.toLocaleLowerCase('de'),topic=$('topic').value;let arr=pool.filter(q=>(!reviewOnly||progress[String(q.number)]==='review')&&(!topic||q.section===topic)&&(!term||(q.question+' '+q.answer+' '+q.explanation+' '+q.number).toLocaleLowerCase('de').includes(term)));$('list').innerHTML='';arr.forEach(q=>{let b=document.createElement('button');b.className='item';b.innerHTML='<b>'+esc(q.number)+'. '+esc(q.question)+'</b><small>'+esc(q.section)+' · '+(progress[q.number]==='known'?'✓ Sicher':progress[q.number]==='review'?'↻ Wiederholen':'Offen')+'</small>';b.onclick=()=>openQuestion(q);$('list').append(b)});if(!arr.length)$('list').textContent='Keine passenden Fragen.';}
@@ -80,30 +84,12 @@ $('reviewOnly').onclick=()=>{reviewOnly=!reviewOnly;$('reviewOnly').setAttribute
 $('back').onclick=()=>{$('app').classList.add('hidden');$('start').classList.remove('hidden')};
 $('tabLearn').onclick=()=>showTab('learn');$('tabQuiz').onclick=()=>{showTab('quiz');$('quizCard').classList.add('hidden')};$('tabExam').onclick=()=>{showTab('exam');updateExamScope();};
 document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>choose(b.dataset.cat));
-function startQuiz(){const uniqueRules=uniqueQuestions(RULES);if(!uniqueRules.length)return;quiz=shuffle(uniqueRules).slice(0,Math.min(10,uniqueRules.length));qi=0;score=0;$('quizCard').classList.remove('hidden');renderQuiz();}
-function renderQuiz(){answered=false;let q=quiz[qi];$('quizCount').textContent='Frage '+(qi+1)+' von '+quiz.length+' · bisher '+score+' richtig';$('quizQuestion').textContent=q.question;$('options').innerHTML='';$('feedback').classList.remove('show');$('quizNext').classList.add('hidden');q.options.forEach((o,i)=>{let b=document.createElement('button');b.className='opt';b.textContent=String.fromCharCode(65+i)+') '+o;b.onclick=()=>answerQuiz(i,b);$('options').append(b)})}
-function answerQuiz(i,btn){if(answered)return;answered=true;let q=quiz[qi];if(i===q.correct){score++;if(progress[String(q.number)]!=='review')progress[String(q.number)]='known';}else{progress[String(q.number)]='review';}save();refreshStats();[...$('options').children].forEach((b,j)=>{if(j===q.correct)b.classList.add('correct');else if(j===i)b.classList.add('wrong');b.disabled=true});$('feedback').textContent=(i===q.correct?'Richtig. ':'Leider falsch. Richtige Antwort: '+q.options[q.correct]+'. ')+q.explanation+' Quelle: '+q.source;$('feedback').classList.add('show');$('quizNext').classList.remove('hidden');}
-$('startQuiz').onclick=startQuiz;$('quizNext').onclick=()=>{qi++;if(qi<quiz.length)renderQuiz();else{$('quizCount').textContent='Test abgeschlossen: '+score+' von '+quiz.length+' richtig ('+Math.round(score/quiz.length*100)+' %)';quizHistory.unshift({date:new Date().toISOString(),category:category,correct:score,total:quiz.length});quizHistory=quizHistory.slice(0,30);localStorage.setItem('pgaTrainerQuizHistoryV1',JSON.stringify(quizHistory));$('quizQuestion').textContent='Gut gemacht!';$('options').innerHTML='';$('feedback').classList.remove('show');$('quizNext').classList.add('hidden')}};
-
-// 45-question practice exam. PGA distractors are explicitly provisional and not official.
-let examQuestions=[], examAnswers={}, examIndex=0, examSeconds=3600, examInterval=null, examSubmitted=false;
-function shuffle(a){const out=[...a];for(let i=out.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[out[i],out[j]]=[out[j],out[i]]}return out}
-function uniqueQuestions(items){const seen=new Set();return items.filter(q=>{const key=String(q.question||'').normalize('NFKC').toLocaleLowerCase('de-DE').replace(/[^\p{L}\p{N}]+/gu,' ').trim();if(!key||seen.has(key))return false;seen.add(key);return true})}
-function makePgaChoice(q){
-  if(q.options && q.optionsValidated===true){
-    return {...q, explanation:q.explanation||q.answer, source:q.source||('PGA-Golftechnik · Originalfrage '+q.number)};
-  }
-  const correct=String(q.answer||'').trim();
-  const poolAnswers=PGA.filter(x=>x.number!==q.number && x.section===q.section)
-    .map(x=>String(x.answer||'').trim()).filter(a=>a && a!==correct && a.length>8);
-  let distractors=[...new Set(shuffle(poolAnswers))].slice(0,3);
-  if(distractors.length<3){
-    const extra=PGA.filter(x=>x.number!==q.number).map(x=>String(x.answer||'').trim())
-      .filter(a=>a && a!==correct && a.length>8 && !distractors.includes(a));
-    distractors=[...distractors,...shuffle(extra).slice(0,3-distractors.length)];
-  }
-  const options=shuffle([correct,...distractors]);
-  return {...q, options, correct:options.indexOf(correct), explanation:'Musterantwort aus der geprüften PGA-Golftechnik-Lernfassung. Die drei falschen Optionen wurden automatisch aus anderen Musterantworten gebildet und müssen vor einer echten Prüfung fachlich gegengeprüft werden.', source:'PGA-Golftechnik · Frage '+q.number};
+function startQuiz(){
+  let source=category==='rules'?RULES:category==='pga'?PGA:[...PGA,...RULES];
+  source=uniqueQuestions(source);
+  if(!source.length)return;
+  quiz=shuffle(source).slice(0,Math.min(10,source.length)).map(q=>category==='rules'||q.options?q:makePgaChoice(q));
+  qi=0;score=0;$('quizCard').classList.remove('hidden');renderQuiz();
 }
 function buildExamSet(){
   if(category==='rules') return shuffle(uniqueQuestions(RULES));
@@ -183,6 +169,7 @@ $('examAgain').onclick=()=>{$('examResult').classList.add('hidden');$('examIntro
 
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 </script></body></html>
+
 
 
 
