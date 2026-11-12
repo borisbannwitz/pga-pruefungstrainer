@@ -3152,6 +3152,486 @@
     "explanation": "Regel 24.4 regelt erlaubte Beratung durch einen benannten Ratgeber.",
     "source": "Regel 24.4 · Buchseite 225",
     "coverageId": "24.4"
+  },
+  {
+    "coverageId": "3.2b(1)",
+    "section": "Regel 3.2b(1) – Schenken",
+    "question": "Wann darf ein Spieler seinem Gegner den nächsten Schlag schenken?",
+    "options": [
+      "Zu jeder Zeit, bevor der Gegner den nächsten Schlag ausführt; auch während der vorherige Ball noch rollt, sofern er nicht eingelocht wird.",
+      "Nur nachdem der Ball des Gegners vollständig zur Ruhe gekommen ist.",
+      "Erst nachdem der Gegner den nächsten Schlag ausgeführt hat.",
+      "Nur wenn beide Spieler das Schenken schriftlich bestätigen."
+    ],
+    "correct": 0,
+    "explanation": "Der nächste Schlag darf jederzeit vor seiner Ausführung geschenkt werden. Erfolgt das Schenken, während der vorherige Ball noch rollt, bezieht es sich auf den nächsten Schlag; wird der Ball eingelocht, ist das Schenken ohne Bedeutung.",
+    "number": "R203",
+    "source": "Regel 3.2b(1) · Buchseite 35"
+  },
+  {
+    "coverageId": "3.2b(2)",
+    "section": "Regel 3.2b(2) – Wie geschenkt wird",
+    "question": "Wann ist ein Schenken im Lochspiel eindeutig wirksam und kann es zurückgenommen werden?",
+    "options": [
+      "Es genügt, wenn der Spieler daran denkt; er kann es bis zum nächsten Schlag zurücknehmen.",
+      "Es muss unmissverständlich durch Worte oder eine eindeutige Handlung ausgedrückt werden; danach ist es endgültig und kann weder abgelehnt noch widerrufen werden.",
+      "Es wird erst wirksam, wenn der Gegner zustimmt.",
+      "Es muss vor Beginn des Lochs ausgesprochen werden."
+    ],
+    "correct": 1,
+    "explanation": "Schenken gilt nur, wenn die Absicht durch Worte oder eine klare Handlung eindeutig erkennbar ist. Ein wirksames Schenken ist endgültig und kann nicht zurückgewiesen oder widerrufen werden.",
+    "number": "R204",
+    "source": "Regel 3.2b(2) · Buchseite 35"
+  },
+  {
+    "coverageId": "3.2c(1)",
+    "section": "Regel 3.2c(1) – Handicap mitteilen",
+    "question": "Ein Spieler teilt ein zu hohes Handicap mit. Er berichtigt es nicht rechtzeitig, und dadurch erhält er zu viele Handicap-Schläge. Was gilt?",
+    "options": [
+      "Er verliert automatisch nur das nächste Loch.",
+      "Er ist disqualifiziert, wenn das zu hohe Handicap die Zahl der zu gewährenden oder zu erhaltenden Schläge beeinflusst.",
+      "Es gibt keine Strafe, weil der Gegner die Scorekarte prüft.",
+      "Er muss stattdessen das Handicap des Gegners verwenden."
+    ],
+    "correct": 1,
+    "explanation": "Ein zu hoch mitgeteiltes Handicap führt zur Disqualifikation, wenn es die Zahl der gewährten oder erhaltenen Schläge beeinflusst. Ein zu niedrig mitgeteiltes Handicap wird ohne Strafe verwendet.",
+    "number": "R205",
+    "source": "Regel 3.2c(1) · Buchseite 36"
+  },
+  {
+    "coverageId": "3.2c(2)",
+    "section": "Regel 3.2c(2) – Handicap-Schläge je Loch",
+    "question": "Wer ist im Netto-Lochspiel dafür verantwortlich zu wissen, an welchen Löchern Handicap-Schläge gewährt oder erhalten werden?",
+    "options": [
+      "Nur die Spielleitung.",
+      "Nur der Spieler mit dem höheren Handicap.",
+      "Jeder Spieler selbst, anhand der von der Spielleitung festgelegten Handicap-Verteilung.",
+      "Der Zähler erst nach Ende des Lochspiels."
+    ],
+    "correct": 2,
+    "explanation": "Handicap-Schläge werden lochweise nach der von der Spielleitung festgelegten Verteilung angerechnet. Jeder Spieler ist selbst dafür verantwortlich zu wissen, an welchen Löchern er Schläge gewährt oder erhält.",
+    "number": "R206",
+    "source": "Regel 3.2c(2) · Buchseite 36"
+  },
+  {
+    "coverageId": "3.2d(1)",
+    "section": "Regel 3.2d(1) – Schlagzahl mitteilen",
+    "question": "Der Gegner fragt während eines Lochs nach der bisherigen Schlagzahl. Was muss der Spieler mitteilen?",
+    "options": [
+      "Nur die ausgeführten Schläge, ohne Strafschläge.",
+      "Die richtige Gesamtzahl aus ausgeführten Schlägen und Strafschlägen.",
+      "Die Schlagzahl erst nach Abgabe der Scorekarte.",
+      "Eine Schätzung, wenn der Gegner nicht selbst mitgezählt hat."
+    ],
+    "correct": 1,
+    "explanation": "Der Gegner darf während des Lochs oder nach dessen Beendigung nach der Schlagzahl fragen. Der Spieler muss die richtige Zahl nennen, einschließlich Strafschlägen; eine ausbleibende Antwort wird wie eine falsche Angabe behandelt.",
+    "number": "R207",
+    "source": "Regel 3.2d(1) · Buchseite 36"
+  },
+  {
+    "coverageId": "3.2d(2)",
+    "section": "Regel 3.2d(2) – Strafe mitteilen",
+    "question": "Ein Spieler hat sich im Lochspiel eine Strafe zugezogen. Wann muss er den Gegner darüber informieren?",
+    "options": [
+      "Nur wenn der Gegner ausdrücklich fragt.",
+      "Erst nach Beendigung der Runde.",
+      "So bald wie möglich, auch wenn er selbst die Strafe zunächst nicht bemerkt hat; eine rechtzeitige Berichtigung kann die Strafe vermeiden.",
+      "Nur wenn die Strafe das Ergebnis des Lochs ändert."
+    ],
+    "correct": 2,
+    "explanation": "Der Spieler muss den Gegner so bald wie möglich über eine Strafe informieren, auch wenn er sie selbst nicht erkannt hat. Unterbleibt die Mitteilung und wird der Fehler nicht berichtigt, bevor der Gegner wieder spielt oder eine vergleichbare Handlung vornimmt, fällt grundsätzlich Lochverlust an. Keine Strafe fällt an, wenn der Gegner die Strafe bereits kannte.",
+    "number": "R208",
+    "source": "Regel 3.2d(2) · Buchseite 37"
+  },
+  {
+    "coverageId": "3.2d(3)",
+    "section": "Regel 3.2d(3) – Spielstand kennen",
+    "question": "Beide Spieler haben sich versehentlich auf einen falschen Spielstand geeinigt. Bis wann können sie ihn grundsätzlich berichtigen?",
+    "options": [
+      "Nur unmittelbar nach dem betroffenen Schlag.",
+      "Bevor einer der Spieler das nächste Loch beginnt; am letzten Loch, bevor dessen Ergebnis endgültig ist.",
+      "Jederzeit bis zur Siegerehrung.",
+      "Der Spielstand kann nie berichtigt werden, sobald beide zugestimmt haben."
+    ],
+    "correct": 1,
+    "explanation": "Ein versehentlich falsch vereinbarter Spielstand kann grundsätzlich berichtigt werden, bevor ein Spieler das nächste Loch beginnt. Am letzten Loch muss die Berichtigung erfolgen, bevor dessen Ergebnis endgültig ist; sonst wird der falsche Stand zum gültigen Spielstand.",
+    "number": "R209",
+    "source": "Regel 3.2d(3) · Buchseite 38"
+  },
+  {
+    "coverageId": "3.2d(4)",
+    "section": "Regel 3.2d(4) – Eigene Rechte schützen",
+    "question": "Ein Spieler weiß, dass sein Gegner eine Strafe verwirkt hat. Was darf er tun?",
+    "options": [
+      "Er darf entscheiden, ob er auf den Regelverstoß reagiert oder ihn unbeachtet lässt; beide dürfen aber nicht vereinbaren, eine bekannte Strafe zu ignorieren.",
+      "Er muss jeden Regelverstoß sofort beim Gegner reklamieren.",
+      "Die Spieler dürfen eine bekannte Strafe gemeinsam aufheben.",
+      "Er darf erst nach Abgabe der Scorekarte eine Regelentscheidung verlangen."
+    ],
+    "correct": 0,
+    "explanation": "Im Lochspiel darf ein Spieler selbst entscheiden, ob er auf einen bekannten oder vermuteten Regelverstoß reagiert. Vereinbaren beide Spieler, einen bekannten Verstoß oder eine anzuwendende Strafe zu ignorieren, sind beide disqualifiziert.",
+    "number": "R210",
+    "source": "Regel 3.2d(4) · Buchseite 38"
+  },
+  {
+    "coverageId": "5.6b(1)",
+    "section": "Regel 5.6b(1) – Empfehlungen zum Spieltempo",
+    "question": "Welche Zeit empfiehlt Regel 5.6b(1) für die Ausführung eines Schlags, sobald der Spieler ungestört spielen kann?",
+    "options": [
+      "20 Sekunden.",
+      "40 Sekunden; schnelleres Spielen wird ausdrücklich ermutigt.",
+      "60 Sekunden als verbindliche Höchstzeit.",
+      "Es gibt keine Empfehlung für die Vorbereitung eines Schlags."
+    ],
+    "correct": 1,
+    "explanation": "Empfohlen wird, dass ein Spieler innerhalb von 40 Sekunden schlägt, sobald er ungestört spielen kann. Die Regel ermutigt dazu, gewöhnlich noch schneller zu spielen und sich im Voraus vorzubereiten.",
+    "number": "R211",
+    "source": "Regel 5.6b(1) · Buchseite 60"
+  },
+  {
+    "coverageId": "5.6b(2)",
+    "section": "Regel 5.6b(2) – Außerhalb der Reihenfolge spielen",
+    "question": "Welche Aussage zum Spielen außerhalb der Reihenfolge, um Zeit zu sparen, stimmt?",
+    "options": [
+      "Im Lochspiel darf ein Spieler immer ohne Zustimmung zuerst spielen.",
+      "Im Zählspiel ist Ready Golf verboten.",
+      "Im Lochspiel können die Spieler sich dazu einigen; im Zählspiel ist sicheres und verantwortungsbewusstes Ready Golf erlaubt.",
+      "Außerhalb der Reihenfolge zu spielen führt immer zu einem Strafschlag."
+    ],
+    "correct": 2,
+    "explanation": "Im Lochspiel dürfen die Spieler vereinbaren, außer der Reihenfolge zu spielen, um Zeit zu sparen. Im Zählspiel dürfen sie auf sichere und verantwortungsvolle Weise Ready Golf spielen.",
+    "number": "R212",
+    "source": "Regel 5.6b(2) · Buchseite 61"
+  },
+  {
+    "coverageId": "5.6b(3)",
+    "section": "Regel 5.6b(3) – Richtlinien der Spielleitung",
+    "question": "Was sollte die Spielleitung tun, um zügiges Spiel zu fördern und durchzusetzen?",
+    "options": [
+      "Eine Richtlinie nur mündlich bekanntgeben und keine Folgen festlegen.",
+      "Die Spieler ihre eigene Höchstspielzeit bestimmen lassen.",
+      "Eine Platzregel mit Richtlinien zum Spieltempo erlassen, etwa Höchstzeiten und mögliche Strafen.",
+      "Das Spiel nach jedem langsamen Loch automatisch abbrechen."
+    ],
+    "correct": 2,
+    "explanation": "Die Spielleitung sollte eine Platzregel zu Richtlinien für zügiges Spiel erlassen. Diese kann Höchstzeiten für eine Runde, ein Loch, mehrere Löcher oder einen Schlag sowie Strafen für Verstöße festlegen.",
+    "number": "R213",
+    "source": "Regel 5.6b(3) · Buchseite 61"
+  },
+  {
+    "coverageId": "6.2b(2)",
+    "section": "Regel 6.2b(2) – Ball vom Abschlag spielen",
+    "question": "Von wo darf ein Ball beim Spielen vom Abschlag gespielt werden?",
+    "options": [
+      "Von einem Tee im oder auf dem Boden oder direkt vom Boden.",
+      "Ausschließlich von einem zugelassenen Tee aus Holz.",
+      "Von jeder künstlichen Erhöhung, auch außerhalb des Abschlags.",
+      "Nur von einer ebenen Rasenfläche ohne Sand oder anderes Material."
+    ],
+    "correct": 0,
+    "explanation": "Der Ball muss entweder von einem Tee im oder auf dem Boden oder vom Boden gespielt werden. Als Boden zählt auch Sand oder anderes natürliches Material, das angehäuft wurde, um das Tee oder den Ball aufzusetzen.",
+    "number": "R214",
+    "source": "Regel 6.2b(2) · Buchseite 67"
+  },
+  {
+    "coverageId": "6.2b(3)",
+    "section": "Regel 6.2b(3) – Bedingungen auf dem Abschlag",
+    "question": "Welche Handlung darf ein Spieler vor dem Schlag auf dem Abschlag vornehmen?",
+    "options": [
+      "Eine Abschlagmarkierung versetzen, um eine bessere Spiellinie zu erhalten.",
+      "Die Bodenoberfläche verändern, befestigtes Gras bewegen, Sand entfernen oder Tau und Wasser beseitigen.",
+      "Den Boden außerhalb des Abschlags verbessern, damit der Stand sicherer wird.",
+      "Jeden Gegenstand auf dem Platz bewegen, der den nächsten Schlag beeinflussen könnte."
+    ],
+    "correct": 1,
+    "explanation": "Vor dem Schlag darf der Spieler auf dem Abschlag bestimmte Bedingungen verbessern: die Bodenoberfläche verändern, befestigte oder wachsende natürliche Gegenstände bewegen, biegen oder brechen, Sand oder Boden entfernen oder niederdrücken sowie Tau, Reif oder Wasser beseitigen. Andere Verbesserungen können gegen Regel 8.1 verstoßen.",
+    "number": "R215",
+    "source": "Regel 6.2b(3) · Buchseite 68"
+  },
+  {
+    "coverageId": "6.2b(4)",
+    "section": "Regel 6.2b(4) – Abschlagmarkierungen",
+    "question": "Ein Spieler versetzt eine Abschlagmarkierung, um die Bedingungen für seinen Schlag zu verbessern. Was ist die Folge?",
+    "options": [
+      "Keine Strafe, wenn die Markierung anschließend zurückgestellt wird.",
+      "Grundstrafe wegen Verstoßes gegen Regel 8.1a.",
+      "Ein Strafschlag, aber nur im Zählspiel.",
+      "Der Schlag muss wiederholt werden, ohne weitere Folge."
+    ],
+    "correct": 1,
+    "explanation": "Verbessert ein Spieler durch das Versetzen einer Abschlagmarkierung vor dem Schlag die Bedingungen, die den Schlag beeinflussen, fällt die Grundstrafe an. Fehlen Markierungen, sollte er die Spielleitung fragen oder – wenn diese nicht rechtzeitig erreichbar ist – die Lage angemessen einschätzen.",
+    "number": "R216",
+    "source": "Regel 6.2b(4) · Buchseite 68"
+  },
+  {
+    "coverageId": "6.2b(5)",
+    "section": "Regel 6.2b(5) – Ball vor dem Schlag nicht im Spiel",
+    "question": "Ein aufgeteeter Ball fällt vor dem Schlag vom Tee. Was darf der Spieler tun?",
+    "options": [
+      "Den Ball straflos irgendwo innerhalb des Abschlags erneut aufteen.",
+      "Den Ball spielen, wie er außerhalb des Abschlags liegt.",
+      "Einen Strafschlag hinzurechnen und von derselben Stelle spielen.",
+      "Das Loch gilt als begonnen und der Ball darf nicht bewegt werden."
+    ],
+    "correct": 0,
+    "explanation": "Der Ball ist beim Abschlag erst im Spiel, wenn der Spieler einen Schlag nach ihm ausgeführt hat. Fällt er vorher vom Tee oder wird er vom Spieler heruntergestoßen, darf er straflos überall innerhalb des Abschlags erneut aufgeteet werden. Ein Schlag nach dem fallenden Ball zählt.",
+    "number": "R217",
+    "source": "Regel 6.2b(5) · Buchseite 68"
+  },
+  {
+    "coverageId": "6.2b(6)",
+    "section": "Regel 6.2b(6) – Ball im Spiel innerhalb des Abschlags",
+    "question": "Ein Spieler schlägt am Abschlag am Ball vorbei; der Ball bleibt im Spiel und liegt noch im Abschlag. Was darf er tun?",
+    "options": [
+      "Er muss den Ball von dort spielen und darf ihn nicht bewegen.",
+      "Er muss einen Strafschlag hinzurechnen, bevor er ihn erneut aufteet.",
+      "Er darf den Ball straflos aufnehmen oder bewegen und ihn im Abschlag aufteen, vom Boden spielen oder spielen, wie er liegt.",
+      "Er muss den Ball außerhalb des Abschlags droppen."
+    ],
+    "correct": 2,
+    "explanation": "Liegt der Ball nach einem Schlag oder nach in Anspruch genommener Erleichterung im Spiel innerhalb des Abschlags, darf der Spieler ihn straflos aufnehmen oder bewegen und ihn dort aufteen, vom Boden spielen oder spielen, wie er liegt. Spielen vom falschen Ort zieht die Grundstrafe nach sich.",
+    "number": "R218",
+    "source": "Regel 6.2b(6) · Buchseite 69"
+  },
+  {
+    "coverageId": "6.4a(1)",
+    "section": "Regel 6.4a(1) – Spielfolge im Lochspiel",
+    "question": "Ein Loch im Lochspiel wird geteilt. Wer hat am nächsten Abschlag die Ehre?",
+    "options": [
+      "Der Spieler, der am weitesten vom Loch entfernt war.",
+      "Immer der Spieler mit dem niedrigeren Handicap.",
+      "Der Spieler, der die Ehre am vorherigen Abschlag hatte.",
+      "Die Ehre wechselt automatisch zum Gegner."
+    ],
+    "correct": 2,
+    "explanation": "Im Lochspiel hat der Spieler, der das vorherige Loch gewinnt, am nächsten Abschlag die Ehre. Bei einem geteilten Loch behält der Spieler die Ehre, der sie am vorherigen Abschlag hatte.",
+    "number": "R219",
+    "source": "Regel 6.4a(1) · Buchseite 72"
+  },
+  {
+    "coverageId": "6.4a(2)",
+    "section": "Regel 6.4a(2) – Außer der Reihe im Lochspiel",
+    "question": "Ein Spieler schlägt im Lochspiel, obwohl der Gegner an der Reihe war. Was darf der Gegner tun?",
+    "options": [
+      "Den Schlag unverzüglich und vor einem weiteren Schlag für ungültig erklären; dann muss der Spieler von der ursprünglichen Stelle erneut spielen.",
+      "Den Spieler automatisch disqualifizieren lassen.",
+      "Den Schlag jederzeit bis zum Ende der Runde für ungültig erklären.",
+      "Nichts; ein Schlag außer der Reihe ist im Lochspiel immer endgültig."
+    ],
+    "correct": 0,
+    "explanation": "Ein Schlag außer der Reihe ist straflos. Der Gegner darf ihn jedoch unverzüglich und bevor einer der Spieler einen weiteren Schlag ausführt für ungültig erklären. Dann muss der Spieler von der ursprünglichen Stelle erneut spielen; erklärt der Gegner den Schlag nicht für ungültig, zählt er.",
+    "number": "R220",
+    "source": "Regel 6.4a(2) · Buchseite 73"
+  },
+  {
+    "coverageId": "6.4d(1)",
+    "section": "Regel 6.4d(1) – Spielfolge bei Erleichterung",
+    "question": "Ein Spieler darf seinen Ball spielen, wie er liegt, oder Erleichterung nehmen. Woran richtet sich seine Spielfolge, wenn er sich für Erleichterung entscheidet?",
+    "options": [
+      "An der Stelle, an der der Ball nach dem Droppen liegen bleibt.",
+      "Grundsätzlich an der Stelle des ursprünglichen Balls, auch wenn er sich bereits für Erleichterung entschieden hat.",
+      "Immer an der Stelle des letzten Schlags.",
+      "An der Spielfolge des Spielers, der zuletzt ein Loch gewonnen hat."
+    ],
+    "correct": 1,
+    "explanation": "Wenn der Spieler die Wahl hat, den ursprünglichen Ball zu spielen oder Erleichterung zu nehmen, richtet sich seine Spielfolge nach der Stelle des ursprünglichen Balls. Das gilt auch nach seiner Entscheidung für Erleichterung. Muss er zwingend Schlag und Distanzverlust in Anspruch nehmen, richtet sich die Reihenfolge nach der Stelle des vorherigen Schlags.",
+    "number": "R221",
+    "source": "Regel 6.4d(1) · Buchseite 75"
+  },
+  {
+    "coverageId": "6.4d(2)",
+    "section": "Regel 6.4d(2) – Provisorischen Ball spielen",
+    "question": "Wann muss ein Spieler einen provisorischen Ball außerhalb des Abschlags spielen?",
+    "options": [
+      "Erst nachdem alle anderen Spieler ihre Bälle gespielt haben.",
+      "Zu einem beliebigen Zeitpunkt vor Ende des Lochs.",
+      "Unmittelbar nach dem vorherigen Schlag und bevor jemand anderes einen Ball spielt; Ausnahmen gelten am Abschlag und wenn der Spieler noch über die Entscheidung nachdenkt.",
+      "Nur nachdem ein Referee die Erlaubnis erteilt hat."
+    ],
+    "correct": 2,
+    "explanation": "Außerhalb des Abschlags muss der Spieler den provisorischen Ball unmittelbar nach dem vorherigen Schlag spielen, bevor jemand anderes spielt. Die Regel enthält Ausnahmen zu Beginn eines Lochs und wenn der Spieler noch abwartet, ob er einen provisorischen Ball spielen will.",
+    "number": "R222",
+    "source": "Regel 6.4d(2) · Buchseite 75"
+  },
+  {
+    "coverageId": "13.1d(1)",
+    "section": "Regel 13.1d(1) – Ball auf dem Grün versehentlich bewegt",
+    "question": "Ein Spieler bewegt den Ballmarker eines Spielers auf dem Grün versehentlich. Was gilt?",
+    "options": [
+      "Der Spieler, dessen Marker bewegt wurde, erhält einen Strafschlag.",
+      "Der Marker muss an die ursprüngliche Stelle zurückgelegt werden; es fällt keine Strafe an.",
+      "Der Ball muss von der neuen Stelle gespielt werden.",
+      "Der Marker darf nur durch einen Referee zurückgelegt werden."
+    ],
+    "correct": 1,
+    "explanation": "Das versehentliche Bewegen eines Balls oder Ballmarkers auf dem Grün durch den Spieler, Gegner oder einen anderen Spieler im Zählspiel ist straflos. Ball oder Marker müssen an die ursprüngliche Stelle zurückgelegt oder diese Stelle muss markiert werden. Beginnt der Ball während Rückschwung oder Schlag zu rollen und der Schlag wird ausgeführt, wird er gespielt, wie er liegt.",
+    "number": "R223",
+    "source": "Regel 13.1d(1) · Buchseite 118"
+  },
+  {
+    "coverageId": "13.1d(2)",
+    "section": "Regel 13.1d(2) – Naturkräfte bewegen Ball auf dem Grün",
+    "question": "Naturkräfte bewegen einen Ball auf dem Grün. Wann muss er an die ursprüngliche Stelle zurückgelegt werden?",
+    "options": [
+      "Immer, sobald ein Ball auf dem Grün durch Naturkräfte bewegt wird.",
+      "Nur wenn der Ball bereits aufgenommen und auf dem Grün zurückgelegt worden war; andernfalls wird er von der neuen Stelle gespielt.",
+      "Nie; ein durch Naturkräfte bewegter Ball wird immer von der neuen Stelle gespielt.",
+      "Nur wenn ein Mitbewerber die Bewegung verursacht hat."
+    ],
+    "correct": 1,
+    "explanation": "Wurde der Ball bereits aufgenommen und auf dem Grün zurückgelegt, muss er an die Stelle zurückgelegt werden, von der er sich wegbewegte. War er noch nicht aufgenommen und zurückgelegt, wird er von seiner neuen Stelle gespielt.",
+    "number": "R224",
+    "source": "Regel 13.1d(2) · Buchseite 118"
+  },
+  {
+    "coverageId": "13.1f(1)",
+    "section": "Regel 13.1f(1) – Beeinträchtigung durch falsches Grün",
+    "question": "Wann liegt eine Beeinträchtigung durch ein falsches Grün vor?",
+    "options": [
+      "Nur wenn das falsche Grün die Spiellinie zum Loch kreuzt.",
+      "Nur wenn der Spieler den Ball auf dem falschen Grün findet.",
+      "Wenn der Ball das falsche Grün berührt oder Stand beziehungsweise Schwung beeinträchtigt wird.",
+      "Nur wenn der Ball vollständig auf dem falschen Grün liegt."
+    ],
+    "correct": 2,
+    "explanation": "Beeinträchtigung liegt vor, wenn ein Teil des Balls das falsche Grün berührt oder auf/in etwas liegt, das sich innerhalb des falschen Grüns befindet, oder wenn das falsche Grün den beabsichtigten Stand oder Schwung beeinträchtigt.",
+    "number": "R225",
+    "source": "Regel 13.1f(1) · Buchseite 119"
+  },
+  {
+    "coverageId": "13.1f(2)",
+    "section": "Regel 13.1f(2) – Erleichterung vom falschen Grün",
+    "question": "Der Ball oder der Stand wird durch ein falsches Grün beeinträchtigt. Wie muss der Spieler vorgehen?",
+    "options": [
+      "Er darf den Ball spielen, wie er liegt, oder einen Strafschlag nehmen.",
+      "Er muss straflose Erleichterung nehmen: vom nächstgelegenen Punkt vollständiger Erleichterung im selben Platzbereich innerhalb einer Schlägerlänge droppen, nicht näher zum Loch.",
+      "Er muss den Ball auf das falsche Grün legen.",
+      "Er muss Schlag und Distanzverlust in Anspruch nehmen."
+    ],
+    "correct": 1,
+    "explanation": "Der Ball darf nicht gespielt werden, wie er liegt. Der Spieler muss straflose Erleichterung nehmen. Der Bezugspunkt ist der nächstgelegene Punkt vollständiger Erleichterung im selben Platzbereich; der Erleichterungsbereich beträgt eine Schlägerlänge, darf nicht näher zum Loch liegen und muss vollständige Erleichterung bieten.",
+    "number": "R226",
+    "source": "Regel 13.1f(2) · Buchseite 119"
+  },
+  {
+    "coverageId": "13.1f(3)",
+    "section": "Regel 13.1f(3) – Keine unangemessene Erleichterung",
+    "question": "Wann gibt es keine Erleichterung wegen eines falschen Grüns?",
+    "options": [
+      "Wenn die Beeinträchtigung nur durch eine offensichtlich unangemessene Wahl von Schläger, Stand, Schwung oder Spielrichtung entsteht.",
+      "Wenn der Ball im allgemeinen Bereich liegt.",
+      "Wenn der Spieler einen Strafschlag vermeiden möchte.",
+      "Wenn der nächstgelegene Punkt vollständiger Erleichterung schwer zu finden ist."
+    ],
+    "correct": 0,
+    "explanation": "Erleichterung gibt es nicht, wenn die Beeinträchtigung nur besteht, weil der Spieler unter den Umständen offensichtlich unangemessen einen Schläger, eine Art von Stand oder Schwung oder eine Spielrichtung wählt.",
+    "number": "R227",
+    "source": "Regel 13.1f(3) · Buchseite 119"
+  },
+  {
+    "coverageId": "13.2b(1)",
+    "section": "Regel 13.2b(1) – Flaggenstock entfernen lassen",
+    "question": "Wie kann ein Spieler entscheiden, den Schlag mit entferntem Flaggenstock auszuführen?",
+    "options": [
+      "Er darf den Flaggenstock erst nach dem Schlag entfernen lassen.",
+      "Er muss den Flaggenstock immer selbst halten.",
+      "Er muss sich vor dem Schlag entscheiden und den Flaggenstock entfernen lassen oder jemanden zu dessen Bedienung ermächtigen.",
+      "Die Entscheidung trifft ausschließlich der Gegner."
+    ],
+    "correct": 2,
+    "explanation": "Der Spieler muss sich vor dem Schlag entscheiden. Er kann den Flaggenstock vor dem Schlag entfernen lassen oder jemanden ermächtigen, ihn zu bedienen. Das Bedienen umfasst, den Flaggenstock vor dem Schlag zu halten und ihn während oder nach dem Schlag zu entfernen.",
+    "number": "R228",
+    "source": "Regel 13.2b(1) · Buchseite 122"
+  },
+  {
+    "coverageId": "13.2b(2)",
+    "section": "Regel 13.2b(2) – Ball trifft entfernten Flaggenstock",
+    "question": "Der Ball trifft versehentlich den entfernten Flaggenstock oder die Person, die ihn bedient. Was gilt?",
+    "options": [
+      "Der Spieler erhält die Grundstrafe und muss den Schlag wiederholen.",
+      "Es fällt keine Strafe an; der Ball wird gespielt, wie er liegt.",
+      "Der Spieler muss den Ball an die ursprüngliche Stelle zurücklegen.",
+      "Der Gegner darf den Schlag für ungültig erklären."
+    ],
+    "correct": 1,
+    "explanation": "Trifft der Ball in Bewegung versehentlich den entfernten oder bedienten Flaggenstock, die bedienende Person oder etwas, das diese hält, ist dies straflos und der Ball wird gespielt, wie er liegt. Bei absichtlichem Ablenken oder Aufhalten gilt Regel 11.2c.",
+    "number": "R229",
+    "source": "Regel 13.2b(2) · Buchseite 123"
+  },
+  {
+    "coverageId": "20.1c(1)",
+    "section": "Regel 20.1c(1) – Keine Entscheidung durch Absprache",
+    "question": "Die Spieler im Zählspiel sind sich über die Anwendung einer Regel einig, aber ein Referee ist nicht erreichbar. Was gilt?",
+    "options": [
+      "Ihre Vereinbarung ist endgültig und bindend.",
+      "Sie dürfen den Fall nur durch Münzwurf entscheiden.",
+      "Sie dürfen den Regelverstoß durch Absprache aufheben.",
+      "Sie sollen einander unterstützen, dürfen den Regelfall aber nicht verbindlich durch Absprache entscheiden und sollten ihn vor Abgabe der Scorekarte mit der Spielleitung klären."
+    ],
+    "correct": 3,
+    "explanation": "Spieler sollen einander bei der Anwendung der Regeln helfen, sind aber nicht berechtigt, einen Regelfall durch Absprache verbindlich zu entscheiden. Eine solche Vereinbarung bindet weder Spieler noch Referee oder Spielleitung; der Fall sollte vor Abgabe der Scorekarte geklärt werden.",
+    "number": "R230",
+    "source": "Regel 20.1c(1) · Buchseite 196"
+  },
+  {
+    "coverageId": "20.1c(2)",
+    "section": "Regel 20.1c(2) – Andere Spieler schützen",
+    "question": "Ein Spieler glaubt, ein anderer Spieler habe einen Regelverstoß begangen, bemerkt ihn aber nicht. Was sollte er tun?",
+    "options": [
+      "Den Verstoß nur dem Gegner nach Ende der Runde mitteilen.",
+      "Die Scorekarte des anderen Spielers selbst ändern.",
+      "Den möglichen Verstoß möglichst unverzüglich dem Spieler, seinem Zähler, einem Referee oder der Spielleitung mitteilen, spätestens vor Abgabe der Scorekarte, sofern dies möglich ist.",
+      "Nichts, wenn er nicht selbst betroffen ist."
+    ],
+    "correct": 2,
+    "explanation": "Zum Schutz der anderen Teilnehmer sollte der Spieler einen ihm bekannten oder vermuteten Regelverstoß unverzüglich mitteilen und grundsätzlich spätestens vor Abgabe der Scorekarte. Bei schwerwiegendem Fehlverhalten kann die Spielleitung wegen des Versäumnisses disqualifizieren.",
+    "number": "R231",
+    "source": "Regel 20.1c(2) · Buchseite 196"
+  },
+  {
+    "coverageId": "20.1c(4)",
+    "section": "Regel 20.1c(4) – Spielleitung entscheidet über zwei Bälle",
+    "question": "Ein Spieler spielt im Zählspiel zwei Bälle. Die gewählte Vorgehensweise für den ausgewählten Ball war nicht erlaubt, die Vorgehensweise für den anderen Ball aber schon. Welches Ergebnis zählt?",
+    "options": [
+      "Immer das Ergebnis des zuerst gespielten Balls.",
+      "Das Ergebnis des anderen Balls, dessen Vorgehensweise nach den Regeln erlaubt war.",
+      "Beide Ergebnisse werden addiert.",
+      "Der Spieler ist in jedem Fall disqualifiziert."
+    ],
+    "correct": 1,
+    "explanation": "Die Spielleitung entscheidet über das Lochergebnis. Ist die Vorgehensweise für den gewählten Ball nicht erlaubt, zählt das Ergebnis des anderen Balls, sofern dessen Vorgehensweise erlaubt war. Sind beide Vorgehensweisen unzulässig, gelten weitere Regeln; ein schwerwiegender Verstoß mit beiden Bällen kann zur Disqualifikation führen.",
+    "number": "R232",
+    "source": "Regel 20.1c(4) · Buchseite 197"
+  },
+  {
+    "coverageId": "23.2b(1)",
+    "section": "Regel 23.2b(1) – Scorekarte der Partei",
+    "question": "Welche Anforderung gilt für die Scorekarte einer Partei im Vierball-Zählspiel?",
+    "options": [
+      "Für jedes Loch muss mindestens ein Brutto-Ergebnis eines Partners eingetragen und jedes eingetragene Ergebnis dem Partner zugeordnet sein, der es gespielt hat.",
+      "Es dürfen nur Netto-Ergebnisse eingetragen werden.",
+      "Beide Partner müssen jedes Ergebnis auf der Scorekarte bestätigen.",
+      "Es reicht, wenn das Ergebnis der Partei eingetragen ist; der Partner muss nicht erkennbar sein."
+    ],
+    "correct": 0,
+    "explanation": "Für jedes Loch muss mindestens das Brutto-Ergebnis eines Partners auf der gemeinsamen Scorekarte stehen. Jedes eingetragene Ergebnis muss dem Partner zugeordnet sein, der es gespielt hat; fehlt die eindeutige Zuordnung, ist die Partei disqualifiziert. Nur ein Partner muss die Lochergebnisse bestätigen.",
+    "number": "R233",
+    "source": "Regel 23.2b(1) · Buchseite 217"
+  },
+  {
+    "coverageId": "23.2b(2)",
+    "section": "Regel 23.2b(2) – Spielleitung wertet Scorekarte",
+    "question": "Beide Partner tragen im Vierball-Zählspiel unterschiedliche Ergebnisse für ein Loch ein. Welches Ergebnis zählt für die Partei?",
+    "options": [
+      "Das höhere Ergebnis.",
+      "Der Durchschnitt beider Ergebnisse.",
+      "Das niedrigere Ergebnis; im Netto-Turnier wendet die Spielleitung außerdem die Handicaps an.",
+      "Nur das Ergebnis des Partners mit dem niedrigeren Handicap."
+    ],
+    "correct": 2,
+    "explanation": "Sind für ein Loch unterschiedliche Ergebnisse beider Partner angegeben, zählt das niedrigere Brutto- oder Netto-Ergebnis für die Partei. Die Spielleitung wendet in einem Netto-Turnier die Handicaps an. Bei gleichen Ergebnissen darf sie eines auswählen.",
+    "number": "R234",
+    "source": "Regel 23.2b(2) · Buchseite 217"
   }
 ]
 
