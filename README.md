@@ -1,6 +1,6 @@
 # PGA Prüfungstrainer
 
-Web-App-Version **2.4**. Der Regelfragenpool enthält 257 Fragen; der Bereich PGA/Golftechnik enthält 167 Fragen einschließlich GOSSIP.
+Web-App-Version **2.5**. Der Regelfragenpool enthält 257 Fragen; der Bereich PGA/Golftechnik enthält 167 Fragen einschließlich GOSSIP.
 
 Die App zeigt beim Öffnen eine Passwortabfrage. Sie blendet nur die Oberfläche aus; Dateien im öffentlichen Repository bleiben abrufbar.
 
