@@ -1,6 +1,6 @@
 PGA-PRÜFUNGSTRAINER – WEB-VERSION
 
-Version 2.2: Diese statische Web-App enthält 167 PGA-Golftechnikfragen einschließlich der GOSSIP-Zusatzfrage und 234 Regelfragen: 46 bisherige Regelfragen, 22 markierte Ergänzungen zu den 2023-Änderungen, 74 Definitionsfragen, 60 weitere Fragen zu Regelabschnitten und 32 Fragen zu zuvor nicht verknüpften nummerierten Unterpunkten. Sie benötigt keinen Servercode. Offline-Cache und Web-App-Manifest sind enthalten. Die R&A-Quizseite ist englischsprachig; die Links zu offiziellen Golfregeln und Definitionen führen zur deutschen Fassung.
+Version 2.3: Diese statische Web-App enthält 167 PGA-Golftechnikfragen einschließlich der GOSSIP-Zusatzfrage und 246 Regelfragen: 46 bisherige Regelfragen, 22 markierte Ergänzungen zu den 2023-Änderungen, 74 Definitionsfragen, 60 weitere Fragen zu Regelabschnitten und 44 Fragen zu nummerierten Unterpunkten, darunter 12 neue Direktfragen. Sie benötigt keinen Servercode. Offline-Cache und Web-App-Manifest sind enthalten. Die R&A-Quizseite ist englischsprachig; die Links zu offiziellen Golfregeln und Definitionen führen zur deutschen Fassung.
 
 VERÖFFENTLICHUNG
 Lade den gesamten Inhalt dieses Ordners in ein statisches HTTPS-Webhosting hoch. Die Startseite ist index.html. Danach kann die Adresse auf einem iPhone in Safari geöffnet und über „Teilen“ > „Zum Home-Bildschirm“ hinzugefügt werden.
