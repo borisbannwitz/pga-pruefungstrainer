@@ -4943,5 +4943,650 @@
     "correct": 1,
     "explanation": "Stableford-Punkte werden je Loch vergeben, indem die gespielten Schläge einschließlich Strafschlägen mit einem von der Spielleitung festgelegten Zielergebnis verglichen werden. Dieses Ziel ist Par, sofern die Spielleitung kein anderes bestimmt.",
     "source": "Regel 21.1b(1) · Buchseite 204"
+  },
+  {
+    "number": "R322",
+    "section": "Regel 4 – Ausrüstung des Spielers",
+    "coverageId": "4.1a(1)",
+    "question": "Ein regelkonformer Schläger verändert seine Spieleigenschaften durch normale Abnutzung im Spielgebrauch. Was gilt?",
+    "options": [
+      "Der Schläger bleibt regelkonform.",
+      "Der Spieler darf ihn nur noch für Putts verwenden.",
+      "Der Spieler muss ihn vor dem nächsten Schlag ersetzen.",
+      "Der Schläger ist automatisch nicht mehr regelkonform, sobald sich eine Spieleigenschaft verändert."
+    ],
+    "correct": 0,
+    "explanation": "Verändern sich die Spieleigenschaften eines regelkonformen Schlägers durch normale Abnutzung im Spielgebrauch, bleibt der Schläger regelkonform. Eine absichtliche Veränderung während der Runde wird dagegen von Regel 4.1a(3) erfasst.",
+    "source": "Regel 4.1a(1) · Buchseite 43"
+  },
+  {
+    "number": "R323",
+    "section": "Regel 4 – Ausrüstung des Spielers",
+    "coverageId": "4.2a(1)",
+    "question": "Welche Anforderung gilt für den Ball, den ein Spieler während der Runde schlägt?",
+    "options": [
+      "Nur der Ball beim Abschlag muss zugelassen sein.",
+      "Bei jedem Schlag muss der Spieler einen zugelassenen Ball verwenden; er darf einen solchen Ball auch von einer anderen Person erhalten.",
+      "Ein zugelassener Ball darf nur verwendet werden, wenn der Spieler ihn vor der Runde selbst gekauft hat.",
+      "Im Bunker darf der Spieler jeden beliebigen Ball verwenden."
+    ],
+    "correct": 1,
+    "explanation": "Bei jedem Schlag muss ein Ball verwendet werden, der den Anforderungen der Ausrüstungsregeln entspricht. Der Spieler darf einen regelkonformen Ball auch von einer anderen Person entgegennehmen.",
+    "source": "Regel 4.2a(1) · Buchseite 49"
+  },
+  {
+    "number": "R324",
+    "section": "Regel 8 – Platz spielen, wie er vorgefunden wird",
+    "coverageId": "8.1d(1)",
+    "question": "Nachdem der Ball zur Ruhe gekommen ist, verschlechtert ein anderer Spieler ohne Auftrag oder Ermächtigung des Spielers die Bedingungen, die den nächsten Schlag beeinflussen. Was darf der Spieler grundsätzlich tun?",
+    "options": [
+      "Er muss die verschlechterten Bedingungen hinnehmen, auch wenn er sie wiederherstellen könnte.",
+      "Er darf nur mit einem Strafschlag einen anderen Ball einsetzen.",
+      "Er darf die ursprünglichen Bedingungen so gut wie möglich straflos wiederherstellen.",
+      "Er darf die Bedingungen beliebig verbessern, auch über den ursprünglichen Zustand hinaus."
+    ],
+    "correct": 2,
+    "explanation": "Wurden die Bedingungen nach dem Zur-Ruhe-Kommen des Balls durch eine andere Person oder ein Tier verschlechtert, darf der Spieler die ursprünglichen Bedingungen so gut wie möglich straflos wiederherstellen. Je nach Lage darf er den Ball auch markieren, aufnehmen und zurücklegen oder an einer passenden Stelle platzieren.",
+    "source": "Regel 8.1d(1) · Buchseite 85"
+  },
+  {
+    "number": "R325",
+    "section": "Regel 10 – Vorbereitung und Ausführung eines Schlags; Beratung",
+    "coverageId": "10.2b(5)",
+    "question": "Ein Caddie hält während des Schlags absichtlich einen Schirm so, dass er den Spieler vor Regen schützt. Was gilt?",
+    "options": [
+      "Das ist erlaubt, sobald der Ball auf dem Fairway liegt.",
+      "Das ist erlaubt, wenn der Caddie den Schirm nicht auf der Spiellinie hält.",
+      "Das ist nur im Lochspiel verboten.",
+      "Der Spieler darf den Schlag so nicht ausführen; er darf sich aber selbst etwa mit einem eigenen Schirm schützen."
+    ],
+    "correct": 3,
+    "explanation": "Ein Spieler darf keinen Schlag mit körperlicher Unterstützung ausführen oder wenn eine Person absichtlich positioniert wurde, um ihn vor Wettereinflüssen zu schützen. Der Spieler darf sich selbst schützen, etwa indem er einen eigenen Schirm hält.",
+    "source": "Regel 10.2b(5) · Buchseite 100"
+  },
+  {
+    "number": "R326",
+    "section": "Regel 10 – Caddies",
+    "coverageId": "10.3a(1)",
+    "question": "Wie viele Caddies darf ein Spieler grundsätzlich gleichzeitig haben?",
+    "options": [
+      "Beliebig viele, sofern sie abwechselnd beraten.",
+      "Höchstens einen; die besondere Möglichkeit, einen Caddie mit einem anderen Spieler zu teilen, ist in einer eigenen Regel geregelt.",
+      "Höchstens zwei, wenn beide nur die Schläger tragen.",
+      "Nur im Lochspiel einen; im Zählspiel darf der Spieler mehrere haben."
+    ],
+    "correct": 1,
+    "explanation": "Ein Spieler darf grundsätzlich jeweils nur einen Caddie haben. Die eng begrenzte Möglichkeit, dass zwei Spieler denselben Caddie teilen, ist in Regel 10.3a(2) gesondert geregelt.",
+    "source": "Regel 10.3a(1) · Buchseite 101"
+  },
+  {
+    "number": "R327",
+    "section": "Regel 13 – Grüns",
+    "coverageId": "13.1c(1)",
+    "question": "Darf ein Spieler Sand oder loses Erdreich auf dem Grün entfernen, wenn sein eigener Ball nicht auf dem Grün liegt?",
+    "options": [
+      "Ja, Sand und loses Erdreich auf dem Grün dürfen straflos entfernt werden, unabhängig davon, wo der Ball liegt.",
+      "Nein, das ist nur erlaubt, wenn der eigene Ball auf dem Grün liegt.",
+      "Nur mit Zustimmung des Zählers und ohne Berührung des Grüns.",
+      "Nur wenn der Sand durch den Spieler selbst dorthin gebracht wurde."
+    ],
+    "correct": 0,
+    "explanation": "Während der Runde darf der Spieler Sand und loses Erdreich auf dem Grün straflos entfernen, gleich ob sein Ball auf dem Grün oder außerhalb liegt.",
+    "source": "Regel 13.1c(1) · Buchseite 117"
+  },
+  {
+    "number": "R328",
+    "section": "Regel 8 – Platz spielen, wie er vorgefunden wird",
+    "coverageId": "8.1d(2)",
+    "question": "Wind verschlechtert nach dem Zur-Ruhe-Kommen des Balls die Bedingungen, die den Schlag beeinflussen. Darf der Spieler sie wieder verbessern?",
+    "options": [
+      "Ja, wenn er die ursprünglichen Bedingungen genau wiederherstellt.",
+      "Ja, aber nur nach Zustimmung des Zählers.",
+      "Ja, sofern der Ball nicht bewegt wurde.",
+      "Nein. Bedingungen, die durch Naturkräfte verschlechtert wurden, darf der Spieler grundsätzlich nicht wieder verbessern."
+    ],
+    "correct": 3,
+    "explanation": "Regel 8.1d(2) verbietet grundsätzlich, verschlechterte Bedingungen wieder zu verbessern, wenn sie durch den Spieler oder seinen Caddie, eine vom Spieler ermächtigte Person oder Naturkräfte verschlechtert wurden. Für Verschlechterungen durch andere Personen oder Tiere gelten die Wiederherstellungsmöglichkeiten aus Regel 8.1d(1).",
+    "source": "Regel 8.1d(2) · Buchseite 85"
+  },
+  {
+    "number": "R329",
+    "section": "Regel 16 – Erleichterung bei ungewöhnlichen Platzverhältnissen",
+    "coverageId": "16.2b(1)",
+    "question": "Ein gefährliches Tier befindet sich nahe am Ball oder im Raum des beabsichtigten Stands oder Schwungs; der Ball liegt außerhalb einer Penalty Area. Welche Erleichterung kann grundsätzlich in Betracht kommen?",
+    "options": [
+      "Nur Erleichterung mit einem Strafschlag nach Regel 17.",
+      "Keine Erleichterung, solange das Tier den Ball nicht berührt.",
+      "Straflose Erleichterung nach der passenden Regel 16.1, abhängig davon, ob der Ball im Gelände, im Bunker oder auf dem Grün liegt.",
+      "Der Spieler darf den Ball straflos an eine beliebige Stelle legen."
+    ],
+    "correct": 2,
+    "explanation": "Liegt der Ball außerhalb einer Penalty Area und besteht eine Beeinträchtigung durch ein gefährliches Tier, darf der Spieler straflose Erleichterung nach Regel 16.1b, c oder d nehmen. Welche davon gilt, hängt vom Bereich des Platzes ab, in dem der Ball liegt.",
+    "source": "Regel 16.2b(1) · Buchseite 163"
+  },
+  {
+    "number": "R330",
+    "section": "Regel 21 – Andere Formen des Einzel-Zählspiels und -Lochspiels",
+    "coverageId": "21.1b(2)",
+    "question": "Ein Spieler beendet ein Stableford-Loch, ohne regelgerecht einzulochen. Was darf auf der Scorekarte für dieses Loch eingetragen werden?",
+    "options": [
+      "Nur die tatsächliche Schlagzahl; ein Loch darf nie leer bleiben.",
+      "Kein Ergebnis oder ein Ergebnis, das keine Stableford-Punkte ergibt.",
+      "Automatisch das Ergebnis von Doppelbogey.",
+      "Die Spielleitung muss das Loch als geteilt eintragen."
+    ],
+    "correct": 1,
+    "explanation": "Wird ein Stableford-Loch beendet, ohne dass der Spieler regelgerecht eingelocht hat, darf die Scorekarte für dieses Loch leer bleiben oder ein Ergebnis ausweisen, das keine Punkte ergibt. Die Spielleitung ermittelt die Punkte für jedes Loch.",
+    "source": "Regel 21.1b(2) · Buchseite 205"
+  },
+  {
+    "number": "R331",
+    "section": "Regel 23 – Vierball",
+    "coverageId": "23.9b(1)",
+    "question": "Im Vierball wird ein Partner disqualifiziert, weil er einen Ball gespielt hat, der nicht den Ausrüstungsregeln entspricht. Was gilt grundsätzlich für die Partei?",
+    "options": [
+      "Nur das Ergebnis dieses Partners wird gestrichen; der andere Partner darf allein weiterspielen.",
+      "Die Partei erhält zwei Strafschläge, kann das Loch aber beenden.",
+      "Die Partei ist ebenfalls disqualifiziert.",
+      "Die Disqualifikation gilt nur, wenn beide Partner den Ball gespielt haben."
+    ],
+    "correct": 2,
+    "explanation": "Wird ein Partner nach Regel 4.2a disqualifiziert, ist nach Regel 23.9b(1) auch die Partei disqualifiziert.",
+    "source": "Regel 23.9b(1) · Buchseite 222"
+  },
+  {
+    "number": "R332",
+    "section": "Regel 4 – Ausrüstung des Spielers",
+    "coverageId": "4.2c(1)",
+    "question": "Ein Spieler hat einen nachvollziehbaren Grund zu glauben, dass sein Ball während des Lochs eingekerbt wurde. Was muss er beim Prüfen beachten?",
+    "options": [
+      "Er darf den Ball aufnehmen, muss aber vorher seine Lage markieren und darf ihn grundsätzlich nicht reinigen.",
+      "Er darf den Ball ohne Markieren aufnehmen und reinigen, wenn er ihn danach zurücklegt.",
+      "Er muss vor dem Aufnehmen die Zustimmung des Gegners oder Zählers einholen.",
+      "Er darf den Ball nur prüfen, wenn ein Referee die Beschädigung bereits bestätigt hat."
+    ],
+    "correct": 0,
+    "explanation": "Bei nachvollziehbarem Grund darf der Spieler den Ball aufnehmen, um ihn zu prüfen. Er muss vorher die Lage markieren und darf den Ball dabei nicht reinigen, außer auf dem Grün. Ohne nachvollziehbaren Grund oder ohne erforderliche Markierung kann eine Strafe anfallen.",
+    "source": "Regel 4.2c(1) · Buchseite 49"
+  },
+  {
+    "number": "R333",
+    "section": "Regel 8 – Platz spielen, wie er vorgefunden wird",
+    "coverageId": "8.1c(2)",
+    "question": "Ein Spieler legt ein Handtuch auf den Boden und verbessert dadurch einen Bereich, der seinen Stand beeinflusst. Was kann er vor dem Schlag tun, um die Strafe zu vermeiden?",
+    "options": [
+      "Er muss den Bereich mit einem anderen Gegenstand abdecken.",
+      "Er muss den Gegenstand entfernen, der an die Stelle gelegt wurde.",
+      "Er darf das Handtuch liegen lassen, wenn es nicht direkt am Ball liegt.",
+      "Er kann die Strafe nur durch einen Strafschlag vermeiden."
+    ],
+    "correct": 1,
+    "explanation": "Wurde eine Bedingung durch das Legen eines Gegenstands verbessert, kann der Spieler die Strafe nach Regel 8.1a(2) vermeiden, indem er den Gegenstand vor dem Schlag entfernt.",
+    "source": "Regel 8.1c(2) · Buchseite 85"
+  },
+  {
+    "number": "R334",
+    "section": "Regel 10 – Caddies",
+    "coverageId": "10.3a(2)",
+    "question": "Zwei Spieler teilen sich einen Caddie. Der Caddie handelt auf ausdrückliche Anweisung eines der beiden Spieler. Wem wird diese Handlung zugeschrieben?",
+    "options": [
+      "Immer beiden Spielern gemeinsam.",
+      "Dem Spieler, dessen Ball dem Loch am nächsten liegt.",
+      "Dem Spieler, der die ausdrückliche Anweisung gegeben hat.",
+      "Nur dem Caddie; keinem Spieler."
+    ],
+    "correct": 2,
+    "explanation": "Teilen sich mehrere Spieler einen Caddie, wird eine Handlung, die dieser auf bestimmte Anweisung eines Spielers ausführt, diesem Spieler zugeschrieben.",
+    "source": "Regel 10.3a(2) · Buchseite 101"
+  },
+  {
+    "number": "R335",
+    "section": "Regel 14 – Verfahren für den Ball",
+    "coverageId": "14.5b(1)",
+    "question": "Ein Spieler hat nach einer anwendbaren Erleichterungsregel den richtigen Erleichterungsbereich gewählt, den Ball dort aber falsch gedroppt. Was muss er beim Berichtigen tun?",
+    "options": [
+      "Er darf eine beliebige andere Erleichterungsregel wählen.",
+      "Er muss den Ball von der Stelle des vorherigen Schlags spielen.",
+      "Er darf stattdessen den Ball am falschen Ort spielen, ohne die Regel zu berichtigen.",
+      "Er muss dieselbe Regel und dieselbe Erleichterungsmöglichkeit weiter anwenden."
+    ],
+    "correct": 3,
+    "explanation": "Wenn der Ball nach einer anwendbaren Regel ins Spiel gebracht und im richtigen Erleichterungsbereich gedroppt oder gelegt wurde, aber erneut gedroppt oder gelegt werden muss, bleibt der Spieler beim Berichtigen an dieselbe Regel und dieselbe Erleichterungsmöglichkeit gebunden.",
+    "source": "Regel 14.5b(1) · Buchseite 140"
+  },
+  {
+    "number": "R336",
+    "section": "Regel 15 – Erleichterung von beweglichen Hemmnissen",
+    "coverageId": "15.2a(1)",
+    "question": "Beim Entfernen eines beweglichen Hemmnisses bewegt sich versehentlich der Ball des Spielers. Was gilt?",
+    "options": [
+      "Es ist straflos; der Ball muss an seine ursprüngliche Stelle zurückgelegt werden.",
+      "Der Spieler erhält einen Strafschlag und spielt den Ball von der neuen Stelle.",
+      "Der Spieler erhält die Grundstrafe und muss einen anderen Ball einsetzen.",
+      "Der Ball wird gespielt, wie er liegt, sofern er nicht näher zum Loch liegt."
+    ],
+    "correct": 0,
+    "explanation": "Bewegt sich der Ball beim Entfernen eines beweglichen Hemmnisses, ist dies straflos. Der Ball muss an seine ursprüngliche Stelle zurückgelegt werden; ist sie unbekannt, wird sie geschätzt.",
+    "source": "Regel 15.2a(1) · Buchseite 149"
+  },
+  {
+    "number": "R337",
+    "section": "Regel 15 – Erleichterung von beweglichen Hemmnissen",
+    "coverageId": "15.2a(3)",
+    "question": "Der Ball liegt auf dem Grün auf einem beweglichen Hemmnis. Wie wird der Ball nach dem Entfernen des Hemmnisses wieder ins Spiel gebracht?",
+    "options": [
+      "Der Spieler droppt den Ball innerhalb einer Schlägerlänge.",
+      "Der Spieler legt den ursprünglichen oder einen anderen Ball genau an die geschätzte Stelle direkt unter der Stelle, an der der Ball auf dem Hemmnis lag.",
+      "Der Spieler droppt den Ball auf der Bezugslinie hinter dem Hemmnis.",
+      "Der Spieler muss den Ball an die Stelle des vorherigen Schlags zurücklegen."
+    ],
+    "correct": 1,
+    "explanation": "Liegt der Ball auf dem Grün in oder auf einem beweglichen Hemmnis, wird nach Entfernen des Hemmnisses der ursprüngliche oder ein anderer Ball an die geschätzte Stelle direkt darunter gelegt; er wird nicht gedroppt.",
+    "source": "Regel 15.2a(3) · Buchseite 151"
+  },
+  {
+    "number": "R338",
+    "section": "Regel 16 – Erleichterung bei ungewöhnlichen Platzverhältnissen",
+    "coverageId": "16.3a(2)",
+    "question": "Wann gilt ein Ball nach Regel 16.3a(2) als eingebettet?",
+    "options": [
+      "Wenn er in irgendeinem Loch im Boden liegt und teilweise bedeckt ist.",
+      "Wenn er durch Wind oder einen Tritt unter die Bodenoberfläche gedrückt wurde.",
+      "Wenn er infolge des vorherigen Schlags des Spielers in seinem eigenen Einschlagloch liegt und teilweise unter der Bodenoberfläche ist.",
+      "Wenn er in einem Einschlagloch eines anderen Balls zur Ruhe gekommen ist."
+    ],
+    "correct": 2,
+    "explanation": "Ein Ball gilt nur dann als eingebettet, wenn er infolge des vorherigen Schlags des Spielers in seinem eigenen Einschlagloch liegt und teilweise unter der Bodenoberfläche ist. Für die Einschätzung gelten die in Regel 16.3a(2) beschriebenen Sonderfälle.",
+    "source": "Regel 16.3a(2) · Buchseite 164"
+  },
+  {
+    "number": "R339",
+    "section": "Regel 21 – Andere Formen des Einzel-Zählspiels und -Lochspiels",
+    "coverageId": "21.3b(1)",
+    "question": "Wie wird im Par-/Bogey-Zählspiel ein Loch gewertet, wenn das Ergebnis des Spielers mit dem von der Spielleitung festgelegten Zielergebnis übereinstimmt?",
+    "options": [
+      "Der Spieler gewinnt das Loch.",
+      "Der Spieler verliert das Loch.",
+      "Das Loch wird aus der Wertung genommen.",
+      "Das Loch ist geteilt."
+    ],
+    "correct": 3,
+    "explanation": "Bei Par/Bogey entspricht die Zählweise der im Lochspiel: Ein niedrigeres Ergebnis als das festgelegte Ziel gewinnt das Loch, ein höheres verliert es, und ein gleiches Ergebnis teilt das Loch.",
+    "source": "Regel 21.3b(1) · Buchseite 209"
+  },
+  {
+    "number": "R340",
+    "section": "Regel 23 – Vierball",
+    "coverageId": "23.9a(1)",
+    "question": "Ein Spieler in einem Vierball zieht sich eine andere als die Disqualifikationsstrafe zu. Was gilt nach dem Grundsatz von Regel 23.9a(1) für seinen Partner?",
+    "options": [
+      "Die Strafe gilt grundsätzlich nur für den Spieler; die in Regel 23.9a(2) genannten Ausnahmen bleiben zu beachten.",
+      "Der Partner erhält automatisch dieselbe Strafe.",
+      "Die Partei wird immer disqualifiziert.",
+      "Der Partner erhält die Strafe nur dann, wenn er das Loch bereits beendet hat."
+    ],
+    "correct": 0,
+    "explanation": "Eine andere als die Disqualifikationsstrafe gilt im Vierball grundsätzlich nur für den Spieler, der sie sich zugezogen hat. Regel 23.9a(2) nennt Fälle, in denen sie auch für den Partner gilt.",
+    "source": "Regel 23.9a(1) · Buchseite 221"
+  },
+  {
+    "number": "R341",
+    "section": "Regel 3 – Wettspiel",
+    "coverageId": "3.1a(1)",
+    "question": "Wie unterscheiden sich Lochspiel und die Grundform des Zählspiels nach Regel 3.1a(1)?",
+    "options": [
+      "Im Lochspiel zählt die Gesamtzahl aller Schläge; im Zählspiel werden nur gewonnene Löcher verglichen.",
+      "Im Lochspiel werden Handicapschläge addiert; im Zählspiel spielen alle mit Bruttoergebnis.",
+      "Beide Spielformen werden ausschließlich nach der Gesamtzahl der Birdies entschieden.",
+      "Im Lochspiel treten Spieler Loch für Loch gegeneinander an; in der Grundform des Zählspiels zählt die Summe aller Schläge einschließlich Strafschlägen."
+    ],
+    "correct": 3,
+    "explanation": "Im Lochspiel entscheidet der Vergleich gewonnener, verlorener oder geteilter Löcher zwischen Spieler und Gegner. In der Grundform des Zählspiels treten alle gegeneinander an; maßgeblich ist die Gesamtschlagzahl einschließlich Strafschlägen.",
+    "source": "Regel 3.1a(1) · Buchseite 32"
+  },
+  {
+    "number": "R342",
+    "section": "Regel 3 – Wettspiel",
+    "coverageId": "3.1a(2)",
+    "question": "Welche Spielformen nennt Regel 3.1a(2) als andere Formen des Zählspiels, die in Regel 21 behandelt werden?",
+    "options": [
+      "Stableford, Maximum Score und Par/Bogey.",
+      "Vierer, Vierball und Dreiball.",
+      "Lochspiel, Netto-Zählspiel und Mannschafts-Lochspiel.",
+      "Scramble, Bestball und Texas Scramble."
+    ],
+    "correct": 0,
+    "explanation": "Regel 21 behandelt Stableford, Maximum Score und Par/Bogey als andere Formen des Zählspiels. Dafür gelten die Regeln 1–20 mit den in Regel 21 genannten Änderungen.",
+    "source": "Regel 3.1a(2) · Buchseite 32"
+  },
+  {
+    "number": "R343",
+    "section": "Regel 3 – Wettspiel",
+    "coverageId": "3.1c(1)",
+    "question": "Wie wird das Bruttoergebnis eines Spielers an einem Loch oder auf einer Runde berechnet?",
+    "options": [
+      "Als Gesamtzahl der ausgeführten Schläge abzüglich der Handicapschläge.",
+      "Als Gesamtzahl der ausgeführten Schläge zuzüglich Strafschlägen; das Handicap wird nicht angerechnet.",
+      "Nur aus den ausgeführten Schlägen, ohne Strafschläge.",
+      "Als Vergleich der Schlagzahl mit Par, unabhängig von Strafschlägen."
+    ],
+    "correct": 1,
+    "explanation": "Das Bruttoergebnis umfasst die ausgeführten Schläge und Strafschläge. Das Handicap des Spielers wird dabei nicht angerechnet.",
+    "source": "Regel 3.1c(1) · Buchseite 33"
+  },
+  {
+    "number": "R344",
+    "section": "Regel 3 – Wettspiel",
+    "coverageId": "3.1c(2)",
+    "question": "Wie entsteht das Nettoergebnis eines Spielers in einem Netto-Turnier?",
+    "options": [
+      "Aus dem Bruttoergebnis zuzüglich der Handicapschläge.",
+      "Aus der Zahl der gewonnenen Löcher abzüglich des Handicaps.",
+      "Aus dem Bruttoergebnis, bereinigt um die Handicapschläge des Spielers.",
+      "Aus dem Bruttoergebnis ohne Strafschläge."
+    ],
+    "correct": 2,
+    "explanation": "Das Nettoergebnis eines Spielers an einem Loch oder auf einer Runde entspricht dem Bruttoergebnis, bereinigt um seine Handicapschläge.",
+    "source": "Regel 3.1c(2) · Buchseite 33"
+  },
+  {
+    "number": "R345",
+    "section": "Regel 4 – Ausrüstung des Spielers",
+    "coverageId": "4.1c(1)",
+    "question": "Während der Runde bemerkt ein Spieler, dass er gegen die Höchstzahl von 14 Schlägern verstoßen hat. Was muss er tun, bevor er den nächsten Schlag ausführt?",
+    "options": [
+      "Er darf bis zum Ende des Lochs warten und danach den Schläger abgeben.",
+      "Er muss nur den Gegner fragen, welcher Schläger abgegeben werden soll.",
+      "Er kann den Verstoß durch einen Strafschlag ausgleichen und alle Schläger behalten.",
+      "Er muss klar mitteilen oder durch eine eindeutige Handlung zeigen, welche Schläger er für den Rest der Runde aus dem Spiel nimmt."
+    ],
+    "correct": 3,
+    "explanation": "Wird sich der Spieler während der Runde eines Verstoßes gegen Regel 4.1b bewusst, muss er vor seinem nächsten Schlag deutlich machen, welche Schläger für den Rest der Runde aus dem Spiel genommen werden. Mit diesen Schlägern darf er danach nicht mehr schlagen.",
+    "source": "Regel 4.1c(1) · Buchseite 48"
+  },
+  {
+    "number": "R346",
+    "section": "Regel 4 – Ausrüstung des Spielers",
+    "coverageId": "4.1c(2)",
+    "question": "Ein Spieler bemerkt kurz vor der Runde versehentlich 15 Schläger in seiner Tasche. Welche straflose Möglichkeit nennt Regel 4.1c(2)?",
+    "options": [
+      "Er kann vor Beginn den überzähligen Schläger als aus dem Spiel genommen erklären und ihn behalten, darf ihn während der Runde aber nicht benutzen.",
+      "Er darf mit 15 Schlägern starten, wenn er den überzähligen Schläger nicht auf dem ersten Loch verwendet.",
+      "Er muss den überzähligen Schläger vor der Runde zerstören.",
+      "Er kann den überzähligen Schläger nach dem ersten Abschlag ohne weitere Erklärung abgeben."
+    ],
+    "correct": 0,
+    "explanation": "Wird die versehentliche Überschreitung kurz vor dem Start bemerkt, kann der Spieler vor Beginn der Runde jeden überzähligen Schläger nach dem Verfahren aus Regel 4.1c(1) aus dem Spiel nehmen und ihn behalten, aber nicht benutzen.",
+    "source": "Regel 4.1c(2) · Buchseite 48"
+  },
+  {
+    "number": "R347",
+    "section": "Regel 10 – Caddies",
+    "coverageId": "10.3b(1)",
+    "question": "Welche Kombination nennt Regel 10.3b(1) als Handlungen, die ein Caddie stets ausführen darf, sofern die übrigen Regeln es gestatten?",
+    "options": [
+      "Für den Spieler entscheiden, ob er Erleichterung nimmt, und den Ball für ihn droppen.",
+      "Dem Gegner im Lochspiel einen Schlag schenken und den Spielstand festlegen.",
+      "Schläger tragen oder handhaben, den Ball suchen und vor dem Schlag zulässige Beratung geben.",
+      "Jeden Ball des Spielers ohne Erlaubnis aufnehmen und reinigen."
+    ],
+    "correct": 2,
+    "explanation": "Zu den stets erlaubten Handlungen gehören, soweit die Regeln dies gestatten, Ausrüstung zu tragen oder zu handhaben, den Ball zu suchen und vor dem Schlag Auskunft, Beratung oder andere Hilfe zu geben.",
+    "source": "Regel 10.3b(1) · Buchseite 102"
+  },
+  {
+    "number": "R348",
+    "section": "Regel 10 – Caddies",
+    "coverageId": "10.3b(3)",
+    "question": "Der Caddie möchte anstelle des Spielers entscheiden, ob dieser Erleichterung in Anspruch nimmt. Was gilt?",
+    "options": [
+      "Der Caddie darf entscheiden, wenn er die Regel besser kennt.",
+      "Der Caddie darf dazu raten, aber die Entscheidung muss der Spieler selbst treffen.",
+      "Der Caddie darf die Erleichterung selbst wählen, sofern der Spieler zustimmt.",
+      "Nur im Zählspiel muss der Spieler selbst entscheiden."
+    ],
+    "correct": 1,
+    "explanation": "Ein Caddie darf für den Spieler nicht entscheiden, ob dieser nach einer Regel Erleichterung in Anspruch nimmt. Er darf es empfehlen; entscheiden muss der Spieler selbst.",
+    "source": "Regel 10.3b(3) · Buchseite 103"
+  },
+  {
+    "number": "R349",
+    "section": "Regel 14 – Verfahren für den Ball",
+    "coverageId": "14.5b(3)",
+    "question": "Ein Spieler hat den Ball nach einer Regel ins Spiel gebracht, die auf seine Situation nicht anwendbar war. Welche Möglichkeit hat er beim Berichtigen des Fehlers?",
+    "options": [
+      "Er muss genau dieselbe Regel und dieselbe Erleichterungsmöglichkeit erneut anwenden.",
+      "Er darf den Ball nur an die Stelle des letzten Schlags zurücklegen.",
+      "Er muss den Ball spielen, wie er liegt; eine Berichtigung ist ausgeschlossen.",
+      "Er darf nach jeder Regel vorgehen, die tatsächlich auf seinen Fall anwendbar ist."
+    ],
+    "correct": 3,
+    "explanation": "Wurde der Ball nach einer nicht anwendbaren Regel ins Spiel gebracht, darf der Spieler den Fehler vor dem nächsten Schlag berichtigen und dabei jede Regel anwenden, die auf seinen Fall zutrifft.",
+    "source": "Regel 14.5b(3) · Buchseite 141"
+  },
+  {
+    "number": "R350",
+    "section": "Regel 15 – Erleichterung von losen hinderlichen Naturstoffen und Hemmnissen",
+    "coverageId": "15.3b(1)",
+    "question": "Wann liegt nach Regel 15.3b(1) eine Störung durch den ruhenden Ball eines anderen Spielers vor?",
+    "options": [
+      "Wenn der Ball den Raum des beabsichtigten Stands oder Schwungs stören könnte, auf oder nahe der Spiellinie liegt und wahrscheinlich getroffen würde oder den Spieler beim Schlag ablenken könnte.",
+      "Nur wenn der Ball eines anderen Spielers unmittelbar vor dem eigenen Ball liegt.",
+      "Immer dann, wenn der Ball eines anderen Spielers im gleichen Platzbereich liegt.",
+      "Nur wenn beide Bälle auf dem Grün liegen und höchstens eine Putterlänge auseinanderliegen."
+    ],
+    "correct": 0,
+    "explanation": "Eine Störung kann durch Beeinträchtigung des beabsichtigten Stands oder Schwungs, durch einen Ball auf oder nahe der Spiellinie mit wahrscheinlicher Treffergefahr oder durch Ablenkung beim Schlag entstehen.",
+    "source": "Regel 15.3b(1) · Buchseite 153"
+  },
+  {
+    "number": "R351",
+    "section": "Regel 16 – Erleichterung bei ungewöhnlichen Platzverhältnissen",
+    "coverageId": "16.2b(2)",
+    "question": "Der Ball liegt in einer Penalty Area und gefährliche Tiere beeinträchtigen den Spieler. Welche straflose Erleichterung ist grundsätzlich möglich?",
+    "options": [
+      "Der Spieler muss mit Strafschlag außerhalb der Penalty Area droppen.",
+      "Der Spieler darf straflos nach Regel 16.1b Erleichterung nehmen; Bezugspunkt und Erleichterungsbereich müssen innerhalb der Penalty Area liegen.",
+      "Der Spieler darf straflos an jeder beliebigen Stelle außerhalb der Penalty Area droppen.",
+      "In einer Penalty Area gibt es bei gefährlichen Tieren nie Erleichterung."
+    ],
+    "correct": 1,
+    "explanation": "Bei Beeinträchtigung durch gefährliche Tiere in einer Penalty Area kann der Spieler straflos nach Regel 16.1b Erleichterung nehmen. Der nächstgelegene Punkt vollständiger Erleichterung und der Erleichterungsbereich müssen innerhalb der Penalty Area liegen; eine Erleichterung mit Strafschlag nach Regel 17.1d ist ebenfalls möglich.",
+    "source": "Regel 16.2b(2) · Buchseite 163"
+  },
+  {
+    "number": "R352",
+    "section": "Regel 16 – Erleichterung bei ungewöhnlichen Platzverhältnissen",
+    "coverageId": "16.2b(3)",
+    "question": "Ein gefährliches Tier beeinträchtigt den Spieler, aber der Ball liegt so in einem Busch, dass ein Schlag aus anderen Gründen eindeutig unvernünftig wäre. Was gilt?",
+    "options": [
+      "Der Spieler erhält stets straflose Erleichterung, sobald ein Tier in der Nähe ist.",
+      "Der Spieler darf straflos außerhalb des Platzes droppen.",
+      "Regel 16.2 gewährt in dieser Lage keine straflose Erleichterung.",
+      "Der Spieler darf den Ball ohne Markierung an eine beliebige Stelle legen."
+    ],
+    "correct": 2,
+    "explanation": "Keine straflose Erleichterung wegen gefährlicher Tiere wird gewährt, wenn es aus anderen Gründen eindeutig unvernünftig wäre, den Ball zu spielen, wie er liegt, oder wenn die Beeinträchtigung nur durch eine eindeutig unvernünftige Wahl von Schläger, Stand, Schwung oder Spielrichtung entsteht.",
+    "source": "Regel 16.2b(3) · Buchseite 163"
+  },
+  {
+    "number": "R353",
+    "section": "Regel 21 – Andere Formen des Einzel-Zählspiels und -Lochspiels",
+    "coverageId": "21.2b(1)",
+    "question": "In einem Maximum-Score-Turnier beträgt der festgelegte Maximum Score 8. Ein Spieler erzielt tatsächlich 11 Schläge einschließlich Strafschlägen. Welches Ergebnis erhält er für das Loch?",
+    "options": [
+      "11 Schläge, weil im Zählspiel immer das tatsächliche Ergebnis zählt.",
+      "Kein Ergebnis und automatisch Disqualifikation.",
+      "7 Schläge, weil Strafschläge bei Maximum Score nicht zählen.",
+      "8 Schläge als Maximum Score."
+    ],
+    "correct": 3,
+    "explanation": "Das tatsächliche Ergebnis umfasst gespielte Schläge und Strafschläge. Im Maximum Score erhält der Spieler für das Loch jedoch höchstens den von der Spielleitung festgelegten Maximum Score.",
+    "source": "Regel 21.2b(1) · Buchseite 207"
+  },
+  {
+    "number": "R354",
+    "section": "Regel 21 – Andere Formen des Einzel-Zählspiels und -Lochspiels",
+    "coverageId": "21.2b(2)",
+    "question": "Im Maximum Score hat ein Spieler eingelocht und sein Ergebnis liegt über dem festgelegten Maximum. Was darf die Scorekarte für dieses Loch ausweisen?",
+    "options": [
+      "Kein Ergebnis oder ein Ergebnis, das gleich oder höher als der Maximum Score ist.",
+      "Nur das genaue tatsächliche Ergebnis; es darf nie leer bleiben.",
+      "Nur das Maximum Score, ohne Möglichkeit eines leeren Eintrags.",
+      "Ein Ergebnis unterhalb des Maximum Score."
+    ],
+    "correct": 0,
+    "explanation": "Wenn das Ergebnis nach dem Einlochen gleich oder höher als der Maximum Score ist, darf die Scorekarte für dieses Loch leer bleiben oder ein Ergebnis gleich oder höher als dem Maximum ausweisen. Die Spielleitung gleicht das Ergebnis auf den Maximum Score an.",
+    "source": "Regel 21.2b(2) · Buchseite 208"
+  },
+  {
+    "number": "R355",
+    "section": "Regel 21 – Andere Formen des Einzel-Zählspiels und -Lochspiels",
+    "coverageId": "21.3b(2)",
+    "question": "Ein Spieler verliert im Par-/Bogey-Zählspiel ein Loch. Was darf die Scorekarte für dieses Loch ausweisen?",
+    "options": [
+      "Nur das tatsächliche Ergebnis, selbst wenn er nicht eingelocht hat.",
+      "Kein Ergebnis oder ein Ergebnis, das zum Verlust des Lochs führt.",
+      "Nur ein Ergebnis, das dem festgesetzten Ziel entspricht.",
+      "Immer ein Ergebnis, das zum Gewinn des Lochs führt."
+    ],
+    "correct": 1,
+    "explanation": "Bei einem verlorenen Loch darf die Scorekarte leer bleiben oder ein Ergebnis ausweisen, das zum Lochverlust führt. Wird ein Loch gewonnen oder geteilt, muss das tatsächliche Ergebnis eingetragen werden.",
+    "source": "Regel 21.3b(2) · Buchseite 210"
+  },
+  {
+    "number": "R356",
+    "section": "Regel 11 – Ball in Bewegung",
+    "coverageId": "11.2c(1)",
+    "question": "Ein außerhalb des Grüns gespielter Ball wird absichtlich aufgehalten. Es ist bekannt, dass er ohne die Einwirkung im Gelände zur Ruhe gekommen wäre. Wie muss der Spieler weiterverfahren?",
+    "options": [
+      "Er spielt den Ball von der Stelle, an der er nach dem Aufhalten liegen blieb.",
+      "Er droppt den ursprünglichen oder einen anderen Ball innerhalb einer Schlägerlänge von der geschätzten Stelle, an der er zur Ruhe gekommen wäre, im selben Platzbereich und nicht näher zum Loch.",
+      "Er muss einen anderen Ball auf der Linie zum Loch droppen.",
+      "Er wiederholt den Schlag von der ursprünglichen Stelle und erhält einen Strafschlag."
+    ],
+    "correct": 1,
+    "explanation": "Bei einem Schlag von außerhalb des Grüns richtet sich die Erleichterung nach der geschätzten Stelle, an der der Ball ohne die absichtliche Einwirkung zur Ruhe gekommen wäre. Liegt dieser Punkt im Gelände, wird innerhalb einer Schlägerlänge gedroppt, im selben Platzbereich und nicht näher zum Loch.",
+    "source": "Regel 11.2c(1) · Buchseite 107"
+  },
+  {
+    "number": "R357",
+    "section": "Regel 11 – Ball in Bewegung",
+    "coverageId": "11.2c(2)",
+    "question": "Ein vom Grün gespielter Ball wird absichtlich aufgehalten. Was muss der Spieler nach Regel 11.2c(2) tun?",
+    "options": [
+      "Er darf den Ball straflos von der Stelle spielen, an der er zur Ruhe kam.",
+      "Er muss einen Ball innerhalb zweier Schlägerlängen vom Endpunkt droppen.",
+      "Er muss den Schlag vom ursprünglichen Ort mit dem ursprünglichen oder einem anderen Ball wiederholen.",
+      "Er erhält einen Strafschlag und muss den Ball an die Stelle des Aufhaltens legen."
+    ],
+    "correct": 2,
+    "explanation": "Wurde der Schlag auf dem Grün ausgeführt und der Ball absichtlich abgelenkt oder aufgehalten, muss der Spieler den Schlag von der Stelle wiederholen, von der er ausgeführt wurde. Spielt er stattdessen den Ball von seiner Ruhestelle, zieht er sich die Grundstrafe zu; der Schlag zählt dann.",
+    "source": "Regel 11.2c(2) · Buchseite 108"
+  },
+  {
+    "number": "R358",
+    "section": "Regel 20 – Klärung von Regelfragen während der Runde; Entscheidungen durch Referee und Spielleitung",
+    "coverageId": "20.2d(1)",
+    "question": "Eine Entscheidung eines Referees oder der Spielleitung stellt sich später als falsch heraus. Was gilt grundsätzlich?",
+    "options": [
+      "Die Entscheidung wird immer aufgehoben, auch wenn das Ergebnis des Turniers bereits endgültig ist.",
+      "Die Entscheidung bleibt stets bestehen, selbst wenn sie sofort berichtigt werden könnte.",
+      "Der Spieler muss unabhängig von der Entscheidung immer eine zusätzliche Strafe hinnehmen.",
+      "Die Entscheidung wird berichtigt, wenn dies nach den Regeln noch möglich ist; ist es zu spät, bleibt sie bestehen."
+    ],
+    "correct": 3,
+    "explanation": "Eine falsche Regelentscheidung wird berichtigt, wenn dies nach den Golfregeln noch möglich ist. Ist es dafür zu spät, hat die ursprüngliche Entscheidung Bestand.",
+    "source": "Regel 20.2d(1) · Buchseite 199"
+  },
+  {
+    "number": "R359",
+    "section": "Regel 20 – Klärung von Regelfragen während der Runde; Entscheidungen durch Referee und Spielleitung",
+    "coverageId": "20.2d(2)",
+    "question": "Gibt es eine zeitliche Grenze, um einen Verwaltungsfehler bei der Turnierdurchführung zu beheben?",
+    "options": [
+      "Nein. Ein Verwaltungsfehler kann auch noch behoben werden, nachdem ein Lochspielergebnis endgültig ist oder ein Zählspielturnier beendet wurde.",
+      "Ja, der Fehler kann nur bis zur Abgabe der Scorekarte berichtigt werden.",
+      "Ja, aber nur bis der erste Preis übergeben wurde.",
+      "Ja, Verwaltungsfehler können nur während der laufenden Runde berichtigt werden."
+    ],
+    "correct": 0,
+    "explanation": "Für die Behebung eines Verwaltungsfehlers bei der Durchführung eines Turniers gibt es keine zeitliche Beschränkung. Das gilt auch nach einem endgültigen Lochspielergebnis oder nach Beendigung eines Zählspielturniers.",
+    "source": "Regel 20.2d(2) · Buchseite 199"
+  },
+  {
+    "number": "R360",
+    "section": "Regel 20 – Klärung von Regelfragen während der Runde; Entscheidungen durch Referee und Spielleitung",
+    "coverageId": "20.2e(1)",
+    "question": "Das Ergebnis eines Lochspiels steht bereits fest. In welchem Fall kann ein Spieler nach Regel 20.2e(1) trotzdem noch disqualifiziert werden?",
+    "options": [
+      "Bei jedem versehentlichen Regelfehler, unabhängig von dessen Bedeutung.",
+      "Bei schwerwiegendem Fehlverhalten nach Regel 1.2 oder bei absichtlichem Außer-Acht-Lassen einer bekannten Regel oder Strafe nach Regel 1.3b(1).",
+      "Nur wenn der Gegner innerhalb von fünf Minuten Einspruch einlegt.",
+      "Nur wenn ein Referee den Fehler bereits während der Runde gesehen hat."
+    ],
+    "correct": 1,
+    "explanation": "Nach dem endgültigen Ergebnis eines Lochspiels gibt es keine zeitliche Beschränkung für eine Disqualifikation wegen schwerwiegenden Fehlverhaltens oder wegen absichtlichen Außer-Acht-Lassens einer bekannten anwendbaren Regel oder Strafe.",
+    "source": "Regel 20.2e(1) · Buchseite 200"
+  },
+  {
+    "number": "R361",
+    "section": "Regel 20 – Klärung von Regelfragen während der Runde; Entscheidungen durch Referee und Spielleitung",
+    "coverageId": "20.2e(2)",
+    "question": "Ein Zählspielturnier ist beendet. Später stellt sich heraus, dass ein Spieler eine Scorekarte mit einem niedrigeren Ergebnis als tatsächlich gespielt eingereicht hat. Welche Folge ist grundsätzlich möglich?",
+    "options": [
+      "Die Scorekarte darf nach Turnierende nie mehr geprüft werden.",
+      "Der Spieler erhält immer nur einen Strafschlag, auch wenn er ein niedrigeres Ergebnis eingetragen hat.",
+      "Der Spieler kann auch nach Turnierende noch disqualifiziert werden; eine Ausnahme gilt, wenn das niedrigere Ergebnis auf zuvor unbekannten Strafschlägen beruht.",
+      "Das Ergebnis wird automatisch in das Maximum Score geändert."
+    ],
+    "correct": 2,
+    "explanation": "Im Zählspiel sind nach Turnierende zwar grundsätzlich keine Strafen mehr zu verhängen oder zu berichtigen. Ein Spieler ist jedoch auch danach zu disqualifizieren, wenn er ein niedrigeres Ergebnis als tatsächlich gespielt eingereicht hat. Eine Ausnahme besteht, wenn die Differenz auf Strafschlägen beruht, die ihm vor Turnierende unbekannt waren.",
+    "source": "Regel 20.2e(2) · Buchseite 200"
+  },
+  {
+    "number": "R362",
+    "section": "Regel 23 – Vierball",
+    "coverageId": "23.9a(2)",
+    "question": "In welchem Fall kann im Vierball die Strafe eines Spielers auch für seinen Partner gelten?",
+    "options": [
+      "Immer, sobald ein Spieler irgendeine Regel verletzt.",
+      "Wenn ein Spieler versehentlich einen falschen Ball spielt; dann wird immer auch der Partner bestraft.",
+      "Nur wenn der Partner ausdrücklich um den Regelverstoß gebeten hat.",
+      "Wenn der Spieler gegen die Höchstzahl von 14 Schlägern verstößt; die konkrete Folge richtet sich nach Loch- oder Zählspiel."
+    ],
+    "correct": 3,
+    "explanation": "Ein Verstoß gegen Regel 4.1b zur Höchstzahl von 14 Schlägern ist einer der Fälle, in denen die Strafe auch den Partner betrifft. Regel 23.9a(2) nennt außerdem Verstöße, die das Spiel des Partners unterstützen oder im Lochspiel das Spiel des Gegners benachteiligen.",
+    "source": "Regel 23.9a(2) · Buchseite 222"
+  },
+  {
+    "number": "R363",
+    "section": "Regel 23 – Vierball",
+    "coverageId": "23.9b(2)",
+    "question": "Im Vierball-Zählspiel werden beide Partner auf demselben Loch wegen eines Verstoßes gegen Regel 3.3c disqualifiziert. Was gilt für die Partei?",
+    "options": [
+      "Die Partei ist disqualifiziert.",
+      "Nur die Ergebnisse dieses Lochs werden gestrichen; die Partei spielt weiter.",
+      "Die Partei erhält zwei Strafschläge.",
+      "Nur der Partner, der zuletzt gespielt hat, ist disqualifiziert."
+    ],
+    "correct": 0,
+    "explanation": "Im Zählspiel ist die Partei disqualifiziert, wenn sich beide Partner auf demselben Loch nach einer der in Regel 23.9b(2) genannten Regeln disqualifizieren. Dazu gehört Regel 3.3c über das Nichteinlochen.",
+    "source": "Regel 23.9b(2) · Buchseite 223"
+  },
+  {
+    "number": "R364",
+    "section": "Regel 23 – Vierball",
+    "coverageId": "23.9b(3)",
+    "question": "Ein Partner verstößt gegen eine Regel, deren Strafe Disqualifikation vorsieht, aber der Fall fällt nicht unter Regel 23.9b(1) oder (2). Was gilt grundsätzlich für ihn im Vierball-Zählspiel?",
+    "options": [
+      "Die Partei wird immer vollständig disqualifiziert.",
+      "Er wird nicht selbst disqualifiziert, aber sein Ergebnis für das Loch zählt nicht für die Partei.",
+      "Sein Ergebnis zählt weiter, wenn der Partner das Loch beendet.",
+      "Der Verstoß bleibt stets straflos."
+    ],
+    "correct": 1,
+    "explanation": "In den übrigen Fällen eines Verstoßes mit Disqualifikationsstrafe wird der einzelne Spieler nicht disqualifiziert. Sein Ergebnis für das betroffene Loch zählt jedoch nicht für die Partei. Im Lochspiel verliert die Partei das Loch, wenn beide Partner auf demselben Loch gegen eine solche Regel verstoßen.",
+    "source": "Regel 23.9b(3) · Buchseite 223"
   }
 ]
