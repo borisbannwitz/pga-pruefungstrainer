@@ -1,6 +1,6 @@
 # PGA Prüfungstrainer
 
-Web-App-Version **3.1**. Der Regelfragenpool enthält 321 Fragen: 246 Regel- und Änderungsfragen sowie 75 Definitionsfragen. Der Bereich PGA/Golftechnik enthält 167 Fragen einschließlich GOSSIP.
+Web-App-Version **3.2**. Der Regelfragenpool enthält 364 Fragen: 289 Regel- und Änderungsfragen sowie 75 Definitionsfragen. Der Bereich PGA/Golftechnik enthält 167 Fragen einschließlich GOSSIP.
 
 Die App zeigt beim Öffnen eine Passwortabfrage. Sie blendet die Oberfläche aus; die Dateien im öffentlichen Repository bleiben abrufbar.
 
@@ -12,13 +12,13 @@ Die App wird über [GitHub Pages](https://borisbannwitz.github.io/pga-pruefungst
 - [Matrix der 185 nummerierten Regelunterpunkte](docs/Nummerierte_Regelunterpunkte_Matrix.md)
 - [Fortsetzungsstand und nächste Schritte](docs/Fortsetzungsstand_Regelfragen.md)
 
-Die Matrix verknüpft 142 von 185 nummerierten Unterpunkten direkt. 43 sind nur über einen verwandten Regelzweig abgedeckt; keiner bleibt ohne zugeordneten Regelverweis.
+Alle 185 nummerierten Unterpunkte sind jetzt direkt mit mindestens einer Frage verknüpft. Keiner bleibt nur über einen verwandten Regelzweig abgedeckt oder ohne Regelverweis.
 
-## Änderungen in Version 3.1
+## Änderungen in Version 3.2
 
+- 43 direkte Fragen zu Unterpunkten ergänzt (R322–R364), um die vollständige direkte Abdeckung der nummerierten Absätze zu erreichen.
 - Antwortoptionen aller 75 Definitionsfragen und der älteren Regelabschnittsfragen R143–R202 fachlich passender formuliert.
-- Zwölf direkte Fragen für nummerierte Regelunterpunkte ergänzt (R310–R321).
-- Frühe Kernfragen zu Suchzeit, Reihenfolge, Naturkräften, Penalty Areas und Berichtigungsfristen präzisiert.
+- Mehrere frühe Kernfragen zu Suchzeit, Reihenfolge, Naturkräften, Penalty Areas und Berichtigungsfristen präzisiert.
 - Golftechnik, darunter die 167 PGA-Fragen, unverändert gelassen.
 - Die wesentlichen Regeländerungen 2023 auf den gedruckten Buchseiten 18–19 sind in der Matrix orange hervorgehoben.
 
