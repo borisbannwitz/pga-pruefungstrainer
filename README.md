@@ -1,6 +1,6 @@
 # PGA Prüfungstrainer
 
-Web-App-Version **3.2**. Der Regelfragenpool enthält 364 Fragen: 289 Regel- und Änderungsfragen sowie 75 Definitionsfragen. Der Bereich PGA/Golftechnik enthält 167 Fragen einschließlich GOSSIP.
+Web-App-Version **3.3**. Der Regelfragenpool enthält 364 Fragen: 289 Regel- und Änderungsfragen sowie 75 Definitionsfragen. Der Bereich PGA/Golftechnik enthält 167 Fragen einschließlich GOSSIP.
 
 Die App zeigt beim Öffnen eine Passwortabfrage. Sie blendet die Oberfläche aus; die Dateien im öffentlichen Repository bleiben abrufbar.
 
@@ -13,6 +13,11 @@ Die App wird über [GitHub Pages](https://borisbannwitz.github.io/pga-pruefungst
 - [Fortsetzungsstand und nächste Schritte](docs/Fortsetzungsstand_Regelfragen.md)
 
 Alle 185 nummerierten Unterpunkte sind jetzt direkt mit mindestens einer Frage verknüpft. Keiner bleibt nur über einen verwandten Regelzweig abgedeckt oder ohne Regelverweis.
+
+## Änderungen in Version 3.3
+
+- In allen neun Grobform-/Feinform-Paaren der Golftechnik steht die richtige Antwort der jeweils anderen Form als plausible falsche Auswahl bereit.
+- Die korrekten Antwortmarkierungen und die Gesamtzahl von 167 Golftechnikfragen bleiben unverändert.
 
 ## Änderungen in Version 3.2
 
