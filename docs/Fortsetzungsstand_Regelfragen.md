@@ -1,27 +1,29 @@
-# Fortsetzungsstand – Regelfragen PGA-Prüfungstrainer
+# Fortsetzungsstand – PGA-Prüfungstrainer
 
-Stand: 13.11.2026 · Arbeitsversion 3.2
+Stand: 13.11.2026 · veröffentlichte App-Version 3.4
 
-## Aktueller Stand
+## Gesicherter Stand
 
-- Die Abdeckungsmatrix zur DGV-Ausgabe „Offizielle Golfregeln 2023“ enthält 595 Einträge: 107 Überschriften im Format x.y, 229 Buchstaben-Unterabschnitte, 185 nummerierte Absätze wie 1.3b(1) sowie 74 Definitionen.
-- Version 3.2 umfasst 364 Regelfragen: 289 Regel- und Änderungsfragen sowie 75 Definitionsfragen (74 Begriffsdefinitionen plus eine Frage zur 2023 geänderten Definition „Erleichterungsbereich“).
-- Alle 185 nummerierten Absätze sind jetzt direkt mit mindestens einer Frage verknüpft. Kein nummerierter Unterpunkt bleibt nur über einen verwandten Regelzweig abgedeckt oder ohne Regelverweis.
-- Die Fragen R322–R364 ergänzen die 43 zuvor nur indirekt zugeordneten nummerierten Unterpunkte. Ihre Quellen und Unterpunkt-Zuordnungen wurden gegen die DGV-Ausgabe 2023 abgeglichen.
-- Die Antwortoptionen aller Definitionsfragen sowie der Regelabschnittsfragen R143–R202 wurden passender formuliert. Mehrere frühe Kernfragen wurden zu Suchzeit, Reihenfolge, Naturkräften, Penalty Areas und Berichtigungsfristen präzisiert.
-- Golftechnik blieb unverändert: 167 PGA-Fragen einschließlich GOSSIP. Passwortabfrage, adaptive Testauswahl und sonstige App-Funktionen wurden nicht verändert.
-- Die wesentlichen Regeländerungen 2023 sind in der Matrix für die gedruckten Buchseiten 18–19 orange hervorgehoben. Buchseite 20 erklärt die Nutzung des Regelbuchs und führt keine weitere Änderungsregel auf.
+- Die Regelfragen-Daten umfassen 364 Fragen: 289 Regel- und Änderungsfragen sowie 75 Definitionsfragen (74 Begriffe plus die 2023 geänderte Definition „Erleichterungsbereich“).
+- Die PGA-Golftechnik enthält 167 Fragen einschließlich GOSSIP.
+- Die Regelabdeckungsmatrix zur DGV-Ausgabe „Offizielle Golfregeln 2023“ enthält 595 Einträge: 107 Überschriften x.y, 229 Buchstaben-Unterabschnitte, 185 nummerierte Absätze und 74 Definitionen.
+- Alle 185 nummerierten Absätze sind direkt mit mindestens einer Regelfrage verknüpft. Die Änderungen von 2023 auf den gedruckten Seiten 18–19 sind in der Matrix hervorgehoben.
+- In Version 3.3 erhielten alle neun Grobform-/Feinform-Paare eine Gegenform-Antwort als falsche Auswahl: Spieleröffnung 236/237, Transportschlag 240/241, Recovery 243/244, Schlag ins Grün 246/247, Pitchen 250/251, Lob 255/256, Bunkerschlag 261/262, Chippen 266/267 und Putten 269/270.
+- In Version 3.4 zieht jede Prüfungssimulation höchstens 45 Fragen. Auch eine Regelfragen-Simulation nimmt jetzt 45 adaptive Fragen aus dem 364-Fragen-Pool statt den gesamten Pool. Neue und falsch beantwortete Fragen werden bevorzugt.
+- Die gemeinsame Passwortabfrage bleibt aktiv. Das Passwort ist nicht als Klartext in dieser Notiz gespeichert.
 
-## Dateien und Veröffentlichung
+## Gesicherte Dateien und Veröffentlichung
 
-- App-Dateien: `outputs/PGA-Pruefungstrainer-Web/`
-- Vollständige Abdeckungsmatrix: `outputs/Regelabdeckungsmatrix_2023.md`
-- Matrix der 185 nummerierten Absätze: `outputs/Nummerierte_Regelunterpunkte_Matrix.md`
-- GitHub-Repository: `borisbannwitz/pga-pruefungstrainer`, Branch `main`
-- GitHub Pages: https://borisbannwitz.github.io/pga-pruefungstrainer/
-- Quellen-PDF: `C:\Users\runte\Downloads\offizielle_golfregeln_2023.pdf` (bleibt lokal und wird nicht ins Repository kopiert).
-- Extrahierte Gliederung und Buchseiten: `work/rule_sections_detailed.json`; Matrix-Erstellung: `work/build_detailed_matrix.py`.
+- GitHub-Repository: `borisbannwitz/pga-pruefungstrainer`, Branch `main`.
+- Letzter App-Commit: `98b4928adf27cb037e665627cd1b9039ffb22e11` (Version 3.4, Regelsimulation auf 45 Fragen begrenzt).
+- Vorheriger App-Commit: `fbbb836d99c5e2d73a7d2464170295a9b6f5f2f1` (Version 3.3, Gegenform-Antworten in der Golftechnik).
+- Live-Seite: https://borisbannwitz.github.io/pga-pruefungstrainer/?v=3.4
+- Vollständige App-Dateien liegen im Repository-Root; lokal in `outputs/PGA-Pruefungstrainer-Web/`.
+- Die App lädt Golftechnik aus `questions.js` (mit synchronisierter `questions.json`) und Regeln aus `rules.json`.
+- Die Abdeckungsmatrix, die Matrix der 185 nummerierten Regelunterpunkte und der ausführliche Regel-Fortsetzungsstand liegen unter `docs/` im Repository. Lokale Kopien liegen in `outputs/`.
+- Das Quelldokument `offizielle_golfregeln_2023.pdf` bleibt unter `C:\Users\runte\Downloads\` lokal und wurde nicht ins Repository hochgeladen.
 
-## Mögliche nächste Schritte
+## Sinnvolle nächste Schritte
 
-Die direkte Einzelabdeckung aller nummerierten Unterpunkte ist erreicht. Bei weiterer Arbeit können die 17 Regelüberschriften und Buchstaben-Unterabschnitte, denen die vollständige Matrix noch keine direkte Frage zuordnet, priorisiert werden. Außerdem kann die Verständlichkeit und Schwierigkeit der neuen Szenariofragen weiter überprüft werden.
+Bei weiterer Arbeit können die verbleibenden Regelüberschriften und Buchstaben-Unterabschnitte ohne direkte Frage priorisiert werden. Danach können Verständlichkeit und Schwierigkeit der Regelfragen weiter verbessert werden. Golftechnik bleibt grundsätzlich unangetastet, außer bei ausdrücklich gewünschten Änderungen wie den neun Gegenform-Auswahlen.
+
