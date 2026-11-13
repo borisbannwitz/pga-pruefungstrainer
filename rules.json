@@ -4,10 +4,10 @@
     "section": "Regel 1 – Grundlagen",
     "question": "Was ist das grundlegende Ziel des Golfspiels?",
     "options": [
-      "Den Ball mit möglichst wenigen Schlägen vom Abschlag ins Loch spielen",
-      "Den Ball möglichst weit vom Abschlag schlagen",
-      "Jedes Loch mit genau drei Schlägen beenden",
-      "Den Ball immer auf dem Fairway halten"
+      "Den Ball mit möglichst wenigen Schlägen vom Abschlag ins Loch spielen.",
+      "Den Ball mit möglichst wenigen Schlägen bis auf das Grün spielen und dort liegen lassen.",
+      "Jedes Loch mit der dafür festgelegten Par-Schlagzahl beenden.",
+      "Den Ball stets auf dem Fairway halten, auch wenn dadurch mehr Schläge nötig sind."
     ],
     "correct": 0,
     "explanation": "Golf wird gespielt, indem ein Ball mit einem Schläger durch einen oder mehrere Schläge vom Abschlag ins Loch gespielt wird.",
@@ -16,15 +16,15 @@
   {
     "number": "R2",
     "section": "Regel 3 – Zählspiel",
-    "question": "Wer gewinnt im Zählspiel grundsätzlich?",
+    "question": "Wer gewinnt im Brutto-Zählspiel grundsätzlich?",
     "options": [
       "Der Spieler mit den meisten gewonnenen Löchern",
-      "Der Spieler mit der niedrigsten Gesamtzahl an Schlägen",
+      "Der Spieler mit der niedrigsten Gesamtzahl an Bruttoschlägen.",
       "Der Spieler mit dem niedrigsten Handicap",
       "Der Spieler mit den meisten Birdies"
     ],
     "correct": 1,
-    "explanation": "Im Zählspiel zählt jeder Spieler seine Schläge; die niedrigste Schlagzahl gewinnt (vorbehaltlich der Turnierbedingungen).",
+    "explanation": "Im Brutto-Zählspiel gewinnt grundsätzlich der Spieler mit der niedrigsten Gesamtzahl an Schlägen über alle Runden; die Turnierbedingungen legen die konkrete Wertung fest.",
     "source": "Regel 3.3 · PDF S. 39"
   },
   {
@@ -34,8 +34,8 @@
     "options": [
       "Zwei Minuten",
       "Drei Minuten",
-      "Fünf Minuten",
-      "Bis die Spielgruppe weiterzieht"
+      "Vier Minuten",
+      "Fünf Minuten"
     ],
     "correct": 1,
     "explanation": "Die Suchzeit beträgt drei Minuten, nachdem der Spieler oder sein Caddie mit der Suche begonnen hat.",
@@ -59,29 +59,29 @@
   {
     "number": "R5",
     "section": "Regel 6 – Reihenfolge",
-    "question": "Wer spielt im Zählspiel normalerweise zuerst?",
+    "question": "Nachdem alle Spieler vom Abschlag gespielt haben, wer spielt im Zählspiel normalerweise als Nächstes?",
     "options": [
-      "Der Spieler mit dem höchsten Handicap",
-      "Der Spieler, dessen Ball am weitesten vom Loch entfernt ist",
-      "Immer der Spieler, der das vorherige Loch gewonnen hat",
-      "Der Spieler mit dem ältesten Schläger"
+      "Der Spieler, der am vorherigen Loch die Ehre hatte.",
+      "Der Spieler, dessen Ball am weitesten vom Loch entfernt ist.",
+      "Der Spieler mit dem niedrigsten Handicap.",
+      "Der Spieler, dessen Ball dem Loch am nächsten liegt."
     ],
     "correct": 1,
-    "explanation": "Im Zählspiel soll grundsätzlich der Spieler spielen, dessen Ball am weitesten vom Loch entfernt ist. Ready Golf ist unter sicheren Umständen möglich.",
+    "explanation": "Während des Spielens eines Lochs spielt grundsätzlich der Ball, der am weitesten vom Loch entfernt ist. Die Ehre am Abschlag des nächsten Lochs richtet sich dagegen grundsätzlich nach dem Ergebnis am vorherigen Loch. Ready Golf ist unter sicheren Umständen möglich.",
     "source": "Regel 6.4b · PDF S. 73"
   },
   {
     "number": "R6",
     "section": "Regel 7 – Ballsuche",
-    "question": "Was ist beim redlichen Suchen eines Balls erlaubt?",
+    "question": "Welche Handlung ist bei der redlichen Suche nach einem Ball erlaubt?",
     "options": [
-      "Gras niederdrücken, um besser sehen zu können, auch wenn dadurch die Lage verbessert wird",
-      "Sand oder Wasser bewegen, soweit dies beim redlichen Suchen unvermeidbar ist",
-      "Den Ball mit dem Schläger aus dem Rough herausziehen",
-      "Die Spiellinie absichtlich freiräumen"
+      "Den Ball anheben, sobald seine vermutete Lage bekannt ist, statt weiterzusuchen.",
+      "Sand und Wasser sowie wachsende natürliche Gegenstände angemessen bewegen, um den Ball zu finden oder zu identifizieren.",
+      "Den Ball mit dem Schläger aus dem Rough herausziehen.",
+      "Die Spiellinie über das für die Suche angemessene Maß hinaus freiräumen."
     ],
     "correct": 1,
-    "explanation": "Beim redlichen Suchen dürfen Handlungen vorgenommen werden, die beim Suchen angemessen sind. Dabei verursachte Verbesserungen sind unter den Regel-Ausnahmen straflos; absichtliches Verbessern ist nicht erlaubt.",
+    "explanation": "Bei einer redlichen Suche darf der Spieler angemessene Handlungen vornehmen, um den Ball zu finden und zu identifizieren. Dazu gehört, Sand oder Wasser zu bewegen sowie Gras, Büsche oder Äste zu bewegen oder zu biegen. Eine dadurch angemessen verursachte Verbesserung ist straflos; über das vernünftigerweise erforderliche Maß hinauszugehen, ist es nicht.",
     "source": "Regel 7.1 · PDF S. 78"
   },
   {
@@ -101,7 +101,7 @@
   {
     "number": "R8",
     "section": "Regel 9 – Ball in Ruhe",
-    "question": "Ein Ball in Ruhe wird durch Naturkräfte bewegt. Was gilt grundsätzlich?",
+    "question": "Ein Spieler hat seinen Ball geschlagen. Nachdem er zur Ruhe gekommen ist, wird er vor dem nächsten Schlag durch Wind oder Wasser bewegt. Keine besondere Ausnahme greift. Was gilt grundsätzlich?",
     "options": [
       "Der Ball muss immer an seine ursprüngliche Stelle zurückgelegt werden",
       "Der Ball wird grundsätzlich von seiner neuen Stelle gespielt",
@@ -109,7 +109,7 @@
       "Der Spieler muss immer einen neuen Ball einsetzen"
     ],
     "correct": 1,
-    "explanation": "Wird ein Ball in Ruhe durch Naturkräfte bewegt, wird er grundsätzlich von seiner neuen Stelle gespielt; besondere Ausnahmen können ein Zurücklegen verlangen.",
+    "explanation": "Wird ein Ball in Ruhe durch Naturkräfte bewegt, wird er grundsätzlich von seiner neuen Stelle gespielt. Ausnahmen, etwa nach dem Aufnehmen und Zurücklegen des Balls, können ein Zurücklegen verlangen.",
     "source": "Regel 9.3 · PDF S. 90"
   },
   {
@@ -231,13 +231,13 @@
     "section": "Regel 17 – Penalty Area",
     "question": "Welche Erleichterungsmöglichkeit besteht bei einer roten Penalty Area grundsätzlich zusätzlich zur Erleichterung mit Schlag und Distanzverlust?",
     "options": [
-      "Seitliche Erleichterung innerhalb von zwei Schlägerlängen vom Bezugspunkt",
+      "Mit einem Strafschlag innerhalb von zwei Schlägerlängen vom geschätzten Punkt des letzten Kreuzens, nicht näher zum Loch und außerhalb der Penalty Area.",
       "Kostenlose Erleichterung auf der gegenüberliegenden Seite",
       "Erleichterung immer auf der Spiellinie zurück",
       "Keine Erleichterung möglich"
     ],
     "correct": 0,
-    "explanation": "Bei einer roten Penalty Area besteht zusätzlich die Möglichkeit der seitlichen Erleichterung innerhalb von zwei Schlägerlängen vom Bezugspunkt, jeweils mit einem Strafschlag.",
+    "explanation": "Bei einer roten Penalty Area kann der Spieler zusätzlich zu Schlag und Distanzverlust seitliche Erleichterung mit einem Strafschlag nehmen. Bezugspunkt ist der geschätzte Punkt, an dem der Ball zuletzt die Grenze kreuzte; der Erleichterungsbereich liegt innerhalb von zwei Schlägerlängen, nicht näher zum Loch und außerhalb der Penalty Area.",
     "source": "Regel 17.1d · PDF S. 172"
   },
   {
@@ -369,16 +369,17 @@
   {
     "number": "R27",
     "section": "Regel 6 – Spielen des Lochs",
-    "question": "Ein Spieler spielt im Zählspiel versehentlich einen falschen Ball. Was muss er grundsätzlich tun?",
+    "question": "Ein Spieler im Zählspiel schlägt versehentlich den Ball eines anderen Spielers, und sein eigener Ball liegt weiterhin an seiner ursprünglichen Stelle. Was muss er tun?",
     "options": [
-      "Den Ball spielen, wie er liegt",
-      "Den Fehler berichtigen und mit dem richtigen Ball weiterspielen",
-      "Einen Strafschlag addieren und den falschen Ball behalten",
-      "Das Loch ohne weitere Handlung beenden"
+      "Er darf mit dem falschen Ball weiterspielen, wenn der andere Spieler ihm dies erlaubt.",
+      "Er muss den Fehler berichtigen, seinen eigenen Ball von der richtigen Stelle spielen und zwei Strafschläge hinzurechnen; Schläge mit dem falschen Ball zählen nicht.",
+      "Er muss seinen eigenen Ball spielen, erhält aber nur einen Strafschlag; der Schlag mit dem falschen Ball zählt mit.",
+      "Er muss das Loch aufgeben, weil das Spielen eines falschen Balls im Zählspiel zur Disqualifikation führt."
     ],
     "correct": 1,
-    "explanation": "Im Zählspiel muss der Spieler den Fehler berichtigen, indem er den richtigen Ball spielt. Unterbleibt die Berichtigung rechtzeitig, folgt die Disqualifikation.",
-    "source": "Regel 6.3c"
+    "explanation": "Im Zählspiel muss der Spieler den Fehler berichtigen, indem er seinen eigenen Ball von der richtigen Stelle spielt. Er erhält die Grundstrafe von zwei Strafschlägen; Schläge mit dem falschen Ball zählen nicht. Wird der Fehler nicht berichtigt, bevor der Spieler einen Schlag ausführt, um das nächste Loch zu beginnen, oder am letzten Loch, bevor er die Scorekarte einreicht, ist er disqualifiziert.",
+    "source": "Regel 6.3c(1)",
+    "coverageId": "6.3c(1)"
   },
   {
     "number": "R28",
@@ -524,7 +525,7 @@
   {
     "number": "R38",
     "section": "Regel 18 – Ball verloren / Aus",
-    "question": "Der ursprüngliche Ball wird innerhalb der Suchzeit im Platz gefunden und ist nicht im Aus. Was geschieht mit einem gespielten provisorischen Ball?",
+    "question": "Der ursprüngliche Ball wird innerhalb der Suchzeit im Gelände und außerhalb einer Penalty Area gefunden. Was geschieht mit einem gespielten provisorischen Ball?",
     "options": [
       "Der Spieler darf zwischen beiden Bällen wählen",
       "Der provisorische Ball muss aufgegeben werden",
@@ -532,7 +533,7 @@
       "Der Spieler erhält einen Strafschlag und spielt den provisorischen Ball weiter"
     ],
     "correct": 1,
-    "explanation": "Wird der ursprüngliche Ball innerhalb der Suchzeit im Platz gefunden, muss der Spieler den provisorischen Ball aufgeben und mit dem ursprünglichen Ball weiterspielen.",
+    "explanation": "Wird der ursprüngliche Ball innerhalb der Suchzeit im Gelände außerhalb einer Penalty Area gefunden, muss der Spieler den provisorischen Ball aufgeben und mit dem ursprünglichen Ball weiterspielen. Für einen ursprünglichen Ball in einer Penalty Area gelten andere Möglichkeiten.",
     "source": "Regel 18.3c(3) · Buchseite 186",
     "coverageId": "18.3c(3)"
   },
@@ -973,10 +974,10 @@
     "section": "Änderungen 2023 · Definition Erleichterungsbereich",
     "question": "Wie entsteht beim Zurück-auf-der-Linie-Verfahren der Erleichterungsbereich?",
     "options": [
-      "Er wird ausschließlich durch den nächstgelegenen Punkt bestimmt",
-      "Er ist immer ein Kreis mit zwei Schlägerlängen um den ursprünglichen Ball",
+      "Der nächstgelegene Punkt vollständiger Erleichterung bestimmt den Bereich; von dort wird eine Schlägerlänge gemessen.",
+      "Bezugspunkt ist der letzte Kreuzungspunkt an der Grenze einer Penalty Area; der Bereich liegt innerhalb zweier Schlägerlängen.",
       "Er wird vom Punkt aus gemessen, an dem der gedroppte Ball die Bezugslinie zuerst berührt, und reicht eine Schlägerlänge in alle Richtungen",
-      "Er entspricht dem gesamten Bereich zwischen Ball und Loch"
+      "Der Bereich liegt stets zwei Schlägerlängen um die ursprüngliche Balllage, unabhängig von der Stelle des Drops."
     ],
     "correct": 2,
     "explanation": "Bei diesem Verfahren wird auf der Bezugslinie gedroppt. Der Punkt des ersten Bodenkontakts bildet den Ausgangspunkt für einen Erleichterungsbereich von einer Schlägerlänge in alle Richtungen.",
@@ -1005,10 +1006,10 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Rechteckiger Startbereich des Lochs: zwei Schlägerlängen tief, begrenzt durch die Abschlagmarkierungen.",
     "options": [
-      "Falscher Ort",
-      "Spiellinie",
+      "Grün",
+      "Bunker",
       "Abschlag",
-      "Zeitweiliges Wasser"
+      "Penalty Area"
     ],
     "correct": 2,
     "explanation": "„Abschlag“ bezeichnet: Rechteckiger Startbereich des Lochs: zwei Schlägerlängen tief, begrenzt durch die Abschlagmarkierungen.",
@@ -1022,10 +1023,10 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Bereich außerhalb der von der Spielleitung festgelegten Platzgrenze.",
     "options": [
-      "Erleichterungsbereich",
+      "Ausmarkierung",
       "Aus",
-      "Abschlag",
-      "Bunker"
+      "Penalty Area",
+      "Platz"
     ],
     "correct": 1,
     "explanation": "„Aus“ bezeichnet: Bereich außerhalb der von der Spielleitung festgelegten Platzgrenze.",
@@ -1040,9 +1041,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Künstlicher Gegenstand, der die Ausgrenze festlegt oder anzeigt; dafür gibt es keine straflose Erleichterung.",
     "options": [
       "Ausmarkierung",
-      "Ausrüstungsregeln",
+      "Aus",
       "Bestandteil des Platzes",
-      "Schlägerlänge"
+      "Hemmnis"
     ],
     "correct": 0,
     "explanation": "„Ausmarkierung“ bezeichnet: Künstlicher Gegenstand, der die Ausgrenze festlegt oder anzeigt; dafür gibt es keine straflose Erleichterung.",
@@ -1056,9 +1057,9 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Dinge, die Spieler oder Caddie benutzen, tragen, halten oder mitführen.",
     "options": [
+      "Ausrüstungsregeln",
       "Bewegliches Hemmnis",
-      "Ausmarkierung",
-      "Lose hinderliche Naturstoffe",
+      "Bestandteil des Platzes",
       "Ausrüstung"
     ],
     "correct": 3,
@@ -1073,8 +1074,8 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Vorschriften für Schläger, Bälle und andere Ausrüstung, die während der Runde verwendet wird.",
     "options": [
-      "Bestandteil des Platzes",
-      "Unbewegliches Hemmnis",
+      "Ausrüstung",
+      "Schlägerlänge",
       "Ausrüstungsregeln",
       "Hemmnis"
     ],
@@ -1090,9 +1091,9 @@
     "section": "Definitionen T–Z",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Personen, Tiere und Gegenstände außerhalb des Spielers, seines Caddies, Partners oder Gegners sowie außerhalb der Naturkräfte, die Ball, Ausrüstung oder Platz beeinflussen können.",
     "options": [
-      "Gegner",
+      "Naturkräfte",
       "Äußere Einflüsse",
-      "Beratung",
+      "Gegner",
       "Caddie"
     ],
     "correct": 1,
@@ -1108,8 +1109,8 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Kleiner künstlicher Gegenstand, der die Stelle eines aufgenommenen, noch nicht zurückgelegten Balls markiert.",
     "options": [
       "Ballmarker",
-      "Unbewegliches Hemmnis",
-      "Bestandteil des Platzes",
+      "Markieren",
+      "Tee",
       "Flaggenstock"
     ],
     "correct": 0,
@@ -1124,9 +1125,9 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Dazu zählen Balllage, Stand- und Schwungraum, Spiellinie und der Erleichterungsbereich, in den der Ball gedroppt oder gelegt wird.",
     "options": [
-      "Punkt der größtmöglichen verfügbaren Erleichterung",
+      "Lage",
+      "Stand",
       "Spiellinie",
-      "Falscher Ort",
       "Bedingungen, die den Schlag beeinflussen"
     ],
     "correct": 3,
@@ -1141,10 +1142,10 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Beweismaß: eindeutiger Beleg oder mindestens 95-prozentige Wahrscheinlichkeit aufgrund aller angemessen verfügbaren Informationen.",
     "options": [
-      "Verbessern",
-      "Schwerwiegender Verstoß",
+      "Mindestens 50 % Wahrscheinlichkeit aufgrund der verfügbaren Informationen.",
+      "Der Spieler muss den Vorgang selbst gesehen haben; andere Belege reichen nicht aus.",
       "Bekannt oder so gut wie sicher",
-      "Naturkräfte"
+      "Eine bloße Vermutung des Spielers genügt, wenn sie sich für ihn überzeugend anfühlt."
     ],
     "correct": 2,
     "explanation": "„Bekannt oder so gut wie sicher“ bezeichnet: Beweismaß: eindeutiger Beleg oder mindestens 95-prozentige Wahrscheinlichkeit aufgrund aller angemessen verfügbaren Informationen.",
@@ -1158,10 +1159,10 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Äußerung oder Handlung mit dem Ziel, Schlägerwahl, Schlag oder Spielweise eines Spielers zu beeinflussen; öffentliche Informationen und Regeln zählen nicht dazu.",
     "options": [
-      "Zähler",
+      "Öffentliche Information, die allen Spielern zugänglich ist, etwa eine Entfernungsangabe.",
       "Beratung",
-      "Gegner",
-      "Tier"
+      "Erläuterung einer Golfregel oder des vorgeschriebenen Verfahrens.",
+      "Mitteilung einer objektiven Tatsache über Platz oder Wetter, ohne Empfehlung zu Schläger, Schlag oder Spielweise."
     ],
     "correct": 1,
     "explanation": "„Beratung“ bezeichnet: Äußerung oder Handlung mit dem Ziel, Schlägerwahl, Schlag oder Spielweise eines Spielers zu beeinflussen; öffentliche Informationen und Regeln zählen nicht dazu.",
@@ -1176,9 +1177,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Die fünf Platzbereiche: Gelände, aktueller Abschlag, Penalty Areas, Bunker und aktuelles Grün.",
     "options": [
       "Bereiche des Platzes",
-      "Tierloch",
-      "Spiellinie",
-      "Falsches Grün"
+      "Gelände",
+      "Bunker",
+      "Penalty Area"
     ],
     "correct": 0,
     "explanation": "„Bereiche des Platzes“ bezeichnet: Die fünf Platzbereiche: Gelände, aktueller Abschlag, Penalty Areas, Bunker und aktuelles Grün.",
@@ -1192,9 +1193,9 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Künstlicher Gegenstand, den die Spielleitung als Teil der Herausforderung ansieht und von dem es keine straflose Erleichterung gibt.",
     "options": [
-      "Tee",
-      "Lose hinderliche Naturstoffe",
-      "Ausrüstungsregeln",
+      "Ausmarkierung",
+      "Unbewegliches Hemmnis",
+      "Hemmnis",
       "Bestandteil des Platzes"
     ],
     "correct": 3,
@@ -1209,10 +1210,10 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Künstlicher Gegenstand, der ohne übermäßigen Aufwand und ohne Schäden bewegt werden kann.",
     "options": [
-      "Ausrüstungsregeln",
-      "Ausmarkierung",
+      "Unbewegliches Hemmnis",
+      "Lose hinderliche Naturstoffe",
       "Bewegliches Hemmnis",
-      "Tee"
+      "Bestandteil des Platzes"
     ],
     "correct": 2,
     "explanation": "„Bewegliches Hemmnis“ bezeichnet: Künstlicher Gegenstand, der ohne übermäßigen Aufwand und ohne Schäden bewegt werden kann.",
@@ -1226,10 +1227,10 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Ein ruhender Ball verlässt seine Stelle und kommt sichtbar an einer anderen Stelle zur Ruhe.",
     "options": [
-      "Droppen",
+      "Zurücklegen",
       "Bewegt",
-      "Markieren",
-      "Provisorischer Ball"
+      "Droppen",
+      "Markieren"
     ],
     "correct": 1,
     "explanation": "„Bewegt“ bezeichnet: Ein ruhender Ball verlässt seine Stelle und kommt sichtbar an einer anderen Stelle zur Ruhe.",
@@ -1244,9 +1245,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Platzbereich, den die Spielleitung als auszubessernden Boden festgelegt hat, markiert oder anderweitig.",
     "options": [
       "Boden in Ausbesserung",
-      "Punkt der größtmöglichen verfügbaren Erleichterung",
-      "Platz",
-      "Aus"
+      "Ungewöhnliche Platzverhältnisse",
+      "Zeitweiliges Wasser",
+      "Penalty Area"
     ],
     "correct": 0,
     "explanation": "„Boden in Ausbesserung“ bezeichnet: Platzbereich, den die Spielleitung als auszubessernden Boden festgelegt hat, markiert oder anderweitig.",
@@ -1260,9 +1261,9 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Besonders vorbereitete Sandfläche, meist eine Vertiefung; die Bunkerkante selbst gehört nicht dazu.",
     "options": [
-      "Aus",
-      "Tierloch",
+      "Penalty Area",
       "Gelände",
+      "Grün",
       "Bunker"
     ],
     "correct": 3,
@@ -1277,10 +1278,10 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Person, die den Spieler unterstützt, etwa durch Tragen oder Handhaben der Schläger und zulässige Beratung.",
     "options": [
-      "Tier",
-      "Beratung",
+      "Partner",
+      "Gegner",
       "Caddie",
-      "Spielleitung"
+      "Referee"
     ],
     "correct": 2,
     "explanation": "„Caddie“ bezeichnet: Person, die den Spieler unterstützt, etwa durch Tragen oder Handhaben der Schläger und zulässige Beratung.",
@@ -1294,10 +1295,10 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Lochspielform mit drei Spielern: Jeder spielt gleichzeitig ein eigenes Match gegen die beiden anderen.",
     "options": [
-      "Ehre",
+      "Vierball",
       "Dreiball",
-      "Scorekarte",
-      "Partei"
+      "Vierer",
+      "Lochspiel"
     ],
     "correct": 1,
     "explanation": "„Dreiball“ bezeichnet: Lochspielform mit drei Spielern: Jeder spielt gleichzeitig ein eigenes Match gegen die beiden anderen.",
@@ -1312,9 +1313,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Ball aus der Hand loslassen, damit er durch die Luft fällt und ins Spiel kommt.",
     "options": [
       "Droppen",
-      "Eingelocht",
-      "Schlag und Distanzverlust",
-      "Bewegt"
+      "Zurücklegen",
+      "Markieren",
+      "Neu eingesetzter Ball"
     ],
     "correct": 0,
     "explanation": "„Droppen“ bezeichnet: Ball aus der Hand loslassen, damit er durch die Luft fällt und ins Spiel kommt.",
@@ -1328,9 +1329,9 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Recht, als Erster vom Abschlag zu spielen.",
     "options": [
-      "Scorekarte",
-      "Vierer",
-      "Stableford",
+      "Recht, im Lochspiel jeden Schlag auszuführen, bevor der Gegner spielt.",
+      "Recht, den Ball als Erster auf dem Grün zu spielen.",
+      "Vorgeschriebene Reihenfolge, in der die Bälle während des Lochs gespielt werden.",
       "Ehre"
     ],
     "correct": 3,
@@ -1345,10 +1346,10 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Ball liegt nach seinem Schlag in seinem eigenen Einschlagloch und teilweise unter der Bodenoberfläche.",
     "options": [
-      "Markieren",
-      "Bewegt",
+      "Der Ball liegt teilweise unter der Oberfläche, aber nicht in seinem eigenen Einschlagloch.",
+      "Der Ball liegt in seinem Einschlagloch, berührt aber die Bodenoberfläche vollständig von oben.",
       "Eingebettet",
-      "Falscher Ball"
+      "Der Ball steckt nach einem Schlag in einem Tierloch oder einer anderen Vertiefung."
     ],
     "correct": 2,
     "explanation": "„Eingebettet“ bezeichnet: Ball liegt nach seinem Schlag in seinem eigenen Einschlagloch und teilweise unter der Bodenoberfläche.",
@@ -1362,10 +1363,10 @@
     "section": "Definitionen A–E",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Ball ist nach einem Schlag im Loch zur Ruhe gekommen und liegt vollständig unter der Grünoberfläche.",
     "options": [
-      "Im Spiel",
+      "Der Ball liegt im Loch, aber ein Teil ragt noch über die Oberfläche des Grüns hinaus.",
       "Eingelocht",
-      "Droppen",
-      "Markieren"
+      "Der Ball berührt den Flaggenstock im Loch und ist noch in Bewegung.",
+      "Der Ball liegt unmittelbar neben dem Loch auf dem Grün und ist zur Ruhe gekommen."
     ],
     "correct": 1,
     "explanation": "„Eingelocht“ bezeichnet: Ball ist nach einem Schlag im Loch zur Ruhe gekommen und liegt vollständig unter der Grünoberfläche.",
@@ -1380,9 +1381,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Bereich, in den ein Ball bei Erleichterung gedroppt werden muss; Größe und Lage hängen vom angewendeten Verfahren ab.",
     "options": [
       "Erleichterungsbereich",
-      "Ungewöhnliche Platzverhältnisse",
-      "Tierloch",
-      "Spiellinie"
+      "Nächstgelegener Punkt der vollständigen Erleichterung",
+      "Punkt der größtmöglichen verfügbaren Erleichterung",
+      "Schlägerlänge"
     ],
     "correct": 0,
     "explanation": "„Erleichterungsbereich“ bezeichnet: Bereich, in den ein Ball bei Erleichterung gedroppt werden muss; Größe und Lage hängen vom angewendeten Verfahren ab.",
@@ -1396,9 +1397,9 @@
     "section": "Definitionen F–M",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Jeder Ball, der weder der Ball des Spielers im Spiel noch ein zulässiger provisorischer Ball ist.",
     "options": [
-      "Neu eingesetzter Ball",
-      "Eingelocht",
       "Provisorischer Ball",
+      "Neu eingesetzter Ball",
+      "Im Spiel",
       "Falscher Ball"
     ],
     "correct": 3,
@@ -1413,10 +1414,10 @@
     "section": "Definitionen F–M",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Stelle, von der der Spieler den Ball nach den Regeln weder spielen muss noch spielen darf.",
     "options": [
-      "Spiellinie",
+      "Falscher Ball",
       "Falsches Grün",
       "Falscher Ort",
-      "Zeitweiliges Wasser"
+      "Spielverbotszone"
     ],
     "correct": 2,
     "explanation": "„Falscher Ort“ bezeichnet: Stelle, von der der Spieler den Ball nach den Regeln weder spielen muss noch spielen darf.",
@@ -1430,10 +1431,10 @@
     "section": "Definitionen F–M",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Jedes Grün außer dem Grün des gerade gespielten Lochs.",
     "options": [
-      "Bereiche des Platzes",
+      "Grün",
       "Falsches Grün",
-      "Abschlag",
-      "Penalty Area"
+      "Gelände",
+      "Bunker"
     ],
     "correct": 1,
     "explanation": "„Falsches Grün“ bezeichnet: Jedes Grün außer dem Grün des gerade gespielten Lochs.",
@@ -1448,9 +1449,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Von der Spielleitung bereitgestellte bewegliche Stange im Loch, die dessen Lage anzeigt, einschließlich befestigter Bestandteile.",
     "options": [
       "Flaggenstock",
-      "Schlägerlänge",
-      "Bewegliches Hemmnis",
-      "Ausrüstungsregeln"
+      "Tee",
+      "Ballmarker",
+      "Bewegliches Hemmnis"
     ],
     "correct": 0,
     "explanation": "„Flaggenstock“ bezeichnet: Von der Spielleitung bereitgestellte bewegliche Stange im Loch, die dessen Lage anzeigt, einschließlich befestigter Bestandteile.",
@@ -1464,9 +1465,9 @@
     "section": "Definitionen F–M",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Person, gegen die ein Spieler im Lochspiel antritt.",
     "options": [
-      "Referee",
-      "Äußere Einflüsse",
-      "Beratung",
+      "Partner",
+      "Caddie",
+      "Zähler",
       "Gegner"
     ],
     "correct": 3,
@@ -1481,10 +1482,10 @@
     "section": "Definitionen F–M",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Gesamter Platz außer dem aktuellen Abschlag, Penalty Areas, Bunkern und dem aktuellen Grün.",
     "options": [
-      "Spielverbotszone",
-      "Abschlag",
+      "Bereiche des Platzes",
+      "Bunker",
       "Gelände",
-      "Bedingungen, die den Schlag beeinflussen"
+      "Penalty Area"
     ],
     "correct": 2,
     "explanation": "„Gelände“ bezeichnet: Gesamter Platz außer dem aktuellen Abschlag, Penalty Areas, Bunkern und dem aktuellen Grün.",
@@ -1500,8 +1501,8 @@
     "options": [
       "Falsches Grün",
       "Grün",
-      "Bunker",
-      "Penalty Area"
+      "Abschlag",
+      "Bunker"
     ],
     "correct": 1,
     "explanation": "„Grün“ bezeichnet: Zum Putten hergerichtete oder von der Spielleitung als Grün bestimmte Fläche des gerade gespielten Lochs.",
@@ -1516,9 +1517,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Lochverlust im Lochspiel oder zwei Strafschläge im Zählspiel.",
     "options": [
       "Grundstrafe",
-      "Naturkräfte",
-      "Schwerwiegender Verstoß",
-      "Verbessern"
+      "Ein Strafschlag, der in jeder Spielform zusätzlich zum Ergebnis hinzugerechnet wird.",
+      "Disqualifikation im Lochspiel oder ein Strafschlag im Zählspiel.",
+      "Lochverlust im Lochspiel oder ein Strafschlag im Zählspiel."
     ],
     "correct": 0,
     "explanation": "„Grundstrafe“ bezeichnet: Lochverlust im Lochspiel oder zwei Strafschläge im Zählspiel.",
@@ -1532,9 +1533,9 @@
     "section": "Definitionen F–M",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Künstlicher Gegenstand außer einem Bestandteil des Platzes oder einer Ausmarkierung.",
     "options": [
-      "Lose hinderliche Naturstoffe",
+      "Bewegliches Hemmnis",
+      "Unbewegliches Hemmnis",
       "Bestandteil des Platzes",
-      "Ballmarker",
       "Hemmnis"
     ],
     "correct": 3,
@@ -1549,10 +1550,10 @@
     "section": "Definitionen F–M",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Status des Balls, der auf dem Platz zum Spielen des aktuellen Lochs verwendet wird.",
     "options": [
-      "Falscher Ball",
+      "Provisorischer Ball",
       "Neu eingesetzter Ball",
       "Im Spiel",
-      "Eingebettet"
+      "Falscher Ball"
     ],
     "correct": 2,
     "explanation": "„Im Spiel“ bezeichnet: Status des Balls, der auf dem Platz zum Spielen des aktuellen Lochs verwendet wird.",
@@ -1566,10 +1567,10 @@
     "section": "Definitionen F–M",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Stelle des Balls sowie wachsende oder befestigte Naturgegenstände, unbewegliche Hemmnisse, Platzbestandteile oder Ausmarkierungen, die ihn berühren oder direkt daneben liegen.",
     "options": [
-      "Spiellinie",
+      "Stand",
       "Lage",
-      "Boden in Ausbesserung",
-      "Penalty Area"
+      "Bedingungen, die den Schlag beeinflussen",
+      "Spiellinie"
     ],
     "correct": 1,
     "explanation": "„Lage“ bezeichnet: Stelle des Balls sowie wachsende oder befestigte Naturgegenstände, unbewegliche Hemmnisse, Platzbestandteile oder Ausmarkierungen, die ihn berühren oder direkt daneben liegen.",
@@ -1584,9 +1585,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Endpunkt des Lochs auf dem Grün, in den der Ball gespielt wird; es hat vorgeschriebene Maße.",
     "options": [
       "Loch",
-      "Spiellinie",
-      "Lage",
-      "Zeitweiliges Wasser"
+      "Grün",
+      "Flaggenstock",
+      "Eingelocht"
     ],
     "correct": 0,
     "explanation": "„Loch“ bezeichnet: Endpunkt des Lochs auf dem Grün, in den der Ball gespielt wird; es hat vorgeschriebene Maße.",
@@ -1601,7 +1602,7 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Spielform, in der Spieler oder Parteien Loch für Loch direkt gegeneinander antreten.",
     "options": [
       "Zählspiel",
-      "Partei",
+      "Dreiball",
       "Vierball",
       "Lochspiel"
     ],
@@ -1617,10 +1618,10 @@
     "section": "Definitionen F–M",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Unbefestigte natürliche Gegenstände wie Steine, Blätter, Zweige, tote Tiere oder kleine Tiere und deren Ausscheidungen.",
     "options": [
-      "Ausrüstung",
-      "Unbewegliches Hemmnis",
+      "Bewegliches Hemmnis",
+      "Boden in Ausbesserung",
       "Lose hinderliche Naturstoffe",
-      "Schlägerlänge"
+      "Tierloch"
     ],
     "correct": 2,
     "explanation": "„Lose hinderliche Naturstoffe“ bezeichnet: Unbefestigte natürliche Gegenstände wie Steine, Blätter, Zweige, tote Tiere oder kleine Tiere und deren Ausscheidungen.",
@@ -1634,10 +1635,10 @@
     "section": "Definitionen F–M",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Stelle eines ruhenden Balls mit einem Ballmarker kennzeichnen oder den Schläger dazu unmittelbar dahinter oder daneben halten.",
     "options": [
-      "Eingelocht",
+      "Zurücklegen",
       "Markieren",
-      "Neu eingesetzter Ball",
-      "Provisorischer Ball"
+      "Droppen",
+      "Neu eingesetzter Ball"
     ],
     "correct": 1,
     "explanation": "„Markieren“ bezeichnet: Stelle eines ruhenden Balls mit einem Ballmarker kennzeichnen oder den Schläger dazu unmittelbar dahinter oder daneben halten.",
@@ -1652,8 +1653,8 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Zählspielform mit einer von der Spielleitung festgelegten Höchstzahl je Loch; dabei zählen gespielte Schläge und Strafschläge.",
     "options": [
       "Maximum Score",
-      "Ehre",
-      "Vierball",
+      "Stableford",
+      "Par/Bogey",
       "Zählspiel"
     ],
     "correct": 0,
@@ -1668,9 +1669,9 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Nächstgelegener Bezugspunkt, an dem für den beabsichtigten Schlag keine Behinderung durch den betreffenden Zustand besteht.",
     "options": [
-      "Abschlag",
-      "Falscher Ort",
-      "Gelände",
+      "Der Punkt der größtmöglichen verfügbaren Erleichterung, wenn kein nächstgelegener Punkt vollständiger Erleichterung verfügbar ist.",
+      "Der Punkt, an dem der Ball zuletzt die Grenze einer Penalty Area gekreuzt hat.",
+      "Der Punkt, an dem der gedroppte Ball beim Zurück-auf-der-Linie-Verfahren zuerst den Boden berührt.",
       "Nächstgelegener Punkt der vollständigen Erleichterung"
     ],
     "correct": 3,
@@ -1685,10 +1686,10 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Einwirkungen der Natur, etwa Wind, Wasser oder Schwerkraft.",
     "options": [
-      "Schwerwiegender Verstoß",
-      "Bekannt oder so gut wie sicher",
+      "Äußere Einflüsse",
+      "Handlungen des Spielers",
       "Naturkräfte",
-      "Verbessern"
+      "Handlungen des Gegners im Lochspiel"
     ],
     "correct": 2,
     "explanation": "„Naturkräfte“ bezeichnet: Einwirkungen der Natur, etwa Wind, Wasser oder Schwerkraft.",
@@ -1702,10 +1703,10 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Anderer Ball, der den bisherigen Ball im Spiel ersetzt und dadurch zum Ball im Spiel wird.",
     "options": [
-      "Droppen",
+      "Provisorischer Ball",
       "Neu eingesetzter Ball",
-      "Markieren",
-      "Falscher Ball"
+      "Falscher Ball",
+      "Im Spiel"
     ],
     "correct": 1,
     "explanation": "„Neu eingesetzter Ball“ bezeichnet: Anderer Ball, der den bisherigen Ball im Spiel ersetzt und dadurch zum Ball im Spiel wird.",
@@ -1720,9 +1721,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Zählspielform, bei der jedes Loch gegen einen vorgegebenen Par- oder Bogeywert gewonnen, verloren oder geteilt wird.",
     "options": [
       "Par/Bogey",
-      "Vierer",
-      "Ehre",
-      "Runde"
+      "Stableford",
+      "Maximum Score",
+      "Zählspiel"
     ],
     "correct": 0,
     "explanation": "„Par/Bogey“ bezeichnet: Zählspielform, bei der jedes Loch gegen einen vorgegebenen Par- oder Bogeywert gewonnen, verloren oder geteilt wird.",
@@ -1736,9 +1737,9 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Zwei oder mehr Partner, die gemeinsam als Seite im Lochspiel oder Zählspiel antreten.",
     "options": [
-      "Maximum Score",
-      "Ehre",
-      "Dreiball",
+      "Partner",
+      "Vierball",
+      "Lochspiel",
       "Partei"
     ],
     "correct": 3,
@@ -1753,10 +1754,10 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Spieler, der mit einem anderen Spieler gemeinsam eine Partei bildet.",
     "options": [
-      "Tier",
-      "Referee",
+      "Partei",
+      "Gegner",
       "Partner",
-      "Spielleitung"
+      "Caddie"
     ],
     "correct": 2,
     "explanation": "„Partner“ bezeichnet: Spieler, der mit einem anderen Spieler gemeinsam eine Partei bildet.",
@@ -1772,8 +1773,8 @@
     "options": [
       "Boden in Ausbesserung",
       "Penalty Area",
-      "Falscher Ort",
-      "Platz"
+      "Aus",
+      "Gelände"
     ],
     "correct": 1,
     "explanation": "„Penalty Area“ bezeichnet: Von der Spielleitung bestimmter Platzbereich, aus dem der Spieler mit Strafschlag Erleichterung nehmen darf.",
@@ -1789,8 +1790,8 @@
     "options": [
       "Platz",
       "Aus",
-      "Nächstgelegener Punkt der vollständigen Erleichterung",
-      "Spielverbotszone"
+      "Bereiche des Platzes",
+      "Gelände"
     ],
     "correct": 0,
     "explanation": "„Platz“ bezeichnet: Gesamter Spielbereich innerhalb der von der Spielleitung festgelegten Platzgrenzen.",
@@ -1804,9 +1805,9 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Zusätzlicher Ball für den Fall, dass der eben gespielte Ball möglicherweise im Aus oder außerhalb einer Penalty Area verloren ist.",
     "options": [
+      "Neu eingesetzter Ball",
       "Falscher Ball",
       "Im Spiel",
-      "Eingebettet",
       "Provisorischer Ball"
     ],
     "correct": 3,
@@ -1821,10 +1822,10 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Bezugspunkt für Erleichterung im Bunker oder auf dem Grün, wenn kein nächstgelegener Punkt vollständiger Erleichterung verfügbar ist.",
     "options": [
-      "Gelände",
-      "Falsches Grün",
+      "Der nächstgelegene Punkt vollständiger Erleichterung, unabhängig davon, ob er im selben Platzbereich liegt.",
+      "Der Punkt, an dem der gedroppte Ball beim Zurück-auf-der-Linie-Verfahren zuerst den Boden berührt.",
       "Punkt der größtmöglichen verfügbaren Erleichterung",
-      "Aus"
+      "Der ursprüngliche Ort des Balls, unabhängig davon, ob dort vollständige Erleichterung möglich ist."
     ],
     "correct": 2,
     "explanation": "„Punkt der größtmöglichen verfügbaren Erleichterung“ bezeichnet: Bezugspunkt für Erleichterung im Bunker oder auf dem Grün, wenn kein nächstgelegener Punkt vollständiger Erleichterung verfügbar ist.",
@@ -1838,10 +1839,10 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Von der Spielleitung eingesetzter Offizieller, der Tatsachen entscheidet und die Regeln anwendet.",
     "options": [
-      "Tier",
+      "Spielleitung",
       "Referee",
-      "Caddie",
-      "Äußere Einflüsse"
+      "Zähler",
+      "Caddie"
     ],
     "correct": 1,
     "explanation": "„Referee“ bezeichnet: Von der Spielleitung eingesetzter Offizieller, der Tatsachen entscheidet und die Regeln anwendet.",
@@ -1856,9 +1857,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Bis zu 18 Löcher, die in der von der Spielleitung festgelegten Reihenfolge gespielt werden.",
     "options": [
       "Runde",
-      "Scorekarte",
-      "Par/Bogey",
-      "Stableford"
+      "Lochspiel",
+      "Zählspiel",
+      "Wettspiel"
     ],
     "correct": 0,
     "explanation": "„Runde“ bezeichnet: Bis zu 18 Löcher, die in der von der Spielleitung festgelegten Reihenfolge gespielt werden.",
@@ -1872,9 +1873,9 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Vorwärtsbewegung des Schlägers mit der Absicht, den Ball zu treffen.",
     "options": [
-      "Provisorischer Ball",
-      "Droppen",
-      "Im Spiel",
+      "Übungsschwung",
+      "Strafschlag",
+      "Schlag und Distanzverlust",
       "Schlag"
     ],
     "correct": 3,
@@ -1889,10 +1890,10 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Erleichterungsverfahren mit Strafschlag, bei dem der Spieler erneut von der Stelle des vorherigen Schlags spielt.",
     "options": [
-      "Neu eingesetzter Ball",
-      "Bewegt",
+      "Erleichterung zurück auf der Linie",
+      "Seitliche Erleichterung",
       "Schlag und Distanzverlust",
-      "Schlag"
+      "Straflose Erleichterung"
     ],
     "correct": 2,
     "explanation": "„Schlag und Distanzverlust“ bezeichnet: Erleichterungsverfahren mit Strafschlag, bei dem der Spieler erneut von der Stelle des vorherigen Schlags spielt.",
@@ -1906,10 +1907,10 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Länge des längsten Schlägers des Spielers außer dem Putter; sie dient als Maßeinheit für Erleichterungsbereiche.",
     "options": [
-      "Unbewegliches Hemmnis",
+      "Länge des Putters, auch wenn ein anderer Schläger länger ist.",
       "Schlägerlänge",
-      "Bewegliches Hemmnis",
-      "Ausrüstungsregeln"
+      "Länge des Schlägers, mit dem der Spieler zuletzt einen Schlag ausgeführt hat.",
+      "Länge des längsten Schlägers einschließlich des Putters."
     ],
     "correct": 1,
     "explanation": "„Schlägerlänge“ bezeichnet: Länge des längsten Schlägers des Spielers außer dem Putter; sie dient als Maßeinheit für Erleichterungsbereiche.",
@@ -1924,9 +1925,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Spielen vom falschen Ort im Zählspiel, wenn dadurch ein erheblicher möglicher Vorteil entsteht.",
     "options": [
       "Schwerwiegender Verstoß",
-      "Bekannt oder so gut wie sicher",
-      "Naturkräfte",
-      "Grundstrafe"
+      "Jeder Verstoß gegen die Pflicht, vom richtigen Ort zu spielen.",
+      "Ein Verstoß, der stets zur Disqualifikation führt.",
+      "Spielen vom falschen Ort, wenn der Spieler tatsächlich einen Schlag weniger benötigt."
     ],
     "correct": 0,
     "explanation": "„Schwerwiegender Verstoß“ bezeichnet: Spielen vom falschen Ort im Zählspiel, wenn dadurch ein erheblicher möglicher Vorteil entsteht.",
@@ -1940,9 +1941,9 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Von der Spielleitung genehmigtes Papier- oder Digitaldokument zur Erfassung der Loch-Ergebnisse im Zählspiel.",
     "options": [
-      "Lochspiel",
-      "Dreiball",
-      "Partei",
+      "Persönliche Notizen des Spielers, die nicht als von der Spielleitung genehmigte Scorekarte eingereicht werden.",
+      "Ein Gruppenbogen, auf dem nur die gemeinsamen Ergebnisse mehrerer Spieler eingetragen werden.",
+      "Ein Abschlussbeleg, der nur das Gesamtergebnis der Runde und keine Loch-Ergebnisse enthält.",
       "Scorekarte"
     ],
     "correct": 3,
@@ -1957,10 +1958,10 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Person oder Gruppe, die für Turnier oder Platz verantwortlich ist.",
     "options": [
-      "Äußere Einflüsse",
-      "Caddie",
+      "Referee",
+      "Zähler",
       "Spielleitung",
-      "Gegner"
+      "Caddie"
     ],
     "correct": 2,
     "explanation": "„Spielleitung“ bezeichnet: Person oder Gruppe, die für Turnier oder Platz verantwortlich ist.",
@@ -1974,10 +1975,10 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Vom Spieler beabsichtigter Weg des Balls nach dem Schlag, einschließlich eines angemessenen Bereichs darüber und daneben.",
     "options": [
-      "Tierloch",
+      "Die genaue gedachte Linie vom Ball zum Zielpunkt, ohne einen Bereich daneben oder darüber.",
       "Spiellinie",
-      "Bereiche des Platzes",
-      "Loch"
+      "Die Richtung, in die sich der Ball nach dem Schlag tatsächlich bewegt.",
+      "Der Raum, den der Spieler mit Stand und Schwung einnimmt."
     ],
     "correct": 1,
     "explanation": "„Spiellinie“ bezeichnet: Vom Spieler beabsichtigter Weg des Balls nach dem Schlag, einschließlich eines angemessenen Bereichs darüber und daneben.",
@@ -1992,9 +1993,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Platzbereich, in dem die Spielleitung das Spielen untersagt hat; er gehört zu einer Penalty Area oder ungewöhnlichen Platzverhältnissen.",
     "options": [
       "Spielverbotszone",
-      "Spiellinie",
-      "Platz",
-      "Nächstgelegener Punkt der vollständigen Erleichterung"
+      "Penalty Area",
+      "Ungewöhnliche Platzverhältnisse",
+      "Boden in Ausbesserung"
     ],
     "correct": 0,
     "explanation": "„Spielverbotszone“ bezeichnet: Platzbereich, in dem die Spielleitung das Spielen untersagt hat; er gehört zu einer Penalty Area oder ungewöhnlichen Platzverhältnissen.",
@@ -2008,9 +2009,9 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Zählspielform mit Punkten je Loch, die vom Ergebnis im Verhältnis zu einem festgelegten Zielwert abhängen.",
     "options": [
-      "Ehre",
-      "Vierer",
-      "Runde",
+      "Maximum Score",
+      "Par/Bogey",
+      "Zählspiel",
       "Stableford"
     ],
     "correct": 3,
@@ -2025,10 +2026,10 @@
     "section": "Definitionen N–S",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Position von Füßen und Körper bei Vorbereitung und Ausführung eines Schlags.",
     "options": [
-      "Referee",
-      "Partner",
+      "Lage",
+      "Bedingungen, die den Schlag beeinflussen",
       "Stand",
-      "Beratung"
+      "Spiellinie"
     ],
     "correct": 2,
     "explanation": "„Stand“ bezeichnet: Position von Füßen und Körper bei Vorbereitung und Ausführung eines Schlags.",
@@ -2042,9 +2043,9 @@
     "section": "Definitionen T–Z",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Gegenstand, der den Ball für den Abschlag vom Boden anhebt und höchstens vier Zoll lang ist.",
     "options": [
-      "Schlägerlänge",
+      "Abschlag",
       "Tee",
-      "Hemmnis",
+      "Ballmarker",
       "Bewegliches Hemmnis"
     ],
     "correct": 1,
@@ -2060,9 +2061,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Lebewesen außer Menschen, einschließlich Wirbeltieren und wirbellosen Tieren.",
     "options": [
       "Tier",
-      "Caddie",
-      "Gegner",
-      "Stand"
+      "Naturkräfte",
+      "Äußere Einflüsse",
+      "Caddie"
     ],
     "correct": 0,
     "explanation": "„Tier“ bezeichnet: Lebewesen außer Menschen, einschließlich Wirbeltieren und wirbellosen Tieren.",
@@ -2076,9 +2077,9 @@
     "section": "Definitionen T–Z",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Von einem Tier gegrabenes Loch samt herausgelöstem Material und erkennbaren Spuren, aber ohne bloße Fußabdrücke.",
     "options": [
-      "Bereiche des Platzes",
-      "Grün",
-      "Penalty Area",
+      "Boden in Ausbesserung",
+      "Lose hinderliche Naturstoffe",
+      "Zeitweiliges Wasser",
       "Tierloch"
     ],
     "correct": 3,
@@ -2093,10 +2094,10 @@
     "section": "Definitionen T–Z",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Künstlicher Gegenstand, der sich nicht ohne übermäßigen Aufwand oder Schäden bewegen lässt und kein bewegliches Hemmnis ist.",
     "options": [
-      "Schlägerlänge",
-      "Ausrüstung",
+      "Bewegliches Hemmnis",
+      "Bestandteil des Platzes",
       "Unbewegliches Hemmnis",
-      "Bewegliches Hemmnis"
+      "Ausmarkierung"
     ],
     "correct": 2,
     "explanation": "„Unbewegliches Hemmnis“ bezeichnet: Künstlicher Gegenstand, der sich nicht ohne übermäßigen Aufwand oder Schäden bewegen lässt und kein bewegliches Hemmnis ist.",
@@ -2110,10 +2111,10 @@
     "section": "Definitionen T–Z",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Einer von vier Fällen: Tierloch, Boden in Ausbesserung, unbewegliches Hemmnis oder zeitweiliges Wasser.",
     "options": [
-      "Zeitweiliges Wasser",
+      "Spielverbotszone",
       "Ungewöhnliche Platzverhältnisse",
-      "Nächstgelegener Punkt der vollständigen Erleichterung",
-      "Platz"
+      "Unbewegliches Hemmnis",
+      "Tierloch"
     ],
     "correct": 1,
     "explanation": "„Ungewöhnliche Platzverhältnisse“ bezeichnet: Einer von vier Fällen: Tierloch, Boden in Ausbesserung, unbewegliches Hemmnis oder zeitweiliges Wasser.",
@@ -2128,9 +2129,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Bedingungen oder andere Platzgegebenheiten so verändern, dass möglicherweise ein Vorteil für den Schlag entsteht.",
     "options": [
       "Verbessern",
-      "Schwerwiegender Verstoß",
-      "Naturkräfte",
-      "Bekannt oder so gut wie sicher"
+      "Bedingungen verändern, ohne dass dadurch ein möglicher Vorteil für den eigenen Schlag entstehen kann.",
+      "Eine durch den Spieler veränderte Bedingung wiederherstellen, damit der frühere Zustand wieder gilt.",
+      "Eine Platzbedingung so verändern, dass sie ausschließlich den Schlag eines anderen Spielers erschwert."
     ],
     "correct": 0,
     "explanation": "„Verbessern“ bezeichnet: Bedingungen oder andere Platzgegebenheiten so verändern, dass möglicherweise ein Vorteil für den Schlag entsteht.",
@@ -2144,9 +2145,9 @@
     "section": "Definitionen T–Z",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Ein Ball gilt grundsätzlich als verloren, wenn er nicht innerhalb von drei Minuten ab Beginn der Suche gefunden wird.",
     "options": [
-      "Bewegt",
-      "Droppen",
-      "Eingelocht",
+      "Ein Ball, der nicht innerhalb von fünf Minuten nach Beginn der Suche gefunden wird.",
+      "Ein nicht gefundener Ball, bei dem bekannt oder so gut wie sicher ist, dass er in einer Penalty Area liegt.",
+      "Ein Ball, der drei Minuten nach dem Schlag nicht gefunden wird, auch wenn die Suche später beginnt.",
       "Verloren"
     ],
     "correct": 3,
@@ -2161,10 +2162,10 @@
     "section": "Definitionen T–Z",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Spielform für zwei Partner pro Partei, in der jeder den eigenen Ball spielt und grundsätzlich das bessere Loch-Ergebnis zählt.",
     "options": [
+      "Vierer",
       "Dreiball",
-      "Scorekarte",
       "Vierball",
-      "Vierer"
+      "Lochspiel"
     ],
     "correct": 2,
     "explanation": "„Vierball“ bezeichnet: Spielform für zwei Partner pro Partei, in der jeder den eigenen Ball spielt und grundsätzlich das bessere Loch-Ergebnis zählt.",
@@ -2178,9 +2179,9 @@
     "section": "Definitionen T–Z",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Spielform, in der zwei Partner einen Ball abwechselnd spielen; auch die Abschläge wechseln ab.",
     "options": [
-      "Scorekarte",
-      "Vierer",
       "Vierball",
+      "Vierer",
+      "Dreiball",
       "Lochspiel"
     ],
     "correct": 1,
@@ -2196,9 +2197,9 @@
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Im Zählspiel verantwortliche Person, die Ergebnisse des Spielers einträgt und bestätigt.",
     "options": [
       "Zähler",
-      "Caddie",
-      "Beratung",
-      "Referee"
+      "Spielleitung",
+      "Referee",
+      "Caddie"
     ],
     "correct": 0,
     "explanation": "„Zähler“ bezeichnet: Im Zählspiel verantwortliche Person, die Ergebnisse des Spielers einträgt und bestätigt.",
@@ -2212,9 +2213,9 @@
     "section": "Definitionen T–Z",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Spielform, in der Spieler oder Parteien gegen alle anderen antreten; in der Standardform zählt die Gesamtschlagzahl.",
     "options": [
-      "Ehre",
-      "Scorekarte",
       "Lochspiel",
+      "Stableford",
+      "Par/Bogey",
       "Zählspiel"
     ],
     "correct": 3,
@@ -2229,10 +2230,10 @@
     "section": "Definitionen T–Z",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Vorübergehende Wasseransammlung auf der Oberfläche außerhalb einer Penalty Area; Tau und Reif zählen nicht dazu.",
     "options": [
-      "Spielverbotszone",
-      "Grün",
+      "Tau oder Reif, der sich auf dem Boden oder Gras gebildet hat.",
+      "Wasser, das sich innerhalb einer Penalty Area angesammelt hat.",
       "Zeitweiliges Wasser",
-      "Falsches Grün"
+      "Feuchter Boden, bei dem kein Wasser auf der Oberfläche sichtbar ist."
     ],
     "correct": 2,
     "explanation": "„Zeitweiliges Wasser“ bezeichnet: Vorübergehende Wasseransammlung auf der Oberfläche außerhalb einer Penalty Area; Tau und Reif zählen nicht dazu.",
@@ -2246,10 +2247,10 @@
     "section": "Definitionen T–Z",
     "question": "Welcher Regelbegriff passt zu dieser Beschreibung? Ball von Hand an der vorgeschriebenen Stelle platzieren und loslassen, damit er wieder im Spiel ist.",
     "options": [
-      "Provisorischer Ball",
+      "Droppen",
       "Zurücklegen",
-      "Eingebettet",
-      "Schlag und Distanzverlust"
+      "Markieren",
+      "Neu eingesetzter Ball"
     ],
     "correct": 1,
     "explanation": "„Zurücklegen“ bezeichnet: Ball von Hand an der vorgeschriebenen Stelle platzieren und loslassen, damit er wieder im Spiel ist.",
@@ -2263,10 +2264,10 @@
     "section": "Regel 1.2 – Richtlinien für das Verhalten von Spielern",
     "question": "Welche Verhaltensweise passt zu den Grundsätzen für alle Spieler?",
     "options": [
-      "Grundsätzlich nein, außer eine Regel erlaubt die konkrete Handlung.",
+      "Eine Strafe darf weggelassen werden, wenn niemand dadurch benachteiligt wird.",
       "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen.",
-      "Auf den festgestellten Tatsachen und der zutreffenden Golfregel.",
-      "Fair und im Einklang mit ähnlichen Fällen und den Grundsätzen der Regeln."
+      "Bei Unsicherheit entscheidet jeder Spieler endgültig allein, ohne die Spielleitung einzubeziehen.",
+      "Das eigene Ergebnis hat Vorrang vor Rücksicht auf andere und den Platz."
     ],
     "correct": 1,
     "explanation": "Regel 1.2 erwartet Integrität, Rücksichtnahme und die Schonung des Platzes.",
@@ -2279,9 +2280,9 @@
     "question": "Wann ist ein Ball im Aus?",
     "options": [
       "Wenn der gesamte Ball außerhalb der festgelegten Platzgrenze liegt.",
-      "Wenn irgendein Teil des Balls Sand innerhalb der Bunkerkante berührt.",
-      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes.",
-      "Der Spieler darf ihn nicht von dort spielen und muss nach der einschlägigen Regel Erleichterung nehmen."
+      "Sobald irgendein Teil des Balls die Ausgrenze berührt.",
+      "Wenn ein Ballmarker oder Schläger die Ausgrenze überschreitet, auch wenn der Ball noch auf dem Platz liegt.",
+      "Wenn der Spieler beim Schlag mit beiden Füßen außerhalb der Platzgrenze steht."
     ],
     "correct": 0,
     "explanation": "Ein Ball ist erst im Aus, wenn er vollständig außerhalb der Platzgrenze liegt.",
@@ -2291,15 +2292,15 @@
   {
     "number": "R145",
     "section": "Regel 2.3 – Gegenstände oder Bedingungen, die das Spiel beeinflussen können",
-    "question": "Welche Gruppe nennt Arten von Gegenständen oder Bedingungen, die das Spiel beeinflussen können?",
+    "question": "Welche drei Beispiele nennt Regel 2.3 für Gegenstände oder Bedingungen, bei denen andere Regeln straflose Erleichterung ermöglichen können?",
     "options": [
-      "Der Spieler darf ihn nicht von dort spielen und muss nach der einschlägigen Regel Erleichterung nehmen.",
-      "Erleichterung nach anderen Regeln, etwa wegen ungewöhnlicher Platzverhältnisse oder eines unspielbaren Balls.",
-      "Straflose Erleichterung von der Gefährdung durch Tiere, wenn die Regelbedingungen erfüllt sind.",
-      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes."
+      "Abschlag, Gelände und Grün.",
+      "Ball, Schläger und Ballmarker.",
+      "Lose hinderliche Naturstoffe, bewegliche Hemmnisse und Ausmarkierungen.",
+      "Lose hinderliche Naturstoffe, bewegliche Hemmnisse und ungewöhnliche Platzverhältnisse."
     ],
     "correct": 3,
-    "explanation": "Regel 2.3 ordnet diese Gegenstände und Bedingungen ein.",
+    "explanation": "Regel 2.3 nennt lose hinderliche Naturstoffe, bewegliche Hemmnisse und ungewöhnliche Platzverhältnisse als Beispiele. Von Ausmarkierungen oder Bestandteilen des Platzes gibt es keine straflose Erleichterung.",
     "source": "Regel 2.3 · Buchseite 31",
     "coverageId": "2.3"
   },
@@ -2308,10 +2309,10 @@
     "section": "Regel 2.4 – Spielverbotszonen",
     "question": "Der Ball liegt in einer Spielverbotszone. Was gilt grundsätzlich?",
     "options": [
-      "Straflose Erleichterung von der Gefährdung durch Tiere, wenn die Regelbedingungen erfüllt sind.",
-      "Wenn der gesamte Ball außerhalb der festgelegten Platzgrenze liegt.",
+      "Der Spieler darf den Ball spielen, sofern nur sein Stand und nicht der Ball in der Zone liegt.",
+      "Er muss immer straflose Erleichterung nach Regel 16.1 nehmen, auch wenn die Zone in einer Penalty Area liegt.",
       "Der Spieler darf ihn nicht von dort spielen und muss nach der einschlägigen Regel Erleichterung nehmen.",
-      "Straflose Erleichterung nach Regel 16.1c innerhalb des Bunkers, wenn deren Voraussetzungen erfüllt sind."
+      "Er muss in jedem Fall Schlag und Distanzverlust wählen."
     ],
     "correct": 2,
     "explanation": "In einer Spielverbotszone ist das Spielen verboten; die zugehörige Regel bestimmt das weitere Verfahren.",
@@ -2323,10 +2324,10 @@
     "section": "Regel 3.1 – Wesentliche Bestandteile aller Turniere",
     "question": "Welche Entscheidungen gehören zu den wesentlichen Bestandteilen eines Turniers?",
     "options": [
-      "Die Spielleitung legt die Bedingungen fest; die Regeln gelten, soweit sie zur Spielform passen.",
+      "Die Auswahl der Schläger und Bälle, die jeder Spieler während der Runde mitführen muss.",
       "Spielform, Einzel- oder Partnerspiel sowie Brutto- oder Netto-Wertung.",
-      "Ein von der Mannschaft benannter Ratgeber nach den Vorgaben der Spielleitung.",
-      "Sie können ihm zugerechnet werden und nach den Regeln Folgen für die Partei haben."
+      "Die Entscheidung, welcher Spieler an jedem Loch den ersten Schlag ausführt.",
+      "Die Wahl des Spielers, welche Golfregeln für ihn gelten."
     ],
     "correct": 1,
     "explanation": "Regel 3.1 beschreibt diese drei Grundentscheidungen für Turniere.",
@@ -2339,9 +2340,9 @@
     "question": "Ein Ball zerbricht beim Schlag in Stücke. Was gilt?",
     "options": [
       "Der Schlag zählt nicht; der Spieler spielt einen anderen Ball von der Stelle des Schlags.",
-      "Die Ballstelle markieren; der Ball darf nur so weit gereinigt werden, wie es zum Erkennen nötig ist.",
-      "Ein absichtlicher Schlag auf einen Ball zum Üben ist grundsätzlich verboten.",
-      "Der Ball wird an seine ursprüngliche Stelle zurückgelegt."
+      "Der Schlag zählt; der Spieler muss mit einem anderen Ball von dort weiterspielen, wo die Teile liegen.",
+      "Der Schlag zählt; der Spieler muss den ursprünglichen Ball an die Stelle des Schlags zurücklegen.",
+      "Der Spieler erhält einen Strafschlag und spielt einen anderen Ball von der Stelle des Schlags."
     ],
     "correct": 0,
     "explanation": "Wenn der Ball beim Schlag zerbricht, zählt der Schlag nicht und wird von der ursprünglichen Stelle wiederholt.",
@@ -2353,9 +2354,9 @@
     "section": "Regel 4.3 – Gebrauch von Ausrüstung",
     "question": "Welche Aussage zur Ausrüstungsverwendung stimmt?",
     "options": [
-      "Ja, solange beide zusammen nicht mehr als 14 Schläger benutzen.",
-      "Den Schläger absichtlich am Körper zu verankern, um ihn als stabilen Drehpunkt zu verwenden.",
-      "Wenn beide zusammen höchstens 14 Schläger benutzen.",
+      "Ein Spieler darf Ausrüstung ungewöhnlich verwenden, solange dadurch kein anderer Spieler gestört wird.",
+      "Jede ungewöhnliche Verwendung ist erlaubt, wenn der Gegenstand selbst den Ausrüstungsregeln entspricht.",
+      "Nur Schläger und Bälle müssen regelkonform sein; andere Ausrüstung darf beliebig eingesetzt werden.",
       "Ausrüstung darf nicht ungewöhnlich verwendet werden, um einen möglichen Vorteil zu schaffen."
     ],
     "correct": 3,
@@ -2368,10 +2369,10 @@
     "section": "Regel 5.1 – Bedeutung von „Runde“",
     "question": "Wie ist eine Runde grundsätzlich aufgebaut?",
     "options": [
-      "Von der betreffenden Regel und davon, wie der Verstoß das Spiel der Partner beeinflusst.",
-      "Spieler oder Parteien treten als Mannschaft an; die Spielleitung legt fest, wie das Mannschaftsergebnis gebildet wird.",
+      "Jede Runde besteht aus genau 18 Löchern, unabhängig von den Wettspielbedingungen.",
+      "Der Spieler darf die Reihenfolge der Löcher nach Beginn der Runde selbst festlegen.",
       "Sie umfasst 18 oder weniger Löcher in der von der Spielleitung festgelegten Reihenfolge.",
-      "Die Spielleitung legt die Bedingungen fest; die Regeln gelten, soweit sie zur Spielform passen."
+      "Eine Runde darf mehr als 18 Löcher umfassen, wenn der Spieler noch kein Ergebnis erzielt hat."
     ],
     "correct": 2,
     "explanation": "Eine Runde besteht aus bis zu 18 Löchern in der festgelegten Reihenfolge.",
@@ -2383,10 +2384,10 @@
     "section": "Regel 5.4 – Spielen in Gruppen",
     "question": "Wer legt grundsätzlich fest, in welchen Gruppen Spieler antreten?",
     "options": [
-      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen.",
+      "Spieler dürfen ihre Gruppen mit Zustimmung der Mitbewerber selbst neu bilden.",
       "Die Spielleitung setzt die Gruppen fest; Spieler sollen sie nicht eigenmächtig ändern.",
-      "Spieler oder Parteien treten als Mannschaft an; die Spielleitung legt fest, wie das Mannschaftsergebnis gebildet wird.",
-      "Sie können ihm zugerechnet werden und nach den Regeln Folgen für die Partei haben."
+      "Der Spieler mit dem niedrigsten Handicap legt die Gruppen fest.",
+      "Die Startreihenfolge der Gruppen kann nach Beginn der Runde von den Spielern geändert werden."
     ],
     "correct": 1,
     "explanation": "Änderungen der Gruppen erfordern die Zustimmung der Spielleitung.",
@@ -2396,15 +2397,15 @@
   {
     "number": "R152",
     "section": "Regel 5.5 – Üben auf der Runde oder während einer Spielunterbrechung",
-    "question": "Was gilt für einen Übungsschlag während des Spielens eines Lochs?",
+    "question": "Darf ein Spieler während eines Lochs absichtlich einen Ball schlagen, um zu üben?",
     "options": [
       "Ein absichtlicher Schlag auf einen Ball zum Üben ist grundsätzlich verboten.",
-      "Der Ball kann markiert und aufgenommen werden; bei Störung kann der Spieler dazu aufgefordert werden.",
-      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt.",
-      "Keine Strafe; der Ball wird an seine ursprüngliche Stelle zurückgelegt."
+      "Während des Lochs darf ein Spieler einen Übungsschlag an einem Ball ausführen, wenn er ihn danach aufnimmt.",
+      "Ein Übungsschlag ist nur auf dem Grün und nur mit Zustimmung des Zählers erlaubt.",
+      "Ein Spieler darf pro Loch genau einen absichtlichen Übungsschlag ausführen."
     ],
     "correct": 0,
-    "explanation": "Während eines Lochs sind Übungsschläge grundsätzlich nicht erlaubt; Probeschwünge ohne Ballkontakt sind davon zu unterscheiden.",
+    "explanation": "Während eines Lochs darf der Spieler keinen absichtlichen Schlag auf einen Ball zum Üben ausführen. Probeschwünge ohne Absicht, einen Ball zu treffen, sind davon zu unterscheiden.",
     "source": "Regel 5.5 · Buchseite 59",
     "coverageId": "5.5"
   },
@@ -2413,9 +2414,9 @@
     "section": "Regel 5.7 – Unterbrechung des Spiels; Wiederaufnahme des Spiels",
     "question": "Wann müssen Spieler das Spiel sofort unterbrechen?",
     "options": [
-      "Ein von der Mannschaft benannter Ratgeber nach den Vorgaben der Spielleitung.",
-      "Spieler oder Parteien treten als Mannschaft an; die Spielleitung legt fest, wie das Mannschaftsergebnis gebildet wird.",
-      "Jeder Partner, soweit Spielfolge und Regeln eingehalten werden.",
+      "Nur der Spieler, dessen Ball unmittelbar gefährdet ist, muss das Spiel unterbrechen.",
+      "Die Gruppe darf das Loch immer beenden, bevor sie einer Gefahrenunterbrechung folgt.",
+      "Eine sofortige Unterbrechung ist freiwillig, wenn der Spieler selbst keine Gefahr erkennt.",
       "Bei einer Unterbrechung wegen Gefahr oder einem unmittelbaren Sicherheitsrisiko."
     ],
     "correct": 3,
@@ -2428,10 +2429,10 @@
     "section": "Regel 6.1 – Das Spielen eines Lochs beginnen",
     "question": "Wo beginnt ein Spieler ein Loch?",
     "options": [
-      "Jederzeit, indem er von der Stelle des vorherigen Schlags spielt und einen Strafschlag hinzurechnet.",
-      "Grundstrafe; bei schwerwiegendem Verstoß kann eine Berichtigung erforderlich sein.",
+      "Von jeder Stelle des Platzes, solange der Ball in Richtung des Lochs gespielt wird.",
+      "Von außerhalb des Abschlags, wenn der Spieler dort einen Strafschlag hinzurechnet.",
       "Mit einem Ball aus dem Abschlagbereich des zu spielenden Lochs.",
-      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt."
+      "Nur von einem aufgeteeten Ball; vom Boden darf am Abschlag nicht gespielt werden."
     ],
     "correct": 2,
     "explanation": "Ein Loch beginnt mit einem Schlag von innerhalb des dafür bestimmten Abschlagbereichs.",
@@ -2443,10 +2444,10 @@
     "section": "Regel 6.5 – Beenden eines Lochs",
     "question": "Wann ist ein Loch im normalen Zählspiel beendet?",
     "options": [
-      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt.",
+      "Sobald der Ball auf dem Grün zur Ruhe kommt, auch wenn er nicht im Loch liegt.",
       "Wenn der Spieler mit dem Ball eingelocht hat.",
-      "Der Schlag zählt nicht; der Spieler spielt einen anderen Ball von der Stelle des Schlags.",
-      "Ein absichtlicher Schlag auf einen Ball zum Üben ist grundsätzlich verboten."
+      "Wenn der Spieler eine Schlagzahl in Höhe von Par erreicht hat.",
+      "Wenn der Spieler den Ball aufnimmt, nachdem er entschieden hat, nicht weiterzuspielen."
     ],
     "correct": 1,
     "explanation": "Im Zählspiel ist das Loch grundsätzlich mit dem Einlochen beendet.",
@@ -2459,9 +2460,9 @@
     "question": "Woran darf ein Spieler seinen Ball zur Identifizierung erkennen?",
     "options": [
       "An Kennzeichnungen oder anderen Merkmalen des Balls.",
-      "Der Schlag zählt nicht; der Spieler spielt einen anderen Ball von der Stelle des Schlags.",
-      "Eine angemessene Zeit, um das Loch zu erreichen, und danach noch zehn Sekunden.",
-      "Das Verfahren hängt vom Bereich ab: Abschlag, Droppen oder Zurücklegen."
+      "Nur anhand der vom Hersteller aufgedruckten Marke und Modellnummer.",
+      "Nur anhand einer persönlichen Kennzeichnung; andere Merkmale dürfen nicht berücksichtigt werden.",
+      "Nur durch Vergleich mit dem Ball eines Mitspielers derselben Marke."
     ],
     "correct": 0,
     "explanation": "Ein Ball kann anhand seiner Kennzeichnungen und sonstigen Merkmale identifiziert werden.",
@@ -2473,9 +2474,9 @@
     "section": "Regel 7.3 – Ball zum Identifizieren aufnehmen",
     "question": "Was ist vor dem Aufnehmen eines Balls zur Identifizierung zu tun?",
     "options": [
-      "Grundstrafe; bei schwerwiegendem Verstoß kann eine Berichtigung erforderlich sein.",
-      "Das Verfahren hängt vom Bereich ab: Abschlag, Droppen oder Zurücklegen.",
-      "Ein absichtlicher Schlag auf einen Ball zum Üben ist grundsätzlich verboten.",
+      "Die Spielleitung um Erlaubnis bitten und den Ball anschließend vollständig reinigen.",
+      "Die Stelle nicht markieren, wenn der Spieler glaubt, sich die Lage merken zu können.",
+      "Den Ball aufnehmen und reinigen; die Stelle muss erst nach der Identifizierung markiert werden.",
       "Die Ballstelle markieren; der Ball darf nur so weit gereinigt werden, wie es zum Erkennen nötig ist."
     ],
     "correct": 3,
@@ -2488,10 +2489,10 @@
     "section": "Regel 8.2 – Absichtliche Handlungen des Spielers, um andere äußere Bedingungen zu verändern, die eigenen Ball in Ruhe oder den zu spielenden Schlag beeinflussen",
     "question": "Darf ein Spieler absichtlich äußere Bedingungen verändern, um den eigenen Schlag zu beeinflussen?",
     "options": [
-      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen.",
-      "Auf den festgestellten Tatsachen und der zutreffenden Golfregel.",
+      "Ja, wenn der Spieler die veränderten Bedingungen vor dem Schlag wiederherstellt.",
+      "Ja, sofern die Veränderung nur die Spiellinie und nicht die Balllage betrifft.",
       "Grundsätzlich nein, außer eine Regel erlaubt die konkrete Handlung.",
-      "Ihn ablenken oder aufhalten, um das Ergebnis zu beeinflussen."
+      "Ja, wenn der Spieler damit lediglich prüfen will, wie der Ball reagieren würde."
     ],
     "correct": 2,
     "explanation": "Regel 8.2 untersagt absichtliche Veränderungen zugunsten des eigenen Balls oder Schlags, vorbehaltlich erlaubter Handlungen.",
@@ -2503,10 +2504,10 @@
     "section": "Regel 8.3 – Absichtliche Handlungen des Spielers, um äußere Bedingungen zu verändern, die den Ball in Ruhe oder den auszuführenden Schlag eines anderen Spielers beeinflussen",
     "question": "Darf ein Spieler absichtlich Bedingungen verändern, um den Schlag eines anderen Spielers zu beeinflussen?",
     "options": [
-      "Grundsätzlich nein.",
+      "Ja, wenn die Veränderung die eigene Balllage des Spielers nicht betrifft.",
       "Grundsätzlich nein, außer eine Regel erlaubt die konkrete Handlung.",
-      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen.",
-      "Auf den festgestellten Tatsachen und der zutreffenden Golfregel."
+      "Nur das Verbessern ist verboten; Bedingungen des anderen Spielers dürfen verschlechtert werden.",
+      "Ja, sofern der andere Spieler der Veränderung zustimmt."
     ],
     "correct": 1,
     "explanation": "Regel 8.3 untersagt solche absichtlichen Eingriffe zugunsten oder zulasten eines anderen Spielers.",
@@ -2519,9 +2520,9 @@
     "question": "Welcher Grundsatz gilt für den ruhenden Ball?",
     "options": [
       "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt.",
-      "Der Schlag zählt nicht; der Spieler spielt einen anderen Ball von der Stelle des Schlags.",
-      "Den Verfahrensfehler nach Regel 14.5 berichtigen, bevor er den Ball spielt.",
-      "Der Ballmarker wird an seine ursprüngliche Stelle zurückgelegt."
+      "Der Spieler darf den Ball vor jedem Schlag an eine günstigere Stelle im selben Platzbereich legen.",
+      "Der Spieler muss vor dem Schlag Erleichterung von jeder natürlichen Unebenheit nehmen.",
+      "Der Ball muss nach jedem Übungsschwung an seine ursprüngliche Stelle zurückgelegt werden."
     ],
     "correct": 0,
     "explanation": "Regel 9.1 verankert den Grundsatz „Spielen, wie der Ball liegt“, vorbehaltlich geregelter Ausnahmen.",
@@ -2533,10 +2534,10 @@
     "section": "Regel 9.2 – Entscheiden, ob sich ein Ball bewegt hat und wodurch die Bewegung verursacht wurde",
     "question": "Welche Voraussetzung gilt, damit eine Person oder ein äußerer Einfluss als Ursache für die Bewegung des Balls angesehen wird?",
     "options": [
-      "Es reicht aus, dass dies möglich erscheint.",
+      "Es genügt, dass die Person oder der äußere Einfluss möglicherweise die Ursache war.",
       "Es muss bekannt oder so gut wie sicher sein; andernfalls wird die Bewegung als durch Naturkräfte verursacht behandelt.",
-      "Der Spieler muss immer selbst die Ursache annehmen.",
-      "Es genügt, wenn die letzte Position des Balls bekannt ist."
+      "Eine überwiegende Wahrscheinlichkeit von mehr als 50 Prozent reicht immer aus.",
+      "Die Ursache muss zweifelsfrei und mit absoluter Sicherheit bewiesen sein."
     ],
     "correct": 1,
     "explanation": "Eine Person oder ein äußerer Einfluss wird nur dann als Ursache behandelt, wenn dies bekannt oder so gut wie sicher ist. Andernfalls wird die Bewegung als durch Naturkräfte verursacht behandelt; angemessen verfügbare Hinweise sind zu berücksichtigen.",
@@ -2548,10 +2549,10 @@
     "section": "Regel 9.5 – Ball durch Gegner im Lochspiel aufgenommen oder bewegt",
     "question": "Ein Gegner bewegt im Lochspiel den ruhenden Ball des Spielers. Was gilt grundsätzlich?",
     "options": [
-      "Den Verfahrensfehler nach Regel 14.5 berichtigen, bevor er den Ball spielt.",
-      "Grundstrafe; bei schwerwiegendem Verstoß kann eine Berichtigung erforderlich sein.",
+      "Der Spieler spielt den Ball von der neuen Stelle; der Gegner erhält dafür die Grundstrafe.",
+      "Der Ball wird zurückgelegt, und der Spieler erhält einen Strafschlag.",
       "Der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
-      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt."
+      "Der Gegner darf den Ball an eine beliebige Stelle im selben Platzbereich legen."
     ],
     "correct": 2,
     "explanation": "Ein durch den Gegner bewegter Ball wird grundsätzlich zurückgelegt; besondere Ausnahmen sind in der Regel geregelt.",
@@ -2563,10 +2564,10 @@
     "section": "Regel 9.6 – Ball durch äußeren Einfluss aufgenommen oder bewegt",
     "question": "Ein äußerer Einfluss bewegt den ruhenden Ball. Was gilt grundsätzlich?",
     "options": [
-      "Eine angemessene Zeit, um das Loch zu erreichen, und danach noch zehn Sekunden.",
+      "Keine Strafe; der Spieler muss den Ball von der neuen Stelle spielen.",
       "Keine Strafe; der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
-      "Ein absichtlicher Schlag auf einen Ball zum Üben ist grundsätzlich verboten.",
-      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt."
+      "Der äußere Einfluss erhält die Grundstrafe; der Ball bleibt an der neuen Stelle.",
+      "Der Spieler erhält einen Strafschlag, muss den Ball aber zurücklegen."
     ],
     "correct": 1,
     "explanation": "Ein durch äußeren Einfluss bewegter Ball wird grundsätzlich straflos zurückgelegt.",
@@ -2579,9 +2580,9 @@
     "question": "Ein Ballmarker wird versehentlich bewegt. Wie wird die Stelle wiederhergestellt?",
     "options": [
       "Der Ballmarker wird an seine ursprüngliche Stelle zurückgelegt.",
-      "Keine Strafe; der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
-      "Mit einem Ball aus dem Abschlagbereich des zu spielenden Lochs.",
-      "Eine angemessene Zeit, um das Loch zu erreichen, und danach noch zehn Sekunden."
+      "Der Marker darf an der neuen Stelle bleiben, wenn der Ball noch nicht aufgenommen wurde.",
+      "Der Spieler erhält einen Strafschlag, muss den Marker aber zurücklegen.",
+      "Statt des Markers wird der Ball an seine ursprüngliche Stelle gelegt."
     ],
     "correct": 0,
     "explanation": "Ein versehentlich bewegter Ballmarker wird grundsätzlich zurückgelegt.",
@@ -2593,9 +2594,9 @@
     "section": "Regel 10.1 – Einen Schlag ausführen",
     "question": "Welche Schlagtechnik ist grundsätzlich verboten?",
     "options": [
-      "Ja, solange beide zusammen nicht mehr als 14 Schläger benutzen.",
-      "Wenn beide zusammen höchstens 14 Schläger benutzen.",
-      "Ausrüstung darf nicht ungewöhnlich verwendet werden, um einen möglichen Vorteil zu schaffen.",
+      "Jede Verwendung eines langen Putters ist verboten, auch ohne Verankerung.",
+      "Das Verankern ist erlaubt, wenn der Schläger vor dem Schlag nicht bewegt wird.",
+      "Das Verankern ist nur im Zählspiel verboten.",
       "Den Schläger absichtlich am Körper zu verankern, um ihn als stabilen Drehpunkt zu verwenden."
     ],
     "correct": 3,
@@ -2608,10 +2609,10 @@
     "section": "Regel 10.3 – Caddies",
     "question": "Wie viele Caddies darf ein Spieler gleichzeitig haben?",
     "options": [
-      "Sie können ihm zugerechnet werden und nach den Regeln Folgen für die Partei haben.",
-      "Die Spielleitung legt die Bedingungen fest; die Regeln gelten, soweit sie zur Spielform passen.",
+      "Zwei Caddies sind erlaubt, wenn einer nur die Schläger trägt.",
+      "Ein Spieler darf während der Runde einen Caddie pro neun Löcher haben.",
       "Grundsätzlich höchstens einen Caddie zur selben Zeit.",
-      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen."
+      "Ein Caddie ist im Einzelspiel grundsätzlich nicht erlaubt."
     ],
     "correct": 2,
     "explanation": "Regel 10.3 erlaubt grundsätzlich nur einen Caddie zugleich.",
@@ -2623,10 +2624,10 @@
     "section": "Regel 11.2 – Ball in Bewegung absichtlich durch Person abgelenkt oder aufgehalten",
     "question": "Was darf ein Spieler nicht absichtlich mit einem Ball in Bewegung tun?",
     "options": [
-      "Auf den festgestellten Tatsachen und der zutreffenden Golfregel.",
+      "Den Ball aufhalten, wenn der Spieler dadurch einen anderen Ball vor einem Treffer schützt.",
       "Ihn ablenken oder aufhalten, um das Ergebnis zu beeinflussen.",
-      "Grundsätzlich nein, außer eine Regel erlaubt die konkrete Handlung.",
-      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen."
+      "Den Ball ablenken, sofern er sich nicht auf dem Grün befindet.",
+      "Den Ball mit dem Schläger stoppen, wenn der Spieler glaubt, dass er sonst ins Aus rollt."
     ],
     "correct": 1,
     "explanation": "Regel 11.2 verbietet absichtliches Ablenken oder Aufhalten eines Balls in Bewegung.",
@@ -2639,9 +2640,9 @@
     "question": "Darf ein Spieler absichtlich Gegenstände oder Bedingungen verändern, um einen Ball in Bewegung zu beeinflussen?",
     "options": [
       "Grundsätzlich nein.",
-      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen.",
-      "Fair und im Einklang mit ähnlichen Fällen und den Grundsätzen der Regeln.",
-      "Ihn ablenken oder aufhalten, um das Ergebnis zu beeinflussen."
+      "Ja, wenn der Spieler damit ausschließlich die Spiellinie eines anderen Spielers verbessert.",
+      "Ja, solange die Veränderung weder den ruhenden Ball noch die Balllage betrifft.",
+      "Ja, wenn alle Spieler der Gruppe mit der Veränderung einverstanden sind."
     ],
     "correct": 0,
     "explanation": "Regel 11.3 untersagt solche absichtlichen Eingriffe in den Lauf eines Balls.",
@@ -2653,9 +2654,9 @@
     "section": "Regel 12.1 – Wann ein Ball im Bunker liegt",
     "question": "Wann liegt ein Ball im Bunker?",
     "options": [
-      "Der Spieler darf straflose Erleichterung nach Regel 16.3 nehmen, wenn deren Voraussetzungen erfüllt sind.",
-      "Straflose Erleichterung von der Gefährdung durch Tiere, wenn die Regelbedingungen erfüllt sind.",
-      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes.",
+      "Nur wenn der gesamte Ball auf Sand innerhalb der Bunkerkante liegt.",
+      "Wenn der Ball überwiegend von Sand umgeben ist, auch wenn er die Bunkerkante nicht berührt.",
+      "Wenn irgendein Teil des Balls Sand außerhalb der Bunkerkante berührt.",
       "Wenn irgendein Teil des Balls Sand innerhalb der Bunkerkante berührt."
     ],
     "correct": 3,
@@ -2668,10 +2669,10 @@
     "section": "Regel 12.3 – Sonderregeln für Erleichterung bei Ball im Bunker",
     "question": "Eine ungewöhnliche Platzbedingung behindert einen Ball im Bunker. Was ist grundsätzlich möglich?",
     "options": [
-      "Straflose Erleichterung von der Gefährdung durch Tiere, wenn die Regelbedingungen erfüllt sind.",
-      "Wenn der gesamte Ball außerhalb der festgelegten Platzgrenze liegt.",
+      "Der Spieler darf nur mit Strafschlag außerhalb des Bunkers Erleichterung nehmen.",
+      "Straflose Erleichterung gibt es nur außerhalb des Bunkers.",
       "Straflose Erleichterung nach Regel 16.1c innerhalb des Bunkers, wenn deren Voraussetzungen erfüllt sind.",
-      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes."
+      "Der Spieler muss den Ball immer spielen, wie er im Bunker liegt."
     ],
     "correct": 2,
     "explanation": "Regel 12.3 verweist für Erleichterungssituationen im Bunker auf das jeweils passende Verfahren.",
@@ -2683,13 +2684,13 @@
     "section": "Regel 13.3 – Ball ragt über den Lochrand hinaus",
     "question": "Der Ball hängt über dem Lochrand. Wie lange darf der Spieler zunächst warten?",
     "options": [
-      "Die Stelle markieren und den Ball grundsätzlich nicht reinigen.",
+      "Der Spieler darf insgesamt nur zehn Sekunden warten, gerechnet ab dem Stillstand des Balls.",
       "Eine angemessene Zeit, um das Loch zu erreichen, und danach noch zehn Sekunden.",
-      "Der Schlag zählt nicht; der Spieler spielt einen anderen Ball von der Stelle des Schlags.",
-      "Mit einem Ball aus dem Abschlagbereich des zu spielenden Lochs."
+      "Der Spieler darf unbegrenzt warten, solange der Ball über dem Lochrand hängt.",
+      "Die zusätzliche Wartezeit beginnt erst, wenn ein Mitspieler den Ball berührt."
     ],
     "correct": 1,
-    "explanation": "Fällt der Ball erst nach dieser Zeit hinein, gilt er als zur Ruhe gekommen; fällt er danach noch, kommt grundsätzlich ein Strafschlag hinzu.",
+    "explanation": "Der Spieler darf dem Ball eine angemessene Zeit geben, das Loch zu erreichen, und danach zehn weitere Sekunden warten. Fällt der Ball innerhalb dieser zehn Sekunden hinein, ist das Loch beendet; fällt er später hinein, wird eine zusätzliche Strafe von einem Schlag hinzugerechnet.",
     "source": "Regel 13.3 · Buchseite 125",
     "coverageId": "13.3"
   },
@@ -2699,9 +2700,9 @@
     "question": "Wo muss ein Ball zurückgelegt werden?",
     "options": [
       "An seine ursprüngliche Stelle; die ursprüngliche Lage wird so gut wie möglich wiederhergestellt.",
-      "Der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
-      "Die Ballstelle markieren; der Ball darf nur so weit gereinigt werden, wie es zum Erkennen nötig ist.",
-      "Den Verfahrensfehler nach Regel 14.5 berichtigen, bevor er den Ball spielt."
+      "Innerhalb einer Schlägerlänge vom ursprünglichen Ort, nicht näher zum Loch.",
+      "Durch Droppen in einem Erleichterungsbereich, der vom ursprünglichen Ort gemessen wird.",
+      "An die Stelle, an der der Ball zuletzt vom Spieler gesehen wurde."
     ],
     "correct": 0,
     "explanation": "Regel 14.2 verlangt das Zurücklegen an die ursprüngliche Stelle und, soweit möglich, die ursprüngliche Lage.",
@@ -2713,9 +2714,9 @@
     "section": "Regel 14.4 – W ann der Ball des Spielers wieder im Spiel ist, nachdem ursprünglicher Ball nicht mehr im Spiel war",
     "question": "Wann ist ein gedroppter, gelegter oder zurückgelegter Ball wieder im Spiel?",
     "options": [
-      "Die Stelle markieren und den Ball grundsätzlich nicht reinigen.",
-      "Der Ball kann markiert und aufgenommen werden; bei Störung kann der Spieler dazu aufgefordert werden.",
-      "Anhand einer vernünftigen Beurteilung der verfügbaren Tatsachen und Informationen.",
+      "Erst nachdem der Ball im Erleichterungsbereich zur Ruhe gekommen ist.",
+      "Erst nachdem der Spieler den nächsten Schlag ausgeführt hat.",
+      "Erst nachdem ein Referee oder Zähler den Ball freigegeben hat.",
       "Wenn der Spieler ihn mit der Absicht loslässt oder platziert, dass er zum Ball im Spiel wird."
     ],
     "correct": 3,
@@ -2728,10 +2729,10 @@
     "section": "Regel 14.5 – Fehler beim Ersetzen, Zurücklegen, Droppen oder Legen des Balls berichtigen",
     "question": "Der Spieler bemerkt vor dem Schlag einen Fehler beim Droppen oder Zurücklegen. Was kann er tun?",
     "options": [
-      "Grundstrafe; bei schwerwiegendem Verstoß kann eine Berichtigung erforderlich sein.",
-      "Keine Strafe; der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
+      "Der Fehler darf nur vor Beginn des nächsten Lochs berichtigt werden.",
+      "Der Spieler muss den Verfahrensfehler berichtigen und erhält dafür immer einen Strafschlag.",
       "Den Verfahrensfehler nach Regel 14.5 berichtigen, bevor er den Ball spielt.",
-      "Der Spieler muss den Ball grundsätzlich spielen, wie er liegt."
+      "Ein Drop- oder Zurücklegefehler kann nicht mehr berichtigt werden, sobald der Ball den Boden berührt hat."
     ],
     "correct": 2,
     "explanation": "Regel 14.5 erlaubt unter ihren Voraussetzungen die Berichtigung vor dem nächsten Schlag.",
@@ -2743,10 +2744,10 @@
     "section": "Regel 14.6 – Nächsten Schlag von der Stelle des vorigen Schlags ausführen",
     "question": "Wie wird gespielt, wenn der nächste Schlag von der Stelle des vorherigen Schlags ausgeführt werden muss?",
     "options": [
-      "Keine Strafe; der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
+      "Der Spieler muss immer droppen, auch wenn der vorherige Schlag auf dem Grün ausgeführt wurde.",
       "Das Verfahren hängt vom Bereich ab: Abschlag, Droppen oder Zurücklegen.",
-      "Wenn der Spieler ihn mit der Absicht loslässt oder platziert, dass er zum Ball im Spiel wird.",
-      "Die Ballstelle markieren; der Ball darf nur so weit gereinigt werden, wie es zum Erkennen nötig ist."
+      "Der Spieler muss den Ball immer an die Stelle legen, auch wenn der vorherige Schlag im Gelände war.",
+      "Der Spieler darf in allen Platzbereichen innerhalb einer Schlägerlänge vom früheren Ballort droppen."
     ],
     "correct": 1,
     "explanation": "Regel 14.6 legt je nach Bereich das Verfahren für Schlag und Distanzverlust fest.",
@@ -2758,13 +2759,13 @@
     "section": "Regel 14.7 – Spielen vom falschen Ort",
     "question": "Im Zählspiel stellt ein Spieler vor Beginn des nächsten Lochs fest, dass er vom falschen Ort gespielt und dadurch einen schwerwiegenden Verstoß begangen hat. Was muss er tun?",
     "options": [
-      "Er muss das Loch mit dem Ball vom falschen Ort beenden.",
-      "Er muss den Fehler berichtigen, indem er das Loch mit einem regelgerecht vom richtigen Ort gespielten Ball beendet.",
-      "Er darf den Fehler erst nach Abgabe der Scorekarte berichtigen.",
-      "Es fällt keine Strafe an, solange kein Mitspieler protestiert."
+      "Er darf den Ball vom falschen Ort weiterspielen und muss nur zwei Strafschläge hinzurechnen.",
+      "Er muss den Verstoß vor Beginn des nächsten Lochs berichtigen, vom richtigen Ort weiterspielen und die Grundstrafe von zwei Strafschlägen hinzurechnen.",
+      "Er muss den Schlag wiederholen und erhält dafür einen Strafschlag.",
+      "Er ist sofort disqualifiziert und darf den Fehler nicht mehr berichtigen."
     ],
     "correct": 1,
-    "explanation": "Bei einem schwerwiegenden Verstoß muss der Spieler den Fehler berichtigen und das Loch mit einem regelgerecht vom richtigen Ort gespielten Ball beenden. Versäumt er dies, bevor er das nächste Loch beginnt oder am letzten Loch die Scorekarte einreicht, ist er disqualifiziert.",
+    "explanation": "Nach einem schwerwiegenden Verstoß muss der Spieler das Loch mit einem Ball beenden, der regelgerecht vom richtigen Ort gespielt wird. Er erhält die Grundstrafe von zwei Strafschlägen. Berichtigt er den Fehler nicht, bevor er einen Schlag zum Beginnen des nächsten Lochs ausführt oder am letzten Loch die Scorekarte einreicht, ist er disqualifiziert.",
     "source": "Regel 14.7b(1) · Buchseite 144",
     "coverageId": "14.7b(1)"
   },
@@ -2773,9 +2774,9 @@
     "section": "Regel 15.3 – Ball oder Ballmarker unterstützt oder stört das Spiel",
     "question": "Ein Ball könnte einem anderen Spieler helfen oder ihn stören. Was kann verlangt werden?",
     "options": [
-      "Grundstrafe; bei schwerwiegendem Verstoß kann eine Berichtigung erforderlich sein.",
-      "Eine angemessene Zeit, um das Loch zu erreichen, und danach noch zehn Sekunden.",
-      "Jederzeit, indem er von der Stelle des vorherigen Schlags spielt und einen Strafschlag hinzurechnet.",
+      "Ein Ball, der einem anderen helfen könnte, darf nur auf dem Grün aufgenommen werden.",
+      "Ein Spieler kann nie verlangen, dass ein anderer Ball aufgenommen wird, wenn dieser seine Spiellinie stört.",
+      "Ein Ball muss immer aufgenommen werden, sobald er sich in der Nähe eines anderen Balls befindet.",
       "Der Ball kann markiert und aufgenommen werden; bei Störung kann der Spieler dazu aufgefordert werden."
     ],
     "correct": 3,
@@ -2788,10 +2789,10 @@
     "section": "Regel 16.2 – Gefährdung durch Tiere",
     "question": "Ein gefährliches Tier ist nahe am Ball oder am beabsichtigten Schwung. Was kommt grundsätzlich in Betracht?",
     "options": [
-      "Straflose Erleichterung nach Regel 16.1c innerhalb des Bunkers, wenn deren Voraussetzungen erfüllt sind.",
-      "Der Spieler darf straflose Erleichterung nach Regel 16.3 nehmen, wenn deren Voraussetzungen erfüllt sind.",
+      "Erleichterung ist nur erlaubt, wenn das Tier den Ball berührt.",
+      "Der Spieler muss immer einen Strafschlag hinzurechnen, wenn er einem gefährlichen Tier ausweicht.",
       "Straflose Erleichterung von der Gefährdung durch Tiere, wenn die Regelbedingungen erfüllt sind.",
-      "Erleichterung nach anderen Regeln, etwa wegen ungewöhnlicher Platzverhältnisse oder eines unspielbaren Balls."
+      "Erleichterung gibt es nur, wenn das Tier den Stand, nicht aber den Schwung beeinträchtigt."
     ],
     "correct": 2,
     "explanation": "Regel 16.2 erlaubt unter ihren Bedingungen straflose Erleichterung bei Gefährdung durch Tiere.",
@@ -2803,10 +2804,10 @@
     "section": "Regel 16.3 – Eingebetteter Ball",
     "question": "Ein Ball ist im Gelände in seinem eigenen Einschlagloch eingebettet. Was gilt grundsätzlich?",
     "options": [
-      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes.",
+      "Straflose Erleichterung ist auch in einem Bunker oder einer Penalty Area zulässig.",
       "Der Spieler darf straflose Erleichterung nach Regel 16.3 nehmen, wenn deren Voraussetzungen erfüllt sind.",
-      "Wenn der gesamte Ball außerhalb der festgelegten Platzgrenze liegt.",
-      "Straflose Erleichterung nach Regel 16.1c innerhalb des Bunkers, wenn deren Voraussetzungen erfüllt sind."
+      "Erleichterung ist nur erlaubt, wenn der Ball vollständig unter der Bodenoberfläche liegt.",
+      "Der Spieler darf nur dann Erleichterung nehmen, wenn der Ball auf dem Grün eingebettet ist."
     ],
     "correct": 1,
     "explanation": "Regel 16.3 erlaubt grundsätzlich straflose Erleichterung für einen eingebetteten Ball im Gelände.",
@@ -2819,9 +2820,9 @@
     "question": "Der Spieler hebt einen Ball auf, um zu prüfen, ob Erleichterung zulässig ist. Was muss er beachten?",
     "options": [
       "Die Stelle markieren und den Ball grundsätzlich nicht reinigen.",
-      "Anhand einer vernünftigen Beurteilung der verfügbaren Tatsachen und Informationen.",
-      "An seine ursprüngliche Stelle; die ursprüngliche Lage wird so gut wie möglich wiederhergestellt.",
-      "Das Verfahren hängt vom Bereich ab: Abschlag, Droppen oder Zurücklegen."
+      "Die Stelle markieren und den Ball gründlich reinigen, bevor die Erleichterung geprüft wird.",
+      "Den Ball ohne Markierung aufnehmen, sofern die Spielleitung nicht anwesend ist.",
+      "Den Ball aufnehmen und an der nächstgelegenen Stelle ablegen, falls Erleichterung zulässig ist."
     ],
     "correct": 0,
     "explanation": "Regel 16.4 gestattet das Aufnehmen zur Prüfung unter diesen Bedingungen.",
@@ -2833,9 +2834,9 @@
     "section": "Regel 17.2 – Möglichkeiten, nachdem Ball aus Penalty Area gespielt wurde",
     "question": "Was regelt Regel 17.2?",
     "options": [
-      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes.",
-      "Der Spieler darf straflose Erleichterung nach Regel 16.3 nehmen, wenn deren Voraussetzungen erfüllt sind.",
-      "Straflose Erleichterung nach Regel 16.1c innerhalb des Bunkers, wenn deren Voraussetzungen erfüllt sind.",
+      "Die Erleichterung von ungewöhnlichen Platzverhältnissen für einen Ball in einer Penalty Area.",
+      "Die Erleichterung für einen Ball in einem Bunker, wenn der Ball darin zur Ruhe kommt.",
+      "Die Möglichkeiten bei einem verlorenen Ball, dessen Lage in einer Penalty Area bekannt oder so gut wie sicher ist.",
       "Die Möglichkeiten, wenn ein Ball nach einem Schlag aus einer Penalty Area dort oder anderswo zur Ruhe kommt."
     ],
     "correct": 3,
@@ -2848,13 +2849,13 @@
     "section": "Regel 17.3 – Keine Erleichterung nach anderen Regeln für einen Ball in der Penalty Area",
     "question": "Welche Erleichterung ist für einen Ball in einer Penalty Area grundsätzlich ausgeschlossen?",
     "options": [
-      "Wenn der gesamte Ball außerhalb der festgelegten Platzgrenze liegt.",
-      "Lose hinderliche Naturstoffe, Hemmnisse und Bestandteile des Platzes.",
-      "Erleichterung nach anderen Regeln, etwa wegen ungewöhnlicher Platzverhältnisse oder eines unspielbaren Balls.",
-      "Der Spieler darf ihn nicht von dort spielen und muss nach der einschlägigen Regel Erleichterung nehmen."
+      "Erleichterung für einen unspielbaren Ball außerhalb einer Penalty Area.",
+      "Schlag-und-Distanz-Erleichterung nach Regel 17.1d.",
+      "Keine Erleichterung nach Regel 16.1 für ungewöhnliche Platzverhältnisse oder nach Regel 19 für einen unspielbaren Ball, solange der Ball in der Penalty Area liegt.",
+      "Erleichterung wegen eines Tierlochs, wenn der Ball außerhalb einer Penalty Area liegt."
     ],
     "correct": 2,
-    "explanation": "Regel 17.3 schließt für einen Ball in der Penalty Area Erleichterung nach anderen Regeln grundsätzlich aus.",
+    "explanation": "Liegt der Ball in einer Penalty Area, gibt es keine Erleichterung nach Regel 16.1 wegen ungewöhnlicher Platzverhältnisse und keine Erleichterung nach Regel 19 für einen unspielbaren Ball. Für Erleichterung wegen der Penalty Area gilt Regel 17.",
     "source": "Regel 17.3 · Buchseite 179",
     "coverageId": "17.3"
   },
@@ -2863,10 +2864,10 @@
     "section": "Regel 18.1 – Erleichterung mit Schlag und Distanzverlust ist jederzeit zulässig",
     "question": "Wann darf ein Spieler Schlag und Distanzverlust wählen?",
     "options": [
-      "Der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
+      "Nur wenn der Ball verloren oder im Aus ist.",
       "Jederzeit, indem er von der Stelle des vorherigen Schlags spielt und einen Strafschlag hinzurechnet.",
-      "Die Ballstelle markieren; der Ball darf nur so weit gereinigt werden, wie es zum Erkennen nötig ist.",
-      "Anhand einer vernünftigen Beurteilung der verfügbaren Tatsachen und Informationen."
+      "Nur wenn der Spieler zuerst eine andere Erleichterungsmöglichkeit ausprobiert hat.",
+      "Ohne Strafschlag, sofern der Spieler an die Stelle des vorherigen Schlags zurückkehrt."
     ],
     "correct": 1,
     "explanation": "Regel 18.1 erlaubt dieses Verfahren jederzeit; für die Ausführung gilt Regel 14.6.",
@@ -2879,9 +2880,9 @@
     "question": "Worauf beruht die Entscheidung in einem Regelfall?",
     "options": [
       "Auf den festgestellten Tatsachen und der zutreffenden Golfregel.",
-      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen.",
-      "Ihn ablenken oder aufhalten, um das Ergebnis zu beeinflussen.",
-      "Grundsätzlich nein, außer eine Regel erlaubt die konkrete Handlung."
+      "Auf der Einschätzung des Spielers, auch wenn die verfügbaren Tatsachen dagegen sprechen.",
+      "Auf einer Mehrheitsabstimmung aller Spieler der Gruppe.",
+      "Auf der von der Spielleitung bevorzugten Lösung, unabhängig von den Golfregeln."
     ],
     "correct": 0,
     "explanation": "Regel 20.2 behandelt Entscheidungen zu Regelfällen und die Anwendung der Regeln auf die Tatsachen.",
@@ -2893,9 +2894,9 @@
     "section": "Regel 20.3 – Nicht von den Regeln erfasste Fälle",
     "question": "Wie entscheidet die Spielleitung einen Fall ohne ausdrückliche Regel?",
     "options": [
-      "Grundsätzlich nein.",
-      "Mit Integrität spielen, Rücksicht auf andere nehmen und den Platz schonen.",
-      "Grundsätzlich nein, außer eine Regel erlaubt die konkrete Handlung.",
+      "Immer zugunsten des Spielers, gegen den der Regelfall entschieden wird.",
+      "Stets mit der schwersten im Regelbuch vorgesehenen Strafe.",
+      "Durch Abstimmung der Mitbewerber über die wahrscheinlichste Regel.",
       "Fair und im Einklang mit ähnlichen Fällen und den Grundsätzen der Regeln."
     ],
     "correct": 3,
@@ -2908,10 +2909,10 @@
     "section": "Regel 21.2 – Maximum Score",
     "question": "Was kennzeichnet Maximum Score?",
     "options": [
-      "Die Spielleitung legt die Bedingungen fest; die Regeln gelten, soweit sie zur Spielform passen.",
-      "Bei einer Unterbrechung wegen Gefahr oder einem unmittelbaren Sicherheitsrisiko.",
+      "Der Spieler muss jedes Loch beenden, auch nachdem die festgelegte Höchstzahl erreicht ist.",
+      "Die Höchstzahl wird erst nach Abschluss der Runde von der Spielleitung bestimmt.",
       "Für jedes Loch gilt eine Höchstzahl; ist sie erreicht, darf der Spieler den Ball aufnehmen.",
-      "Sie umfasst 18 oder weniger Löcher in der von der Spielleitung festgelegten Reihenfolge."
+      "Sobald die Höchstzahl erreicht ist, ist der Spieler für das Loch disqualifiziert."
     ],
     "correct": 2,
     "explanation": "Bei Maximum Score zählt das festgelegte Höchstergebnis für das Loch.",
@@ -2923,10 +2924,10 @@
     "section": "Regel 21.4 – Dreiball-Lochspiel",
     "question": "Wie funktioniert Dreiball-Lochspiel?",
     "options": [
-      "Ein von der Mannschaft benannter Ratgeber nach den Vorgaben der Spielleitung.",
+      "Zwei Spieler bilden eine Partei und spielen gemeinsam gegen den dritten Spieler.",
       "Jeder von drei Spielern spielt gleichzeitig ein eigenes Lochspiel gegen die beiden anderen.",
-      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen.",
-      "Auf oder nahe der Verlängerung der Spiellinie hinter dem Spieler, wenn dieser beginnt, den Stand einzunehmen."
+      "Drei Spieler bilden eine Partei und spielen mit einem gemeinsamen Ball gegen eine andere Partei.",
+      "Jeder Spieler spielt ein eigenes Zählspiel, und die Gesamtzahl der drei Bälle wird verglichen."
     ],
     "correct": 1,
     "explanation": "Dreiball umfasst drei parallel gespielte Einzelmatches.",
@@ -2939,9 +2940,9 @@
     "question": "Was gilt für weitere, nicht ausdrücklich in Regel 21 beschriebene Spielformen?",
     "options": [
       "Die Spielleitung legt die Bedingungen fest; die Regeln gelten, soweit sie zur Spielform passen.",
-      "Grundsätzlich höchstens einen Caddie zur selben Zeit.",
-      "Jeder Partner, soweit Spielfolge und Regeln eingehalten werden.",
-      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen."
+      "Die Spieler dürfen die Golfregeln für eine andere Spielform selbst abändern.",
+      "Die Spielleitung darf die Regeln vollständig außer Kraft setzen, ohne Bedingungen festzulegen.",
+      "Für eine nicht ausdrücklich beschriebene Spielform gelten die Regeln nie."
     ],
     "correct": 0,
     "explanation": "Regel 21.5 ermöglicht andere Spielformen unter den festgelegten Bedingungen.",
@@ -2953,9 +2954,9 @@
     "section": "Regel 22.2 – Jeder Partner kann für Partei handeln",
     "question": "Wer darf im Vierer grundsätzlich für die Partei handeln?",
     "options": [
-      "Sie umfasst 18 oder weniger Löcher in der von der Spielleitung festgelegten Reihenfolge.",
-      "Sie dürfen grundsätzlich selbst bestimmen, welcher Partner zuerst spielt.",
-      "Die Partner schlagen an den Löchern abwechselnd ab.",
+      "Nur der Partner, der den letzten Schlag ausgeführt hat, darf für die Partei handeln.",
+      "Ein benannter Mannschaftskapitän darf anstelle beider Partner alle Handlungen ausführen.",
+      "Jeder Partner darf jederzeit handeln, auch wenn dadurch die vorgeschriebene Spielfolge verletzt wird.",
       "Jeder Partner, soweit Spielfolge und Regeln eingehalten werden."
     ],
     "correct": 3,
@@ -2968,10 +2969,10 @@
     "section": "Regel 22.4 – Beginn der Runde",
     "question": "Wie wechseln die Abschläge der Partner im Vierer?",
     "options": [
-      "Auf oder nahe der Verlängerung der Spiellinie hinter dem Spieler, wenn dieser beginnt, den Stand einzunehmen.",
-      "Einer oder beide Partner, soweit die Regeln es zulassen.",
+      "Beide Partner schlagen an jedem Loch ab und wählen danach den besseren Ball.",
+      "Derselbe Partner muss an jedem Loch der Runde zuerst abschlagen.",
       "Die Partner schlagen an den Löchern abwechselnd ab.",
-      "Für jedes Loch gilt eine Höchstzahl; ist sie erreicht, darf der Spieler den Ball aufnehmen."
+      "Der Partner, dessen Ball am letzten Loch am weitesten vom Loch entfernt lag, schlägt am nächsten Loch zuerst ab."
     ],
     "correct": 2,
     "explanation": "Im Vierer spielen die Partner einen Ball abwechselnd; dazu wechseln auch die Abschläge.",
@@ -2983,10 +2984,10 @@
     "section": "Regel 22.5 – Partner dürfen Schläger gemeinsam benutzen",
     "question": "Wann dürfen Partner im Vierer ihre Schläger teilen?",
     "options": [
-      "Den Schläger absichtlich am Körper zu verankern, um ihn als stabilen Drehpunkt zu verwenden.",
+      "Jeder Partner darf bis zu 14 eigene Schläger haben, auch wenn sie gemeinsam mehr als 14 benutzen.",
       "Wenn beide zusammen höchstens 14 Schläger benutzen.",
-      "Ja, solange beide zusammen nicht mehr als 14 Schläger benutzen.",
-      "Ausrüstung darf nicht ungewöhnlich verwendet werden, um einen möglichen Vorteil zu schaffen."
+      "Partner im Vierer dürfen keine Schläger miteinander teilen.",
+      "Schläger dürfen nur geteilt werden, wenn beide Partner denselben Satz besitzen."
     ],
     "correct": 1,
     "explanation": "Partner dürfen Schläger gemeinsam verwenden, solange die Gesamtzahl 14 nicht überschreitet.",
@@ -2999,9 +3000,9 @@
     "question": "Wo darf der Partner beim Schlag im Vierer nicht stehen?",
     "options": [
       "Auf oder nahe der Verlängerung der Spiellinie hinter dem Spieler, wenn dieser beginnt, den Stand einzunehmen.",
-      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen.",
-      "Für jedes Loch gilt eine Höchstzahl; ist sie erreicht, darf der Spieler den Ball aufnehmen.",
-      "Bei einer Unterbrechung wegen Gefahr oder einem unmittelbaren Sicherheitsrisiko."
+      "Der Partner darf auf der verlängerten Spiellinie stehen, wenn er den Schläger nicht hält.",
+      "Die Einschränkung gilt nur für Gegner, nicht für den Partner.",
+      "Der Partner darf sich während der gesamten Runde nicht hinter dem Spieler aufhalten."
     ],
     "correct": 0,
     "explanation": "Regel 22.6 beschränkt die Position des Partners hinter dem Spieler.",
@@ -3013,10 +3014,10 @@
     "section": "Regel 23.3 – Wann die Runde beginnt und endet; wann ein Loch beendet ist",
     "question": "Im Vierball-Lochspiel hat ein Partner eingelocht. Der andere Partner hat ein Ergebnis, das für die Partei nicht zählen kann. Was gilt?",
     "options": [
-      "Die Partei muss das Loch immer bis zum Einlochen beider Partner weiterspielen.",
+      "Das Loch ist erst beendet, wenn beide Partner eingelocht haben.",
       "Die Partei hat das Loch beendet.",
-      "Das Loch wird automatisch geteilt.",
-      "Der Gegner muss das Loch für ungültig erklären."
+      "Das Loch wird geteilt, sobald ein Partner eingelocht hat.",
+      "Der Gegner kann das Loch für ungültig erklären, wenn ein Partner nicht einlocht."
     ],
     "correct": 1,
     "explanation": "Im Lochspiel hat die Partei das Loch beendet, wenn ein Partner eingelocht hat und der andere sich nicht mehr einlocht oder ein Ergebnis hat, das nicht für die Partei zählen kann.",
@@ -3028,10 +3029,10 @@
     "section": "Regel 23.4 – Einer oder beide Partner dürfen die Partei vertreten",
     "question": "Wer darf die Partei im Vierball vertreten?",
     "options": [
-      "Spieler oder Parteien treten als Mannschaft an; die Spielleitung legt fest, wie das Mannschaftsergebnis gebildet wird.",
-      "Bei einer Unterbrechung wegen Gefahr oder einem unmittelbaren Sicherheitsrisiko.",
+      "Nur der Partner mit dem niedrigsten Handicap darf die Partei vertreten.",
+      "Nur der Partner, dessen Ball am weitesten vom Loch entfernt ist, darf handeln.",
       "Einer oder beide Partner, soweit die Regeln es zulassen.",
-      "Wenn beide Partner fertig sind oder das Ergebnis des Lochs bereits feststeht."
+      "Die Partei darf nur gemeinsam durch beide Partner handeln; ein einzelner Partner darf nicht auftreten."
     ],
     "correct": 2,
     "explanation": "Regel 23.4 erlaubt einem oder beiden Partnern, die Partei zu vertreten.",
@@ -3043,10 +3044,10 @@
     "section": "Regel 23.5 – Handlungen des Spielers beeinflussen Spiel des Partners",
     "question": "Wie können bestimmte Handlungen eines Partners für den anderen Partner wirken?",
     "options": [
-      "Von der betreffenden Regel und davon, wie der Verstoß das Spiel der Partner beeinflusst.",
+      "Jede Handlung eines Partners wird immer und ohne Ausnahme dem anderen zugerechnet.",
       "Sie können ihm zugerechnet werden und nach den Regeln Folgen für die Partei haben.",
-      "Sie umfasst 18 oder weniger Löcher in der von der Spielleitung festgelegten Reihenfolge.",
-      "Die Spielleitung setzt die Gruppen fest; Spieler sollen sie nicht eigenmächtig ändern."
+      "Handlungen eines Partners können dem anderen niemals zugerechnet werden.",
+      "Nur ein Schlag des Partners, nicht aber sein Umgang mit Ball oder Ausrüstung, kann Folgen haben."
     ],
     "correct": 1,
     "explanation": "Regel 23.5 behandelt Handlungen, die das Spiel des Partners beeinflussen.",
@@ -3059,9 +3060,9 @@
     "question": "In welcher Reihenfolge dürfen Partner im Vierball ihre Bälle spielen?",
     "options": [
       "Sie dürfen grundsätzlich selbst bestimmen, welcher Partner zuerst spielt.",
-      "Wenn beide Partner fertig sind oder das Ergebnis des Lochs bereits feststeht.",
-      "Für jedes Loch gilt eine Höchstzahl; ist sie erreicht, darf der Spieler den Ball aufnehmen.",
-      "Jeder Partner, soweit Spielfolge und Regeln eingehalten werden."
+      "Die Partner müssen auf jedem Loch abwechselnd ihre Bälle spielen.",
+      "Der Partner, der am weitesten vom Loch entfernt liegt, muss immer zuerst spielen.",
+      "Der Partner, der am letzten Loch zuerst gespielt hat, muss auf jedem weiteren Loch zuerst spielen."
     ],
     "correct": 0,
     "explanation": "Im Vierball kann die Partei die Reihenfolge der Partner grundsätzlich wählen.",
@@ -3073,9 +3074,9 @@
     "section": "Regel 23.7 – Partner dürfen Schläger gemeinsam benutzen",
     "question": "Dürfen Vierball-Partner Schläger teilen?",
     "options": [
-      "Wenn beide zusammen höchstens 14 Schläger benutzen.",
-      "Ausrüstung darf nicht ungewöhnlich verwendet werden, um einen möglichen Vorteil zu schaffen.",
-      "Den Schläger absichtlich am Körper zu verankern, um ihn als stabilen Drehpunkt zu verwenden.",
+      "Jeder Partner darf bis zu 14 Schläger benutzen, unabhängig von der Gesamtzahl der Partei.",
+      "Vierball-Partner dürfen keine Schläger miteinander teilen.",
+      "Schläger dürfen nur geteilt werden, wenn beide Partner dieselbe Schlägermarke verwenden.",
       "Ja, solange beide zusammen nicht mehr als 14 Schläger benutzen."
     ],
     "correct": 3,
@@ -3088,10 +3089,10 @@
     "section": "Regel 23.8 – Verbot für Spieler, hinter dem Partner zu stehen, wenn ein Schlag ausgeführt wird",
     "question": "Welche Einschränkung gilt für den Partner hinter dem Spieler im Vierball?",
     "options": [
-      "Für jedes Loch gilt eine Höchstzahl; ist sie erreicht, darf der Spieler den Ball aufnehmen.",
-      "Spielform, Einzel- oder Partnerspiel sowie Brutto- oder Netto-Wertung.",
+      "Der Partner darf auf oder nahe der Spiellinie stehen, wenn er den Spieler nicht berührt.",
+      "Die Einschränkung gilt nur für den Gegner oder dessen Caddie.",
       "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen.",
-      "Wenn beide Partner fertig sind oder das Ergebnis des Lochs bereits feststeht."
+      "Der Partner darf sich während der gesamten Runde nicht hinter dem Spieler aufhalten."
     ],
     "correct": 2,
     "explanation": "Regel 23.8 enthält eine Beschränkung für die Position des Partners hinter dem Spieler.",
@@ -3103,10 +3104,10 @@
     "section": "Regel 23.9 – Wann eine Strafe nur für einen Partner oder für beide Partner anfällt",
     "question": "Wovon hängt es ab, ob eine Strafe im Vierball einen oder beide Partner trifft?",
     "options": [
-      "Spielform, Einzel- oder Partnerspiel sowie Brutto- oder Netto-Wertung.",
+      "Jede Strafe trifft immer beide Partner gleichermaßen.",
       "Von der betreffenden Regel und davon, wie der Verstoß das Spiel der Partner beeinflusst.",
-      "Grundsätzlich höchstens einen Caddie zur selben Zeit.",
-      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen."
+      "Eine Strafe trifft ausschließlich den Partner, der sie unmittelbar verursacht hat.",
+      "Eine Strafe trifft automatisch die gesamte Mannschaft, auch außerhalb der Partei."
     ],
     "correct": 1,
     "explanation": "Regel 23.9 legt fest, wann eine Strafe für einen Partner oder für beide gilt.",
@@ -3119,9 +3120,9 @@
     "question": "Was kennzeichnet ein Mannschaftsturnier?",
     "options": [
       "Spieler oder Parteien treten als Mannschaft an; die Spielleitung legt fest, wie das Mannschaftsergebnis gebildet wird.",
-      "Ein von der Mannschaft benannter Ratgeber nach den Vorgaben der Spielleitung.",
-      "Bei einer Unterbrechung wegen Gefahr oder einem unmittelbaren Sicherheitsrisiko.",
-      "Einer oder beide Partner, soweit die Regeln es zulassen."
+      "Alle Spieler treten ausschließlich einzeln an; ein Mannschaftsergebnis wird nicht gebildet.",
+      "Der Mannschaftskapitän bestimmt nach Ende des Turniers allein, welche Ergebnisse zählen.",
+      "Das Mannschaftsergebnis ist in jeder Spielform stets die Summe aller Brutto-Schläge."
     ],
     "correct": 0,
     "explanation": "Regel 24.1 beschreibt Mannschaftsturniere und deren Ergebnisfestlegung.",
@@ -3133,9 +3134,9 @@
     "section": "Regel 24.3 – Mannschaftskapitän",
     "question": "Welche Aufgabe kann ein Mannschaftskapitän übernehmen?",
     "options": [
-      "Spieler oder Parteien treten als Mannschaft an; die Spielleitung legt fest, wie das Mannschaftsergebnis gebildet wird.",
-      "Beim Beginn der Standposition darf er nicht auf oder nahe der verlängerten Spiellinie hinter dem Spieler stehen.",
-      "Sie können ihm zugerechnet werden und nach den Regeln Folgen für die Partei haben.",
+      "Der Mannschaftskapitän darf die Golfregeln für seine Mannschaft ändern.",
+      "Der Mannschaftskapitän darf für jeden Spieler Schläge ausführen, auch wenn er nicht Partner ist.",
+      "Der Mannschaftskapitän entscheidet ohne Wettspielbedingungen, welche Ergebnisse zählen.",
       "Die Mannschaft vertreten und nach den Turnierbedingungen Beratung geben."
     ],
     "correct": 3,
@@ -3148,10 +3149,10 @@
     "section": "Regel 24.4 – Erlaubte Beratung in Mannschaftsturnieren",
     "question": "Wer darf in einem Mannschaftsturnier beraten, wenn die Bedingungen dies erlauben?",
     "options": [
-      "Die Spielleitung setzt die Gruppen fest; Spieler sollen sie nicht eigenmächtig ändern.",
-      "Einer oder beide Partner, soweit die Regeln es zulassen.",
+      "Jeder Zuschauer oder Trainer darf die Mannschaft jederzeit beraten.",
+      "Nur der Spieler selbst darf sich beraten lassen; ein benannter Ratgeber ist nicht erlaubt.",
       "Ein von der Mannschaft benannter Ratgeber nach den Vorgaben der Spielleitung.",
-      "Grundsätzlich höchstens einen Caddie zur selben Zeit."
+      "Alle Teammitglieder dürfen immer jedem Spieler Beratung geben, unabhängig von den Bedingungen."
     ],
     "correct": 2,
     "explanation": "Regel 24.4 regelt erlaubte Beratung durch einen benannten Ratgeber.",
@@ -3704,13 +3705,13 @@
     "section": "Regel 6.3b(1) – Einen anderen Ball einsetzen",
     "question": "Wann darf ein Spieler während eines Lochs einen anderen Ball einsetzen?",
     "options": [
-      "Wenn er nach einer Regel Erleichterung in Anspruch nimmt und dabei einen Ball droppt oder hinlegt, sofern die Regel nichts anderes verlangt.",
+      "Wenn er Erleichterung mit Droppen oder Legen nimmt oder bei Schlag-und-Distanz-Erleichterung von der vorherigen Stelle spielt.",
       "Immer dann, wenn ihm die Lage des ursprünglichen Balls nicht gefällt.",
       "Nur nach einem Strafschlag, niemals bei strafloser Erleichterung.",
       "Zu jedem Zeitpunkt, solange der neue Ball dieselbe Marke hat."
     ],
     "correct": 0,
-    "explanation": "Ein anderer Ball darf eingesetzt werden, wenn eine Regel Erleichterung mit Droppen oder Hinlegen vorsieht. Wird dagegen ein Ball an eine Stelle zurückgelegt, muss grundsätzlich derselbe Ball verwendet werden, soweit keine Ausnahme gilt.",
+    "explanation": "Ein anderer Ball darf eingesetzt werden, wenn eine Regel Erleichterung durch Droppen oder Legen vorsieht oder der Spieler Schlag und Distanzverlust in Anspruch nimmt. Wird ein Ball dagegen nach einer Regel zurückgelegt, muss grundsätzlich derselbe Ball verwendet werden, soweit keine Ausnahme gilt.",
     "source": "Regel 6.3b(1) · Buchseite 69"
   },
   {
@@ -3732,15 +3733,15 @@
     "number": "R241",
     "coverageId": "6.3c(1)",
     "section": "Regel 6.3c(1) – Schlag nach einem falschen Ball",
-    "question": "Welche Strafe erhält ein Spieler im Zählspiel grundsätzlich, wenn er nach einem falschen Ball schlägt?",
+    "question": "Ein Spieler im Zählspiel schlägt nach einem falschen Ball. Bis wann muss er den Fehler berichtigen, damit er nicht disqualifiziert wird?",
     "options": [
-      "Die Grundstrafe von zwei Schlägen; er muss den Fehler vor Beginn des nächsten Lochs berichtigen.",
-      "Einen Strafschlag; der falsche Ball wird weitergespielt.",
-      "Die Disqualifikation beim ersten Schlag nach dem falschen Ball.",
-      "Keine Strafe, wenn der falsche Ball auf dem Fairway lag."
+      "Bevor er einen Schlag ausführt, um das nächste Loch zu beginnen; am letzten Loch vor der Abgabe seiner Scorekarte.",
+      "Bevor der falsche Ball zur Ruhe kommt.",
+      "Bis zum Ende der Runde; die Scorekarte kann danach noch berichtigt werden.",
+      "Er muss den Fehler nicht berichtigen, wenn er die zwei Strafschläge hinzurechnet."
     ],
     "correct": 0,
-    "explanation": "Im Zählspiel zieht sich der Spieler die Grundstrafe von zwei Schlägen zu und muss den Fehler berichtigen, indem er den richtigen Ball weiterspielt oder Erleichterung nach den Regeln in Anspruch nimmt. Unterlässt er die Berichtigung rechtzeitig, ist er disqualifiziert; die Regel enthält eine Ausnahme für bestimmte Bälle im Wasser.",
+    "explanation": "Der Spieler muss den Fehler berichtigen, indem er seinen eigenen Ball von der richtigen Stelle spielt oder nach den Regeln Erleichterung nimmt. Die Berichtigung muss erfolgen, bevor er einen Schlag ausführt, um das nächste Loch zu beginnen; am letzten Loch vor Abgabe der Scorekarte. Andernfalls ist er disqualifiziert.",
     "source": "Regel 6.3c(1) · Buchseite 71"
   },
   {
@@ -4762,5 +4763,185 @@
     "correct": 2,
     "explanation": "Nach Regel 14.7b(3) entscheidet die Spielleitung anhand der Frage, ob das Spielen des ursprünglichen Balls vom falschen Ort ein schwerwiegender Verstoß war. Je nach Ergebnis zählt der ursprüngliche oder der zur Berichtigung gespielte Ball; zum zählenden Ergebnis wird die Grundstrafe nach Regel 14.7a hinzugefügt.",
     "source": "Regel 14.7b(3) · Buchseite 145"
+  },
+  {
+    "number": "R310",
+    "section": "Regel 4 – Ausrüstung des Spielers",
+    "coverageId": "4.1a(3)",
+    "question": "Ein Spieler verstellt während der Runde absichtlich die Loft-Einstellung seines Schlägers und möchte anschließend damit schlagen. Was gilt?",
+    "options": [
+      "Er darf den Schläger benutzen, wenn die Einstellung vor dem Schlag verändert wurde.",
+      "Er darf damit schlagen, wenn die Änderung keinen Einfluss auf den Ballflug hat.",
+      "Er darf damit nicht schlagen, solange die Veränderung besteht; stellt er die ursprüngliche Einstellung vor einem Schlag mit diesem Schläger wieder her, darf er ihn verwenden.",
+      "Die Regel gilt nur für Veränderungen, die der Caddie vorgenommen hat."
+    ],
+    "correct": 2,
+    "explanation": "Ein Spieler darf keinen Schlag mit einem Schläger ausführen, dessen Spieleigenschaften er während der Runde absichtlich verändert hat. Wird eine verstellbare Funktion vor dem nächsten Schlag mit dem Schläger bestmöglich auf den ursprünglichen Zustand zurückgestellt, ist dessen Benutzung erlaubt.",
+    "source": "Regel 4.1a(3) · Buchseite 44"
+  },
+  {
+    "number": "R311",
+    "section": "Regel 4 – Ausrüstung des Spielers",
+    "coverageId": "4.2c(2)",
+    "question": "Wann darf ein Spieler einen Ball ersetzen, der während des Lochs beschädigt wurde?",
+    "options": [
+      "Wenn der Ball während des Lochs deutlich sichtbar eingekerbt oder zersprungen ist; bloße Kratzer reichen nicht.",
+      "Sobald der Ball Kratzer, Abrieb oder eine Verfärbung aufweist.",
+      "Nur wenn der Ball durch einen Schlag im Bunker beschädigt wurde.",
+      "Immer dann, wenn der Spieler einen anderen Ball derselben Marke dabeihat."
+    ],
+    "correct": 0,
+    "explanation": "Ein anderer Ball darf nach Regel 4.2c(2) eingesetzt werden, wenn der ursprüngliche Ball während des Lochs deutlich sichtbar eingekerbt oder zersprungen ist. Kratzer, Abschürfungen oder beschädigte Farbe allein genügen nicht.",
+    "source": "Regel 4.2c(2) · Buchseite 50"
+  },
+  {
+    "number": "R312",
+    "section": "Regel 6 – Spielen des Lochs",
+    "coverageId": "6.1b(1)",
+    "question": "Im Lochspiel beginnt ein Spieler das Loch mit einem Schlag von außerhalb des Abschlags. Was darf der Gegner tun?",
+    "options": [
+      "Er muss den Schlag für ungültig erklären, sobald der Ball zur Ruhe gekommen ist.",
+      "Er darf den Schlag nur für ungültig erklären, bevor der Ball den Abschlag verlässt.",
+      "Er erhält automatisch das Loch, ohne dass der Schlag wiederholt werden darf.",
+      "Er darf den Schlag unverzüglich für ungültig erklären, bevor einer der Spieler einen weiteren Schlag ausführt; andernfalls zählt der Schlag."
+    ],
+    "correct": 3,
+    "explanation": "Im Lochspiel ist der Schlag von außerhalb des Abschlags straflos. Der Gegner kann ihn unverzüglich für ungültig erklären, aber nur bevor einer der Spieler einen weiteren Schlag ausführt. Wird er annulliert, spielt der Spieler einen anderen Ball vom Abschlag und bleibt an der Reihe.",
+    "source": "Regel 6.1b(1) · Buchseite 65"
+  },
+  {
+    "number": "R313",
+    "section": "Regel 8 – Platz spielen, wie er vorgefunden wird",
+    "coverageId": "8.1c(1)",
+    "question": "Ein Spieler biegt einen Ast, um seinen Schwungraum zu verbessern. Was kann er vor dem nächsten Schlag tun, um die Strafe zu vermeiden?",
+    "options": [
+      "Den Ast durch einen ähnlichen Ast ersetzen.",
+      "Den Ast so weit wie möglich in seine ursprüngliche Position zurückbringen, damit die Verbesserung rückgängig gemacht wird.",
+      "Den Ast entfernen und die Stelle mit einem anderen Gegenstand sichern.",
+      "Nichts; eine Verbesserung kann vor dem Schlag nicht mehr berichtigt werden."
+    ],
+    "correct": 1,
+    "explanation": "Wurde durch Bewegen, Biegen oder Brechen eines Gegenstands verbessert, was den Schlag beeinflusst, kann der Spieler die Strafe vermeiden, indem er vor dem Schlag den ursprünglichen Gegenstand so weit wie möglich in seine ursprüngliche Position zurückbringt. Eine nicht rückgängig gemachte Verbesserung oder die Verwendung anderer Gegenstände genügt nicht.",
+    "source": "Regel 8.1c(1) · Buchseite 84"
+  },
+  {
+    "number": "R314",
+    "section": "Regel 10 – Vorbereitung und Ausführung eines Schlags; Beratung",
+    "coverageId": "10.2b(4)",
+    "question": "Der Caddie steht absichtlich hinter dem Spieler auf oder nahe der verlängerten Spiellinie, um dessen Ausrichtung zu kontrollieren. Der Spieler hat bereits begonnen, seinen Stand einzunehmen. Was gilt?",
+    "options": [
+      "Das ist verboten; auch ein wortloses Zur-Seite-Treten als Signal kann Hilfe beim Zielen sein.",
+      "Das ist erlaubt, solange der Caddie vor dem Schlag kein Wort sagt.",
+      "Das ist erlaubt, wenn der Caddie vor dem Schlag zur Seite tritt.",
+      "Die Einschränkung gilt nur, wenn der Ball auf dem Grün liegt."
+    ],
+    "correct": 0,
+    "explanation": "Sobald der Spieler beginnt, seinen Stand einzunehmen, darf sein Caddie im beschränkten Bereich nicht stehen, um beim Zielen zu helfen. Auch ein wortloses Zur-Seite-Treten kann als Ausrichtungssignal gelten. Eine Korrektur ist nur möglich, wenn der Spieler vom Schlag zurücktritt und der Caddie den Bereich verlässt, bevor der Spieler erneut mit dem Stand beginnt.",
+    "source": "Regel 10.2b(4) · Buchseite 99"
+  },
+  {
+    "number": "R315",
+    "section": "Regel 10 – Caddies",
+    "coverageId": "10.3b(2)",
+    "question": "Wann darf ein Caddie den Ball des Spielers außerhalb des Grüns aufnehmen, wenn eine Regel verlangt, ihn anschließend zurückzulegen?",
+    "options": [
+      "Immer, sobald der Caddie die Stelle des Balls kennt.",
+      "Nur wenn ein Referee die Aufnahme vorher genehmigt hat.",
+      "Wenn der Spieler dem Caddie zu Beginn der Runde allgemein die Erlaubnis erteilt hat.",
+      "Wenn der Spieler dem Caddie diese Handlung bei diesem Anlass ausdrücklich erlaubt."
+    ],
+    "correct": 3,
+    "explanation": "Der Caddie darf einen Ball außerhalb des Grüns, der nach einer Regel zurückgelegt werden muss, nur aufnehmen, wenn der Spieler es ausdrücklich erlaubt. Die Erlaubnis muss für jede einzelne Gelegenheit erteilt werden.",
+    "source": "Regel 10.3b(2) · Buchseite 103"
+  },
+  {
+    "number": "R316",
+    "section": "Regel 11 – Ball in Bewegung",
+    "coverageId": "11.1b(1)",
+    "question": "Ein von außerhalb des Grüns gespielter Ball trifft versehentlich eine Person und kommt anschließend auf dem Platz zur Ruhe, ohne auf einer Person, einem Tier oder einem beweglichen äußeren Einfluss liegen zu bleiben. Was gilt grundsätzlich?",
+    "options": [
+      "Der Spieler erhält einen Strafschlag und muss den Schlag wiederholen.",
+      "Es gibt keine Strafe; der Ball wird grundsätzlich gespielt, wie er liegt.",
+      "Der Ball wird an seine ursprüngliche Stelle zurückgelegt.",
+      "Der Gegner oder Mitbewerber entscheidet, ob der Schlag wiederholt wird."
+    ],
+    "correct": 1,
+    "explanation": "Wird ein Ball in Bewegung, der von außerhalb des Grüns gespielt wurde, versehentlich von einer Person oder einem äußeren Einfluss getroffen, ist dies grundsätzlich straflos und der Ball wird gespielt, wie er liegt. Kommt er auf einer Person, einem Tier oder einem sich bewegenden äußeren Einfluss zur Ruhe, muss der Spieler stattdessen Erleichterung nehmen.",
+    "source": "Regel 11.1b(1) · Buchseite 104"
+  },
+  {
+    "number": "R317",
+    "section": "Regel 13 – Grüns",
+    "coverageId": "13.1c(2)",
+    "question": "Welche Aussage zur Reparatur eines Schadens auf dem Grün trifft zu?",
+    "options": [
+      "Der Spieler darf das Grün mit beliebigen Werkzeugen ebnen, solange kein Ball dort liegt.",
+      "Nur die Spielleitung darf Ball-Einschlaglöcher reparieren.",
+      "Der Spieler darf angemessene Handlungen mit normaler Ausrüstung vornehmen, um das Grün möglichst in seinen ursprünglichen Zustand zurückzuversetzen, ohne das Spiel unangemessen zu verzögern.",
+      "Der Spieler darf Schäden nur reparieren, wenn sein eigener Ball auf dem Grün liegt."
+    ],
+    "correct": 2,
+    "explanation": "Schäden auf dem Grün darf der Spieler straflos mit angemessenen Handlungen und normaler Ausrüstung möglichst in den ursprünglichen Zustand zurückversetzen. Dabei darf er das Spiel nicht unangemessen verzögern und das Grün nicht über diesen Zustand hinaus verbessern.",
+    "source": "Regel 13.1c(2) · Buchseite 117"
+  },
+  {
+    "number": "R318",
+    "section": "Regel 14 – Verfahren für den Ball",
+    "coverageId": "14.5b(2)",
+    "question": "Ein Spieler hat nach einer anwendbaren Erleichterungsregel einen Ball am falschen Ort gedroppt und bemerkt den Fehler vor dem nächsten Schlag. Wie muss er ihn berichtigen?",
+    "options": [
+      "Er muss denselben Erleichterungspunkt erneut verwenden und darf keine andere Option wählen.",
+      "Er darf zu einer beliebigen anderen Regel wechseln, auch wenn deren Voraussetzungen nicht erfüllt sind.",
+      "Er muss den Ball vom falschen Ort spielen und erhält dafür immer einen Strafschlag.",
+      "Er muss nach derselben Regel vorgehen, darf aber jede für den Fall anwendbare Erleichterungsmöglichkeit dieser Regel wählen."
+    ],
+    "correct": 3,
+    "explanation": "Wurde der Ball nach der anwendbaren Regel ins Spiel gebracht, aber am falschen Ort gedroppt oder hingelegt, muss der Spieler beim Berichtigen dieselbe Regel anwenden. Er darf jedoch jede Erleichterungsmöglichkeit dieser Regel wählen, die auf den Fall zutrifft.",
+    "source": "Regel 14.5b(2) · Buchseite 140"
+  },
+  {
+    "number": "R319",
+    "section": "Regel 15 – Erleichterung von losen hinderlichen Naturstoffen und Hemmnissen",
+    "coverageId": "15.2a(2)",
+    "question": "Der Ball liegt im Gelände auf einem beweglichen Hemmnis. Wie kann der Spieler straflose Erleichterung nehmen?",
+    "options": [
+      "Er droppt innerhalb einer Schlägerlänge von der geschätzten Stelle unmittelbar unter dem Ball, im selben Platzbereich und nicht näher zum Loch.",
+      "Er droppt innerhalb zweier Schlägerlängen vom nächstgelegenen Punkt vollständiger Erleichterung, auch wenn er näher zum Loch kommt.",
+      "Er muss den Ball an die Stelle zurücklegen, an der er zuletzt geschlagen hat.",
+      "Er droppt auf der Bezugslinie vom Loch durch die Stelle des Hemmnisses."
+    ],
+    "correct": 0,
+    "explanation": "Liegt der Ball außerhalb des Grüns in oder auf einem beweglichen Hemmnis, darf der Spieler das Hemmnis entfernen und straflos droppen. Bezugspunkt ist die geschätzte Stelle unmittelbar unter dem Ball; der Erleichterungsbereich ist eine Schlägerlänge groß, im selben Bereich des Platzes und nicht näher zum Loch.",
+    "source": "Regel 15.2a(2) · Buchseite 150"
+  },
+  {
+    "number": "R320",
+    "section": "Regel 16 – Erleichterung bei ungewöhnlichen Platzverhältnissen",
+    "coverageId": "16.3a(1)",
+    "question": "Ein Ball liegt in seinem eigenen Einschlagloch im Bunker. Darf der Spieler Erleichterung nach Regel 16.3 nehmen?",
+    "options": [
+      "Ja, denn für jeden Ball im eigenen Einschlagloch gibt es straflose Erleichterung.",
+      "Ja, sofern der Spieler vor dem Drop den Ball reinigt.",
+      "Nein. Erleichterung nach Regel 16.3b gilt grundsätzlich nur für einen im Gelände eingebetteten Ball.",
+      "Nein, außer der Spieler erhält zusätzlich einen Strafschlag."
+    ],
+    "correct": 2,
+    "explanation": "Erleichterung nach Regel 16.3b wird grundsätzlich nur gewährt, wenn der Ball im Gelände eingebettet ist; ein Bunker gehört zu den besonderen Bereichen des Platzes. Auf dem Grün darf der Spieler einen eingebetteten Ball markieren, aufnehmen, den Einschlagsschaden ausbessern und den Ball zurücklegen, aber dies ist keine Erleichterung nach Regel 16.3b.",
+    "source": "Regel 16.3a(1) · Buchseite 164"
+  },
+  {
+    "number": "R321",
+    "section": "Regel 21 – Andere Formen des Einzel-Zählspiels und -Lochspiels",
+    "coverageId": "21.1b(1)",
+    "question": "Worauf beruht die Punktevergabe an einem Loch im Stableford?",
+    "options": [
+      "Auf der Zahl der gewonnenen Löcher im Vergleich zum Gegner.",
+      "Auf dem Vergleich der Schläge einschließlich Strafschlägen mit einem festgelegten Zielergebnis für das Loch; grundsätzlich ist dies Par.",
+      "Auf dem Vergleich der Schlagzahl mit dem besten Ergebnis der Spielgruppe.",
+      "Auf der Anzahl der Schläge ohne Strafschläge im Vergleich zu einem für alle Plätze unveränderlichen Ziel."
+    ],
+    "correct": 1,
+    "explanation": "Stableford-Punkte werden je Loch vergeben, indem die gespielten Schläge einschließlich Strafschlägen mit einem von der Spielleitung festgelegten Zielergebnis verglichen werden. Dieses Ziel ist Par, sofern die Spielleitung kein anderes bestimmt.",
+    "source": "Regel 21.1b(1) · Buchseite 204"
   }
 ]
