@@ -1,6 +1,6 @@
 PGA-PRÜFUNGSTRAINER – WEB-VERSION
 
-Version 3.4: Die Prüfungssimulation wählt jetzt in jedem Bereich höchstens 45 Fragen aus; Regelfragenprüfungen verwenden nicht mehr den gesamten Fragenpool auf einmal. Neue und falsch beantwortete Fragen werden weiterhin bevorzugt. Die 167 PGA-Golftechnikfragen und 364 Regelfragen bleiben erhalten. In allen neun Grobform-/Feinform-Paaren ist die richtige Antwort der jeweils anderen Form als plausible falsche Auswahl enthalten. Offline-Cache und Web-App-Manifest sind enthalten.
+Version 4.0: Neuer eigener Trainingsbereich „PGA-Assistant Golftechnik“ mit den 104 Fragen aus dem PGA-Lernskript, die nicht im bisherigen Katalog von 166 Fragen enthalten waren. Jede Frage hat eine Musterantwort, vier Auswahlmöglichkeiten und einen Seitenverweis auf das Lernskript. Prüfungssimulationen verwenden höchstens 45 Fragen. Der bisherige Golftechnikbereich und die 364 Regelfragen bleiben erhalten.
 
 VERÖFFENTLICHUNG
 Lade den gesamten Inhalt dieses Ordners in ein statisches HTTPS-Webhosting hoch. Die Startseite ist index.html. Danach kann die Adresse auf einem iPhone in Safari geöffnet und über „Teilen“ > „Zum Home-Bildschirm“ hinzugefügt werden.
@@ -15,3 +15,4 @@ Zugang: Die Passwortabfrage hält die App-Oberfläche bis zur Eingabe des Passwo
 Testauswahl: Kurztests und Prüfungssimulationen priorisieren Fragen, die noch nicht in einem Test vorgelegt wurden, sowie offene Wiederholungsfragen. Die Auswahl wird lokal im Browser gespeichert.
 
 Datenquelle: Der Regelfragenbestand wird zentral aus rules.json geladen; die Startseite zeigt die tatsächlich geladene Fragenzahl an.
+
